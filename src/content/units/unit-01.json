@@ -1,0 +1,780 @@
+{
+  "id": "unit-01",
+  "number": 1,
+  "title": "Greetings & Feelings",
+  "theme": "Greetings & feelings",
+  "goal": "Greet and say goodbye, answer \"How are you?\" with at least 6 feelings, and follow 8 classroom commands.",
+  "items": [
+    {
+      "id": "u1-hello",
+      "text": "Hello!",
+      "translation": "¡Hola!",
+      "image": "👋",
+      "audio": "audio/u1-hello.mp3",
+      "audioEs": "audio/es/u1-hello.mp3",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "id": "u1-hi",
+      "text": "Hi!",
+      "translation": "¡Hola!",
+      "image": "🙋",
+      "audio": "audio/u1-hi.mp3",
+      "audioEs": "audio/es/u1-hi.mp3",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "id": "u1-goodbye",
+      "text": "Goodbye!",
+      "translation": "¡Adiós!",
+      "image": "🚪",
+      "audio": "audio/u1-goodbye.mp3",
+      "audioEs": "audio/es/u1-goodbye.mp3",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "id": "u1-good-morning",
+      "text": "Good morning!",
+      "translation": "¡Buenos días!",
+      "image": "🌅",
+      "audio": "audio/u1-good-morning.mp3",
+      "audioEs": "audio/es/u1-good-morning.mp3",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "id": "u1-good-night",
+      "text": "Good night!",
+      "translation": "¡Buenas noches!",
+      "image": "🌙",
+      "audio": "audio/u1-good-night.mp3",
+      "audioEs": "audio/es/u1-good-night.mp3",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "id": "u1-my-name-is",
+      "text": "My name is…",
+      "translation": "Me llamo…",
+      "image": "🏷️",
+      "audio": "audio/u1-my-name-is.mp3",
+      "audioEs": "audio/es/u1-my-name-is.mp3",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "id": "u1-happy",
+      "text": "happy",
+      "translation": "feliz",
+      "image": "😄",
+      "audio": "audio/u1-happy.mp3",
+      "audioEs": "audio/es/u1-happy.mp3",
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "id": "u1-sad",
+      "text": "sad",
+      "translation": "triste",
+      "image": "😢",
+      "audio": "audio/u1-sad.mp3",
+      "audioEs": "audio/es/u1-sad.mp3",
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "id": "u1-angry",
+      "text": "angry",
+      "translation": "enojada",
+      "image": "😠",
+      "audio": "audio/u1-angry.mp3",
+      "audioEs": "audio/es/u1-angry.mp3",
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "id": "u1-tired",
+      "text": "tired",
+      "translation": "cansada",
+      "image": "🥱",
+      "audio": "audio/u1-tired.mp3",
+      "audioEs": "audio/es/u1-tired.mp3",
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "id": "u1-how-are-you",
+      "text": "How are you?",
+      "translation": "¿Cómo estás?",
+      "image": "❓",
+      "audio": "audio/u1-how-are-you.mp3",
+      "audioEs": "audio/es/u1-how-are-you.mp3",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "u1-im",
+      "text": "I'm…",
+      "translation": "Estoy…",
+      "image": "🙋‍♀️",
+      "audio": "audio/u1-im.mp3",
+      "audioEs": "audio/es/u1-im.mp3",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "u1-scared",
+      "text": "scared",
+      "translation": "asustada",
+      "image": "😨",
+      "audio": "audio/u1-scared.mp3",
+      "audioEs": "audio/es/u1-scared.mp3",
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "id": "u1-surprised",
+      "text": "surprised",
+      "translation": "sorprendida",
+      "image": "😲",
+      "audio": "audio/u1-surprised.mp3",
+      "audioEs": "audio/es/u1-surprised.mp3",
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "id": "u1-excited",
+      "text": "excited",
+      "translation": "emocionada",
+      "image": "🤩",
+      "audio": "audio/u1-excited.mp3",
+      "audioEs": "audio/es/u1-excited.mp3",
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "id": "u1-bored",
+      "text": "bored",
+      "translation": "aburrida",
+      "image": "😑",
+      "audio": "audio/u1-bored.mp3",
+      "audioEs": "audio/es/u1-bored.mp3",
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "id": "u1-hungry",
+      "text": "hungry",
+      "translation": "con hambre",
+      "image": "😋",
+      "audio": "audio/u1-hungry.mp3",
+      "audioEs": "audio/es/u1-hungry.mp3",
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "id": "u1-fine",
+      "text": "fine",
+      "translation": "bien",
+      "image": "🙂",
+      "audio": "audio/u1-fine.mp3",
+      "audioEs": "audio/es/u1-fine.mp3",
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "id": "u1-are-you",
+      "text": "Are you happy?",
+      "translation": "¿Estás feliz?",
+      "image": "🤔",
+      "audio": "audio/u1-are-you.mp3",
+      "audioEs": "audio/es/u1-are-you.mp3",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "u1-yes-i-am",
+      "text": "Yes, I am!",
+      "translation": "¡Sí!",
+      "image": "✅",
+      "audio": "audio/u1-yes-i-am.mp3",
+      "audioEs": "audio/es/u1-yes-i-am.mp3",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "u1-no-im-not",
+      "text": "No, I'm not.",
+      "translation": "No.",
+      "image": "🙅‍♀️",
+      "audio": "audio/u1-no-im-not.mp3",
+      "audioEs": "audio/es/u1-no-im-not.mp3",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "u1-thank-you",
+      "text": "Thank you!",
+      "translation": "¡Gracias!",
+      "image": "🙏",
+      "audio": "audio/u1-thank-you.mp3",
+      "audioEs": "audio/es/u1-thank-you.mp3",
+      "tags": [
+        "phrase"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "u1-l1-simon",
+      "type": "simon-says",
+      "title": "Simon Says: first commands",
+      "itemIds": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave"
+      ],
+      "config": {
+        "intervalSec": 6
+      },
+      "teacherNotes": "Primera sesión: no hay repaso todavía, así que úsalo para enseñar los comandos. Haz tú el movimiento al mismo tiempo que suena el audio. Después de 3 rondas, deja que ella lo haga sola. Si se emociona y se mueve sin escuchar, perfecto: es parte del juego."
+    },
+    {
+      "id": "u1-l1-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Hello & Goodbye",
+      "itemIds": [
+        "u1-hello",
+        "u1-hi",
+        "u1-goodbye",
+        "u1-good-morning",
+        "u1-good-night",
+        "u1-my-name-is"
+      ],
+      "teacherNotes": "Muestra la tarjeta, deja que suene el audio y repítelo tú exagerando la boca. Ella repite. Marca ✓ si lo dijo de forma entendible, no perfecta. Para \"Good morning\" y \"Good night\", señala la ventana o apaga la luz."
+    },
+    {
+      "id": "u1-l1-door",
+      "type": "find-it",
+      "title": "Door game",
+      "itemIds": [
+        "u1-good-morning",
+        "u1-good-night",
+        "u1-hello",
+        "u1-goodbye"
+      ],
+      "config": {
+        "variant": "door"
+      },
+      "prompts": [
+        {
+          "id": "p-door-knock",
+          "en": "Knock, knock! Say hello!",
+          "es": "¡Toc, toc! ¡Saluda!"
+        },
+        {
+          "id": "p-door-which",
+          "en": "Good morning or good night?",
+          "es": "¿Buenos días o buenas noches?"
+        }
+      ],
+      "teacherNotes": "Juego de la puerta: ella sale del cuarto y toca la puerta. Tú abres y la app dice una situación (sol 🌅 o luna 🌙). Ella tiene que saludar correcto: \"Good morning!\" o \"Good night!\". Al irse: \"Goodbye!\". Variante si se aburre: cambien de rol, tú tocas la puerta y ella decide qué saludo dices."
+    },
+    {
+      "id": "auto-review",
+      "type": "simon-says",
+      "title": "Review: Simon Says + weak words",
+      "itemIds": [],
+      "autoReview": true,
+      "config": {
+        "intervalSec": 6
+      },
+      "teacherNotes": "La app escoge las palabras más débiles. Mezcla comandos con saludos: \"Wave hello!\" → ella saluda y dice \"Hello!\"."
+    },
+    {
+      "id": "u1-l2-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Feelings 1",
+      "itemIds": [
+        "u1-happy",
+        "u1-sad",
+        "u1-angry",
+        "u1-tired",
+        "u1-how-are-you",
+        "u1-im"
+      ],
+      "teacherNotes": "Para cada sentimiento, haz la cara Y el cuerpo (triste: hombros caídos; cansada: bostezo). El cuerpo es lo que más le va a ayudar a recordar."
+    },
+    {
+      "id": "u1-l2-faces",
+      "type": "faces",
+      "title": "Faces",
+      "itemIds": [
+        "u1-happy",
+        "u1-sad",
+        "u1-angry",
+        "u1-tired"
+      ],
+      "teacherNotes": "La app muestra un sentimiento y ella hace la cara. Luego invierte el rol: tú haces la cara y ella adivina en inglés. Bonus: pregúntale \"How are you?\" de verdad al final; si responde \"I'm tired\" con sentido, celebra en grande."
+    },
+    {
+      "id": "u1-l3-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Feelings 2",
+      "itemIds": [
+        "u1-scared",
+        "u1-surprised",
+        "u1-excited",
+        "u1-bored",
+        "u1-hungry",
+        "u1-fine"
+      ],
+      "teacherNotes": "\"Bored\" le va a dar risa: actúalo dramáticamente. \"Hungry\": sóbate la barriga. \"Fine\" es la respuesta segura: enséñale \"I'm fine, thank you!\" como frase completa."
+    },
+    {
+      "id": "u1-l3-freeze",
+      "type": "freeze-dance",
+      "title": "Freeze Dance: feelings",
+      "itemIds": [
+        "u1-happy",
+        "u1-sad",
+        "u1-angry",
+        "u1-tired",
+        "u1-scared",
+        "u1-surprised",
+        "u1-excited",
+        "u1-bored",
+        "u1-hungry",
+        "u1-fine"
+      ],
+      "teacherNotes": "Suena música, ella baila. Cuando para, la app dice un sentimiento y ella se congela con esa cara. Tú marcas ✓/↻. Variante: ella controla el botón de pausa y tú bailas (le encanta tener el control)."
+    },
+    {
+      "id": "u1-l4-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Questions & answers",
+      "itemIds": [
+        "u1-are-you",
+        "u1-yes-i-am",
+        "u1-no-im-not",
+        "u1-thank-you"
+      ],
+      "teacherNotes": "Practica en pareja: tú preguntas \"Are you hungry?\" con cara de hambre exagerada y ella responde \"Yes, I am!\". Luego pregunta algo que obviamente no es (\"Are you sad?\" mientras ella sonríe) para que diga \"No, I'm not!\"."
+    },
+    {
+      "id": "u1-l4-match",
+      "type": "memory-match",
+      "title": "Memory Match: feelings",
+      "itemIds": [
+        "u1-happy",
+        "u1-sad",
+        "u1-angry",
+        "u1-tired",
+        "u1-scared",
+        "u1-surprised",
+        "u1-excited",
+        "u1-bored",
+        "u1-hungry",
+        "u1-fine"
+      ],
+      "config": {
+        "pairs": 6
+      },
+      "teacherNotes": "Este es uno de los juegos donde ella toca la pantalla. Déjala tocar en el PC táctil. Cada pareja es una cara (emoji) y su palabra."
+    },
+    {
+      "id": "u1-l4-tap",
+      "type": "listen-and-tap",
+      "title": "Listen and Tap: feelings",
+      "itemIds": [
+        "u1-happy",
+        "u1-sad",
+        "u1-angry",
+        "u1-tired",
+        "u1-scared",
+        "u1-surprised",
+        "u1-excited",
+        "u1-bored",
+        "u1-hungry",
+        "u1-fine"
+      ],
+      "config": {
+        "choices": 4
+      },
+      "teacherNotes": "Suena la palabra, ella toca la cara correcta. Si duda, repite el audio con ↺ antes de ayudarla."
+    }
+  ],
+  "songs": [
+    {
+      "id": "song-feelings",
+      "title": "Feelings Song",
+      "purpose": "Lessons 2–4",
+      "lines": [
+        "When I'm happy, I smile 😄",
+        "When I'm sad, I cry 😢",
+        "When I'm angry, I stomp!",
+        "When I'm tired, I yawn… 🥱"
+      ]
+    }
+  ],
+  "stickers": [
+    {
+      "id": "star",
+      "emoji": "⭐"
+    },
+    {
+      "id": "rainbow",
+      "emoji": "🌈"
+    },
+    {
+      "id": "unicorn",
+      "emoji": "🦄"
+    },
+    {
+      "id": "dog",
+      "emoji": "🐶"
+    },
+    {
+      "id": "cat",
+      "emoji": "🐱"
+    },
+    {
+      "id": "butterfly",
+      "emoji": "🦋"
+    },
+    {
+      "id": "sunflower",
+      "emoji": "🌻"
+    },
+    {
+      "id": "ice-cream",
+      "emoji": "🍦"
+    },
+    {
+      "id": "balloon",
+      "emoji": "🎈"
+    },
+    {
+      "id": "u1-complete",
+      "emoji": "🏆",
+      "reserved": true,
+      "label": "Unit 1 complete"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "u1-l1",
+      "number": 1,
+      "title": "Hello & Goodbye",
+      "keyExchange": {
+        "en": "Hello! What's your name? → My name is ___.",
+        "es": "¡Hola! ¿Cómo te llamas? → Me llamo ___."
+      },
+      "newItems": [
+        "u1-hello",
+        "u1-hi",
+        "u1-goodbye",
+        "u1-good-morning",
+        "u1-good-night",
+        "u1-my-name-is"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave"
+      ],
+      "newCommands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave"
+      ],
+      "reviewFrom": [],
+      "songId": "song-hello",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "u1-l1-simon"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u1-l1-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u1-l1-door"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-hello"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ]
+    },
+    {
+      "id": "u1-l2",
+      "number": 2,
+      "title": "Feelings 1",
+      "keyExchange": {
+        "en": "How are you? → I'm happy!",
+        "es": "¿Cómo estás? → ¡Estoy feliz!"
+      },
+      "newItems": [
+        "u1-happy",
+        "u1-sad",
+        "u1-angry",
+        "u1-tired",
+        "u1-how-are-you",
+        "u1-im"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap"
+      ],
+      "newCommands": [
+        "cmd-jump",
+        "cmd-clap"
+      ],
+      "reviewFrom": [
+        "unit-01"
+      ],
+      "songId": "song-feelings",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u1-l2-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u1-l2-faces"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-feelings"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Si se pone muy acelerada: usa \"tired\" como excusa para un minuto de calma (\"Let's be tired… shhh\")."
+      ]
+    },
+    {
+      "id": "u1-l3",
+      "number": 3,
+      "title": "Feelings 2",
+      "keyExchange": {
+        "en": "How are you? → I'm fine, thank you!",
+        "es": "¿Cómo estás? → ¡Estoy bien, gracias!"
+      },
+      "newItems": [
+        "u1-scared",
+        "u1-surprised",
+        "u1-excited",
+        "u1-bored",
+        "u1-hungry",
+        "u1-fine"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin"
+      ],
+      "newCommands": [
+        "cmd-stop",
+        "cmd-spin"
+      ],
+      "reviewFrom": [
+        "unit-01"
+      ],
+      "songId": "song-feelings",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u1-l3-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u1-l3-freeze"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-feelings"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Si se frustra porque se le olvida una palabra, di tú la palabra y que la repita: eso cuenta como ↻, no como error."
+      ]
+    },
+    {
+      "id": "u1-l4",
+      "number": 4,
+      "title": "Review & Mini Show",
+      "keyExchange": {
+        "en": "Are you sad? → No, I'm not. I'm happy!",
+        "es": "¿Estás triste? → No. ¡Estoy feliz!"
+      },
+      "newItems": [
+        "u1-are-you",
+        "u1-yes-i-am",
+        "u1-no-im-not",
+        "u1-thank-you"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen"
+      ],
+      "newCommands": [
+        "cmd-listen"
+      ],
+      "reviewFrom": [
+        "unit-01"
+      ],
+      "songId": "song-feelings",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u1-l4-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u1-l4-match",
+            "u1-l4-tap"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-feelings"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Mini show (opcional, última sesión de la unidad): ella le \"presenta\" a la mamá: \"Hello! My name is ___. I'm happy!\" con 2–3 sentimientos actuados. Esto vale como proyecto de cierre de la unidad.",
+        "En la pantalla de stickers de esta lección hay un botón discreto para darle el trofeo 🏆 \"Unit 1 complete\" cuando tú decidas que terminó la unidad."
+      ]
+    }
+  ]
+}

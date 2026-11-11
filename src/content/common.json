@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "commands": [
+    {
+      "id": "cmd-stand-up",
+      "text": "Stand up!",
+      "translation": "¡Ponte de pie!",
+      "image": "🧍",
+      "audio": "audio/cmd-stand-up.mp3",
+      "audioEs": "audio/es/cmd-stand-up.mp3",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "id": "cmd-sit-down",
+      "text": "Sit down!",
+      "translation": "¡Siéntate!",
+      "image": "🪑",
+      "audio": "audio/cmd-sit-down.mp3",
+      "audioEs": "audio/es/cmd-sit-down.mp3",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "id": "cmd-jump",
+      "text": "Jump!",
+      "translation": "¡Salta!",
+      "image": "🦘",
+      "audio": "audio/cmd-jump.mp3",
+      "audioEs": "audio/es/cmd-jump.mp3",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "id": "cmd-clap",
+      "text": "Clap your hands!",
+      "translation": "¡Aplaude!",
+      "image": "👏",
+      "audio": "audio/cmd-clap.mp3",
+      "audioEs": "audio/es/cmd-clap.mp3",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "id": "cmd-wave",
+      "text": "Wave hello!",
+      "translation": "¡Saluda con la mano!",
+      "image": "👋",
+      "audio": "audio/cmd-wave.mp3",
+      "audioEs": "audio/es/cmd-wave.mp3",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "id": "cmd-stop",
+      "text": "Stop!",
+      "translation": "¡Para!",
+      "image": "✋",
+      "audio": "audio/cmd-stop.mp3",
+      "audioEs": "audio/es/cmd-stop.mp3",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "id": "cmd-spin",
+      "text": "Turn around!",
+      "translation": "¡Da una vuelta!",
+      "image": "🔄",
+      "audio": "audio/cmd-spin.mp3",
+      "audioEs": "audio/es/cmd-spin.mp3",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "id": "cmd-listen",
+      "text": "Listen!",
+      "translation": "¡Escucha!",
+      "image": "👂",
+      "audio": "audio/cmd-listen.mp3",
+      "audioEs": "audio/es/cmd-listen.mp3",
+      "tags": [
+        "command"
+      ]
+    }
+  ],
+  "praise": [
+    {
+      "id": "praise-good-job",
+      "en": "Good job!",
+      "es": "¡Muy bien!"
+    },
+    {
+      "id": "praise-great",
+      "en": "Great!",
+      "es": "¡Genial!"
+    },
+    {
+      "id": "praise-well-done",
+      "en": "Well done!",
+      "es": "¡Excelente!"
+    },
+    {
+      "id": "praise-yes",
+      "en": "Yes!",
+      "es": "¡Sí!"
+    },
+    {
+      "id": "praise-awesome",
+      "en": "Awesome!",
+      "es": "¡Increíble!"
+    }
+  ],
+  "retry": [
+    {
+      "id": "retry-try-again",
+      "en": "Let's try again!",
+      "es": "¡Intentemos otra vez!"
+    },
+    {
+      "id": "retry-one-more",
+      "en": "One more time!",
+      "es": "¡Una vez más!"
+    },
+    {
+      "id": "retry-almost",
+      "en": "Almost! Again!",
+      "es": "¡Casi! ¡Otra vez!"
+    }
+  ],
+  "prompts": {
+    "flashcards": [
+      {
+        "id": "p-flashcards",
+        "en": "Look, listen and say it!",
+        "es": "¡Mira, escucha y dilo!"
+      }
+    ],
+    "simon-says": [
+      {
+        "id": "p-simon",
+        "en": "Listen and move!",
+        "es": "¡Escucha y muévete!"
+      }
+    ],
+    "find-it": [
+      {
+        "id": "p-find-it",
+        "en": "Find something ___!",
+        "es": "¡Busca algo ___!"
+      }
+    ],
+    "faces": [
+      {
+        "id": "p-faces",
+        "en": "Show me your ___ face!",
+        "es": "¡Muéstrame tu cara de ___!"
+      },
+      {
+        "id": "p-faces-reversed",
+        "en": "Guess my face!",
+        "es": "¡Adivina mi cara!"
+      }
+    ],
+    "freeze-dance": [
+      {
+        "id": "p-dance",
+        "en": "Dance!",
+        "es": "¡Baila!"
+      },
+      {
+        "id": "p-freeze",
+        "en": "Freeze! Be ___!",
+        "es": "¡Congélate! ¡Ponte ___!"
+      }
+    ],
+    "memory-match": [
+      {
+        "id": "p-memory",
+        "en": "Find the pairs!",
+        "es": "¡Encuentra las parejas!"
+      }
+    ],
+    "listen-and-tap": [
+      {
+        "id": "p-listen-tap",
+        "en": "Listen and touch!",
+        "es": "¡Escucha y toca!"
+      }
+    ],
+    "stickers": [
+      {
+        "id": "p-stickers-pick",
+        "en": "Pick a sticker!",
+        "es": "¡Escoge un sticker!"
+      },
+      {
+        "id": "p-goodbye",
+        "en": "Goodbye! See you soon!",
+        "es": "¡Adiós! ¡Nos vemos pronto!"
+      }
+    ]
+  },
+  "songs": [
+    {
+      "id": "song-hello",
+      "title": "Hello Song",
+      "purpose": "Opening every session",
+      "lines": [
+        "Hello, hello, how are you?",
+        "I'm happy, I'm happy, and you?",
+        "Hello, hello, clap with me!",
+        "One, two, three!"
+      ]
+    },
+    {
+      "id": "song-goodbye",
+      "title": "Goodbye Song",
+      "purpose": "Closing every session",
+      "lines": [
+        "Goodbye, goodbye, see you soon!",
+        "Goodbye, goodbye, sun and moon!"
+      ]
+    }
+  ]
+}

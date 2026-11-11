@@ -251,3 +251,7 @@ I want to build this app. I've already thought it through in the attached BUILD-
 | 2026-11-11 | App name "English Play Sessions", short name "English Play" | Short name fits under the phone icon |
 | 2026-11-11 | Songs: generated melody + karaoke lyrics, teacher sings | TTS cannot sing; singing together fits "the app conducts, the teacher teaches" |
 | 2026-11-11 | Content defaults listed in section 9 (goodbye song, L4 game split, L1 review, trophy button) | Small gaps in UNIT-01-CONTENT.md |
+| 2026-11-11 | Schema additions: `common.json` (global commands, praise/retry, default prompts per activity type, hello/goodbye songs); Activity gets `title` and optional `autoReview`; Lesson gets `keyExchange`, `commands`, `newCommands`, `teacherNotes` | Needed to run sessions from content only |
+| 2026-11-11 | Lesson 4 game split into two activities: `u1-l4-match` (memory-match) and `u1-l4-tap` (listen-and-tap) | Each activity has one type |
+| 2026-11-11 | Teacher settings and "last lesson" stored in localStorage for now; learner progress goes to IndexedDB in Phase 3 | Settings are device conveniences, not learner data |
+| 2026-11-11 | 🇨🇴 peek and teacher notes panel built in Phase 1 (planned for later) | Owner approved; both appear on every runner screen |
