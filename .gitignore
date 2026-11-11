@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Secrets and local config
+.env
+.env.*
+
+# Exported progress files (data about the learner stays on the device)
+english-progress-*.json
+
+# Personal media (never commit the learner's name, photos or recordings)
+personal/
+*.personal.*
+recordings/
+
+# Local TTS voice models (large, downloaded by scripts/generate-audio.py)
+scripts/voices/
+scripts/.venv/
