@@ -84,7 +84,18 @@ export function PeekButton({ onPeek, onLongPress }: { onPeek: () => void; onLong
       onPointerLeave={cancel}
       onContextMenu={(e) => e.preventDefault()}
     >
-      🇨🇴
+      <ColombiaFlag />
     </button>
+  )
+}
+
+/** Drawn flag: Windows shows emoji flags as letters ("CO"), so we draw it. */
+function ColombiaFlag() {
+  return (
+    <svg className="peek-flag" viewBox="0 0 6 4" aria-hidden="true">
+      <rect width="6" height="2" fill="#FCD116" />
+      <rect y="2" width="6" height="1" fill="#003893" />
+      <rect y="3" width="6" height="1" fill="#CE1126" />
+    </svg>
   )
 }
