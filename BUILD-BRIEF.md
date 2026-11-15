@@ -260,3 +260,8 @@ I want to build this app. I've already thought it through in the attached BUILD-
 | 2026-11-15 | Songs: original melodies stored in the content (`tempo`, `melody`, `chords` per song), played by an in-app Web Audio engine, twice after a one-bar count-in | Owner approved the melodies by ear; music stays editable as content |
 | 2026-11-15 | Door game data moved to content (`config.situations`, `config.leaveItem`) | No item ids hardcoded in components |
 | 2026-11-15 | listen-and-tap records ✓ when she taps right on the first try, ↻ otherwise (never shown to her); memory-match records nothing | Learner-tap games have no teacher marking |
+| 2026-11-15 | Simon Says default 4 s (was 6 s) with live 🐢/🐇 speed buttons in the game | Owner found it slow |
+| 2026-11-15 | Import safety: validates app + schemaVersion, saves a backup in the device AND downloads it as a file, offers "Undo last import/reset" | Brief asks for a backup before replace; a downloaded file survives even if browser data is cleared |
+| 2026-11-15 | PWA with `vite-plugin-pwa` (MIT, free); updates are offered with a banner on Home, never applied mid-session | A surprise reload during a session would break the routine |
+| 2026-11-15 | "Last lesson" moved from localStorage to the progress Meta (exported with the progress) | Matches the data model in section 6 |
+| 2026-11-15 | Short visits (< 30 s, no marks) are not logged as sessions | Keeps Stats meaningful |

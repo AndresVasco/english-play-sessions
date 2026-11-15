@@ -2,6 +2,7 @@
 // Settings are device conveniences; learner progress lives in IndexedDB (Phase 3).
 
 import { createContext, useCallback, useContext, useMemo, useState, type ReactNode } from 'react'
+import type { BlockType } from '../content/types.ts'
 
 export interface Settings {
   /** 0..1 */
@@ -14,6 +15,10 @@ export interface Settings {
   musicOn: boolean
   /** Seconds between Simon Says commands */
   simonSeconds: number
+  /** Teacher overrides of block durations (minutes); empty = use the lesson's */
+  blockMinutes: Partial<Record<BlockType, number>>
+  /** Internal: lets new versions adjust old saved settings */
+  settingsVersion: number
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -21,7 +26,9 @@ export const DEFAULT_SETTINGS: Settings = {
   peekSeconds: 10,
   alwaysBilingual: false,
   musicOn: true,
-  simonSeconds: 6,
+  simonSeconds: 4,
+  blockMinutes: {},
+  settingsVersion: 2,
 }
 
 const KEY = 'eps-settings'
@@ -29,7 +36,15 @@ const KEY = 'eps-settings'
 function load(): Settings {
   try {
     const raw = localStorage.getItem(KEY)
-    if (raw) return { ...DEFAULT_SETTINGS, ...JSON.parse(raw) }
+    if (raw) {
+      const saved = { ...DEFAULT_SETTINGS, settingsVersion: 1, ...JSON.parse(raw) } as Settings
+      // v2: Simon Says was too slow — move the old default (6 s) to the new one (4 s).
+      if (saved.settingsVersion < 2) {
+        if (saved.simonSeconds === 6) saved.simonSeconds = DEFAULT_SETTINGS.simonSeconds
+        saved.settingsVersion = 2
+      }
+      return saved
+    }
   } catch {
     /* storage unavailable: use defaults */
   }
@@ -66,19 +81,12 @@ export function useSettings() {
   return ctx
 }
 
-// ---- Small device memory (last lesson). Moves to IndexedDB "Meta" in Phase 3. ----
-const LAST_LESSON_KEY = 'eps-last-lesson'
-export const getLastLessonId = () => {
+// Before Phase 3 the last lesson lived here; now it is in the progress Meta.
+// Kept only to read what older versions saved.
+export const getLegacyLastLessonId = () => {
   try {
-    return localStorage.getItem(LAST_LESSON_KEY)
+    return localStorage.getItem('eps-last-lesson')
   } catch {
     return null
-  }
-}
-export const setLastLessonId = (id: string) => {
-  try {
-    localStorage.setItem(LAST_LESSON_KEY, id)
-  } catch {
-    /* ignore */
   }
 }

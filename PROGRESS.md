@@ -1,6 +1,6 @@
 # Progress
 
-Current phase: **Phase 2 – Games** (built, waiting for the owner's test)
+Current phase: **Phase 3 – Memory** (built, waiting for the owner's test)
 
 ## Phase 0 – Setup ✅ (done 2026-11-11)
 - [x] Unknowns confirmed (see BUILD-BRIEF.md section 9)
@@ -44,14 +44,18 @@ Temporary in Phase 1 (replaced later):
 - [x] Sticker screen: pick a sticker, goodbye message + goodbye song, 🏆 button on the last lesson
 - [x] Audio for prompts with a blank, per item ("Show me your sad face!")
 - [x] Settings: music on/off, Simon Says speed
-- [ ] Owner tests on PC and phone
-
-Notes:
-- Stickers and marks are kept only during the session until Phase 3.
-- The review block still uses the lesson's commands (smart review in Phase 3).
+- [x] Owner tested (2026-11-15): Simon Says felt slow → fixed in Phase 3 (default 4 s, live 🐢/🐇 buttons)
 
 ## Phase 3 – Memory
-Not started.
+- [x] IndexedDB progress: items, sessions, stickers, meta (+ automatic backup)
+- [x] ✓/↻ and peeks saved immediately; level rule 0–3; review picks her 6 weakest words (`npm run check-review` checks the rule before every build)
+- [x] Session log (date, lesson, duration, blocks, marks) + Stats screen
+- [x] Sticker board on Home; collection shown at goodbye
+- [x] Export / import with validation, backup download before replacing, undo; reset with double confirmation
+- [x] Settings: block durations
+- [x] Installable PWA, works offline (107 files precached, incl. audio); update banner on Home only
+- [x] Simon Says faster (4 s default, old 6 s setting moved to 4 s) with live speed buttons
+- [ ] Owner tests: install on PC and phone, offline, export PC → import phone
 
 ## Phase 4 – Pilot
 Not started.

@@ -17,7 +17,30 @@ The app lives at this free web address:
 3. **What you should see:** a smiling face and the title "English Play Sessions".
 4. **If you see "404 – There isn't a GitHub Pages site here":** the publishing step may still be running. Wait 2–3 minutes and reload the page. If it continues, check section 3.
 
-*(Installing the app on the PC and phone, and using it offline, arrive in Phase 3. Instructions will be added here.)*
+### Install it (once per device)
+
+Installing puts an **English Play** icon on the PC or phone and lets the app work **without internet**.
+
+**On the Windows PC (Chrome or Edge):**
+1. Open the address above.
+2. In the address bar, at the right, click the small **install icon** (a screen with a down arrow, or "App available"). In Edge it may be in the **⋯** menu → **Apps** → **Install this site as an app**.
+3. Click **Install**.
+4. **What you should see:** the app opens in its own window, and an **English Play** icon appears in the Start menu (you can pin it to the taskbar).
+
+**On an Android phone (Chrome):**
+1. Open the address above in Chrome.
+2. Tap the **⋮** menu (top right) → **Add to Home screen** (or **Install app**) → **Install**.
+3. **What you should see:** an **English Play** icon on the home screen.
+
+**On an iPhone (Safari):** open the address in Safari → tap the **Share** button (square with an arrow) → **Add to Home Screen** → **Add**.
+
+**If you don't see the install option:** reload the page once and wait a few seconds; the browser offers it only after the app has fully loaded.
+
+### Offline
+
+After opening the app once with internet, everything (lessons, audio, music) is saved on the device. It then works with no internet.
+
+When a new version is published, the Home screen shows **"A new version of the app is ready — Update now"**. Tap it when you are not in a session (the app never updates by itself in the middle of a session).
 
 ---
 
@@ -54,12 +77,36 @@ The app lives at this free web address:
 | ▶ Next | Next card / command / round; in Freeze Dance it freezes or restarts the music; in Memory it deals new cards | Space |
 | ⏭ Next block | Goes to the next block (🏁 Finish on the last one) | S |
 
-5. Inside the games there are a few extra buttons: **⏸ Pause** (Simon Says), **🔄 Guess mode** (Faces), the big **❄️ Freeze! / 💃 Dance!** (Freeze Dance — she can press it), **▶ Play song** (songs), and **🏆 Award** (stickers, last lesson only).
+5. Inside the games there are a few extra buttons: **⏸ Pause** and **🐢 − / + 🐇** speed (Simon Says), **🔄 Guess mode** (Faces), the big **❄️ Freeze! / 💃 Dance!** (Freeze Dance — she can press it), **▶ Play song** (songs), and **🏆 Award** (stickers, last lesson only).
 6. The big **🇨🇴** button is for her: a tap shows Spanish under the English for 10 seconds; holding it plays the Spanish word, then the English one. (Key: P)
 
 ---
 
-## 5. Adding a new unit
+## 5. Progress, review and stats
+
+- Every ✓ / ↻ and every 🇨🇴 peek is **saved immediately** on the device.
+- Each word has a level from 0 to 3: ✓ raises it, ↻ lowers it. A peek never lowers it, but moves the word up in the review.
+- The **Review with the body** block (Lessons 2–4) automatically mixes the commands with **her 6 weakest words**.
+- Stickers she picks stay on the **Sticker board** on the Home screen.
+- **📊 Stats** (Home, top right): sessions per week, total minutes, words by level, the words she finds hard, and recent sessions.
+
+### Moving progress from the PC to the phone (or back)
+
+Progress is not synced automatically (on purpose: no accounts, nothing about her goes to the internet). You move it with a file:
+
+1. **On the PC:** Home → ⚙️ **Settings** → **⬇️ Export progress**. A file named `english-progress-YYYY-MM-DD.json` is saved in your **Downloads** folder.
+2. **Send the file to the phone**, for example by WhatsApp or email to yourself, or with a USB cable.
+3. **On the phone:** open the app → ⚙️ **Settings** → **⬆️ Import progress** → choose the file.
+4. The app asks you to confirm and shows what the file contains. Tap **OK**.
+5. **What you should see:** "✓ Progress imported". Before replacing anything, the app **saves and downloads a backup** of the phone's previous progress (`english-progress-backup-….json`).
+6. **If you change your mind:** Settings → **↩️ Undo last import/reset**.
+7. **If you see "This is not an English Play Sessions progress file"** or "different version": nothing was changed; check that you chose the right file.
+
+Tip: always continue on the device that has the newest progress, and export again when you switch.
+
+---
+
+## 6. Adding a new unit
 
 All course content lives in files; no code changes are needed.
 
@@ -69,7 +116,7 @@ All course content lives in files; no code changes are needed.
 
 ---
 
-## 6. Regenerating the audio
+## 7. Regenerating the audio
 
 The audio files are made once with Piper (free text-to-speech) and saved in `public/audio/`.
 
@@ -85,15 +132,10 @@ If an audio file is missing, the app uses the browser's own voice instead.
 
 ---
 
-## Coming in later phases
-
-- Saving progress, smart review, stats, export/import between the PC and the phone, installing and offline use (Phase 3)
-
----
-
 ## Privacy
 
-- Progress data about the learner is stored **only inside the browser of each device**. It never goes to the internet.
+- Progress data about the learner is stored **only inside the browser of each device** (IndexedDB). It never goes to the internet; it only leaves the device when you export a file yourself.
+- Exported progress files are excluded from the repository (`.gitignore`): never upload them to GitHub.
 - No accounts, analytics or ads.
 - The learner's name, photos or recordings must never be added to this repository.
 

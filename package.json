@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/check-content.ts && tsc -b && vite build",
+    "build": "node scripts/check-content.ts && node scripts/check-review.ts && tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "check-content": "node scripts/check-content.ts"
+    "check-content": "node scripts/check-content.ts",
+    "check-review": "node scripts/check-review.ts"
   },
   "dependencies": {
     "react": "^19.3.1",
@@ -21,6 +22,7 @@
     "@vitejs/plugin-react": "^6.1.2",
     "oxlint": "^1.90.0",
     "typescript": "~7.0.2",
-    "vite": "^8.3.6"
+    "vite": "^8.3.6",
+    "vite-plugin-pwa": "^2.0.0"
   }
 }

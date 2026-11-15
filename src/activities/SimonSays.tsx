@@ -11,7 +11,8 @@ import { BigCard, PromptLine, itemClip, pickNext, promptClip, useFeedback } from
 import type { ActivityProps, MarkResult } from './types.ts'
 
 export function SimonSays({ activity, items, handleRef, onFocus, onMark, celebrate }: ActivityProps) {
-  const { settings } = useSettings()
+  const { settings, update } = useSettings()
+  const speed = (delta: number) => update({ simonSeconds: Math.max(2, Math.min(12, settings.simonSeconds + delta)) })
   const prompt = promptsFor(activity)[0]
   const [current, setCurrent] = useState<Item | null>(null)
   const [paused, setPaused] = useState(false)
@@ -28,7 +29,7 @@ export function SimonSays({ activity, items, handleRef, onFocus, onMark, celebra
   useEffect(() => {
     if (started.current) return
     started.current = true
-    play(promptClip(prompt)).then(() => window.setTimeout(call, 400))
+    play(promptClip(prompt)).then(() => window.setTimeout(call, 200))
   }, [prompt, call])
 
   // Say each new command.
@@ -73,9 +74,17 @@ export function SimonSays({ activity, items, handleRef, onFocus, onMark, celebra
     <div className="flashcards">
       <PromptLine prompt={prompt} />
       {current ? <BigCard item={current} onClick={repeat} /> : <div className="flashcard placeholder">👂</div>}
-      <button type="button" className="game-toggle" onClick={() => setPaused((p) => !p)}>
-        {paused ? '▶ Continue' : `⏸ Pause · every ${settings.simonSeconds}s`}
-      </button>
+      <div className="game-row">
+        <button type="button" className="game-toggle" onClick={() => speed(1)} aria-label="Slower" title="Slower">
+          🐢 −
+        </button>
+        <button type="button" className="game-toggle" onClick={() => setPaused((p) => !p)}>
+          {paused ? '▶ Continue' : `⏸ Pause · every ${settings.simonSeconds}s`}
+        </button>
+        <button type="button" className="game-toggle" onClick={() => speed(-1)} aria-label="Faster" title="Faster">
+          + 🐇
+        </button>
+      </div>
       {fb.node}
     </div>
   )

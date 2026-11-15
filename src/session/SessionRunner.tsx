@@ -10,16 +10,28 @@ import type { Activity, Item, Lesson, Unit } from '../content/types.ts'
 import { Confetti } from '../components/Confetti.tsx'
 import { PeekButton, PeekProvider } from '../components/Peek.tsx'
 import { play, stopAudio } from '../lib/audio.ts'
+import { useSettings } from '../lib/settings.tsx'
+import { pickReview } from '../progress/review.ts'
+import { addSticker, loadProgress, newSessionId, recordMark, recordPeek as savePeek, saveSession } from '../progress/store.ts'
 import { GoodbyeView } from './GoodbyeView.tsx'
 import { NotesPanel } from './NotesPanel.tsx'
 import { SongView } from './SongView.tsx'
 import { formatTime, useBlockTimer } from './useBlockTimer.ts'
 
-/** Items an activity uses. Review blocks: the lesson's commands for now;
- *  Phase 3 adds the learner's weakest items (smart review). */
-function activityItems(lesson: Lesson, activity: Activity): Item[] {
-  if (activity.autoReview) return getItems([...lesson.commands, ...activity.itemIds])
+/** Items an activity uses. Review blocks (autoReview): the lesson's commands
+ *  plus up to 6 of her weakest words (see progress/review.ts). */
+function activityItems(lesson: Lesson, activity: Activity, reviewIds: string[]): Item[] {
+  if (activity.autoReview) return getItems([...lesson.commands, ...activity.itemIds, ...reviewIds])
   return getItems(activity.itemIds)
+}
+
+/** Words she has already met in the units this lesson reviews. */
+async function loadReviewIds(lesson: Lesson, units: Unit[]): Promise<string[]> {
+  const data = await loadProgress()
+  const candidates = new Set(units.filter((u) => lesson.reviewFrom.includes(u.id)).flatMap((u) => u.items.map((i) => i.id)))
+  const met = data.items.filter((p) => candidates.has(p.itemId) && (p.timesSeen > 0 || p.peekCount > 0))
+  const lastSession = data.sessions[data.sessions.length - 1]
+  return pickReview(met, lastSession?.date ?? null)
 }
 
 export interface SessionRecord {
@@ -30,6 +42,8 @@ export interface SessionRecord {
 
 interface Props {
   unit: Unit
+  /** All loaded units (the review block can draw words from earlier units) */
+  units: Unit[]
   lesson: Lesson
   onExit: () => void
 }
@@ -42,14 +56,37 @@ export function SessionRunner(props: Props) {
   )
 }
 
-function Runner({ unit, lesson, onExit }: Props) {
+function Runner({ unit, units, lesson, onExit }: Props) {
+  const { settings } = useSettings()
   const [blockIndex, setBlockIndex] = useState(0)
   const [activityIndex, setActivityIndex] = useState(0)
   const [notesOpen, setNotesOpen] = useState(false)
   const [burst, setBurst] = useState(0)
   const [focus, setFocus] = useState<Item[]>([])
-  // In-memory record of this session. Saved to the device in Phase 3.
+  // This session's record: every mark/peek/sticker is also saved right away.
   const record = useRef<SessionRecord>({ marks: [], peeks: [], stickers: [] })
+  const session = useRef({ id: newSessionId(), start: new Date().toISOString(), startMs: Date.now() })
+  const [reviewIds, setReviewIds] = useState<string[]>([])
+  useEffect(() => {
+    loadReviewIds(lesson, units).then(setReviewIds).catch((e) => console.error('Review load failed', e))
+  }, [lesson, units])
+
+  /** Save the session log (called on every block change and at the end). */
+  const saveLog = useCallback(
+    (blocksCompleted: number) => {
+      const durationSec = Math.round((Date.now() - session.current.startMs) / 1000)
+      if (durationSec < 30 && record.current.marks.length === 0) return // just a peek at the screen
+      saveSession({
+        id: session.current.id,
+        date: session.current.start,
+        lessonId: lesson.id,
+        durationSec,
+        blocksCompleted,
+        marks: record.current.marks.map(({ itemId, result }) => ({ itemId, result })),
+      }).catch((e) => console.error('Could not save session', e))
+    },
+    [lesson.id],
+  )
   const handleRef = useRef<ActivityHandle | null>(null)
 
   const block = lesson.blocks[blockIndex]
@@ -58,8 +95,9 @@ function Runner({ unit, lesson, onExit }: Props) {
     [block, unit],
   )
   const activity = blockActivities[activityIndex % Math.max(1, blockActivities.length)]
-  const items = useMemo(() => (activity ? activityItems(lesson, activity) : []), [activity, lesson])
-  const timer = useBlockTimer(block.minutes, blockIndex)
+  const items = useMemo(() => (activity ? activityItems(lesson, activity, reviewIds) : []), [activity, lesson, reviewIds])
+  const minutes = settings.blockMinutes[block.type] ?? block.minutes
+  const timer = useBlockTimer(minutes, blockIndex)
   const isLast = blockIndex === lesson.blocks.length - 1
   const label = BLOCK_LABELS[block.type]
 
@@ -78,6 +116,7 @@ function Runner({ unit, lesson, onExit }: Props) {
   const goToBlock = useCallback(
     (i: number) => {
       stopAudio()
+      saveLog(Math.min(i, lesson.blocks.length))
       if (i >= lesson.blocks.length) {
         onExit()
         return
@@ -86,7 +125,7 @@ function Runner({ unit, lesson, onExit }: Props) {
       setActivityIndex(0)
       setFocus([])
     },
-    [lesson.blocks.length, onExit],
+    [lesson.blocks.length, onExit, saveLog],
   )
 
   const nextBlock = useCallback(() => goToBlock(blockIndex + 1), [goToBlock, blockIndex])
@@ -107,12 +146,14 @@ function Runner({ unit, lesson, onExit }: Props) {
   const mark = useCallback((r: MarkResult) => handleRef.current?.mark?.(r), [])
   const onMark = useCallback((itemId: string, result: MarkResult) => {
     record.current.marks.push({ itemId, result, at: Date.now() })
+    recordMark(itemId, result).catch((e) => console.error('Could not save mark', e))
   }, [])
   const celebrate = useCallback(() => setBurst((b) => b + 1), [])
 
   const recordPeek = useCallback(() => {
     const at = Date.now()
     focus.forEach((i) => record.current.peeks.push({ itemId: i.id, at }))
+    if (focus.length) savePeek(focus.map((i) => i.id)).catch((e) => console.error('Could not save peek', e))
   }, [focus])
   const longPeek = useCallback(() => {
     recordPeek()
@@ -125,9 +166,10 @@ function Runner({ unit, lesson, onExit }: Props) {
   const exit = useCallback(() => {
     if (window.confirm('End this session and go back?')) {
       stopAudio()
+      saveLog(blockIndex)
       onExit()
     }
-  }, [onExit])
+  }, [onExit, saveLog, blockIndex])
 
   // Keyboard shortcuts (PC)
   const peekBtn = useRef<HTMLDivElement>(null)
@@ -168,7 +210,10 @@ function Runner({ unit, lesson, onExit }: Props) {
         isLastLesson={lesson.number === Math.max(...unit.lessons.map((l) => l.number))}
         song={getSong(block.songId)}
         celebrate={celebrate}
-        onSticker={(s) => record.current.stickers.push({ stickerId: s.id, at: Date.now() })}
+        onSticker={(s) => {
+          record.current.stickers.push({ stickerId: s.id, at: Date.now() })
+          addSticker(s.id, s.emoji, lesson.id).catch((e) => console.error('Could not save sticker', e))
+        }}
       />
     )
   } else if (block.type === 'hello-song' || block.type === 'song') {

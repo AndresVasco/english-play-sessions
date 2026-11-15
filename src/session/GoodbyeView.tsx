@@ -1,7 +1,7 @@
 // Block 6: she picks a sticker (short celebration), then the goodbye message
 // and the goodbye song. On the last lesson of a unit the teacher has a quiet
 // button to award the reserved "unit complete" sticker (🏆).
-// Earned stickers are kept on the device from Phase 3 on.
+// Earned stickers are saved on the device and shown on the Home sticker board.
 
 import { useEffect, useState } from 'react'
 import { common, promptAudio } from '../content/index.ts'
@@ -10,6 +10,7 @@ import { Bi } from '../components/Peek.tsx'
 import { play } from '../lib/audio.ts'
 import { useFeedback } from '../activities/shared.tsx'
 import { SongView } from './SongView.tsx'
+import { useProgress } from '../progress/store.ts'
 
 interface Props {
   unit: Unit
@@ -29,6 +30,8 @@ export function GoodbyeView({ unit, isLastLesson, song, celebrate, onSticker }: 
   const [phase, setPhase] = useState<'pick' | 'goodbye'>('pick')
   const [songReady, setSongReady] = useState(false)
   const fb = useFeedback(celebrate)
+  const progress = useProgress()
+  const collection = progress?.stickers ?? []
 
   useEffect(() => {
     play({ src: promptAudio(pickPrompt), text: pickPrompt.en, lang: 'en' })
@@ -73,6 +76,13 @@ export function GoodbyeView({ unit, isLastLesson, song, celebrate, onSticker }: 
               <span key={s.id}>{s.emoji}</span>
             ))}
           </div>
+          {collection.length > chosen.length && (
+            <div className="board small" aria-label="Her sticker collection">
+              {collection.map((s) => (
+                <span key={s.id}>{s.emoji}</span>
+              ))}
+            </div>
+          )}
           <Bi className="goodbye-text" en={goodbye.en} es={goodbye.es} />
           {song && songReady && <SongView song={song} compact />}
         </>
