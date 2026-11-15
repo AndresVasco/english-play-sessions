@@ -56,7 +56,26 @@ export function Settings({ back }: { back: () => void }) {
         <span className="setting-help">Shows Spanish under English all the time (for the first sessions).</span>
       </label>
 
-      <p className="setting-help">More settings (music, Simon Says speed, block durations, export/import) arrive in later phases.</p>
+      <label className="setting">
+        <span>Music</span>
+        <input type="checkbox" checked={settings.musicOn} onChange={(e) => update({ musicOn: e.target.checked })} />
+        <span className="setting-help">Songs and Freeze Dance music. When off, songs show only the lyrics.</span>
+      </label>
+
+      <label className="setting">
+        <span>Simon Says speed</span>
+        <input
+          type="range"
+          min={3}
+          max={15}
+          step={1}
+          value={settings.simonSeconds}
+          onChange={(e) => update({ simonSeconds: Number(e.target.value) })}
+        />
+        <span>one command every {settings.simonSeconds} s</span>
+      </label>
+
+      <p className="setting-help">More settings (block durations, export/import) arrive in Phase 3.</p>
 
       <section className="credits">
         <h2>Credits</h2>

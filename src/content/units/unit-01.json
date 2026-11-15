@@ -288,7 +288,9 @@
         "u1-goodbye"
       ],
       "config": {
-        "variant": "door"
+        "variant": "door",
+        "situations": "u1-good-morning,u1-good-night",
+        "leaveItem": "u1-goodbye"
       },
       "prompts": [
         {

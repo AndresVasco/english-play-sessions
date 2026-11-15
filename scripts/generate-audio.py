@@ -6,6 +6,7 @@ What it creates (all inside public/audio/):
   audio/es/<item-id>.mp3       Spanish, for the long-press peek
   audio/phrases/<id>.mp3       Praise ("Good job!") and retry ("One more time!")
   audio/prompts/<id>.mp3       On-screen instructions without a "___" blank
+  audio/prompts/<id>--<item>.mp3  Instructions with the blank filled per item
 
 Only files whose text changed (or that are missing) are regenerated; this is
 tracked in public/audio/manifest.json. Use --force to regenerate everything.
@@ -76,6 +77,20 @@ def collect_jobs() -> list[tuple[str, str, str]]:
     for p in prompts:
         if "___" not in p["en"]:
             jobs.append((f"audio/prompts/{p['id']}.mp3", "en", p["en"]))
+    # Prompts with a blank ("Show me your ___ face!"): one file per item of
+    # each activity that uses them.
+    items = {i["id"]: i for i in common["commands"] + [i for u in units for i in u["items"]]}
+    seen = set()
+    for u in units:
+        for a in u["activities"]:
+            for p in a.get("prompts") or common["prompts"][a["type"]]:
+                if "___" not in p["en"]:
+                    continue
+                for item_id in a["itemIds"]:
+                    path = f"audio/prompts/{p['id']}--{item_id}.mp3"
+                    if path not in seen:
+                        seen.add(path)
+                        jobs.append((path, "en", p["en"].replace("___", items[item_id]["text"])))
     return jobs
 
 

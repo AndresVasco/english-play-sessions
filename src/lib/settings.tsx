@@ -10,12 +10,18 @@ export interface Settings {
   peekSeconds: number
   /** Show Spanish under English permanently (for the first sessions) */
   alwaysBilingual: boolean
+  /** Songs and Freeze Dance music */
+  musicOn: boolean
+  /** Seconds between Simon Says commands */
+  simonSeconds: number
 }
 
 export const DEFAULT_SETTINGS: Settings = {
   volume: 0.9,
   peekSeconds: 10,
   alwaysBilingual: false,
+  musicOn: true,
+  simonSeconds: 6,
 }
 
 const KEY = 'eps-settings'

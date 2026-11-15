@@ -29,4 +29,4 @@ export interface ActivityProps {
 }
 
 /** Activity types that show ✓/↻ marking buttons in the teacher bar */
-export const MARKABLE = new Set<Activity['type']>(['flashcards'])
+export const MARKABLE = new Set<Activity['type']>(['flashcards', 'simon-says', 'find-it', 'faces', 'freeze-dance'])

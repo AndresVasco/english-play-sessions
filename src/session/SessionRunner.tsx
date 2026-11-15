@@ -25,6 +25,7 @@ function activityItems(lesson: Lesson, activity: Activity): Item[] {
 export interface SessionRecord {
   marks: { itemId: string; result: MarkResult; at: number }[]
   peeks: { itemId: string; at: number }[]
+  stickers: { stickerId: string; at: number }[]
 }
 
 interface Props {
@@ -48,7 +49,7 @@ function Runner({ unit, lesson, onExit }: Props) {
   const [burst, setBurst] = useState(0)
   const [focus, setFocus] = useState<Item[]>([])
   // In-memory record of this session. Saved to the device in Phase 3.
-  const record = useRef<SessionRecord>({ marks: [], peeks: [] })
+  const record = useRef<SessionRecord>({ marks: [], peeks: [], stickers: [] })
   const handleRef = useRef<ActivityHandle | null>(null)
 
   const block = lesson.blocks[blockIndex]
@@ -161,7 +162,15 @@ function Runner({ unit, lesson, onExit }: Props) {
   // ---- Center content ----
   let center: ReactNode = null
   if (block.type === 'stickers') {
-    center = <GoodbyeView song={getSong(block.songId)} />
+    center = (
+      <GoodbyeView
+        unit={unit}
+        isLastLesson={lesson.number === Math.max(...unit.lessons.map((l) => l.number))}
+        song={getSong(block.songId)}
+        celebrate={celebrate}
+        onSticker={(s) => record.current.stickers.push({ stickerId: s.id, at: Date.now() })}
+      />
+    )
   } else if (block.type === 'hello-song' || block.type === 'song') {
     const song = getSong(block.songId ?? lesson.songId)
     center = song ? <SongView key={blockIndex} song={song} handleRef={handleRef} /> : null

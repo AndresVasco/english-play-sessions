@@ -1,6 +1,6 @@
 # Progress
 
-Current phase: **Phase 1 – Core** (built, waiting for the owner's test)
+Current phase: **Phase 2 – Games** (built, waiting for the owner's test)
 
 ## Phase 0 – Setup ✅ (done 2026-11-11)
 - [x] Unknowns confirmed (see BUILD-BRIEF.md section 9)
@@ -33,7 +33,22 @@ Temporary in Phase 1 (replaced later):
 - Templated prompts ("Show me your ___ face!") have no recorded audio yet (Phase 2)
 
 ## Phase 2 – Games
-Not started.
+- [x] Music engine (`src/lib/music.ts`, Web Audio): song melodies with chords and count-in; Freeze Dance loop. Melodies approved by the owner by ear.
+- [x] Songs play with karaoke-style line highlight (music can be turned off in Settings)
+- [x] find-it: door game (knock → sun/moon → goodbye) and "Find something ___!" with countdown
+- [x] simon-says: automatic commands, pause, speed in Settings
+- [x] faces: show-me mode and guess mode
+- [x] freeze-dance: music stops at random, "Freeze! Be ___!", big ❄️/💃 button for her
+- [x] memory-match: picture ↔ word pairs, no failure feedback
+- [x] listen-and-tap: 4 choices, a wrong tap just repeats the word
+- [x] Sticker screen: pick a sticker, goodbye message + goodbye song, 🏆 button on the last lesson
+- [x] Audio for prompts with a blank, per item ("Show me your sad face!")
+- [x] Settings: music on/off, Simon Says speed
+- [ ] Owner tests on PC and phone
+
+Notes:
+- Stickers and marks are kept only during the session until Phase 3.
+- The review block still uses the lesson's commands (smart review in Phase 3).
 
 ## Phase 3 – Memory
 Not started.

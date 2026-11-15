@@ -4,6 +4,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import { findLesson } from './content/index.ts'
 import { setVolume, stopAudio } from './lib/audio.ts'
+import { setMusicVolume } from './lib/music.ts'
 import { setLastLessonId, useSettings } from './lib/settings.tsx'
 import { Home } from './screens/Home.tsx'
 import { LessonOverview } from './screens/LessonOverview.tsx'
@@ -25,7 +26,10 @@ export default function App() {
   const [route, setRoute] = useState<Route>(() => parse(window.location.hash))
   const { settings } = useSettings()
 
-  useEffect(() => setVolume(settings.volume), [settings.volume])
+  useEffect(() => {
+    setVolume(settings.volume)
+    setMusicVolume(settings.volume * 0.8)
+  }, [settings.volume])
 
   useEffect(() => {
     const onHash = () => setRoute(parse(window.location.hash))

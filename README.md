@@ -51,10 +51,11 @@ The app lives at this free web address:
 | 🔀 Game | Switches game (only when a block has two) | G |
 | 📝 Notes | Opens your notes in Spanish | N |
 | ✓ Got it / ↻ Again | Marks the current word | 1 / 2 |
-| ▶ Next | Next card or next song line | Space |
+| ▶ Next | Next card / command / round; in Freeze Dance it freezes or restarts the music; in Memory it deals new cards | Space |
 | ⏭ Next block | Goes to the next block (🏁 Finish on the last one) | S |
 
-5. The big **🇨🇴** button is for her: a tap shows Spanish under the English for 10 seconds; holding it plays the Spanish word, then the English one. (Key: P)
+5. Inside the games there are a few extra buttons: **⏸ Pause** (Simon Says), **🔄 Guess mode** (Faces), the big **❄️ Freeze! / 💃 Dance!** (Freeze Dance — she can press it), **▶ Play song** (songs), and **🏆 Award** (stickers, last lesson only).
+6. The big **🇨🇴** button is for her: a tap shows Spanish under the English for 10 seconds; holding it plays the Spanish word, then the English one. (Key: P)
 
 ---
 
@@ -86,7 +87,6 @@ If an audio file is missing, the app uses the browser's own voice instead.
 
 ## Coming in later phases
 
-- The full games, melodies and sticker picker (Phase 2)
 - Saving progress, smart review, stats, export/import between the PC and the phone, installing and offline use (Phase 3)
 
 ---

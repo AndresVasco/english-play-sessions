@@ -257,3 +257,6 @@ I want to build this app. I've already thought it through in the attached BUILD-
 | 2026-11-11 | 🇨🇴 peek and teacher notes panel built in Phase 1 (planned for later) | Owner approved; both appear on every runner screen |
 | 2026-11-15 | English audio regenerated with steadier settings (noise_scale 0.333, noise_w 0.2) and text without final punctuation read as a statement ("happy" → "Happy.") | Owner heard random intonation on single words ("Tired?", "ANGRY"); chose this option by ear from 3 samples |
 | 2026-11-15 | 🇨🇴 peek button draws the flag (SVG) instead of the emoji | Windows shows flag emoji as the letters "CO" |
+| 2026-11-15 | Songs: original melodies stored in the content (`tempo`, `melody`, `chords` per song), played by an in-app Web Audio engine, twice after a one-bar count-in | Owner approved the melodies by ear; music stays editable as content |
+| 2026-11-15 | Door game data moved to content (`config.situations`, `config.leaveItem`) | No item ids hardcoded in components |
+| 2026-11-15 | listen-and-tap records ✓ when she taps right on the first try, ↻ otherwise (never shown to her); memory-match records nothing | Learner-tap games have no teacher marking |

@@ -51,8 +51,14 @@ export const fillPrompt = (prompt: Prompt, item?: Item) => ({
   es: item ? prompt.es.replace('___', item.translation) : prompt.es,
 })
 
-export const promptAudio = (prompt: Prompt) =>
-  prompt.en.includes('___') ? undefined : `audio/prompts/${prompt.id}.mp3`
+/** Audio of an instruction. Prompts with a "___" blank have one file per item
+ *  (audio/prompts/<prompt-id>--<item-id>.mp3), made by the audio script. */
+export const promptAudio = (prompt: Prompt, item?: Item) =>
+  prompt.en.includes('___')
+    ? item
+      ? `audio/prompts/${prompt.id}--${item.id}.mp3`
+      : undefined
+    : `audio/prompts/${prompt.id}.mp3`
 export const phraseAudio = (prompt: Prompt) => `audio/phrases/${prompt.id}.mp3`
 
 export const BLOCK_LABELS: Record<string, { en: string; es: string }> = {

@@ -86,6 +86,13 @@ export function validateContent(common: Common, units: Unit[]): ValidationResult
       a.itemIds.forEach((id) => { if (!allItems.has(id)) err(at, `unknown item "${id}"`) })
       if (a.itemIds.length === 0 && !a.autoReview) err(at, 'has no items')
       a.prompts?.forEach((p) => checkPrompt(at, p))
+      // Item ids referenced inside config (door game)
+      for (const key of ['situations', 'leaveItem'] as const) {
+        const v = a.config?.[key]
+        if (typeof v === 'string') v.split(',').map((x) => x.trim()).filter(Boolean).forEach((id) => {
+          if (!allItems.has(id)) err(at, `config.${key}: unknown item "${id}"`)
+        })
+      }
     }
 
     if (u.stickers.length === 0) err(u.id, 'needs at least one sticker')
