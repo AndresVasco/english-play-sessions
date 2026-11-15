@@ -174,8 +174,22 @@ let ctx: AudioContext | null = null
 let master: GainNode | null = null
 let musicVolume = 0.8
 
+/** iPhone/iPad: the silent switch mutes Web Audio unless the page declares
+ *  itself a media player (Safari 17+). Spoken words already play anyway. */
+function preferPlaybackSession() {
+  const session = (navigator as Navigator & { audioSession?: { type: string } }).audioSession
+  if (session) {
+    try {
+      session.type = 'playback'
+    } catch {
+      /* not supported: nothing to do */
+    }
+  }
+}
+
 export function audioContext() {
   if (!ctx) {
+    preferPlaybackSession()
     ctx = new AudioContext()
     master = ctx.createGain()
     master.gain.value = musicVolume
