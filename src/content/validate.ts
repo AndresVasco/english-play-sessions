@@ -4,6 +4,7 @@
 
 import { ACTIVITY_TYPES, BLOCK_TYPES } from './types.ts'
 import type { Common, Item, Prompt, Unit } from './types.ts'
+import { checkSongMusic } from '../lib/music.ts'
 
 export interface ValidationResult {
   errors: string[]
@@ -61,6 +62,7 @@ export function validateContent(common: Common, units: Unit[]): ValidationResult
       if (songIds.has(s.id)) err(where, `duplicate song id "${s.id}"`)
       songIds.add(s.id)
       if (!Array.isArray(s.lines) || s.lines.length === 0) err(where, `song "${s.id}" has no lines`)
+      checkSongMusic(s).forEach((p) => err(where, `song "${s.id}": ${p}`))
     })
   checkSongs('common.json', common.songs)
   units.forEach((u) => checkSongs(u.id, u.songs))

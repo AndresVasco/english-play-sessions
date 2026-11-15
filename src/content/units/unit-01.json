@@ -438,6 +438,19 @@
         "When I'm sad, I cry 😢",
         "When I'm angry, I stomp!",
         "When I'm tired, I yawn… 🥱"
+      ],
+      "tempo": 100,
+      "melody": [
+        "C4:1 E4:1 G4:1 G4:1 A4:1 G4:3",
+        "C4:1 E4:1 A3:2 G3:1 A3:3",
+        "D4:1 F4:1 A4:1 A4:1 F4:1 D4:1 R:2",
+        "E4:1 D4:1 C4:1 B3:1 A3:1 G3:3"
+      ],
+      "chords": [
+        "C C F C",
+        "Am Am Em Am",
+        "Dm Dm Dm Dm",
+        "C G Am G"
       ]
     }
   ],

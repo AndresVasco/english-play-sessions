@@ -96,6 +96,12 @@ export interface Song {
   title: string
   purpose: string
   lines: string[]
+  /** Beats per minute */
+  tempo?: number
+  /** One entry per lyric line: notes as "G4:1 E4:1 R:2" (note:beats, R = rest) */
+  melody?: string[]
+  /** One entry per lyric line: chords spread evenly over the line, e.g. "C C F C" */
+  chords?: string[]
 }
 
 export interface Sticker {

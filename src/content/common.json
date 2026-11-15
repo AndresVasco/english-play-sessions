@@ -217,6 +217,19 @@
         "I'm happy, I'm happy, and you?",
         "Hello, hello, clap with me!",
         "One, two, three!"
+      ],
+      "tempo": 108,
+      "melody": [
+        "G4:1 E4:1 G4:1 E4:1 A4:1 G4:1 E4:2",
+        "C4:1 E4:1 G4:1 C4:1 E4:1 G4:1 A4:1 G4:1",
+        "G4:1 E4:1 G4:1 E4:1 F4:1 D4:1 B3:2",
+        "C5:1 G4:1 C4:2 R:4"
+      ],
+      "chords": [
+        "C C F C",
+        "C C Am C",
+        "C C Dm G",
+        "C C C C"
       ]
     },
     {
@@ -226,6 +239,15 @@
       "lines": [
         "Goodbye, goodbye, see you soon!",
         "Goodbye, goodbye, sun and moon!"
+      ],
+      "tempo": 96,
+      "melody": [
+        "G4:1 E4:1 G4:1 E4:1 F4:1 D4:1 C4:2",
+        "G4:1 E4:1 G4:1 E4:1 D4:1 E4:1 C4:2"
+      ],
+      "chords": [
+        "C C G C",
+        "C C G C"
       ]
     }
   ]
