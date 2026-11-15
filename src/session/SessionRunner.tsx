@@ -245,16 +245,22 @@ function Runner({ unit, units, lesson, onExit }: Props) {
           ✕
         </button>
         <div className="runner-block">
-          <span className="runner-step">
-            {blockIndex + 1}/{lesson.blocks.length}
+          <span className="runner-steps" aria-label={`Block ${blockIndex + 1} of ${lesson.blocks.length}`}>
+            {lesson.blocks.map((_, i) => (
+              <i key={i} className={i < blockIndex ? 'done' : i === blockIndex ? 'now' : ''} />
+            ))}
           </span>
           <span className="runner-label">{label?.en ?? block.type}</span>
         </div>
+        {/* Time in the block: paw prints walking along a track */}
+        <div className="runner-track" aria-hidden="true">
+          <span className="runner-track-fill" style={{ width: `${pct}%` }} />
+          <span className="runner-paw" style={{ left: `max(14px, ${pct}%)` }}>
+            🐾
+          </span>
+        </div>
         <div className={timer.timeUp ? 'runner-timer up' : 'runner-timer'} aria-label="Time left in this block">
           {timer.timeUp ? '⏰ 0:00' : formatTime(timer.remainingSec)}
-        </div>
-        <div className="runner-progress" aria-hidden="true">
-          <span style={{ width: `${pct}%` }} />
         </div>
       </header>
 

@@ -1,7 +1,7 @@
 // Screen navigation with the address "hash" (#/lesson/u1-l1), so the
 // browser's back button works and each screen has its own address.
 
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useState, type ReactNode } from 'react'
 import { findLesson, units } from './content/index.ts'
 import { setVolume, stopAudio } from './lib/audio.ts'
 import { setMusicVolume } from './lib/music.ts'
@@ -12,6 +12,7 @@ import { Home } from './screens/Home.tsx'
 import { LessonOverview } from './screens/LessonOverview.tsx'
 import { Settings } from './screens/Settings.tsx'
 import { SessionRunner } from './session/SessionRunner.tsx'
+import { Sky } from './components/Sky.tsx'
 
 type Route = { name: 'home' } | { name: 'settings' } | { name: 'stats' } | { name: 'lesson'; id: string } | { name: 'session'; id: string }
 
@@ -54,14 +55,17 @@ export default function App() {
     }
   }, [route.name])
 
+  let screen: ReactNode
   switch (route.name) {
     case 'settings':
-      return <Settings back={() => go({ name: 'home' })} />
+      screen = <Settings back={() => go({ name: 'home' })} />
+      break
     case 'stats':
-      return <Stats back={() => go({ name: 'home' })} />
+      screen = <Stats back={() => go({ name: 'home' })} />
+      break
     case 'lesson': {
       const ref = findLesson(route.id)!
-      return (
+      screen = (
         <LessonOverview
           lessonRef={ref}
           back={() => go({ name: 'home' })}
@@ -71,21 +75,17 @@ export default function App() {
           }}
         />
       )
+      break
     }
     case 'session': {
       const ref = findLesson(route.id)!
-      return (
-        <SessionRunner
-          key={route.id}
-          unit={ref.unit}
-          units={units}
-          lesson={ref.lesson}
-          onExit={() => go({ name: 'home' })}
-        />
+      screen = (
+        <SessionRunner key={route.id} unit={ref.unit} units={units} lesson={ref.lesson} onExit={() => go({ name: 'home' })} />
       )
+      break
     }
     default:
-      return (
+      screen = (
         <Home
           openLesson={(id) => go({ name: 'lesson', id })}
           openSettings={() => go({ name: 'settings' })}
@@ -93,4 +93,11 @@ export default function App() {
         />
       )
   }
+
+  return (
+    <>
+      <Sky />
+      {screen}
+    </>
+  )
 }

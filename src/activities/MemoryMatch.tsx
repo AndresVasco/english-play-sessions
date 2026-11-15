@@ -8,6 +8,7 @@ import type { Item } from '../content/types.ts'
 import { Bi } from '../components/Peek.tsx'
 import { play } from '../lib/audio.ts'
 import { PromptLine, itemClip, promptClip, shuffle, useFeedback } from './shared.tsx'
+import { pipCheer } from '../components/Pip.tsx'
 import type { ActivityProps } from './types.ts'
 
 interface Card {
@@ -73,6 +74,7 @@ export function MemoryMatch({ activity, items, handleRef, onFocus, celebrate }: 
         setMatched((m) => new Set(m).add(a.item.id))
         setOpen([])
         celebrate()
+        pipCheer()
         busy.current = false
       }, 500)
     } else {

@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import { common, phraseAudio, promptAudio } from '../content/index.ts'
 import type { Item, Prompt } from '../content/types.ts'
 import { Bi } from '../components/Peek.tsx'
+import { Pip, pipCheer } from '../components/Pip.tsx'
 import { play, type Clip } from '../lib/audio.ts'
 
 export const pick = <T,>(list: T[]): T => list[Math.floor(Math.random() * list.length)]
@@ -51,6 +52,7 @@ export function useFeedback(celebrate: () => void) {
       const p = pick(common.praise)
       show(p)
       celebrate()
+      pipCheer()
       return play(phraseClip(p), ...after)
     },
     [celebrate, show],
@@ -71,13 +73,17 @@ export function useFeedback(celebrate: () => void) {
   return { praise, retry, node }
 }
 
-/** The instruction line at the top of an activity (with "___" filled in). */
+/** The instruction at the top of an activity, said by Pip in a speech
+ *  bubble (with "___" filled in). */
 export function PromptLine({ prompt, item }: { prompt: Prompt; item?: Item }) {
   const en = item ? prompt.en.replace('___', item.text) : prompt.en
   const es = item ? prompt.es.replace('___', item.translation) : prompt.es
   return (
-    <div className="activity-prompt">
-      <Bi en={en} es={es} />
+    <div className="pip-says">
+      <Pip size={84} />
+      <div className="activity-prompt bubble">
+        <Bi en={en} es={es} />
+      </div>
     </div>
   )
 }

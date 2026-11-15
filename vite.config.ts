@@ -16,15 +16,15 @@ export default defineConfig({
       registerType: 'prompt', // never reload by itself in the middle of a session
       includeAssets: ['favicon.svg', 'icons/apple-touch-icon.png'],
       manifest: {
-        name: 'English Play Sessions',
-        short_name: 'English Play',
-        description: 'Teacher-led English play sessions',
+        name: 'English Adventure',
+        short_name: 'Adventure',
+        description: 'Teacher-led English play sessions with Pip',
         start_url: BASE,
         scope: BASE,
         display: 'standalone',
         orientation: 'any',
-        background_color: '#f6f3ec',
-        theme_color: '#2f6f6a',
+        background_color: '#cfe9f6',
+        theme_color: '#5b4bd6',
         lang: 'en',
         icons: [
           { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },

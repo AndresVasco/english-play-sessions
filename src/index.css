@@ -1,18 +1,22 @@
 /* Calm palette with one bright accent. No flashing. Big touch targets. */
 :root {
-  --bg: #f6f3ec;
+  /* "English Adventure": sky background, navy ink, purple + one warm yellow accent */
+  --bg: #cfe9f6;
   --surface: #ffffff;
-  --ink: #23333a;
-  --muted: #6b7a80;
-  --line: #e2ddd2;
-  --calm: #2f6f6a;
-  --calm-soft: #dcebe8;
-  --accent: #ffb347;
-  --accent-soft: #fff0d9;
-  --es: #8a5a9e; /* Spanish peek text */
-  --radius: 18px;
+  --ink: #2b2d5c;
+  --muted: #6f6c9e;
+  --line: #dcdcf0;
+  --calm: #5b4bd6; /* primary (purple) */
+  --calm-soft: #e9e5ff;
+  --accent: #ffcf5c;
+  --accent-soft: #fff3cf;
+  --green: #7ed6b0;
+  --green-dark: #2f9e74;
+  --es: #1f8a70; /* Spanish peek text */
+  --radius: 22px;
   --touch: 64px;
-  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Fredoka', system-ui, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 500;
   color: var(--ink);
   background: var(--bg);
   -webkit-tap-highlight-color: transparent;
@@ -351,3 +355,133 @@ h1, h2, h3 { margin: 0; }
 .session-list li { display: flex; flex-wrap: wrap; gap: 6px 16px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; }
 .session-list li span:first-child { font-weight: 600; }
 .update-banner { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; background: var(--calm-soft); border-radius: 12px; padding: 10px 14px; margin-bottom: 12px; }
+
+/* =========================================================
+   English Adventure theme (overrides the earlier base rules)
+   ========================================================= */
+body { background: var(--bg); }
+.screen, .runner { position: relative; z-index: 1; background: transparent; }
+.runner { position: fixed; }
+h1, h2, h3, .runner-label, .goodbye-text, .flashcard-word { font-weight: 700; }
+
+/* Sky background */
+.sky { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden;
+  background: linear-gradient(#cfe9f6 0%, #e4f3f7 55%, #eaf6f2 100%); }
+.sky-sun { position: absolute; top: 18px; right: 18%; width: 84px; height: 84px; border-radius: 50%;
+  background: radial-gradient(#ffe08a, #ffc94d); box-shadow: 0 0 0 14px rgba(255, 214, 102, 0.25); }
+.sky-cloud { position: absolute; background: #fff; border-radius: 999px; opacity: 0.85; }
+.sky-cloud.c1 { width: 170px; height: 52px; top: 16%; left: 38%; }
+.sky-cloud.c2 { width: 110px; height: 38px; top: 30%; right: 8%; }
+.sky-hills { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 26vh; }
+@media (max-width: 640px) { .sky-sun { width: 60px; height: 60px; right: 10%; } .sky-cloud.c1 { width: 110px; height: 36px; } }
+
+/* Header and brand */
+.brand { color: var(--calm); font-size: clamp(1.8rem, 5vw, 2.8rem); }
+.screen-head h1 { color: var(--calm); }
+.quiet-btn { background: rgba(255, 255, 255, 0.75); border: 3px solid #fff; color: var(--muted); border-radius: 16px; }
+.sticker-pill { display: flex; align-items: center; gap: 2px; background: #fff; border: 4px solid #fff; border-radius: 999px;
+  padding: 4px 12px; font-size: 1.5rem; box-shadow: 0 4px 0 rgba(43, 45, 92, 0.08); min-height: var(--touch); }
+.sticker-pill small { font-size: 0.85rem; color: var(--muted); margin-left: 4px; }
+.sticker-board { background: rgba(255, 255, 255, 0.9); border: none; }
+
+/* Unit tabs */
+.unit-tabs { display: flex; gap: 8px; overflow-x: auto; padding: 4px 2px 10px; scrollbar-width: none; }
+.unit-tab { flex: none; border: 3px solid #fff; background: rgba(255, 255, 255, 0.7); color: var(--ink); border-radius: 999px;
+  padding: 6px 14px; font-size: 1.05rem; font-weight: 600; min-height: 48px; }
+.unit-tab.on { background: var(--calm); color: #fff; border-color: var(--calm); }
+
+/* Lesson map */
+.map { position: relative; height: min(62vh, 520px); min-height: 380px; margin-top: 6px; }
+.map-path { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.map-path path { fill: none; stroke: #fff; stroke-width: 18; stroke-linecap: round; stroke-dasharray: 1 30; vector-effect: non-scaling-stroke; }
+.stop { position: absolute; transform: translate(-50%, -38%); display: flex; flex-direction: column; align-items: center;
+  border: none; background: none; padding: 0; width: 170px; color: var(--ink); }
+.stop-circle { display: grid; place-items: center; width: 108px; height: 108px; border-radius: 50%; background: #fff;
+  border: 6px solid var(--calm); box-shadow: 0 8px 0 #3f33a8; font-size: 2.8rem; transition: transform 0.15s; }
+.stop:active .stop-circle { transform: translateY(4px); box-shadow: 0 4px 0 #3f33a8; }
+.stop.done .stop-circle { background: var(--green); border-color: var(--green-dark); box-shadow: 0 8px 0 #23805d; }
+.stop.now .stop-circle { background: var(--accent); border-color: #f08a24; box-shadow: 0 8px 0 #c86a12; width: 124px; height: 124px; font-size: 3.2rem; }
+.stop-title { margin-top: 12px; font-weight: 700; font-size: 1.15rem; line-height: 1.15; text-align: center; }
+.stop-sub { color: var(--muted); font-size: 0.9rem; }
+.stop-pip { position: absolute; left: calc(50% + 46px); top: 66px; }
+.map.narrow .stop-pip { left: calc(50% + 40px); top: 40px; }
+@media (max-width: 640px) {
+  .stop { width: 150px; }
+  .stop-circle { width: 92px; height: 92px; font-size: 2.4rem; }
+  .stop.now .stop-circle { width: 104px; height: 104px; }
+}
+
+/* Runner header: block dots, paw track, timer */
+.runner-steps { display: inline-flex; gap: 6px; }
+.runner-steps i { width: 14px; height: 14px; border-radius: 50%; background: #fff; border: 3px solid #c9c2ff; }
+.runner-steps i.done { background: var(--calm); border-color: var(--calm); }
+.runner-steps i.now { background: var(--accent); border-color: #f0a83c; }
+.runner-label { color: var(--calm); }
+.runner-track { position: relative; flex: 1; max-width: 520px; height: 22px; border-radius: 999px; background: var(--calm-soft);
+  border: 4px solid #fff; }
+.runner-track-fill { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 999px; background: linear-gradient(90deg, #9d8cff, var(--calm)); transition: width 0.5s linear; }
+.runner-paw { position: absolute; top: -20px; transform: translateX(-50%); font-size: 1.7rem; transition: left 0.5s linear; }
+.runner-timer { border: 4px solid #fff; color: var(--ink); }
+.runner-timer.up { border-color: var(--accent); background: var(--accent-soft); }
+@media (max-width: 640px) {
+  .runner-top { flex-wrap: wrap; }
+  .runner-track { order: 5; flex-basis: 100%; max-width: none; margin-top: 8px; }
+  .runner-steps i { width: 10px; height: 10px; border-width: 2px; }
+}
+@media (prefers-reduced-motion: reduce) { .runner-track-fill, .runner-paw { transition: none; } }
+
+/* Pip and its speech bubble */
+.pip-says { display: flex; align-items: center; gap: 10px; }
+.activity-prompt.bubble { position: relative; background: var(--calm); color: #fff; border-radius: 24px; padding: 10px 24px;
+  font-size: clamp(1.2rem, 3.2vw, 1.8rem); }
+.activity-prompt.bubble::before { content: ''; position: absolute; left: -14px; top: 50%; transform: translateY(-50%);
+  border: 10px solid transparent; border-right: 16px solid var(--calm); border-left: 0; }
+.activity-prompt.bubble .bi-es { color: #d9fff1; }
+.pip { flex: none; overflow: visible; }
+.pip.cheer .pip-body { animation: pip-hop 0.6s ease-out 2; transform-origin: 65px 110px; }
+.pip.cheer .pip-wing.l { transform: rotate(-35deg); transform-origin: 26px 76px; }
+.pip.cheer .pip-wing.r { transform: rotate(35deg); transform-origin: 104px 76px; }
+@keyframes pip-hop { 0%, 100% { transform: translateY(0); } 40% { transform: translateY(-14px) scale(1.04); } }
+@media (max-width: 560px) { .pip-says .pip { width: 60px; height: 60px; } }
+@media (prefers-reduced-motion: reduce) { .pip.cheer .pip-body { animation: none; } }
+
+/* Chunky cards: thick navy outline + yellow offset shadow */
+.flashcard { border: 7px solid var(--ink); border-radius: 36px; box-shadow: 10px 10px 0 var(--accent); }
+.flashcard-word { color: var(--ink); }
+.choice, .item-tile, .sticker { border: 5px solid var(--ink); box-shadow: 5px 5px 0 var(--accent); }
+.choice.chosen { background: var(--accent-soft); border-color: #f08a24; }
+.memory-card { background: var(--calm); box-shadow: 0 6px 0 #3f33a8; border-radius: 20px; }
+.memory-card.up { border: 5px solid var(--ink); box-shadow: 4px 4px 0 var(--accent); }
+.memory-card.matched { border-color: var(--green-dark); background: #e3f8ee; box-shadow: 4px 4px 0 var(--green); }
+.lyric.on button { background: var(--accent); color: var(--ink); }
+.lyric button { color: var(--muted); }
+.goodbye-text { color: var(--calm); }
+.feedback { background: var(--accent); color: var(--ink); border: 5px solid #fff; }
+.big-action { background: var(--accent); color: var(--ink); border: 5px solid var(--ink); box-shadow: 6px 6px 0 var(--ink); }
+.big-action:active { transform: translate(3px, 3px); box-shadow: 3px 3px 0 var(--ink); }
+.game-toggle { background: rgba(255, 255, 255, 0.85); border: 3px solid #fff; color: var(--muted); }
+.listen-btn { background: #fff; border: 5px solid var(--ink); box-shadow: 4px 4px 0 var(--accent); }
+
+/* Peek button */
+.peek-button { background: #fff; border: 6px solid var(--ink); box-shadow: 0 6px 0 var(--ink); }
+.peek-button:active { transform: translateY(4px); box-shadow: 0 2px 0 var(--ink); }
+
+/* Teacher bar: quiet, see-through */
+.teacher-bar { background: rgba(255, 255, 255, 0.55); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); border-top: none; }
+.tb-btn { background: rgba(255, 255, 255, 0.9); border: 3px solid #fff; color: var(--muted); }
+.tb-btn.mark { color: var(--green-dark); }
+.tb-btn.suggest { border-color: var(--accent); background: var(--accent-soft); color: var(--ink); }
+
+/* Teacher screens on the sky: white panels */
+.lesson-card, .plan li, .chip, .key-exchange, .stat-tile, .week-bars, .level, .struggles, .session-list li,
+.block-minutes label, .overview-notes, .small-btn { background: rgba(255, 255, 255, 0.92); }
+.settings, .stats, .overview { background: rgba(255, 255, 255, 0.55); border-radius: 24px; margin-top: 12px; margin-bottom: 12px; }
+.start-btn { background: var(--accent); color: var(--ink); border: 5px solid var(--ink); box-shadow: 6px 6px 0 var(--ink); }
+.week-fill { background: var(--calm); }
+.level-3 { border-left-color: var(--calm); }
+/* Activities grow with their content and never hide the top (Pip's bubble) */
+.flashcards { height: auto; min-height: 100%; justify-content: safe center; }
+@media (max-width: 560px) {
+  .flashcard { min-height: min(38vh, 320px); width: min(88vw, 640px); }
+  .flashcard-image { font-size: clamp(5rem, 16vh, 8rem); }
+}
