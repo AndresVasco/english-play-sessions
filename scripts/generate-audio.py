@@ -13,7 +13,7 @@ tracked in public/audio/manifest.json. Use --force to regenerate everything.
 Requirements: Python 3.9+, `pip install -r scripts/requirements.txt`, ffmpeg.
 Voices are downloaded once into scripts/voices/ (not committed to git).
 
-Voices (see BUILD-BRIEF.md section 9):
+Voices (see BUILD-BRIEF.md section 9 and the Decision log):
   English  en_US-hfc_female-medium  CC BY-NC-SA 4.0 (non-commercial use)
   Spanish  es_MX-claude-high        Apache 2.0
 """
@@ -39,17 +39,25 @@ VOICES_DIR = Path(__file__).resolve().parent / "voices"
 HF = "https://huggingface.co/rhasspy/piper-voices/resolve/main"
 
 VOICES = {
-    # lang: (voice name, path in the piper-voices repo, speed: >1 is slower)
-    "en": ("en_US-hfc_female-medium", "en/en_US/hfc_female/medium", 1.15),
-    "es": ("es_MX-claude-high", "es/es_MX/claude/high", 1.10),
+    # lang: (voice name, path in the piper-voices repo, speed: >1 is slower,
+    #        noise_scale, noise_w_scale: lower = steadier tone; None = voice default)
+    # English uses steadier settings: with the defaults, single words came out
+    # with random intonation ("Tired?", "ANGRY"). Chosen by ear (2026-11-15).
+    "en": ("en_US-hfc_female-medium", "en/en_US/hfc_female/medium", 1.15, 0.333, 0.2),
+    "es": ("es_MX-claude-high", "es/es_MX/claude/high", 1.10, None, None),
 }
 
 
 def speakable(text: str) -> str:
-    """Remove emoji and the '…' blank so the voice reads only the words."""
+    """Remove emoji and the '…' blank so the voice reads only the words.
+    Text without final punctuation becomes a calm statement ("happy" -> "Happy.")
+    so single words keep a steady, falling tone."""
     text = text.replace("…", "").replace("___", "")
     kept = [ch for ch in text if unicodedata.category(ch)[0] in "LNPZ"]
-    return " ".join("".join(kept).split()).strip()
+    words = " ".join("".join(kept).split()).strip()
+    if words and words[-1] not in ".!?":
+        words = words[0].upper() + words[1:] + "."
+    return words
 
 
 def collect_jobs() -> list[tuple[str, str, str]]:
@@ -72,7 +80,7 @@ def collect_jobs() -> list[tuple[str, str, str]]:
 
 
 def ensure_voice(lang: str) -> Path:
-    name, repo_path, _ = VOICES[lang]
+    name, repo_path = VOICES[lang][:2]
     VOICES_DIR.mkdir(exist_ok=True)
     model = VOICES_DIR / f"{name}.onnx"
     for suffix in (".onnx", ".onnx.json"):
@@ -103,8 +111,8 @@ def main() -> int:
     made = skipped = 0
     for out_path, lang, text in jobs:
         words = speakable(text)
-        name, _, speed = VOICES[lang]
-        key = hashlib.sha1(f"{name}|{speed}|{words}".encode()).hexdigest()[:16]
+        name, _, speed, noise, noise_w = VOICES[lang]
+        key = hashlib.sha1(f"{name}|{speed}|{noise}|{noise_w}|{words}".encode()).hexdigest()[:16]
         target = PUBLIC / out_path
         if manifest.get(out_path) == key and target.exists():
             skipped += 1
@@ -115,7 +123,10 @@ def main() -> int:
         with tempfile.TemporaryDirectory() as tmp:
             wav_path = Path(tmp) / "out.wav"
             with wave.open(str(wav_path), "wb") as wav_file:
-                loaded[lang].synthesize_wav(words, wav_file, syn_config=SynthesisConfig(length_scale=speed))
+                config = SynthesisConfig(length_scale=speed)
+                if noise is not None:
+                    config = SynthesisConfig(length_scale=speed, noise_scale=noise, noise_w_scale=noise_w)
+                loaded[lang].synthesize_wav(words, wav_file, syn_config=config)
             subprocess.run(
                 ["ffmpeg", "-loglevel", "error", "-y", "-i", str(wav_path), "-ac", "1", "-b:a", "48k", str(target)],
                 check=True,

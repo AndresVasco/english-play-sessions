@@ -22,7 +22,8 @@ Current phase: **Phase 1 – Core** (built, waiting for the owner's test)
 - [x] 🇨🇴 peek (tap: Spanish under English for the configured seconds; hold: Spanish then English audio)
 - [x] Teacher notes panel (moved forward from Phase 2)
 - [x] GitHub Actions updated to Node 24 versions (removes the deprecation warnings)
-- [ ] Owner tests on PC and phone
+- [x] Owner tested on PC and phone (2026-11-15). Fixed: 🇨🇴 showed as "CO" on Windows; English single words had unstable tone (audio regenerated with steadier settings)
+- Owner feedback for Phase 2: songs have no sound, door game doesn't announce the situation, memory has no pairs, games are silent (all were Phase 1 stand-ins)
 
 Temporary in Phase 1 (replaced later):
 - Games other than flashcards show a "board" of tappable pictures (Phase 2)

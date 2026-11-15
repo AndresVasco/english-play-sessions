@@ -255,3 +255,5 @@ I want to build this app. I've already thought it through in the attached BUILD-
 | 2026-11-11 | Lesson 4 game split into two activities: `u1-l4-match` (memory-match) and `u1-l4-tap` (listen-and-tap) | Each activity has one type |
 | 2026-11-11 | Teacher settings and "last lesson" stored in localStorage for now; learner progress goes to IndexedDB in Phase 3 | Settings are device conveniences, not learner data |
 | 2026-11-11 | 🇨🇴 peek and teacher notes panel built in Phase 1 (planned for later) | Owner approved; both appear on every runner screen |
+| 2026-11-15 | English audio regenerated with steadier settings (noise_scale 0.333, noise_w 0.2) and text without final punctuation read as a statement ("happy" → "Happy.") | Owner heard random intonation on single words ("Tired?", "ANGRY"); chose this option by ear from 3 samples |
+| 2026-11-15 | 🇨🇴 peek button draws the flag (SVG) instead of the emoji | Windows shows flag emoji as the letters "CO" |
