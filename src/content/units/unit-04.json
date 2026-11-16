@@ -285,7 +285,7 @@
       "config": {
         "intervalSec": 6
       },
-      "teacherNotes": "La app escoge las palabras más débiles (Unidad 3 y 4) y las mezcla con los comandos del cuerpo. Sigue jugando \"Simon says…\" como en la Unidad 3. Con la familia: \"Simon says: wave hello to mom!\" (saluda a la foto de mamá)."
+      "teacherNotes": "La app escoge las palabras más débiles (Unidad 3 y 4) y las mezcla con los comandos del cuerpo. Sigue jugando \"Simon says…\" como en la Unidad 3. Con la familia: \"Simon says: wave hello to mom!\" (saluda al dibujo o al muñeco que ella escogió para mamá)."
     },
     {
       "id": "u4-l1-cards",
@@ -299,12 +299,12 @@
         "u4-baby",
         "u4-this-is-my"
       ],
-      "teacherNotes": "Muestra la tarjeta y, si puedes, una foto real de esa persona al mismo tiempo. Ella repite. Para \"This is my…\" señala la foto y di \"This is my mom!\". Si ella no tiene hermano/hermana, usa un primo, un amigo o un muñeco: sin drama. Marca ✓ si se entiende."
+      "teacherNotes": "Antes de empezar, arma con ella su \"familia del juego\": para cada persona que ELLA quiera incluir, escoge si la dibuja en un papel o si un muñeco/peluche hace de esa persona. Nunca hacen falta fotos. Muestra la tarjeta, ella repite y señala su dibujo o muñeco: \"This is my mom!\". Si alguien no está en su vida, se salta o lo reemplaza quien ella quiera (un amigo, una mascota, un peluche): sin drama. Marca ✓ si se entiende."
     },
     {
       "id": "u4-l1-photos",
       "type": "find-it",
-      "title": "Find it! Family photos",
+      "title": "Find it! My game family",
       "itemIds": [
         "u4-mom",
         "u4-dad",
@@ -322,7 +322,7 @@
       "config": {
         "seconds": 20
       },
-      "teacherNotes": "Pon fotos de la familia (impresas o en el celular) en distintos lugares del cuarto. La app dice \"Point to mom!\" y ella corre a señalar la foto y dice \"This is my mom!\". Si no hay foto de alguien, que dibuje rápido a esa persona o señale un muñeco. Variante: ella esconde las fotos y tú las buscas."
+      "teacherNotes": "Pon los dibujos y muñecos de su \"familia del juego\" en distintos lugares del cuarto. La app dice \"Point to mom!\" y ella corre a señalar el dibujo o el muñeco y dice \"This is my mom!\". Si falta alguien, que lo dibuje en 10 segundos o escoja un peluche. Variante: ella esconde los muñecos y dibujos y tú los buscas."
     },
     {
       "id": "u4-l2-cards",
@@ -336,7 +336,7 @@
         "u4-me",
         "u4-i-love-you"
       ],
-      "teacherNotes": "\"Grandma\"/\"grandpa\": actúa caminando despacito con bastón imaginario. \"Me\": señálate el pecho con los dos pulgares. \"Who is this?\": tapa una foto con la mano y destápala poco a poco. \"I love you!\": abrazo grande. Marca ✓ si se entiende."
+      "teacherNotes": "\"Grandma\"/\"grandpa\": actúa caminando despacito con bastón imaginario. \"Me\": señálate el pecho con los dos pulgares. \"Who is this?\": tapa un dibujo o un muñeco con la mano y destápalo poco a poco. \"I love you!\": abrazo grande. Marca ✓ si se entiende."
     },
     {
       "id": "u4-l2-walk",
@@ -465,7 +465,7 @@
       "config": {
         "seconds": 30
       },
-      "teacherNotes": "Juego estrella: el árbol de papel está en la pared o el piso, lejos de la pantalla, y las tarjetas/fotos regadas por el cuarto. La app dice \"Put grandma on the tree!\" y ella corre, busca la tarjeta y la pega en el árbol diciendo \"This is my grandma!\". Si alguien no existe en su familia, puede saltarlo o poner a quien ella quiera. Variante: ella decide dónde va cada persona y te lo explica."
+      "teacherNotes": "Juego estrella: el árbol de papel está en la pared o el piso, lejos de la pantalla, y los dibujos (y muñecos pequeños) de su \"familia del juego\" regados por el cuarto. La app dice \"Put grandma on the tree!\" y ella corre, busca el dibujo o muñeco y lo pone en el árbol diciendo \"This is my grandma!\". Ella decide quién está en su árbol: si alguien no está en su vida, se salta, o pone a quien ella quiera. Variante: ella decide dónde va cada persona y te lo explica."
     }
   ],
   "songs": [

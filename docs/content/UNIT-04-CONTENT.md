@@ -54,9 +54,9 @@ Commands: cmd-stand-up, cmd-sit-down, cmd-wave, cmd-jump, cmd-clap, cmd-stop, cm
 
 **Teacher notes**
 
-- `auto-review`: La app escoge las palabras más débiles (Unidad 3 y 4) y las mezcla con los comandos del cuerpo. Sigue jugando "Simon says…" como en la Unidad 3. Con la familia: "Simon says: wave hello to mom!" (saluda a la foto de mamá).
-- `u4-l1-cards`: Muestra la tarjeta y, si puedes, una foto real de esa persona al mismo tiempo. Ella repite. Para "This is my…" señala la foto y di "This is my mom!". Si ella no tiene hermano/hermana, usa un primo, un amigo o un muñeco: sin drama. Marca ✓ si se entiende.
-- `u4-l1-photos`: Pon fotos de la familia (impresas o en el celular) en distintos lugares del cuarto. La app dice "Point to mom!" y ella corre a señalar la foto y dice "This is my mom!". Si no hay foto de alguien, que dibuje rápido a esa persona o señale un muñeco. Variante: ella esconde las fotos y tú las buscas.
+- `auto-review`: La app escoge las palabras más débiles (Unidad 3 y 4) y las mezcla con los comandos del cuerpo. Sigue jugando "Simon says…" como en la Unidad 3. Con la familia: "Simon says: wave hello to mom!" (saluda al dibujo o al muñeco que ella escogió para mamá).
+- `u4-l1-cards`: Antes de empezar, arma con ella su "familia del juego": para cada persona que ELLA quiera incluir, escoge si la dibuja en un papel o si un muñeco/peluche hace de esa persona. Nunca hacen falta fotos. Muestra la tarjeta, ella repite y señala su dibujo o muñeco: "This is my mom!". Si alguien no está en su vida, se salta o lo reemplaza quien ella quiera (un amigo, una mascota, un peluche): sin drama. Marca ✓ si se entiende.
+- `u4-l1-photos`: Pon los dibujos y muñecos de su "familia del juego" en distintos lugares del cuarto. La app dice "Point to mom!" y ella corre a señalar el dibujo o el muñeco y dice "This is my mom!". Si falta alguien, que lo dibuje en 10 segundos o escoja un peluche. Variante: ella esconde los muñecos y dibujos y tú los buscas.
 
 ---
 
@@ -89,7 +89,7 @@ Commands: cmd-stand-up, cmd-sit-down, cmd-wave, cmd-jump, cmd-clap, cmd-stop, cm
 
 **Teacher notes**
 
-- `u4-l2-cards`: "Grandma"/"grandpa": actúa caminando despacito con bastón imaginario. "Me": señálate el pecho con los dos pulgares. "Who is this?": tapa una foto con la mano y destápala poco a poco. "I love you!": abrazo grande. Marca ✓ si se entiende.
+- `u4-l2-cards`: "Grandma"/"grandpa": actúa caminando despacito con bastón imaginario. "Me": señálate el pecho con los dos pulgares. "Who is this?": tapa un dibujo o un muñeco con la mano y destápalo poco a poco. "I love you!": abrazo grande. Marca ✓ si se entiende.
 - `u4-l2-walk`: Modo "show me": la app dice "Walk like grandpa!" y ella camina como abuelo (lento, con bastón), como bebé (gateando), como papá, etc. Modo adivinar: tú actúas a alguien de la familia y ella toca la tarjeta y dice "You are grandma!". Variante: imiten la voz de cada persona.
 - Bonus: llamen (o manden un audio) a la abuela o el abuelo y que ella diga "Hello, grandma! I love you!".
 
@@ -161,7 +161,7 @@ Commands introduced: u4-hug, u4-high-five
 **Teacher notes**
 
 - `u4-l4-cards`: "Family tree": muestra el árbol de papel que prepararon. "Friend": nombra a sus amigos reales. "Give me a hug!" y "High five!" se hacen de verdad: abrazo y choque de manos cada vez que lo diga bien. Marca ✓ si se entiende. "Stepdad": ella decide cómo presentarte en su árbol: "This is my stepdad!" o con tu nombre ("This is Andrés!"); las dos están perfectas. No la corrijas si te llama de otra forma.
-- `u4-l4-tree`: Juego estrella: el árbol de papel está en la pared o el piso, lejos de la pantalla, y las tarjetas/fotos regadas por el cuarto. La app dice "Put grandma on the tree!" y ella corre, busca la tarjeta y la pega en el árbol diciendo "This is my grandma!". Si alguien no existe en su familia, puede saltarlo o poner a quien ella quiera. Variante: ella decide dónde va cada persona y te lo explica.
+- `u4-l4-tree`: Juego estrella: el árbol de papel está en la pared o el piso, lejos de la pantalla, y los dibujos (y muñecos pequeños) de su "familia del juego" regados por el cuarto. La app dice "Put grandma on the tree!" y ella corre, busca el dibujo o muñeco y lo pone en el árbol diciendo "This is my grandma!". Ella decide quién está en su árbol: si alguien no está en su vida, se salta, o pone a quien ella quiera. Variante: ella decide dónde va cada persona y te lo explica.
 - Mini show (opcional, última sesión de la unidad): ella presenta su árbol a la mamá: "This is my family! This is my mom. He is my uncle…" y termina con "I love my family!" y un abrazo grupal. Esto vale como proyecto de cierre.
 - En la pantalla de stickers de esta lección hay un botón discreto para darle el trofeo 🏆 "Unit 4 complete" cuando tú decidas que terminó la unidad.
 
