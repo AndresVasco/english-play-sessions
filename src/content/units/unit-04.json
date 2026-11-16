@@ -262,6 +262,17 @@
       "tags": [
         "command"
       ]
+    },
+    {
+      "id": "u4-stepdad",
+      "text": "stepdad",
+      "translation": "padrastro",
+      "image": "🙋‍♂️",
+      "audio": "audio/u4-stepdad.mp3",
+      "audioEs": "audio/es/u4-stepdad.mp3",
+      "tags": [
+        "family"
+      ]
     }
   ],
   "activities": [
@@ -421,9 +432,10 @@
         "u4-i-love-my-family",
         "u4-friend",
         "u4-hug",
-        "u4-high-five"
+        "u4-high-five",
+        "u4-stepdad"
       ],
-      "teacherNotes": "\"Family tree\": muestra el árbol de papel que prepararon. \"Friend\": nombra a sus amigos reales. \"Give me a hug!\" y \"High five!\" se hacen de verdad: abrazo y choque de manos cada vez que lo diga bien. Marca ✓ si se entiende."
+      "teacherNotes": "\"Family tree\": muestra el árbol de papel que prepararon. \"Friend\": nombra a sus amigos reales. \"Give me a hug!\" y \"High five!\" se hacen de verdad: abrazo y choque de manos cada vez que lo diga bien. Marca ✓ si se entiende. \"Stepdad\": ella decide cómo presentarte en su árbol: \"This is my stepdad!\" o con tu nombre (\"This is Andrés!\"); las dos están perfectas. No la corrijas si te llama de otra forma."
     },
     {
       "id": "u4-l4-tree",
@@ -440,7 +452,8 @@
         "u4-aunt",
         "u4-uncle",
         "u4-cousin",
-        "u4-pet"
+        "u4-pet",
+        "u4-stepdad"
       ],
       "prompts": [
         {
@@ -774,7 +787,8 @@
         "u4-i-love-my-family",
         "u4-friend",
         "u4-hug",
-        "u4-high-five"
+        "u4-high-five",
+        "u4-stepdad"
       ],
       "commands": [
         "cmd-stand-up",

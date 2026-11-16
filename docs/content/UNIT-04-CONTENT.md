@@ -142,6 +142,7 @@ Commands: cmd-stand-up, cmd-sit-down, cmd-wave, cmd-jump, cmd-clap, cmd-stop, cm
 | u4-friend | friend | 🧑‍🤝‍🧑 | amigo / amiga |
 | u4-hug | Give me a hug! | 🤗 | ¡Dame un abrazo! |
 | u4-high-five | High five! | ✋✋ | ¡Choca esos cinco! |
+| u4-stepdad | stepdad | 🙋‍♂️ | padrastro |
 
 Key exchange: "This is my family! → I love my family!" (¡Esta es mi familia! → ¡Quiero a mi familia!)
 Commands introduced: u4-hug, u4-high-five
@@ -159,7 +160,7 @@ Commands introduced: u4-hug, u4-high-five
 
 **Teacher notes**
 
-- `u4-l4-cards`: "Family tree": muestra el árbol de papel que prepararon. "Friend": nombra a sus amigos reales. "Give me a hug!" y "High five!" se hacen de verdad: abrazo y choque de manos cada vez que lo diga bien. Marca ✓ si se entiende.
+- `u4-l4-cards`: "Family tree": muestra el árbol de papel que prepararon. "Friend": nombra a sus amigos reales. "Give me a hug!" y "High five!" se hacen de verdad: abrazo y choque de manos cada vez que lo diga bien. Marca ✓ si se entiende. "Stepdad": ella decide cómo presentarte en su árbol: "This is my stepdad!" o con tu nombre ("This is Andrés!"); las dos están perfectas. No la corrijas si te llama de otra forma.
 - `u4-l4-tree`: Juego estrella: el árbol de papel está en la pared o el piso, lejos de la pantalla, y las tarjetas/fotos regadas por el cuarto. La app dice "Put grandma on the tree!" y ella corre, busca la tarjeta y la pega en el árbol diciendo "This is my grandma!". Si alguien no existe en su familia, puede saltarlo o poner a quien ella quiera. Variante: ella decide dónde va cada persona y te lo explica.
 - Mini show (opcional, última sesión de la unidad): ella presenta su árbol a la mamá: "This is my family! This is my mom. He is my uncle…" y termina con "I love my family!" y un abrazo grupal. Esto vale como proyecto de cierre.
 - En la pantalla de stickers de esta lección hay un botón discreto para darle el trofeo 🏆 "Unit 4 complete" cuando tú decidas que terminó la unidad.
