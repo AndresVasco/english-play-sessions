@@ -8,6 +8,8 @@ const BASE = '/english-play-sessions/'
 
 export default defineConfig({
   base: BASE,
+  // Shown in Settings so we can tell which version a device is running
+  define: { __APP_VERSION__: JSON.stringify(new Date().toISOString().slice(0, 16).replace('T', ' ')) },
   plugins: [
     react(),
     // Installable app + offline: everything (code, content, audio, icons) is

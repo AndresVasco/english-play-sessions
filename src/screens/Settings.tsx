@@ -13,6 +13,7 @@ import {
   useProgress,
 } from '../progress/store.ts'
 import type { ProgressFile } from '../progress/types.ts'
+import { UpdateBanner, applyUpdate, checkForUpdates } from '../components/UpdateBanner.tsx'
 
 // Default minutes per block type (the routine in the brief).
 const ROUTINE_MINUTES: Record<string, number> = {
@@ -31,6 +32,18 @@ export function Settings({ back }: { back: () => void }) {
   const fileInput = useRef<HTMLInputElement>(null)
   const [message, setMessage] = useState<string | null>(null)
   const [backup, setBackup] = useState<{ reason: string; takenAt: string } | null>(null)
+  const [updateStatus, setUpdateStatus] = useState<string | null>(null)
+
+  const onCheckUpdates = async () => {
+    setUpdateStatus('Checking…')
+    const r = await checkForUpdates()
+    if (r === 'ready') {
+      setUpdateStatus('A new version is ready — updating…')
+      applyUpdate()
+    } else if (r === 'downloading') setUpdateStatus('A new version is downloading. Keep the app open for a minute, then tap again.')
+    else if (r === 'latest') setUpdateStatus('✓ You have the latest version.')
+    else setUpdateStatus('No internet right now. Try again with a connection.')
+  }
 
   useEffect(() => {
     getBackup().then((b) => setBackup(b ? { reason: b.reason, takenAt: b.takenAt } : null))
@@ -209,6 +222,14 @@ export function Settings({ back }: { back: () => void }) {
           {message}
         </p>
       )}
+
+      <h2>App version</h2>
+      <UpdateBanner />
+      <p className="setting-help">Version {__APP_VERSION__}</p>
+      <button type="button" className="small-btn" onClick={onCheckUpdates}>
+        ⟳ Check for updates
+      </button>
+      {updateStatus && <p className="setting-message">{updateStatus}</p>}
 
       <section className="credits">
         <h2>Credits</h2>
