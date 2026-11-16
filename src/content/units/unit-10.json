@@ -1,0 +1,890 @@
+{
+  "id": "unit-10",
+  "number": 10,
+  "title": "Daily Routine",
+  "theme": "Daily routine",
+  "goal": "Tell her day in order (\"I wake up, I eat breakfast…\") with about 15 routine phrases, using \"first\", \"then\", \"in the morning\" and \"at night\".",
+  "items": [
+    {
+      "id": "u10-wake-up",
+      "text": "I wake up",
+      "translation": "Me despierto",
+      "image": "⏰",
+      "audio": "audio/u10-wake-up.mp3",
+      "audioEs": "audio/es/u10-wake-up.mp3",
+      "tags": [
+        "routine",
+        "verb"
+      ]
+    },
+    {
+      "id": "u10-get-dressed",
+      "text": "I get dressed",
+      "translation": "Me visto",
+      "image": "👚",
+      "audio": "audio/u10-get-dressed.mp3",
+      "audioEs": "audio/es/u10-get-dressed.mp3",
+      "tags": [
+        "routine",
+        "verb"
+      ]
+    },
+    {
+      "id": "u10-wash-face",
+      "text": "I wash my face",
+      "translation": "Me lavo la cara",
+      "image": "🧼",
+      "audio": "audio/u10-wash-face.mp3",
+      "audioEs": "audio/es/u10-wash-face.mp3",
+      "tags": [
+        "routine",
+        "verb"
+      ]
+    },
+    {
+      "id": "u10-brush-teeth",
+      "text": "I brush my teeth",
+      "translation": "Me cepillo los dientes",
+      "image": "🪥",
+      "audio": "audio/u10-brush-teeth.mp3",
+      "audioEs": "audio/es/u10-brush-teeth.mp3",
+      "tags": [
+        "routine",
+        "verb"
+      ]
+    },
+    {
+      "id": "u10-eat-breakfast",
+      "text": "I eat breakfast",
+      "translation": "Desayuno",
+      "image": "🥣",
+      "audio": "audio/u10-eat-breakfast.mp3",
+      "audioEs": "audio/es/u10-eat-breakfast.mp3",
+      "tags": [
+        "routine",
+        "verb"
+      ]
+    },
+    {
+      "id": "u10-go-to-school",
+      "text": "I go to school",
+      "translation": "Voy al colegio",
+      "image": "🏫",
+      "audio": "audio/u10-go-to-school.mp3",
+      "audioEs": "audio/es/u10-go-to-school.mp3",
+      "tags": [
+        "routine",
+        "verb"
+      ]
+    },
+    {
+      "id": "u10-eat-lunch",
+      "text": "I eat lunch",
+      "translation": "Almuerzo",
+      "image": "🍽️",
+      "audio": "audio/u10-eat-lunch.mp3",
+      "audioEs": "audio/es/u10-eat-lunch.mp3",
+      "tags": [
+        "routine",
+        "verb"
+      ]
+    },
+    {
+      "id": "u10-do-homework",
+      "text": "I do my homework",
+      "translation": "Hago la tarea",
+      "image": "📝",
+      "audio": "audio/u10-do-homework.mp3",
+      "audioEs": "audio/es/u10-do-homework.mp3",
+      "tags": [
+        "routine",
+        "verb"
+      ]
+    },
+    {
+      "id": "u10-play",
+      "text": "I play",
+      "translation": "Juego",
+      "image": "🧸",
+      "audio": "audio/u10-play.mp3",
+      "audioEs": "audio/es/u10-play.mp3",
+      "tags": [
+        "routine",
+        "verb"
+      ]
+    },
+    {
+      "id": "u10-watch-tv",
+      "text": "I watch TV",
+      "translation": "Veo televisión",
+      "image": "📺",
+      "audio": "audio/u10-watch-tv.mp3",
+      "audioEs": "audio/es/u10-watch-tv.mp3",
+      "tags": [
+        "routine",
+        "verb"
+      ]
+    },
+    {
+      "id": "u10-take-a-bath",
+      "text": "I take a bath",
+      "translation": "Me baño",
+      "image": "🛁",
+      "audio": "audio/u10-take-a-bath.mp3",
+      "audioEs": "audio/es/u10-take-a-bath.mp3",
+      "tags": [
+        "routine",
+        "verb"
+      ]
+    },
+    {
+      "id": "u10-hurry-up",
+      "text": "Hurry up!",
+      "translation": "¡Apúrate!",
+      "image": "🏃‍♀️",
+      "audio": "audio/u10-hurry-up.mp3",
+      "audioEs": "audio/es/u10-hurry-up.mp3",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "id": "u10-eat-dinner",
+      "text": "I eat dinner",
+      "translation": "Ceno",
+      "image": "🍲",
+      "audio": "audio/u10-eat-dinner.mp3",
+      "audioEs": "audio/es/u10-eat-dinner.mp3",
+      "tags": [
+        "routine",
+        "verb"
+      ]
+    },
+    {
+      "id": "u10-read-a-book",
+      "text": "I read a book",
+      "translation": "Leo un libro",
+      "image": "📖",
+      "audio": "audio/u10-read-a-book.mp3",
+      "audioEs": "audio/es/u10-read-a-book.mp3",
+      "tags": [
+        "routine",
+        "verb"
+      ]
+    },
+    {
+      "id": "u10-go-to-bed",
+      "text": "I go to bed",
+      "translation": "Me acuesto",
+      "image": "🛏️",
+      "audio": "audio/u10-go-to-bed.mp3",
+      "audioEs": "audio/es/u10-go-to-bed.mp3",
+      "tags": [
+        "routine",
+        "verb"
+      ]
+    },
+    {
+      "id": "u10-sleep",
+      "text": "I sleep",
+      "translation": "Duermo",
+      "image": "😴",
+      "audio": "audio/u10-sleep.mp3",
+      "audioEs": "audio/es/u10-sleep.mp3",
+      "tags": [
+        "routine",
+        "verb"
+      ]
+    },
+    {
+      "id": "u10-in-the-morning",
+      "text": "in the morning",
+      "translation": "en la mañana",
+      "image": "🌅",
+      "audio": "audio/u10-in-the-morning.mp3",
+      "audioEs": "audio/es/u10-in-the-morning.mp3",
+      "tags": [
+        "routine",
+        "time"
+      ]
+    },
+    {
+      "id": "u10-at-night",
+      "text": "at night",
+      "translation": "en la noche",
+      "image": "🌃",
+      "audio": "audio/u10-at-night.mp3",
+      "audioEs": "audio/es/u10-at-night.mp3",
+      "tags": [
+        "routine",
+        "time"
+      ]
+    },
+    {
+      "id": "u10-what-do-you-do",
+      "text": "What do you do in the morning?",
+      "translation": "¿Qué haces en la mañana?",
+      "image": "❓",
+      "audio": "audio/u10-what-do-you-do.mp3",
+      "audioEs": "audio/es/u10-what-do-you-do.mp3",
+      "tags": [
+        "question",
+        "routine"
+      ]
+    },
+    {
+      "id": "u10-first",
+      "text": "first",
+      "translation": "primero",
+      "image": "1️⃣",
+      "audio": "audio/u10-first.mp3",
+      "audioEs": "audio/es/u10-first.mp3",
+      "tags": [
+        "routine",
+        "phrase"
+      ]
+    },
+    {
+      "id": "u10-then",
+      "text": "then",
+      "translation": "después",
+      "image": "➡️",
+      "audio": "audio/u10-then.mp3",
+      "audioEs": "audio/es/u10-then.mp3",
+      "tags": [
+        "routine",
+        "phrase"
+      ]
+    },
+    {
+      "id": "u10-every-day",
+      "text": "every day",
+      "translation": "todos los días",
+      "image": "📅",
+      "audio": "audio/u10-every-day.mp3",
+      "audioEs": "audio/es/u10-every-day.mp3",
+      "tags": [
+        "routine",
+        "time"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "auto-review",
+      "type": "simon-says",
+      "title": "Review: Simon Says + weak words",
+      "itemIds": [],
+      "autoReview": true,
+      "config": {
+        "intervalSec": 6
+      },
+      "teacherNotes": "La app escoge sus palabras más débiles y las mezcla con los comandos. Con cada rutina, ella hace la mímica mientras la dice (\"I brush my teeth!\" + cepillarse). Ropa y clima de la unidad 9: que haga la mímica de ponérsela o de sentir el clima. Desde la lección 2 aparece \"Hurry up!\": ella hace la mímica en cámara rápida."
+    },
+    {
+      "id": "u10-l1-cards",
+      "type": "flashcards",
+      "title": "Flashcards: My morning",
+      "itemIds": [
+        "u10-wake-up",
+        "u10-get-dressed",
+        "u10-wash-face",
+        "u10-brush-teeth",
+        "u10-eat-breakfast",
+        "u10-go-to-school"
+      ],
+      "teacherNotes": "Cada rutina con mímica grande: despertarse (estirarse y bostezar), vestirse, lavarse la cara, cepillarse los dientes, comer cereal, caminar con morral. Di siempre la frase completa con \"I\": \"I wake up!\". Ella repite haciendo la mímica."
+    },
+    {
+      "id": "u10-l1-freeze",
+      "type": "freeze-dance",
+      "title": "Freeze Dance: my morning",
+      "itemIds": [
+        "u10-wake-up",
+        "u10-get-dressed",
+        "u10-wash-face",
+        "u10-brush-teeth",
+        "u10-eat-breakfast",
+        "u10-go-to-school"
+      ],
+      "prompts": [
+        {
+          "id": "p-u10-l1-dance",
+          "en": "Dance!",
+          "es": "¡Baila!"
+        },
+        {
+          "id": "p-u10-l1-freeze",
+          "en": "Freeze! ___!",
+          "es": "¡Congélate! ¡___!"
+        }
+      ],
+      "teacherNotes": "Suena música, ella baila. Cuando para, la app dice una rutina (\"I brush my teeth!\") y ella se congela haciendo esa mímica. Marca ✓ si la mímica corresponde; bonus si repite la frase. Variante: ella controla la pausa y tú te congelas; ella dice qué estás haciendo."
+    },
+    {
+      "id": "u10-l2-cards",
+      "type": "flashcards",
+      "title": "Flashcards: My afternoon",
+      "itemIds": [
+        "u10-eat-lunch",
+        "u10-do-homework",
+        "u10-play",
+        "u10-watch-tv",
+        "u10-take-a-bath",
+        "u10-hurry-up"
+      ],
+      "teacherNotes": "Mímica: almorzar (comer con cuchara), hacer tareas (escribir en el aire), jugar (saltar feliz), ver tele (sentarse con cara de hipnotizada), bañarse (frotarse con jabón). \"Hurry up!\": todo en cámara rápida; es muy chistoso combinarlo: \"I brush my teeth… Hurry up!\"."
+    },
+    {
+      "id": "u10-l2-faces",
+      "type": "faces",
+      "title": "Show me your day",
+      "itemIds": [
+        "u10-wake-up",
+        "u10-get-dressed",
+        "u10-wash-face",
+        "u10-brush-teeth",
+        "u10-eat-breakfast",
+        "u10-go-to-school",
+        "u10-eat-lunch",
+        "u10-do-homework",
+        "u10-play",
+        "u10-watch-tv",
+        "u10-take-a-bath"
+      ],
+      "prompts": [
+        {
+          "id": "p-u10-l2-show",
+          "en": "Show me: ___!",
+          "es": "¡Muéstrame: ___!"
+        },
+        {
+          "id": "p-u10-l2-guess",
+          "en": "What am I doing?",
+          "es": "¿Qué estoy haciendo?"
+        }
+      ],
+      "teacherNotes": "Modo \"show me\": la app muestra una rutina y ella la actúa mientras la dice. Modo \"guess\": tú haces la mímica y ella toca la imagen y dice la frase con \"I\": \"I take a bath!\". Variante si se aburre: cambien de rol y agrega \"Hurry up!\" para que lo haga súper rápido."
+    },
+    {
+      "id": "u10-l3-cards",
+      "type": "flashcards",
+      "title": "Flashcards: My night",
+      "itemIds": [
+        "u10-eat-dinner",
+        "u10-read-a-book",
+        "u10-go-to-bed",
+        "u10-sleep",
+        "u10-in-the-morning",
+        "u10-at-night"
+      ],
+      "teacherNotes": "Baja la energía en esta lección: es la noche. Voz suave para \"I go to bed\" y \"I sleep\" (acostarse en el piso y roncar). \"In the morning\" (sol subiendo con los brazos) y \"at night\" (luna, voz bajita). Pregunta: \"I sleep… in the morning or at night?\"."
+    },
+    {
+      "id": "u10-l3-match",
+      "type": "memory-match",
+      "title": "Memory Match: my day",
+      "itemIds": [
+        "u10-wake-up",
+        "u10-get-dressed",
+        "u10-wash-face",
+        "u10-brush-teeth",
+        "u10-eat-breakfast",
+        "u10-go-to-school",
+        "u10-eat-lunch",
+        "u10-do-homework",
+        "u10-play",
+        "u10-watch-tv",
+        "u10-take-a-bath",
+        "u10-eat-dinner",
+        "u10-read-a-book",
+        "u10-go-to-bed",
+        "u10-sleep"
+      ],
+      "config": {
+        "pairs": 6
+      },
+      "teacherNotes": "Ella toca la pantalla. Cada vez que encuentra una pareja, se levanta y hace la mímica de esa rutina 3 segundos antes de seguir."
+    },
+    {
+      "id": "u10-l3-tap",
+      "type": "listen-and-tap",
+      "title": "Listen and Tap: my day",
+      "itemIds": [
+        "u10-wake-up",
+        "u10-get-dressed",
+        "u10-wash-face",
+        "u10-brush-teeth",
+        "u10-eat-breakfast",
+        "u10-go-to-school",
+        "u10-eat-lunch",
+        "u10-do-homework",
+        "u10-play",
+        "u10-watch-tv",
+        "u10-take-a-bath",
+        "u10-eat-dinner",
+        "u10-read-a-book",
+        "u10-go-to-bed",
+        "u10-sleep"
+      ],
+      "config": {
+        "choices": 4
+      },
+      "teacherNotes": "Suena la rutina, ella toca la imagen. Bonus: pregúntale \"In the morning or at night?\" para esa rutina."
+    },
+    {
+      "id": "u10-l4-cards",
+      "type": "flashcards",
+      "title": "Flashcards: First, then…",
+      "itemIds": [
+        "u10-what-do-you-do",
+        "u10-first",
+        "u10-then",
+        "u10-every-day"
+      ],
+      "teacherNotes": "Usa los dedos: \"First\" (un dedo) \"I wake up\", \"then\" (señalar adelante) \"I brush my teeth\". Practica la pregunta en pareja: \"What do you do in the morning?\" → \"I wake up, I eat breakfast…\". \"Every day\": dibuja un círculo grande con el brazo, como el sol que vuelve."
+    },
+    {
+      "id": "u10-l4-order",
+      "type": "find-it",
+      "title": "Order the picture cards",
+      "itemIds": [
+        "u10-wake-up",
+        "u10-get-dressed",
+        "u10-wash-face",
+        "u10-brush-teeth",
+        "u10-eat-breakfast",
+        "u10-go-to-school",
+        "u10-eat-lunch",
+        "u10-do-homework",
+        "u10-play",
+        "u10-watch-tv",
+        "u10-take-a-bath",
+        "u10-eat-dinner",
+        "u10-read-a-book",
+        "u10-go-to-bed",
+        "u10-sleep"
+      ],
+      "prompts": [
+        {
+          "id": "p-u10-l4-find",
+          "en": "Find the card: ___!",
+          "es": "¡Busca la tarjeta: ___!"
+        }
+      ],
+      "config": {
+        "seconds": 25
+      },
+      "teacherNotes": "Juego estrella. Antes de la sesión (o en la sesión anterior) ella dibuja en hojas 6–8 tarjetas de su día (despertarse, desayunar, colegio, bañarse, dormir…); tú escribes la frase en inglés debajo. Pega una línea de cinta en el piso: un extremo es 🌅 \"morning\", el otro 🌃 \"night\". Esconde las tarjetas. La app dice una rutina, ella busca la tarjeta y la pone en su lugar en la línea. Al final camina por la línea diciendo: \"First I wake up, then I eat breakfast…\". Cualquier orden con sentido vale ✓. Variante: tú pones una tarjeta en un lugar equivocado y ella la mueve."
+    },
+    {
+      "id": "u10-l4-freeze",
+      "type": "freeze-dance",
+      "title": "Freeze Dance: my whole day",
+      "itemIds": [
+        "u10-wake-up",
+        "u10-get-dressed",
+        "u10-wash-face",
+        "u10-brush-teeth",
+        "u10-eat-breakfast",
+        "u10-go-to-school",
+        "u10-eat-lunch",
+        "u10-do-homework",
+        "u10-play",
+        "u10-watch-tv",
+        "u10-take-a-bath",
+        "u10-eat-dinner",
+        "u10-read-a-book",
+        "u10-go-to-bed",
+        "u10-sleep"
+      ],
+      "prompts": [
+        {
+          "id": "p-u10-l4-dance",
+          "en": "Dance!",
+          "es": "¡Baila!"
+        },
+        {
+          "id": "p-u10-l4-freeze",
+          "en": "Freeze! ___!",
+          "es": "¡Congélate! ¡___!"
+        }
+      ],
+      "teacherNotes": "Igual que en la lección 1 pero con todas las rutinas. Úsalo si el juego de tarjetas terminó rápido o si necesita moverse más. Variante: después de congelarse, ella dice qué hace \"then\": \"Then I eat breakfast!\"."
+    }
+  ],
+  "songs": [
+    {
+      "id": "song-u10",
+      "title": "My Day Song",
+      "purpose": "Unit 10 song",
+      "lines": [
+        "I wake up and I brush my teeth,",
+        "I eat breakfast, I go to school,",
+        "I play, I eat, I take a bath,",
+        "I go to bed. Good night! Shhh…"
+      ],
+      "tempo": 96,
+      "melody": [
+        "C4:1 D4:1 E4:1 F4:1 G4:1 G4:1 A4:1 G4:1",
+        "G4:1 G4:1 A4:1 G4:1 F4:1 E4:1 D4:1 C4:1",
+        "E4:1 G4:1 E4:1 G4:1 F4:1 E4:1 D4:1 E4:1",
+        "G4:1 F4:1 E4:1 D4:1 E4:1 D4:1 C4:2"
+      ],
+      "chords": [
+        "C C F C",
+        "C F Dm C",
+        "C C G C",
+        "G G C C"
+      ]
+    }
+  ],
+  "stickers": [
+    {
+      "id": "u10-sun",
+      "emoji": "🌞"
+    },
+    {
+      "id": "u10-moon",
+      "emoji": "🌛"
+    },
+    {
+      "id": "u10-clock",
+      "emoji": "🕰️"
+    },
+    {
+      "id": "u10-pancakes",
+      "emoji": "🥞"
+    },
+    {
+      "id": "u10-books",
+      "emoji": "📚"
+    },
+    {
+      "id": "u10-bus",
+      "emoji": "🚌"
+    },
+    {
+      "id": "u10-backpack",
+      "emoji": "🎒"
+    },
+    {
+      "id": "u10-glowing-star",
+      "emoji": "🌟"
+    },
+    {
+      "id": "u10-yo-yo",
+      "emoji": "🪀"
+    },
+    {
+      "id": "u10-complete",
+      "emoji": "🏆",
+      "reserved": true,
+      "label": "Unit 10 complete"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "u10-l1",
+      "number": 1,
+      "title": "My morning",
+      "keyExchange": {
+        "en": "What do you do? → I wake up! I brush my teeth!",
+        "es": "¿Qué haces? → ¡Me despierto! ¡Me cepillo los dientes!"
+      },
+      "newItems": [
+        "u10-wake-up",
+        "u10-get-dressed",
+        "u10-wash-face",
+        "u10-brush-teeth",
+        "u10-eat-breakfast",
+        "u10-go-to-school"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-wave",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-09",
+        "unit-10"
+      ],
+      "songId": "song-u10",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u10-l1-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u10-l1-freeze"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u10"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Usa las rutinas reales: si la sesión es en la mañana, pregúntale qué hizo hoy y que lo muestre con mímica."
+      ]
+    },
+    {
+      "id": "u10-l2",
+      "number": 2,
+      "title": "My afternoon",
+      "keyExchange": {
+        "en": "What do you do after school? → I eat lunch. I play!",
+        "es": "¿Qué haces después del colegio? → Almuerzo. ¡Juego!"
+      },
+      "newItems": [
+        "u10-eat-lunch",
+        "u10-do-homework",
+        "u10-play",
+        "u10-watch-tv",
+        "u10-take-a-bath",
+        "u10-hurry-up"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-wave",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u10-hurry-up"
+      ],
+      "newCommands": [
+        "u10-hurry-up"
+      ],
+      "reviewFrom": [
+        "unit-09",
+        "unit-10"
+      ],
+      "songId": "song-u10",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u10-l2-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u10-l2-faces"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u10"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "\"Hurry up!\" se puede usar fuera de la sesión, en la rutina real de la casa (con humor, nunca como regaño)."
+      ]
+    },
+    {
+      "id": "u10-l3",
+      "number": 3,
+      "title": "My night",
+      "keyExchange": {
+        "en": "What do you do at night? → I take a bath. I go to bed.",
+        "es": "¿Qué haces en la noche? → Me baño. Me acuesto."
+      },
+      "newItems": [
+        "u10-eat-dinner",
+        "u10-read-a-book",
+        "u10-go-to-bed",
+        "u10-sleep",
+        "u10-in-the-morning",
+        "u10-at-night"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-wave",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u10-hurry-up"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-09",
+        "unit-10"
+      ],
+      "songId": "song-u10",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u10-l3-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u10-l3-match",
+            "u10-l3-tap"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u10"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Para el bloque de juego: primero memory-match, a mitad de tiempo pasa a listen-and-tap (o antes con \"switch game\")."
+      ]
+    },
+    {
+      "id": "u10-l4",
+      "number": 4,
+      "title": "My day show",
+      "keyExchange": {
+        "en": "What do you do in the morning? → First I wake up, then I eat breakfast.",
+        "es": "¿Qué haces en la mañana? → Primero me despierto, después desayuno."
+      },
+      "newItems": [
+        "u10-what-do-you-do",
+        "u10-first",
+        "u10-then",
+        "u10-every-day"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-wave",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u10-hurry-up"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-09",
+        "unit-10"
+      ],
+      "songId": "song-u10",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u10-l4-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u10-l4-order",
+            "u10-l4-freeze"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u10"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Mini show (opcional, última sesión de la unidad): ella le cuenta a la mamá su día caminando por la línea de tarjetas: \"First I wake up, then I brush my teeth… at night I sleep. Good night!\". Esto vale como proyecto de cierre.",
+        "En la pantalla de stickers de esta lección hay un botón discreto para darle el trofeo 🏆 \"Unit 10 complete\" cuando tú decidas que terminó la unidad."
+      ]
+    }
+  ]
+}

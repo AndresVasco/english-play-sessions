@@ -1,0 +1,858 @@
+{
+  "id": "unit-12",
+  "number": 12,
+  "title": "Final Project",
+  "theme": "Final project: my favorite animal or character",
+  "goal": "Present her favorite animal or character to the family with \"This is my…\", \"Its name is…\", \"It is…\", \"It can…\" and \"I like it!\", in a short final show.",
+  "items": [
+    {
+      "id": "u12-this-is-my",
+      "text": "This is my…",
+      "translation": "Este es mi…",
+      "image": "🖼️",
+      "audio": "audio/u12-this-is-my.mp3",
+      "audioEs": "audio/es/u12-this-is-my.mp3",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "u12-its-name-is",
+      "text": "Its name is…",
+      "translation": "Se llama…",
+      "image": "📛",
+      "audio": "audio/u12-its-name-is.mp3",
+      "audioEs": "audio/es/u12-its-name-is.mp3",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "u12-dragon",
+      "text": "dragon",
+      "translation": "un dragón",
+      "image": "🐉",
+      "audio": "audio/u12-dragon.mp3",
+      "audioEs": "audio/es/u12-dragon.mp3",
+      "tags": [
+        "character"
+      ]
+    },
+    {
+      "id": "u12-robot",
+      "text": "robot",
+      "translation": "un robot",
+      "image": "🤖",
+      "audio": "audio/u12-robot.mp3",
+      "audioEs": "audio/es/u12-robot.mp3",
+      "tags": [
+        "character"
+      ]
+    },
+    {
+      "id": "u12-princess",
+      "text": "princess",
+      "translation": "una princesa",
+      "image": "👸",
+      "audio": "audio/u12-princess.mp3",
+      "audioEs": "audio/es/u12-princess.mp3",
+      "tags": [
+        "character"
+      ]
+    },
+    {
+      "id": "u12-superhero",
+      "text": "superhero",
+      "translation": "una superheroína",
+      "image": "🦸‍♀️",
+      "audio": "audio/u12-superhero.mp3",
+      "audioEs": "audio/es/u12-superhero.mp3",
+      "tags": [
+        "character"
+      ]
+    },
+    {
+      "id": "u12-it-is",
+      "text": "It is…",
+      "translation": "Es…",
+      "image": "💬",
+      "audio": "audio/u12-it-is.mp3",
+      "audioEs": "audio/es/u12-it-is.mp3",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "u12-funny",
+      "text": "funny",
+      "translation": "divertido",
+      "image": "😂",
+      "audio": "audio/u12-funny.mp3",
+      "audioEs": "audio/es/u12-funny.mp3",
+      "tags": [
+        "describe"
+      ]
+    },
+    {
+      "id": "u12-strong",
+      "text": "strong",
+      "translation": "fuerte",
+      "image": "💪",
+      "audio": "audio/u12-strong.mp3",
+      "audioEs": "audio/es/u12-strong.mp3",
+      "tags": [
+        "describe"
+      ]
+    },
+    {
+      "id": "u12-cute",
+      "text": "cute",
+      "translation": "tierno",
+      "image": "🥰",
+      "audio": "audio/u12-cute.mp3",
+      "audioEs": "audio/es/u12-cute.mp3",
+      "tags": [
+        "describe"
+      ]
+    },
+    {
+      "id": "u12-fast",
+      "text": "fast",
+      "translation": "rápido",
+      "image": "⚡",
+      "audio": "audio/u12-fast.mp3",
+      "audioEs": "audio/es/u12-fast.mp3",
+      "tags": [
+        "describe"
+      ]
+    },
+    {
+      "id": "u12-smart",
+      "text": "smart",
+      "translation": "inteligente",
+      "image": "🧠",
+      "audio": "audio/u12-smart.mp3",
+      "audioEs": "audio/es/u12-smart.mp3",
+      "tags": [
+        "describe"
+      ]
+    },
+    {
+      "id": "u12-it-can",
+      "text": "It can…",
+      "translation": "Puede…",
+      "image": "✨",
+      "audio": "audio/u12-it-can.mp3",
+      "audioEs": "audio/es/u12-it-can.mp3",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "u12-it-cant",
+      "text": "It can't…",
+      "translation": "No puede…",
+      "image": "🚫",
+      "audio": "audio/u12-it-cant.mp3",
+      "audioEs": "audio/es/u12-it-cant.mp3",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "u12-fly",
+      "text": "fly",
+      "translation": "volar",
+      "image": "🕊️",
+      "audio": "audio/u12-fly.mp3",
+      "audioEs": "audio/es/u12-fly.mp3",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "u12-swim",
+      "text": "swim",
+      "translation": "nadar",
+      "image": "🐟",
+      "audio": "audio/u12-swim.mp3",
+      "audioEs": "audio/es/u12-swim.mp3",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "u12-climb",
+      "text": "climb",
+      "translation": "trepar",
+      "image": "🧗‍♀️",
+      "audio": "audio/u12-climb.mp3",
+      "audioEs": "audio/es/u12-climb.mp3",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "u12-i-like-it",
+      "text": "I like it!",
+      "translation": "¡Me gusta!",
+      "image": "❤️",
+      "audio": "audio/u12-i-like-it.mp3",
+      "audioEs": "audio/es/u12-i-like-it.mp3",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "u12-hello-everyone",
+      "text": "Hello, everyone!",
+      "translation": "¡Hola a todos!",
+      "image": "🎤",
+      "audio": "audio/u12-hello-everyone.mp3",
+      "audioEs": "audio/es/u12-hello-everyone.mp3",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "u12-look",
+      "text": "Look!",
+      "translation": "¡Miren!",
+      "image": "👀",
+      "audio": "audio/u12-look.mp3",
+      "audioEs": "audio/es/u12-look.mp3",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "u12-the-end",
+      "text": "The end!",
+      "translation": "¡Fin!",
+      "image": "🏁",
+      "audio": "audio/u12-the-end.mp3",
+      "audioEs": "audio/es/u12-the-end.mp3",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "u12-take-a-bow",
+      "text": "Take a bow!",
+      "translation": "¡Haz una reverencia!",
+      "image": "🙇‍♀️",
+      "audio": "audio/u12-take-a-bow.mp3",
+      "audioEs": "audio/es/u12-take-a-bow.mp3",
+      "tags": [
+        "command"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "auto-review",
+      "type": "simon-says",
+      "title": "Review: Simon Says + weak words",
+      "itemIds": [],
+      "autoReview": true,
+      "config": {
+        "intervalSec": 6
+      },
+      "teacherNotes": "Repaso de todo el curso: la app mezcla comandos con sus palabras más débiles (saludos, colores, animales, \"I like…\", \"I can…\", lugares). Para cada palabra, que la actúe y la diga en una frase corta: \"It's blue!\", \"I can jump!\", \"Let's go to the park!\". Todo lo que diga cuenta para la presentación final."
+    },
+    {
+      "id": "u12-l1-cards",
+      "type": "flashcards",
+      "title": "Flashcards: This is my…",
+      "itemIds": [
+        "u12-this-is-my",
+        "u12-its-name-is",
+        "u12-dragon",
+        "u12-robot",
+        "u12-princess",
+        "u12-superhero"
+      ],
+      "teacherNotes": "Con \"This is my…\" muestra un peluche o juguete de ella con orgullo: \"This is my teddy!\". Para los personajes: dragón = alas y fuego con la boca; robot = moverte rígido con voz de robot; princesa = corona y saludo elegante; superheroína = puños arriba como si volaras. Al final pregúntale: \"What is your favorite animal or character?\" y que escoja el protagonista de su presentación (puede ser un animal de la Unidad 8 o un personaje inventado, nunca uno de marca)."
+    },
+    {
+      "id": "u12-l1-faces",
+      "type": "faces",
+      "title": "Move like a character",
+      "itemIds": [
+        "u12-dragon",
+        "u12-robot",
+        "u12-princess",
+        "u12-superhero"
+      ],
+      "prompts": [
+        {
+          "id": "p-u12-move-like",
+          "en": "Move like a ___!",
+          "es": "¡Muévete como ___!"
+        },
+        {
+          "id": "p-u12-guess-who",
+          "en": "Guess who I am!",
+          "es": "¡Adivina quién soy!"
+        }
+      ],
+      "teacherNotes": "La app muestra un personaje y ella se mueve como él por toda la sala diciendo \"I'm a dragon!\". Luego invierte el rol: tú te mueves y ella adivina. Variante si se aburre: agrega su animal o personaje favorito (de verdad, sin la app) y que ella invente cómo se mueve. Cierre: que dibuje a su personaje en una hoja grande: ese dibujo será su \"cartel\" para la presentación final."
+    },
+    {
+      "id": "u12-l2-cards",
+      "type": "flashcards",
+      "title": "Flashcards: It is…",
+      "itemIds": [
+        "u12-it-is",
+        "u12-funny",
+        "u12-strong",
+        "u12-cute",
+        "u12-fast",
+        "u12-smart"
+      ],
+      "teacherNotes": "Actúa cada palabra con el cuerpo: funny = reírte a carcajadas; strong = mostrar músculos; cute = cara tierna con las manos en las mejillas; fast = correr en el puesto; smart = dedo en la cabeza. Usa su dibujo: \"It is strong! It is funny!\". Recuérdale que también puede usar colores y tamaños de antes: \"It is blue! It is big!\"."
+    },
+    {
+      "id": "u12-l2-freeze",
+      "type": "freeze-dance",
+      "title": "Freeze Dance: it is…",
+      "itemIds": [
+        "u12-funny",
+        "u12-strong",
+        "u12-cute",
+        "u12-fast",
+        "u12-smart"
+      ],
+      "prompts": [
+        {
+          "id": "p-u12-dance",
+          "en": "Dance!",
+          "es": "¡Baila!"
+        },
+        {
+          "id": "p-u12-freeze-it-is",
+          "en": "Freeze! It is ___!",
+          "es": "¡Congélate! ¡Es ___!"
+        }
+      ],
+      "teacherNotes": "Suena música, ella baila. Cuando para, la app dice \"It is strong!\" y ella se congela en una pose de fuerte (o rápida, tierna, chistosa, inteligente). Marca ✓/↻. Variante: ella controla la pausa y tú bailas y te congelas; ella dice la palabra de tu pose."
+    },
+    {
+      "id": "u12-l3-cards",
+      "type": "flashcards",
+      "title": "Flashcards: It can… I like it!",
+      "itemIds": [
+        "u12-it-can",
+        "u12-it-cant",
+        "u12-fly",
+        "u12-swim",
+        "u12-climb",
+        "u12-i-like-it"
+      ],
+      "teacherNotes": "Fly = aletear; swim = nadar en el aire; climb = trepar una escalera imaginaria. \"It can't…\" = mover el dedo diciendo que no. Juego rápido: \"A fish… can it fly?\" → \"No! It can't fly!\". \"I like it!\" = abrazo al dibujo de su personaje. Desde esta lección: ensayen las primeras 3 frases de la presentación con su cartel."
+    },
+    {
+      "id": "u12-l3-faces",
+      "type": "faces",
+      "title": "It can… show me!",
+      "itemIds": [
+        "u12-fly",
+        "u12-swim",
+        "u12-climb"
+      ],
+      "prompts": [
+        {
+          "id": "p-u12-it-can",
+          "en": "It can ___! Show me!",
+          "es": "¡Puede ___! ¡Muéstrame!"
+        },
+        {
+          "id": "p-u12-what-can",
+          "en": "What can it do?",
+          "es": "¿Qué puede hacer?"
+        }
+      ],
+      "teacherNotes": "La app dice \"It can fly! Show me!\" y ella vuela por la sala. En modo adivinar, tú haces la acción y ella dice \"It can swim!\". Después cambia al juego de buscar con \"switch game\"."
+    },
+    {
+      "id": "u12-l3-find",
+      "type": "find-it",
+      "title": "Find something that can…",
+      "itemIds": [
+        "u12-fly",
+        "u12-swim",
+        "u12-climb"
+      ],
+      "config": {
+        "seconds": 25
+      },
+      "prompts": [
+        {
+          "id": "p-u12-find-can",
+          "en": "Find something that can ___!",
+          "es": "¡Busca algo que pueda ___!"
+        }
+      ],
+      "teacherNotes": "Ella corre a buscar en la casa un juguete, peluche o dibujo que pueda hacer esa acción (un pájaro o avión que vuela, un pato o pez que nada, un mono o araña que trepa). Al traerlo dice \"It can fly!\". Cualquier objeto con una explicación divertida vale ✓. Variante: ella esconde objetos y te manda a buscar a ti."
+    },
+    {
+      "id": "u12-l4-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Show time",
+      "itemIds": [
+        "u12-hello-everyone",
+        "u12-look",
+        "u12-the-end",
+        "u12-take-a-bow"
+      ],
+      "teacherNotes": "Practica como en un escenario: \"Hello, everyone!\" con el micrófono imaginario (o un cepillo); \"Look!\" mostrando el cartel; \"The end!\" con los brazos abiertos; \"Take a bow!\" y ella hace la reverencia mientras tú aplaudes fuerte."
+    },
+    {
+      "id": "u12-l4-show",
+      "type": "flashcards",
+      "title": "The Big Show: cue cards",
+      "itemIds": [
+        "u12-hello-everyone",
+        "u12-look",
+        "u12-this-is-my",
+        "u12-its-name-is",
+        "u12-it-is",
+        "u12-it-can",
+        "u12-i-like-it",
+        "u12-the-end",
+        "u12-take-a-bow"
+      ],
+      "teacherNotes": "Juego estrella: ¡la presentación! Las tarjetas salen en el orden de la presentación y le sirven de guía. Ella se para en el \"escenario\" (una cinta en el piso) con su cartel y completa cada frase con SU personaje: \"Hello, everyone! Look! This is my ___. Its name is ___. It is ___. It can ___. I like it! The end!\" y hace la reverencia. Primero ensayen (tú marcas ✓ generoso), después llama a la mamá (o peluches de público) para el show de verdad. Si se traba, susurra el comienzo de la frase. Variante: grábenla en video SOLO en tu celular para la familia (nunca en el repositorio)."
+    },
+    {
+      "id": "u12-l4-match",
+      "type": "memory-match",
+      "title": "Memory Match: the course",
+      "itemIds": [
+        "u12-dragon",
+        "u12-robot",
+        "u12-princess",
+        "u12-superhero",
+        "u12-funny",
+        "u12-strong",
+        "u12-cute",
+        "u12-fast",
+        "u12-smart",
+        "u12-fly",
+        "u12-swim",
+        "u12-climb"
+      ],
+      "config": {
+        "pairs": 6
+      },
+      "teacherNotes": "Juego de premio después del show: ella toca la pantalla. Cada pareja es un dibujo y su palabra. Cuando encuentre una pareja, que diga una frase: \"It is fast!\", \"It can fly!\"."
+    }
+  ],
+  "songs": [
+    {
+      "id": "song-u12",
+      "title": "My Favorite Friend",
+      "purpose": "Unit 12 song",
+      "lines": [
+        "This is my friend, look and see!",
+        "It is funny, just like me!",
+        "It can fly and it can run,",
+        "I like my friend, we have fun!"
+      ],
+      "tempo": 100,
+      "melody": [
+        "E4:1 E4:1 F4:1 G4:1 G4:1 F4:1 E4:2",
+        "F4:1 F4:1 E4:1 E4:1 D4:1 D4:1 C4:2",
+        "E4:1 G4:1 A4:1 A4:1 G4:1 E4:1 G4:2",
+        "G4:1 G4:1 F4:1 F4:1 D4:1 D4:1 C4:2"
+      ],
+      "chords": [
+        "C F G C",
+        "F C G C",
+        "C F C G",
+        "C F G C"
+      ]
+    }
+  ],
+  "stickers": [
+    {
+      "id": "u12-microphone",
+      "emoji": "🎤"
+    },
+    {
+      "id": "u12-masks",
+      "emoji": "🎭"
+    },
+    {
+      "id": "u12-glowing-star",
+      "emoji": "🌟"
+    },
+    {
+      "id": "u12-party",
+      "emoji": "🎉"
+    },
+    {
+      "id": "u12-crown",
+      "emoji": "👑"
+    },
+    {
+      "id": "u12-palette",
+      "emoji": "🎨"
+    },
+    {
+      "id": "u12-bouquet",
+      "emoji": "💐"
+    },
+    {
+      "id": "u12-gift",
+      "emoji": "🎁"
+    },
+    {
+      "id": "u12-unicorn",
+      "emoji": "🦄"
+    },
+    {
+      "id": "u12-complete",
+      "emoji": "🎓",
+      "reserved": true,
+      "label": "Unit 12 complete"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "u12-l1",
+      "number": 1,
+      "title": "This Is My Friend",
+      "keyExchange": {
+        "en": "Who is this? → This is my dragon! Its name is ___.",
+        "es": "¿Quién es? → ¡Este es mi dragón! Se llama ___."
+      },
+      "newItems": [
+        "u12-this-is-my",
+        "u12-its-name-is",
+        "u12-dragon",
+        "u12-robot",
+        "u12-princess",
+        "u12-superhero"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u11-go-straight",
+        "u11-turn-left",
+        "u11-turn-right"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-01",
+        "unit-02",
+        "unit-06",
+        "unit-07",
+        "unit-08",
+        "unit-11",
+        "unit-12"
+      ],
+      "songId": "song-u12",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u12-l1-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u12-l1-faces"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u12"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Esta unidad es el proyecto final: su presentación de su animal o personaje favorito. En esta lección ella lo escoge y lo dibuja. Puede ser un animal (de la Unidad 8), un dragón, un robot, una princesa, una superheroína o uno inventado; nunca un personaje de marca.",
+        "Si escoge un personaje femenino, enséñale \"Her name is…\" en vez de \"Its name is…\" (y \"She is…\", \"She can…\"). No hace falta tarjeta: díselo tú."
+      ]
+    },
+    {
+      "id": "u12-l2",
+      "number": 2,
+      "title": "It Is…",
+      "keyExchange": {
+        "en": "Is it fast? → Yes! It is fast!",
+        "es": "¿Es rápido? → ¡Sí! ¡Es rápido!"
+      },
+      "newItems": [
+        "u12-it-is",
+        "u12-funny",
+        "u12-strong",
+        "u12-cute",
+        "u12-fast",
+        "u12-smart"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u11-go-straight",
+        "u11-turn-left",
+        "u11-turn-right"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-01",
+        "unit-02",
+        "unit-06",
+        "unit-07",
+        "unit-08",
+        "unit-11",
+        "unit-12"
+      ],
+      "songId": "song-u12",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u12-l2-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u12-l2-freeze"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u12"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Al final de la sesión, que diga 2 frases sobre su personaje con el cartel: \"This is my ___. It is ___!\". Pega en el cartel un papelito con las palabras que escoja (dibujadas, no escritas, si todavía no lee)."
+      ]
+    },
+    {
+      "id": "u12-l3",
+      "number": 3,
+      "title": "It Can… I Like It!",
+      "keyExchange": {
+        "en": "Can it fly? → Yes, it can! / No, it can't.",
+        "es": "¿Puede volar? → ¡Sí puede! / No puede."
+      },
+      "newItems": [
+        "u12-it-can",
+        "u12-it-cant",
+        "u12-fly",
+        "u12-swim",
+        "u12-climb",
+        "u12-i-like-it"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u11-go-straight",
+        "u11-turn-left",
+        "u11-turn-right"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-01",
+        "unit-02",
+        "unit-06",
+        "unit-07",
+        "unit-08",
+        "unit-11",
+        "unit-12"
+      ],
+      "songId": "song-u12",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u12-l3-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u12-l3-faces",
+            "u12-l3-find"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u12"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Ensayo: al final, que diga su presentación completa una vez SOLO para ti, sin público, con el cartel. Celebra todo lo que diga; lo que falte lo ayudas tú.",
+        "Puede usar verbos de la Unidad 7 (\"It can jump! It can run!\"): todos valen."
+      ]
+    },
+    {
+      "id": "u12-l4",
+      "number": 4,
+      "title": "The Big Show",
+      "keyExchange": {
+        "en": "Hello, everyone! This is my ___. It is ___. It can ___. I like it! The end!",
+        "es": "¡Hola a todos! Este es mi ___. Es ___. Puede ___. ¡Me gusta! ¡Fin!"
+      },
+      "newItems": [
+        "u12-hello-everyone",
+        "u12-look",
+        "u12-the-end",
+        "u12-take-a-bow"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u11-go-straight",
+        "u11-turn-left",
+        "u11-turn-right",
+        "u12-take-a-bow"
+      ],
+      "newCommands": [
+        "u12-take-a-bow"
+      ],
+      "reviewFrom": [
+        "unit-01",
+        "unit-02",
+        "unit-06",
+        "unit-07",
+        "unit-08",
+        "unit-11",
+        "unit-12"
+      ],
+      "songId": "song-u12",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u12-l4-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u12-l4-show",
+            "u12-l4-match"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u12"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Show final (la última sesión): invita a la mamá u otra persona de la familia. Prepara el \"escenario\" con una cinta en el piso y sillas para el público. Que el público aplauda mucho y haga una pregunta fácil al final (\"Can it swim?\").",
+        "Repite esta lección todas las veces que quiera: cada show es un éxito. Si le da pena, empieza presentando a los peluches.",
+        "En la pantalla de stickers de esta lección hay un botón discreto para darle el trofeo 🎓 \"Unit 12 complete\" cuando tú decidas que terminó el curso."
+      ]
+    }
+  ]
+}

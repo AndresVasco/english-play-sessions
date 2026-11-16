@@ -1,0 +1,887 @@
+{
+  "id": "unit-07",
+  "number": 7,
+  "title": "Action Verbs",
+  "theme": "Action verbs",
+  "goal": "Act out 14 action verbs, say what she can and can't do (\"I can jump!\", \"No, I can't.\"), and answer \"Can you…?\".",
+  "items": [
+    {
+      "id": "u7-run",
+      "text": "run",
+      "translation": "correr",
+      "image": "🏃‍♀️",
+      "audio": "audio/u7-run.mp3",
+      "audioEs": "audio/es/u7-run.mp3",
+      "tags": [
+        "verb",
+        "command"
+      ]
+    },
+    {
+      "id": "u7-walk",
+      "text": "walk",
+      "translation": "caminar",
+      "image": "🚶‍♀️",
+      "audio": "audio/u7-walk.mp3",
+      "audioEs": "audio/es/u7-walk.mp3",
+      "tags": [
+        "verb",
+        "command"
+      ]
+    },
+    {
+      "id": "u7-dance",
+      "text": "dance",
+      "translation": "bailar",
+      "image": "💃",
+      "audio": "audio/u7-dance.mp3",
+      "audioEs": "audio/es/u7-dance.mp3",
+      "tags": [
+        "verb",
+        "command"
+      ]
+    },
+    {
+      "id": "u7-sing",
+      "text": "sing",
+      "translation": "cantar",
+      "image": "🎤",
+      "audio": "audio/u7-sing.mp3",
+      "audioEs": "audio/es/u7-sing.mp3",
+      "tags": [
+        "verb",
+        "command"
+      ]
+    },
+    {
+      "id": "u7-fly",
+      "text": "fly",
+      "translation": "volar",
+      "image": "🐦",
+      "audio": "audio/u7-fly.mp3",
+      "audioEs": "audio/es/u7-fly.mp3",
+      "tags": [
+        "verb",
+        "command"
+      ]
+    },
+    {
+      "id": "u7-i-can",
+      "text": "I can…",
+      "translation": "Yo puedo…",
+      "image": "💪",
+      "audio": "audio/u7-i-can.mp3",
+      "audioEs": "audio/es/u7-i-can.mp3",
+      "tags": [
+        "verb",
+        "phrase"
+      ]
+    },
+    {
+      "id": "u7-swim",
+      "text": "swim",
+      "translation": "nadar",
+      "image": "🏊‍♀️",
+      "audio": "audio/u7-swim.mp3",
+      "audioEs": "audio/es/u7-swim.mp3",
+      "tags": [
+        "verb",
+        "command"
+      ]
+    },
+    {
+      "id": "u7-climb",
+      "text": "climb",
+      "translation": "trepar",
+      "image": "🧗‍♀️",
+      "audio": "audio/u7-climb.mp3",
+      "audioEs": "audio/es/u7-climb.mp3",
+      "tags": [
+        "verb",
+        "command"
+      ]
+    },
+    {
+      "id": "u7-kick",
+      "text": "kick",
+      "translation": "patear",
+      "image": "🦵",
+      "audio": "audio/u7-kick.mp3",
+      "audioEs": "audio/es/u7-kick.mp3",
+      "tags": [
+        "verb",
+        "command"
+      ]
+    },
+    {
+      "id": "u7-throw",
+      "text": "throw",
+      "translation": "lanzar",
+      "image": "🤾‍♀️",
+      "audio": "audio/u7-throw.mp3",
+      "audioEs": "audio/es/u7-throw.mp3",
+      "tags": [
+        "verb",
+        "command"
+      ]
+    },
+    {
+      "id": "u7-can-you",
+      "text": "Can you…?",
+      "translation": "¿Puedes…?",
+      "image": "❔",
+      "audio": "audio/u7-can-you.mp3",
+      "audioEs": "audio/es/u7-can-you.mp3",
+      "tags": [
+        "verb",
+        "question"
+      ]
+    },
+    {
+      "id": "u7-yes-i-can",
+      "text": "Yes, I can!",
+      "translation": "¡Sí, puedo!",
+      "image": "👍",
+      "audio": "audio/u7-yes-i-can.mp3",
+      "audioEs": "audio/es/u7-yes-i-can.mp3",
+      "tags": [
+        "verb",
+        "phrase"
+      ]
+    },
+    {
+      "id": "u7-hop",
+      "text": "hop",
+      "translation": "saltar en un pie",
+      "image": "🦶",
+      "audio": "audio/u7-hop.mp3",
+      "audioEs": "audio/es/u7-hop.mp3",
+      "tags": [
+        "verb",
+        "command"
+      ]
+    },
+    {
+      "id": "u7-crawl",
+      "text": "crawl",
+      "translation": "gatear",
+      "image": "👶",
+      "audio": "audio/u7-crawl.mp3",
+      "audioEs": "audio/es/u7-crawl.mp3",
+      "tags": [
+        "verb",
+        "command"
+      ]
+    },
+    {
+      "id": "u7-stomp",
+      "text": "stomp",
+      "translation": "pisar fuerte",
+      "image": "🐘",
+      "audio": "audio/u7-stomp.mp3",
+      "audioEs": "audio/es/u7-stomp.mp3",
+      "tags": [
+        "verb",
+        "command"
+      ]
+    },
+    {
+      "id": "u7-stretch",
+      "text": "stretch",
+      "translation": "estirarse",
+      "image": "🙆‍♀️",
+      "audio": "audio/u7-stretch.mp3",
+      "audioEs": "audio/es/u7-stretch.mp3",
+      "tags": [
+        "verb",
+        "command"
+      ]
+    },
+    {
+      "id": "u7-sleep",
+      "text": "sleep",
+      "translation": "dormir",
+      "image": "😴",
+      "audio": "audio/u7-sleep.mp3",
+      "audioEs": "audio/es/u7-sleep.mp3",
+      "tags": [
+        "verb",
+        "command"
+      ]
+    },
+    {
+      "id": "u7-i-cant",
+      "text": "No, I can't.",
+      "translation": "No, no puedo.",
+      "image": "🚫",
+      "audio": "audio/u7-i-cant.mp3",
+      "audioEs": "audio/es/u7-i-cant.mp3",
+      "tags": [
+        "verb",
+        "phrase"
+      ]
+    },
+    {
+      "id": "u7-look-at-me",
+      "text": "Look at me!",
+      "translation": "¡Mírame!",
+      "image": "🤸‍♀️",
+      "audio": "audio/u7-look-at-me.mp3",
+      "audioEs": "audio/es/u7-look-at-me.mp3",
+      "tags": [
+        "verb",
+        "phrase"
+      ]
+    },
+    {
+      "id": "u7-fast",
+      "text": "fast",
+      "translation": "rápido",
+      "image": "⚡",
+      "audio": "audio/u7-fast.mp3",
+      "audioEs": "audio/es/u7-fast.mp3",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "u7-slow",
+      "text": "slow",
+      "translation": "despacio",
+      "image": "🐢",
+      "audio": "audio/u7-slow.mp3",
+      "audioEs": "audio/es/u7-slow.mp3",
+      "tags": [
+        "verb"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "auto-review",
+      "type": "simon-says",
+      "title": "Review: Simon Says + weak words",
+      "itemIds": [],
+      "autoReview": true,
+      "config": {
+        "intervalSec": 6
+      },
+      "teacherNotes": "Los verbos de esta unidad también son comandos: la app los mezcla con Stand up, Jump, etc. y con las palabras más débiles. Cuando ella haga la acción, pregúntale \"What can you do?\" y que diga \"I can run!\"."
+    },
+    {
+      "id": "u7-l1-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Actions 1",
+      "itemIds": [
+        "u7-run",
+        "u7-walk",
+        "u7-dance",
+        "u7-sing",
+        "u7-fly",
+        "u7-i-can"
+      ],
+      "teacherNotes": "Cada verbo se hace con el cuerpo: corre en el sitio, camina, baila, canta \"la la la\", vuela con los brazos. Ella lo hace contigo y lo dice. Con \"I can…\" saca músculo con el brazo y di \"I can jump!\" saltando."
+    },
+    {
+      "id": "u7-l1-show",
+      "type": "faces",
+      "title": "Can you do it?",
+      "itemIds": [
+        "u7-run",
+        "u7-walk",
+        "u7-dance",
+        "u7-sing",
+        "u7-fly"
+      ],
+      "prompts": [
+        {
+          "id": "p-u7-can-you-show",
+          "en": "Can you ___? Show me!",
+          "es": "¿Puedes ___? ¡Muéstrame!"
+        },
+        {
+          "id": "p-u7-guess-action",
+          "en": "Guess my action!",
+          "es": "¡Adivina qué hago!"
+        }
+      ],
+      "teacherNotes": "Modo \"show me\": la app dice \"Can you fly? Show me!\" y ella lo hace mientras dice \"I can fly!\". Modo adivinar: tú haces la acción y ella dice el verbo y toca el dibujo. Variante: hazlo en cámara lenta o súper rápido; ella tiene que imitarte a la misma velocidad."
+    },
+    {
+      "id": "u7-l2-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Actions 2",
+      "itemIds": [
+        "u7-swim",
+        "u7-climb",
+        "u7-kick",
+        "u7-throw",
+        "u7-can-you",
+        "u7-yes-i-can"
+      ],
+      "teacherNotes": "Nada con los brazos, trepa una escalera imaginaria, patea una pelota invisible, lanza una pelota (si tienen una suave, úsala). Pregunta \"Can you swim?\" y ella responde \"Yes, I can!\" haciendo la acción."
+    },
+    {
+      "id": "u7-l2-freeze",
+      "type": "freeze-dance",
+      "title": "Freeze Dance: actions",
+      "itemIds": [
+        "u7-run",
+        "u7-walk",
+        "u7-sing",
+        "u7-fly",
+        "u7-swim",
+        "u7-climb",
+        "u7-kick",
+        "u7-throw"
+      ],
+      "prompts": [
+        {
+          "id": "p-u7-dance",
+          "en": "Dance!",
+          "es": "¡Baila!"
+        },
+        {
+          "id": "p-u7-freeze-now",
+          "en": "Freeze! Now ___!",
+          "es": "¡Congélate! ¡Ahora a ___!"
+        }
+      ],
+      "teacherNotes": "El juego estrella de la unidad. Suena música y ella baila. Cuando para, se congela un segundo y la app dice \"Freeze! Now swim!\": ella hace esa acción hasta que vuelva la música. Marca ✓ si hace la acción correcta. Variante: tú también juegas y te equivocas a propósito (nadas cuando dijo \"fly\"); ella te corrige: \"No! Fly!\"."
+    },
+    {
+      "id": "u7-l3-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Actions 3",
+      "itemIds": [
+        "u7-hop",
+        "u7-crawl",
+        "u7-stomp",
+        "u7-stretch",
+        "u7-sleep",
+        "u7-i-cant"
+      ],
+      "teacherNotes": "Salta en un pie, gatea, pisa fuerte como elefante, estírate hacia el techo, duerme (ronquido incluido). Para \"No, I can't.\" pregunta algo imposible: \"Can you fly to the moon?\" y que diga \"No, I can't!\" moviendo la cabeza. Se va a reír."
+    },
+    {
+      "id": "u7-l3-course",
+      "type": "find-it",
+      "title": "Action race to the door",
+      "itemIds": [
+        "u7-run",
+        "u7-walk",
+        "u7-fly",
+        "u7-swim",
+        "u7-hop",
+        "u7-crawl",
+        "u7-stomp"
+      ],
+      "config": {
+        "seconds": 20
+      },
+      "prompts": [
+        {
+          "id": "p-u7-to-the-door",
+          "en": "Can you ___ to the door?",
+          "es": "¿Puedes ___ hasta la puerta?"
+        }
+      ],
+      "teacherNotes": "Ella empieza en un extremo del cuarto (o del pasillo). La app dice \"Can you hop to the door?\" y ella va hasta la puerta de esa forma antes de que se acabe el tiempo. Al llegar dice \"Yes, I can!\". Marca ✓ si usa la acción correcta. Variante: tú haces la carrera y ella decide si lo hiciste bien (\"Yes, you can!\")."
+    },
+    {
+      "id": "u7-l4-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Look at me!",
+      "itemIds": [
+        "u7-look-at-me",
+        "u7-fast",
+        "u7-slow"
+      ],
+      "teacherNotes": "Combina con verbos que ya sabe: \"Run fast!\" (corre rápido), \"Walk slow!\" (cámara lenta). Ella grita \"Look at me!\" antes de cada acción. Marca ✓ si dice la palabra, aunque mezcle el orden."
+    },
+    {
+      "id": "u7-l4-freeze",
+      "type": "freeze-dance",
+      "title": "Freeze Dance: fast and slow",
+      "itemIds": [
+        "u7-run",
+        "u7-walk",
+        "u7-sing",
+        "u7-fly",
+        "u7-swim",
+        "u7-climb",
+        "u7-kick",
+        "u7-throw",
+        "u7-hop",
+        "u7-crawl",
+        "u7-stomp",
+        "u7-stretch",
+        "u7-sleep"
+      ],
+      "prompts": [
+        {
+          "id": "p-u7-l4-dance",
+          "en": "Dance fast!",
+          "es": "¡Baila rápido!"
+        },
+        {
+          "id": "p-u7-l4-freeze",
+          "en": "Freeze! Now ___!",
+          "es": "¡Congélate! ¡Ahora a ___!"
+        }
+      ],
+      "teacherNotes": "Como en la lección 2 pero con todos los verbos. Cuando la app diga la acción, tú agregas \"fast!\" o \"slow!\" y ella la hace a esa velocidad. Variante: ella es la que dice \"fast\" o \"slow\" y tú haces la acción."
+    },
+    {
+      "id": "u7-l4-match",
+      "type": "memory-match",
+      "title": "Memory Match: actions",
+      "itemIds": [
+        "u7-run",
+        "u7-walk",
+        "u7-dance",
+        "u7-sing",
+        "u7-fly",
+        "u7-swim",
+        "u7-climb",
+        "u7-kick",
+        "u7-throw",
+        "u7-hop",
+        "u7-crawl",
+        "u7-stomp",
+        "u7-stretch",
+        "u7-sleep"
+      ],
+      "config": {
+        "pairs": 6
+      },
+      "teacherNotes": "Para bajar la energía al final: ella toca la pantalla para encontrar parejas (dibujo ↔ palabra). Cada vez que encuentre una, que haga la acción 3 segundos y diga \"I can swim!\"."
+    }
+  ],
+  "songs": [
+    {
+      "id": "song-u7",
+      "title": "I Can Jump",
+      "purpose": "Unit 7 song",
+      "lines": [
+        "I can jump, jump, jump!",
+        "I can run, run, run!",
+        "I can dance and I can sing!",
+        "Look at me, I can fly!"
+      ],
+      "tempo": 110,
+      "melody": [
+        "C4:1 E4:1 G4:2 G4:2 G4:2",
+        "D4:1 F4:1 A4:2 A4:2 A4:2",
+        "G4:1 G4:1 A4:1 G4:1 F4:1 E4:1 D4:2",
+        "E4:1 F4:1 G4:2 E4:1 D4:1 C4:2"
+      ],
+      "chords": [
+        "C C Em C",
+        "Dm Dm F Dm",
+        "C F Dm G",
+        "C C G C"
+      ]
+    }
+  ],
+  "stickers": [
+    {
+      "id": "u7-skateboard",
+      "emoji": "🛹"
+    },
+    {
+      "id": "u7-bike",
+      "emoji": "🚲"
+    },
+    {
+      "id": "u7-basketball",
+      "emoji": "🏀"
+    },
+    {
+      "id": "u7-rocket",
+      "emoji": "🚀"
+    },
+    {
+      "id": "u7-medal",
+      "emoji": "🥇"
+    },
+    {
+      "id": "u7-guitar",
+      "emoji": "🎸"
+    },
+    {
+      "id": "u7-surfer",
+      "emoji": "🏄‍♀️"
+    },
+    {
+      "id": "u7-kangaroo",
+      "emoji": "🦘"
+    },
+    {
+      "id": "u7-monkey",
+      "emoji": "🐒"
+    },
+    {
+      "id": "u7-complete",
+      "emoji": "🏆",
+      "reserved": true,
+      "label": "Unit 7 complete"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "u7-l1",
+      "number": 1,
+      "title": "I Can Run!",
+      "keyExchange": {
+        "en": "What can you do? → I can run!",
+        "es": "¿Qué puedes hacer? → ¡Puedo correr!"
+      },
+      "newItems": [
+        "u7-run",
+        "u7-walk",
+        "u7-dance",
+        "u7-sing",
+        "u7-fly",
+        "u7-i-can"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u7-run",
+        "u7-walk",
+        "u7-dance",
+        "u7-sing",
+        "u7-fly"
+      ],
+      "newCommands": [
+        "u7-run",
+        "u7-walk",
+        "u7-dance",
+        "u7-sing",
+        "u7-fly"
+      ],
+      "reviewFrom": [
+        "unit-06",
+        "unit-07"
+      ],
+      "songId": "song-u7",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u7-l1-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u7-l1-show"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u7"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "\"Jump\" ya lo conoce como comando: úsalo para la frase clave del curso, \"I can jump!\", cada vez que salte."
+      ]
+    },
+    {
+      "id": "u7-l2",
+      "number": 2,
+      "title": "Can You Swim?",
+      "keyExchange": {
+        "en": "Can you swim? → Yes, I can!",
+        "es": "¿Puedes nadar? → ¡Sí, puedo!"
+      },
+      "newItems": [
+        "u7-swim",
+        "u7-climb",
+        "u7-kick",
+        "u7-throw",
+        "u7-can-you",
+        "u7-yes-i-can"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u7-run",
+        "u7-walk",
+        "u7-dance",
+        "u7-sing",
+        "u7-fly",
+        "u7-swim",
+        "u7-climb",
+        "u7-kick",
+        "u7-throw"
+      ],
+      "newCommands": [
+        "u7-swim",
+        "u7-climb",
+        "u7-kick",
+        "u7-throw"
+      ],
+      "reviewFrom": [
+        "unit-06",
+        "unit-07"
+      ],
+      "songId": "song-u7",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u7-l2-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u7-l2-freeze"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u7"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Si se pone muy acelerada, mete \"walk\" y \"swim\" lentos como acciones de calma."
+      ]
+    },
+    {
+      "id": "u7-l3",
+      "number": 3,
+      "title": "Hop, Crawl, Stomp",
+      "keyExchange": {
+        "en": "Can you fly? → No, I can't!",
+        "es": "¿Puedes volar? → ¡No, no puedo!"
+      },
+      "newItems": [
+        "u7-hop",
+        "u7-crawl",
+        "u7-stomp",
+        "u7-stretch",
+        "u7-sleep",
+        "u7-i-cant"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u7-run",
+        "u7-walk",
+        "u7-dance",
+        "u7-sing",
+        "u7-fly",
+        "u7-swim",
+        "u7-climb",
+        "u7-kick",
+        "u7-throw",
+        "u7-hop",
+        "u7-crawl",
+        "u7-stomp",
+        "u7-stretch",
+        "u7-sleep"
+      ],
+      "newCommands": [
+        "u7-hop",
+        "u7-crawl",
+        "u7-stomp",
+        "u7-stretch",
+        "u7-sleep"
+      ],
+      "reviewFrom": [
+        "unit-06",
+        "unit-07"
+      ],
+      "songId": "song-u7",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u7-l3-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u7-l3-course"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u7"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "\"Stretch\" y \"sleep\" son tus botones de calma: si está muy acelerada, termina el bloque con un estiramiento largo y 10 segundos de \"sleep\"."
+      ]
+    },
+    {
+      "id": "u7-l4",
+      "number": 4,
+      "title": "Review & Action Show",
+      "keyExchange": {
+        "en": "Look at me! I can hop fast!",
+        "es": "¡Mírame! ¡Puedo saltar en un pie rápido!"
+      },
+      "newItems": [
+        "u7-look-at-me",
+        "u7-fast",
+        "u7-slow"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u7-run",
+        "u7-walk",
+        "u7-dance",
+        "u7-sing",
+        "u7-fly",
+        "u7-swim",
+        "u7-climb",
+        "u7-kick",
+        "u7-throw",
+        "u7-hop",
+        "u7-crawl",
+        "u7-stomp",
+        "u7-stretch",
+        "u7-sleep"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-06",
+        "unit-07"
+      ],
+      "songId": "song-u7",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u7-l4-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u7-l4-freeze",
+            "u7-l4-match"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u7"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Action show (opcional, última sesión de la unidad): ella le muestra a la mamá todo lo que puede hacer: \"Look at me! I can hop! I can dance! I can't fly!\". Vale como proyecto de cierre de la unidad.",
+        "En la pantalla de stickers de esta lección hay un botón discreto para darle el trofeo 🏆 \"Unit 7 complete\" cuando tú decidas que terminó la unidad."
+      ]
+    }
+  ]
+}

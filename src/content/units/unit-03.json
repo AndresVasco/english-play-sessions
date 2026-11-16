@@ -1,0 +1,905 @@
+{
+  "id": "unit-03",
+  "number": 3,
+  "title": "My Body",
+  "theme": "My body",
+  "goal": "Name 15 body parts, follow body commands like \"Touch your nose!\" and describe a monster (\"It has three eyes!\").",
+  "items": [
+    {
+      "id": "u3-head",
+      "text": "head",
+      "translation": "la cabeza",
+      "image": "🙆‍♀️",
+      "audio": "audio/u3-head.mp3",
+      "audioEs": "audio/es/u3-head.mp3",
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "u3-eyes",
+      "text": "eyes",
+      "translation": "los ojos",
+      "image": "👀",
+      "audio": "audio/u3-eyes.mp3",
+      "audioEs": "audio/es/u3-eyes.mp3",
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "u3-ears",
+      "text": "ears",
+      "translation": "las orejas",
+      "image": "👂",
+      "audio": "audio/u3-ears.mp3",
+      "audioEs": "audio/es/u3-ears.mp3",
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "u3-nose",
+      "text": "nose",
+      "translation": "la nariz",
+      "image": "👃",
+      "audio": "audio/u3-nose.mp3",
+      "audioEs": "audio/es/u3-nose.mp3",
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "u3-mouth",
+      "text": "mouth",
+      "translation": "la boca",
+      "image": "👄",
+      "audio": "audio/u3-mouth.mp3",
+      "audioEs": "audio/es/u3-mouth.mp3",
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "u3-touch-your-nose",
+      "text": "Touch your nose!",
+      "translation": "¡Tócate la nariz!",
+      "image": "👉👃",
+      "audio": "audio/u3-touch-your-nose.mp3",
+      "audioEs": "audio/es/u3-touch-your-nose.mp3",
+      "tags": [
+        "command",
+        "body"
+      ]
+    },
+    {
+      "id": "u3-arms",
+      "text": "arms",
+      "translation": "los brazos",
+      "image": "💪",
+      "audio": "audio/u3-arms.mp3",
+      "audioEs": "audio/es/u3-arms.mp3",
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "u3-hands",
+      "text": "hands",
+      "translation": "las manos",
+      "image": "🙌",
+      "audio": "audio/u3-hands.mp3",
+      "audioEs": "audio/es/u3-hands.mp3",
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "u3-fingers",
+      "text": "fingers",
+      "translation": "los dedos",
+      "image": "🖐️",
+      "audio": "audio/u3-fingers.mp3",
+      "audioEs": "audio/es/u3-fingers.mp3",
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "u3-legs",
+      "text": "legs",
+      "translation": "las piernas",
+      "image": "🦵",
+      "audio": "audio/u3-legs.mp3",
+      "audioEs": "audio/es/u3-legs.mp3",
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "u3-feet",
+      "text": "feet",
+      "translation": "los pies",
+      "image": "🦶",
+      "audio": "audio/u3-feet.mp3",
+      "audioEs": "audio/es/u3-feet.mp3",
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "u3-stamp-your-feet",
+      "text": "Stamp your feet!",
+      "translation": "¡Zapatea!",
+      "image": "👣",
+      "audio": "audio/u3-stamp-your-feet.mp3",
+      "audioEs": "audio/es/u3-stamp-your-feet.mp3",
+      "tags": [
+        "command",
+        "body"
+      ]
+    },
+    {
+      "id": "u3-hair",
+      "text": "hair",
+      "translation": "el pelo",
+      "image": "💇‍♀️",
+      "audio": "audio/u3-hair.mp3",
+      "audioEs": "audio/es/u3-hair.mp3",
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "u3-teeth",
+      "text": "teeth",
+      "translation": "los dientes",
+      "image": "🦷",
+      "audio": "audio/u3-teeth.mp3",
+      "audioEs": "audio/es/u3-teeth.mp3",
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "u3-tongue",
+      "text": "tongue",
+      "translation": "la lengua",
+      "image": "👅",
+      "audio": "audio/u3-tongue.mp3",
+      "audioEs": "audio/es/u3-tongue.mp3",
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "u3-shoulders",
+      "text": "shoulders",
+      "translation": "los hombros",
+      "image": "🤷‍♀️",
+      "audio": "audio/u3-shoulders.mp3",
+      "audioEs": "audio/es/u3-shoulders.mp3",
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "u3-knees",
+      "text": "knees",
+      "translation": "las rodillas",
+      "image": "🧎‍♀️",
+      "audio": "audio/u3-knees.mp3",
+      "audioEs": "audio/es/u3-knees.mp3",
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "u3-shake-your-body",
+      "text": "Shake your body!",
+      "translation": "¡Mueve el cuerpo!",
+      "image": "💃",
+      "audio": "audio/u3-shake-your-body.mp3",
+      "audioEs": "audio/es/u3-shake-your-body.mp3",
+      "tags": [
+        "command",
+        "body"
+      ]
+    },
+    {
+      "id": "u3-monster",
+      "text": "monster",
+      "translation": "monstruo",
+      "image": "👾",
+      "audio": "audio/u3-monster.mp3",
+      "audioEs": "audio/es/u3-monster.mp3",
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "u3-it-has",
+      "text": "It has…",
+      "translation": "Tiene…",
+      "image": "👉👾",
+      "audio": "audio/u3-it-has.mp3",
+      "audioEs": "audio/es/u3-it-has.mp3",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "u3-big",
+      "text": "big",
+      "translation": "grande",
+      "image": "🐘",
+      "audio": "audio/u3-big.mp3",
+      "audioEs": "audio/es/u3-big.mp3",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "id": "u3-small",
+      "text": "small",
+      "translation": "pequeño",
+      "image": "🐭",
+      "audio": "audio/u3-small.mp3",
+      "audioEs": "audio/es/u3-small.mp3",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "id": "u3-close-your-eyes",
+      "text": "Close your eyes!",
+      "translation": "¡Cierra los ojos!",
+      "image": "😌",
+      "audio": "audio/u3-close-your-eyes.mp3",
+      "audioEs": "audio/es/u3-close-your-eyes.mp3",
+      "tags": [
+        "command",
+        "body"
+      ]
+    },
+    {
+      "id": "u3-open-your-mouth",
+      "text": "Open your mouth!",
+      "translation": "¡Abre la boca!",
+      "image": "😮",
+      "audio": "audio/u3-open-your-mouth.mp3",
+      "audioEs": "audio/es/u3-open-your-mouth.mp3",
+      "tags": [
+        "command",
+        "body"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "auto-review",
+      "type": "simon-says",
+      "title": "Simon Says: body + weak words",
+      "itemIds": [],
+      "autoReview": true,
+      "config": {
+        "intervalSec": 6
+      },
+      "teacherNotes": "El juego estrella de la unidad. Di \"Simon says…\" antes de cada comando que suena: \"Simon says: touch your nose!\". De vez en cuando, di un comando SIN \"Simon says\": si ella se mueve, ríanse juntos y sigan (nadie pierde, no es error). Para las palabras de repaso (colores, números), combínalas con el cuerpo: \"Simon says: show me three fingers!\"."
+    },
+    {
+      "id": "u3-l1-cards",
+      "type": "flashcards",
+      "title": "Flashcards: My face",
+      "itemIds": [
+        "u3-head",
+        "u3-eyes",
+        "u3-ears",
+        "u3-nose",
+        "u3-mouth",
+        "u3-touch-your-nose"
+      ],
+      "teacherNotes": "Muestra la tarjeta y tócate esa parte del cuerpo exagerando mientras suena el audio; ella hace lo mismo y repite. Para \"Touch your nose!\" tócale la nariz con un dedo (¡boop!) y que ella te la toque a ti. Marca ✓ si se entiende."
+    },
+    {
+      "id": "u3-l1-touch",
+      "type": "faces",
+      "title": "Touch your…!",
+      "itemIds": [
+        "u3-head",
+        "u3-eyes",
+        "u3-ears",
+        "u3-nose",
+        "u3-mouth"
+      ],
+      "prompts": [
+        {
+          "id": "p-u3-touch",
+          "en": "Touch your ___!",
+          "es": "¡Tócate ___!"
+        },
+        {
+          "id": "p-u3-what-touch",
+          "en": "What am I touching?",
+          "es": "¿Qué estoy tocando?"
+        }
+      ],
+      "teacherNotes": "Modo \"show me\": la app dice \"Touch your nose!\" y ella se toca la nariz y dice \"Nose!\". Modo adivinar: tú te tocas una parte de la cara (en silencio) y ella toca la tarjeta correcta. Variante si se aburre: hazlo cada vez más rápido, o con los ojos cerrados."
+    },
+    {
+      "id": "u3-l2-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Arms & legs",
+      "itemIds": [
+        "u3-arms",
+        "u3-hands",
+        "u3-fingers",
+        "u3-legs",
+        "u3-feet",
+        "u3-stamp-your-feet"
+      ],
+      "teacherNotes": "Muévete con cada palabra: \"Arms!\" (brazos como molino), \"Hands!\" (manos arriba), \"Fingers!\" (mueve los dedos), \"Legs!\" (patadas suaves), \"Feet!\" (pies en el piso). \"Stamp your feet!\": zapateen fuerte juntos, le va a encantar el ruido."
+    },
+    {
+      "id": "u3-l2-freeze",
+      "type": "freeze-dance",
+      "title": "Freeze Dance: touch it!",
+      "itemIds": [
+        "u3-head",
+        "u3-eyes",
+        "u3-ears",
+        "u3-nose",
+        "u3-mouth",
+        "u3-arms",
+        "u3-hands",
+        "u3-fingers",
+        "u3-legs",
+        "u3-feet"
+      ],
+      "prompts": [
+        {
+          "id": "p-u3-dance",
+          "en": "Dance!",
+          "es": "¡Baila!"
+        },
+        {
+          "id": "p-u3-freeze-touch",
+          "en": "Freeze! Touch your ___!",
+          "es": "¡Congélate! ¡Tócate ___!"
+        }
+      ],
+      "teacherNotes": "Suena música, ella baila. Cuando para, la app dice una parte del cuerpo y ella se congela tocándola. Tú marcas ✓/↻. Variante: congélense tocándose esa parte el uno al otro (\"Touch my nose!\")."
+    },
+    {
+      "id": "u3-l3-cards",
+      "type": "flashcards",
+      "title": "Flashcards: More body parts",
+      "itemIds": [
+        "u3-hair",
+        "u3-teeth",
+        "u3-tongue",
+        "u3-shoulders",
+        "u3-knees",
+        "u3-shake-your-body"
+      ],
+      "teacherNotes": "\"Teeth\": sonrisa grande mostrando los dientes. \"Tongue\": saquen la lengua (¡le va a dar risa!). \"Shoulders\": sube y baja los hombros. \"Knees\": doblen las rodillas. \"Shake your body!\": bailen sacudiendo todo el cuerpo 3 segundos."
+    },
+    {
+      "id": "u3-l3-simon",
+      "type": "faces",
+      "title": "Simon Says: touch your…",
+      "itemIds": [
+        "u3-head",
+        "u3-eyes",
+        "u3-ears",
+        "u3-nose",
+        "u3-mouth",
+        "u3-arms",
+        "u3-hands",
+        "u3-fingers",
+        "u3-legs",
+        "u3-feet",
+        "u3-hair",
+        "u3-teeth",
+        "u3-tongue",
+        "u3-shoulders",
+        "u3-knees"
+      ],
+      "prompts": [
+        {
+          "id": "p-u3-simon-touch",
+          "en": "Simon says: touch your ___!",
+          "es": "Simón dice: ¡tócate ___!"
+        },
+        {
+          "id": "p-u3-guess-part",
+          "en": "Guess! What is it?",
+          "es": "¡Adivina! ¿Qué es?"
+        }
+      ],
+      "teacherNotes": "Juego estrella con toda la unidad: la app dice \"Simon says: touch your knees!\" y ella lo hace. Tú puedes añadir trampitas diciendo un comando sin \"Simon says\": si se mueve, ríanse y sigan, nunca es error. Modo adivinar: tú te tocas una parte y ella toca la tarjeta. Variante: ella es \"Simon\" y te da las órdenes a ti."
+    },
+    {
+      "id": "u3-l3-tap",
+      "type": "listen-and-tap",
+      "title": "Listen and Tap: body",
+      "itemIds": [
+        "u3-head",
+        "u3-eyes",
+        "u3-ears",
+        "u3-nose",
+        "u3-mouth",
+        "u3-arms",
+        "u3-hands",
+        "u3-fingers",
+        "u3-legs",
+        "u3-feet",
+        "u3-hair",
+        "u3-teeth",
+        "u3-tongue",
+        "u3-shoulders",
+        "u3-knees"
+      ],
+      "config": {
+        "choices": 4
+      },
+      "teacherNotes": "Suena una parte del cuerpo y ella toca la imagen correcta. Después de tocarla, que también se toque esa parte del cuerpo. Si duda, repite el audio con ↺."
+    },
+    {
+      "id": "u3-l4-cards",
+      "type": "flashcards",
+      "title": "Flashcards: My monster",
+      "itemIds": [
+        "u3-monster",
+        "u3-it-has",
+        "u3-big",
+        "u3-small",
+        "u3-close-your-eyes",
+        "u3-open-your-mouth"
+      ],
+      "teacherNotes": "\"Big\": abre los brazos enormes; \"small\": hazte chiquita. \"Monster\": cara y voz de monstruo amable. \"It has…\": señala el dibujo de un monstruo y di \"It has two eyes!\". \"Close your eyes!\" / \"Open your mouth!\": háganlo juntos. Marca ✓ si se entiende."
+    },
+    {
+      "id": "u3-l4-draw",
+      "type": "find-it",
+      "title": "Draw a monster",
+      "itemIds": [
+        "u3-eyes",
+        "u3-ears",
+        "u3-nose",
+        "u3-mouth",
+        "u3-arms",
+        "u3-hands",
+        "u3-legs",
+        "u3-feet",
+        "u3-hair",
+        "u3-teeth"
+      ],
+      "prompts": [
+        {
+          "id": "p-u3-draw",
+          "en": "Draw ___ on the monster!",
+          "es": "¡Dibújale ___ al monstruo!"
+        }
+      ],
+      "config": {
+        "seconds": 30
+      },
+      "teacherNotes": "Pon una hoja grande en el piso o la pared (si es lejos de la pantalla, mejor: tiene que correr). La app dice \"Draw eyes on the monster!\" y ella corre a dibujar (¡las que quiera: tres ojos está perfecto!). Al volver, pregúntale \"How many?\" y que responda \"Three eyes!\". Al final ella presenta su monstruo: \"It has three eyes! It's big!\"."
+    },
+    {
+      "id": "u3-l4-match",
+      "type": "memory-match",
+      "title": "Memory Match: body",
+      "itemIds": [
+        "u3-head",
+        "u3-eyes",
+        "u3-ears",
+        "u3-nose",
+        "u3-mouth",
+        "u3-arms",
+        "u3-hands",
+        "u3-fingers",
+        "u3-legs",
+        "u3-feet",
+        "u3-hair",
+        "u3-teeth",
+        "u3-tongue",
+        "u3-shoulders",
+        "u3-knees"
+      ],
+      "config": {
+        "pairs": 6
+      },
+      "teacherNotes": "Ella toca la pantalla para encontrar parejas imagen ↔ palabra. Con cada pareja encontrada, que se toque esa parte del cuerpo y la diga."
+    }
+  ],
+  "songs": [
+    {
+      "id": "song-u3",
+      "title": "My Body Song",
+      "purpose": "Unit 3 song",
+      "lines": [
+        "Touch your head and touch your nose,",
+        "Clap your hands and stamp your feet,",
+        "Eyes and mouth and arms and legs,",
+        "Shake, shake, shake your body!"
+      ],
+      "tempo": 108,
+      "melody": [
+        "C4:1 C4:1 E4:1 E4:1 G4:1 G4:1 E4:2",
+        "F4:1 F4:1 A4:1 A4:1 G4:1 G4:1 D4:2",
+        "E4:1 E4:1 D4:1 D4:1 C4:1 C4:1 A3:2",
+        "G4:1 G4:1 G4:1 E4:1 D4:1 C4:3"
+      ],
+      "chords": [
+        "C C C Am",
+        "F F C G",
+        "C G Am F",
+        "C C G C"
+      ]
+    }
+  ],
+  "stickers": [
+    {
+      "id": "u3-muscle",
+      "emoji": "💪"
+    },
+    {
+      "id": "u3-eyes",
+      "emoji": "👀"
+    },
+    {
+      "id": "u3-footprints",
+      "emoji": "👣"
+    },
+    {
+      "id": "u3-robot",
+      "emoji": "🤖"
+    },
+    {
+      "id": "u3-monster",
+      "emoji": "👾"
+    },
+    {
+      "id": "u3-dancer",
+      "emoji": "💃"
+    },
+    {
+      "id": "u3-sneaker",
+      "emoji": "👟"
+    },
+    {
+      "id": "u3-tooth",
+      "emoji": "🦷"
+    },
+    {
+      "id": "u3-hooray",
+      "emoji": "🙌"
+    },
+    {
+      "id": "u3-complete",
+      "emoji": "🏆",
+      "reserved": true,
+      "label": "Unit 3 complete"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "u3-l1",
+      "number": 1,
+      "title": "My Face",
+      "keyExchange": {
+        "en": "Touch your nose! → (she touches it) Nose!",
+        "es": "¡Tócate la nariz! → (se la toca) ¡Nariz!"
+      },
+      "newItems": [
+        "u3-head",
+        "u3-eyes",
+        "u3-ears",
+        "u3-nose",
+        "u3-mouth",
+        "u3-touch-your-nose"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u3-touch-your-nose"
+      ],
+      "newCommands": [
+        "u3-touch-your-nose"
+      ],
+      "reviewFrom": [
+        "unit-02",
+        "unit-03"
+      ],
+      "songId": "song-u3",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u3-l1-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u3-l1-touch"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u3"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ]
+    },
+    {
+      "id": "u3-l2",
+      "number": 2,
+      "title": "Arms & Legs",
+      "keyExchange": {
+        "en": "Stamp your feet! → (stamp, stamp) Feet!",
+        "es": "¡Zapatea! → (pum, pum) ¡Pies!"
+      },
+      "newItems": [
+        "u3-arms",
+        "u3-hands",
+        "u3-fingers",
+        "u3-legs",
+        "u3-feet",
+        "u3-stamp-your-feet"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u3-touch-your-nose",
+        "u3-stamp-your-feet"
+      ],
+      "newCommands": [
+        "u3-stamp-your-feet"
+      ],
+      "reviewFrom": [
+        "unit-02",
+        "unit-03"
+      ],
+      "songId": "song-u3",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u3-l2-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u3-l2-freeze"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u3"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Si se pone muy acelerada, usa \"Close your eyes… shhh\" (aunque es de la lección 4) para un minuto de calma con respiración."
+      ]
+    },
+    {
+      "id": "u3-l3",
+      "number": 3,
+      "title": "More Body Parts",
+      "keyExchange": {
+        "en": "Simon says: touch your shoulders! → (she touches them) Shoulders!",
+        "es": "Simón dice: ¡tócate los hombros! → (se los toca) ¡Hombros!"
+      },
+      "newItems": [
+        "u3-hair",
+        "u3-teeth",
+        "u3-tongue",
+        "u3-shoulders",
+        "u3-knees",
+        "u3-shake-your-body"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u3-touch-your-nose",
+        "u3-stamp-your-feet",
+        "u3-shake-your-body"
+      ],
+      "newCommands": [
+        "u3-shake-your-body"
+      ],
+      "reviewFrom": [
+        "unit-02",
+        "unit-03"
+      ],
+      "songId": "song-u3",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u3-l3-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u3-l3-simon",
+            "u3-l3-tap"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u3"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Si se frustra porque se le olvida una palabra, di tú la palabra y que la repita tocándose esa parte: eso cuenta como ↻, no como error."
+      ]
+    },
+    {
+      "id": "u3-l4",
+      "number": 4,
+      "title": "Monster Show",
+      "keyExchange": {
+        "en": "Tell me about your monster! → It has three eyes! It's big!",
+        "es": "¡Cuéntame de tu monstruo! → ¡Tiene tres ojos! ¡Es grande!"
+      },
+      "newItems": [
+        "u3-monster",
+        "u3-it-has",
+        "u3-big",
+        "u3-small",
+        "u3-close-your-eyes",
+        "u3-open-your-mouth"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u3-touch-your-nose",
+        "u3-stamp-your-feet",
+        "u3-shake-your-body",
+        "u3-close-your-eyes",
+        "u3-open-your-mouth"
+      ],
+      "newCommands": [
+        "u3-close-your-eyes",
+        "u3-open-your-mouth"
+      ],
+      "reviewFrom": [
+        "unit-02",
+        "unit-03"
+      ],
+      "songId": "song-u3",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u3-l4-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u3-l4-draw",
+            "u3-l4-match"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u3"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Mini show (opcional, última sesión de la unidad): ella le presenta su monstruo a la mamá: \"This is my monster! It has three eyes and two mouths! It's big!\". Usa los números de la Unidad 2. Esto vale como proyecto de cierre.",
+        "En la pantalla de stickers de esta lección hay un botón discreto para darle el trofeo 🏆 \"Unit 3 complete\" cuando tú decidas que terminó la unidad."
+      ]
+    }
+  ]
+}

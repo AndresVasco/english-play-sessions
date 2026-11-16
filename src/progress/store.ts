@@ -116,7 +116,7 @@ export async function exportProgress() {
 /** Checks an import file. Returns a problem in plain words, or null if OK. */
 export function checkImportFile(data: unknown): string | null {
   const f = data as Partial<ProgressFile>
-  if (!f || typeof f !== 'object' || f.app !== 'english-play-sessions') return 'This is not an English Play Sessions progress file.'
+  if (!f || typeof f !== 'object' || f.app !== 'english-play-sessions') return 'This is not an English Adventure progress file.'
   if (f.schemaVersion !== SCHEMA_VERSION)
     return `This file is from a different version of the app (version ${f.schemaVersion}, this app uses ${SCHEMA_VERSION}).`
   if (!Array.isArray(f.items) || !Array.isArray(f.sessions) || !Array.isArray(f.stickers) || !f.meta)

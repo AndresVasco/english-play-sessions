@@ -1,6 +1,6 @@
-# BUILD BRIEF: English Play Sessions (working title)
+# BUILD BRIEF: English Adventure (repo: english-play-sessions)
 
-**Readiness:** Personal project, scoped in chat. v1 = app shell + Unit 1 only. Course map for Units 1–12 included so the structure is designed for the full course from day one.
+**Readiness:** Personal project, scoped in chat. v1 = app shell + Unit 1, built and tested. On 2026-11-16 the owner asked for Units 2–12 to be drafted too (see Decision log); their content is in `docs/content/UNIT-XX-CONTENT.md` and waits for the owner's review.
 
 > **How Claude Code should use this brief**
 > 1. This brief is the source of truth for what we're building. Read it fully, and read it first at the start of every session.
@@ -72,7 +72,7 @@ Principles the app must respect:
 10. **Spanish peek:** a 🇨🇴 button on every learner-facing screen. Tapping it shows the Spanish translation *below* the English (smaller, different color) for words and on-screen instructions; English never disappears. The Spanish hides automatically after the peek duration (default **10 seconds**, configurable in Settings). Long-press plays Spanish audio then English audio ("feliz… happy!"). Every peek on an item is recorded and counts as a weak signal for the review rule.
 
 **Later** (do not build in v1):
-- Units 2–12 content (we'll add them one by one after piloting Unit 1)
+- ~~Units 2–12 content~~ — drafted on 2026-11-16 at the owner's request; adjust after the Unit 1 pilot
 - Automatic sync between devices (e.g. Firebase) and any login
 - Phone-as-remote controlling the PC screen
 - AI-generated content (teacher-side only, if ever)
@@ -175,7 +175,7 @@ Suggested structure:
 | Repo visibility | **Public** (required for free GitHub Pages). Safe because no learner data is ever committed. |
 | TTS tool | **Piper TTS** (open source, free, no account). Run by Claude Code in the cloud session, so nothing is installed on the owner's PC. Fallback: browser speech synthesis. |
 | Voices / accent | **US English: `en_US-hfc_female-medium`** (license CC BY-NC-SA 4.0: attribution, non-commercial, share-alike; OK for personal use). **Spanish (peek): `es_MX-claude-high`** (Apache 2.0). Chosen by ear from samples. Credits go in README and a Credits view in Settings. |
-| App name | Full: **"English Play Sessions"**. Short (under the icon): **"English Play"**. |
+| App name | Full: **"English Adventure"** (changed 2026-11-16; was "English Play Sessions"). Short (under the icon): **"Adventure"**. |
 | Music | **Generated in-app (Web Audio API).** Songs: the app plays a simple melody and shows the lyrics big, highlighting the current line (karaoke style); the teacher sings. TTS does not sing. Freeze Dance: generated loop that stops at random. |
 
 **Content defaults (decided while planning, change freely):**
@@ -210,7 +210,7 @@ v1 is done when:
 
 ## 12. Course map (Units 1–12, for structure only)
 
-Only Unit 1 is built in v1. This map exists so the schema supports the full course.
+All 12 units are drafted (2026-11-16). Unit 1 was written by the owner; Units 2–12 were drafted by Claude Code from this map and need the owner's review.
 
 | Unit | Theme | Key phrase | Star game |
 |---|---|---|---|
@@ -265,3 +265,7 @@ I want to build this app. I've already thought it through in the attached BUILD-
 | 2026-11-15 | PWA with `vite-plugin-pwa` (MIT, free); updates are offered with a banner on Home, never applied mid-session | A surprise reload during a session would break the routine |
 | 2026-11-15 | "Last lesson" moved from localStorage to the progress Meta (exported with the progress) | Matches the data model in section 6 |
 | 2026-11-15 | Short visits (< 30 s, no marks) are not logged as sessions | Keeps Stats meaningful |
+| 2026-11-16 | Redesign "English Adventure": sky background (sun, clouds, hills), lesson map with stops, original mascot Pip (says instructions, hops only on ✓), chunky cards, paw-print timer, Fredoka font (OFL, bundled) | Owner chose option B's interface with option A's background from 3 mockups, to catch her attention |
+| 2026-11-16 | App renamed "English Adventure"; short name "Adventure" (fits under the icon); repo name and progress-file format unchanged | Owner's choice; keeping the file format means old exports still import |
+| 2026-11-16 | Units 2–12 drafted now (content docs + JSON + audio) instead of after the pilot | Owner's request; each unit still needs the owner's review |
+| 2026-11-16 | Star games of the course map are played with the 7 existing activity types (e.g. restaurant = find-it "Can I have the ___, please?"); the physical game is explained in the teacher notes | No new code per unit |

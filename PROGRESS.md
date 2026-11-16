@@ -1,6 +1,6 @@
 # Progress
 
-Current phase: **Phase 3 – Memory** (built, waiting for the owner's test)
+Current phase: **Phase 4 – Pilot** (all 12 units drafted; redesign built)
 
 ## Phase 0 – Setup ✅ (done 2026-11-11)
 - [x] Unknowns confirmed (see BUILD-BRIEF.md section 9)
@@ -55,7 +55,14 @@ Temporary in Phase 1 (replaced later):
 - [x] Settings: block durations
 - [x] Installable PWA, works offline (107 files precached, incl. audio); update banner on Home only
 - [x] Simon Says faster (4 s default, old 6 s setting moved to 4 s) with live speed buttons
-- [ ] Owner tests: install on PC and phone, offline, export PC → import phone
+- [x] Owner tested on iPhone (2026-11-16): install, offline, export ✓. Music now plays in iPhone silent mode.
+- [ ] Owner tests on the PC: install, import the iPhone export, a session on the touchscreen
+
+## Redesign + full course (2026-11-16, owner's request)
+- [x] "English Adventure" redesign: sky, lesson map, Pip mascot, chunky cards, paw-print timer, Fredoka font
+- [x] Units 2–12 drafted: content docs, JSON (48 lessons, ~280 words and commands), ~850 audio files
+- [x] Every lesson of every unit clicked through in a browser, no errors
+- [ ] Owner reviews Units 2–12 content (translations, teacher notes, games)
 
 ## Phase 4 – Pilot
-Not started.
+Not started: 2 weeks of real sessions with Unit 1, noting what she loved / ignored / found too long.

@@ -1,0 +1,835 @@
+{
+  "id": "unit-06",
+  "number": 6,
+  "title": "Food",
+  "theme": "Food",
+  "goal": "Name fruit, food and drinks, say what she likes and doesn't like (\"I like… / I don't like…\"), and order politely in a pretend restaurant.",
+  "items": [
+    {
+      "id": "u6-apple",
+      "text": "apple",
+      "translation": "la manzana",
+      "image": "🍎",
+      "audio": "audio/u6-apple.mp3",
+      "audioEs": "audio/es/u6-apple.mp3",
+      "tags": [
+        "food",
+        "fruit"
+      ]
+    },
+    {
+      "id": "u6-banana",
+      "text": "banana",
+      "translation": "el banano",
+      "image": "🍌",
+      "audio": "audio/u6-banana.mp3",
+      "audioEs": "audio/es/u6-banana.mp3",
+      "tags": [
+        "food",
+        "fruit"
+      ]
+    },
+    {
+      "id": "u6-orange",
+      "text": "orange",
+      "translation": "la naranja",
+      "image": "🍊",
+      "audio": "audio/u6-orange.mp3",
+      "audioEs": "audio/es/u6-orange.mp3",
+      "tags": [
+        "food",
+        "fruit"
+      ]
+    },
+    {
+      "id": "u6-strawberry",
+      "text": "strawberry",
+      "translation": "la fresa",
+      "image": "🍓",
+      "audio": "audio/u6-strawberry.mp3",
+      "audioEs": "audio/es/u6-strawberry.mp3",
+      "tags": [
+        "food",
+        "fruit"
+      ]
+    },
+    {
+      "id": "u6-watermelon",
+      "text": "watermelon",
+      "translation": "la patilla",
+      "image": "🍉",
+      "audio": "audio/u6-watermelon.mp3",
+      "audioEs": "audio/es/u6-watermelon.mp3",
+      "tags": [
+        "food",
+        "fruit"
+      ]
+    },
+    {
+      "id": "u6-i-like",
+      "text": "I like…",
+      "translation": "Me gusta…",
+      "image": "👍",
+      "audio": "audio/u6-i-like.mp3",
+      "audioEs": "audio/es/u6-i-like.mp3",
+      "tags": [
+        "food",
+        "phrase"
+      ]
+    },
+    {
+      "id": "u6-bread",
+      "text": "bread",
+      "translation": "el pan",
+      "image": "🍞",
+      "audio": "audio/u6-bread.mp3",
+      "audioEs": "audio/es/u6-bread.mp3",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "u6-rice",
+      "text": "rice",
+      "translation": "el arroz",
+      "image": "🍚",
+      "audio": "audio/u6-rice.mp3",
+      "audioEs": "audio/es/u6-rice.mp3",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "u6-egg",
+      "text": "egg",
+      "translation": "el huevo",
+      "image": "🥚",
+      "audio": "audio/u6-egg.mp3",
+      "audioEs": "audio/es/u6-egg.mp3",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "u6-chicken",
+      "text": "chicken",
+      "translation": "el pollo",
+      "image": "🍗",
+      "audio": "audio/u6-chicken.mp3",
+      "audioEs": "audio/es/u6-chicken.mp3",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "u6-cheese",
+      "text": "cheese",
+      "translation": "el queso",
+      "image": "🧀",
+      "audio": "audio/u6-cheese.mp3",
+      "audioEs": "audio/es/u6-cheese.mp3",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "u6-i-dont-like",
+      "text": "I don't like…",
+      "translation": "No me gusta…",
+      "image": "👎",
+      "audio": "audio/u6-i-dont-like.mp3",
+      "audioEs": "audio/es/u6-i-dont-like.mp3",
+      "tags": [
+        "food",
+        "phrase"
+      ]
+    },
+    {
+      "id": "u6-milk",
+      "text": "milk",
+      "translation": "la leche",
+      "image": "🥛",
+      "audio": "audio/u6-milk.mp3",
+      "audioEs": "audio/es/u6-milk.mp3",
+      "tags": [
+        "food",
+        "drink"
+      ]
+    },
+    {
+      "id": "u6-juice",
+      "text": "juice",
+      "translation": "el jugo",
+      "image": "🧃",
+      "audio": "audio/u6-juice.mp3",
+      "audioEs": "audio/es/u6-juice.mp3",
+      "tags": [
+        "food",
+        "drink"
+      ]
+    },
+    {
+      "id": "u6-water",
+      "text": "water",
+      "translation": "el agua",
+      "image": "💧",
+      "audio": "audio/u6-water.mp3",
+      "audioEs": "audio/es/u6-water.mp3",
+      "tags": [
+        "food",
+        "drink"
+      ]
+    },
+    {
+      "id": "u6-ice-cream",
+      "text": "ice cream",
+      "translation": "el helado",
+      "image": "🍦",
+      "audio": "audio/u6-ice-cream.mp3",
+      "audioEs": "audio/es/u6-ice-cream.mp3",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "u6-can-i-have",
+      "text": "Can I have…, please?",
+      "translation": "¿Me das…, por favor?",
+      "image": "🍽️",
+      "audio": "audio/u6-can-i-have.mp3",
+      "audioEs": "audio/es/u6-can-i-have.mp3",
+      "tags": [
+        "food",
+        "question"
+      ]
+    },
+    {
+      "id": "u6-here-you-are",
+      "text": "Here you are!",
+      "translation": "¡Aquí tienes!",
+      "image": "🤲",
+      "audio": "audio/u6-here-you-are.mp3",
+      "audioEs": "audio/es/u6-here-you-are.mp3",
+      "tags": [
+        "food",
+        "phrase"
+      ]
+    },
+    {
+      "id": "u6-cookie",
+      "text": "cookie",
+      "translation": "la galleta",
+      "image": "🍪",
+      "audio": "audio/u6-cookie.mp3",
+      "audioEs": "audio/es/u6-cookie.mp3",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "u6-yummy",
+      "text": "Yummy!",
+      "translation": "¡Qué rico!",
+      "image": "😋",
+      "audio": "audio/u6-yummy.mp3",
+      "audioEs": "audio/es/u6-yummy.mp3",
+      "tags": [
+        "food",
+        "phrase"
+      ]
+    },
+    {
+      "id": "u6-yuck",
+      "text": "Yuck!",
+      "translation": "¡Guácala!",
+      "image": "🤢",
+      "audio": "audio/u6-yuck.mp3",
+      "audioEs": "audio/es/u6-yuck.mp3",
+      "tags": [
+        "food",
+        "phrase"
+      ]
+    },
+    {
+      "id": "u6-do-you-like",
+      "text": "Do you like…?",
+      "translation": "¿Te gusta…?",
+      "image": "👍❓",
+      "audio": "audio/u6-do-you-like.mp3",
+      "audioEs": "audio/es/u6-do-you-like.mp3",
+      "tags": [
+        "food",
+        "question"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "auto-review",
+      "type": "simon-says",
+      "title": "Review: Simon Says + weak words",
+      "itemIds": [],
+      "autoReview": true,
+      "config": {
+        "intervalSec": 6
+      },
+      "teacherNotes": "La app mezcla los comandos con las palabras más débiles. Si sale una comida, ella hace como que la come y dice \"I like…\" o \"I don't like…\" con el pulgar arriba o abajo. Si sale una palabra de la casa, que corra a tocarla."
+    },
+    {
+      "id": "u6-l1-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Fruit",
+      "itemIds": [
+        "u6-apple",
+        "u6-banana",
+        "u6-orange",
+        "u6-strawberry",
+        "u6-watermelon",
+        "u6-i-like"
+      ],
+      "teacherNotes": "Para cada fruta, haz como que la comes: muerde la manzana, pela el banano, exprime la naranja, escupe las pepas de la patilla. Con \"I like…\" levanta el pulgar y sóbate la barriga. Si tienen una fruta real en casa, úsala."
+    },
+    {
+      "id": "u6-l1-eat",
+      "type": "faces",
+      "title": "Pretend to eat!",
+      "itemIds": [
+        "u6-apple",
+        "u6-banana",
+        "u6-orange",
+        "u6-strawberry",
+        "u6-watermelon"
+      ],
+      "prompts": [
+        {
+          "id": "p-u6-pretend-eat",
+          "en": "Pretend to eat the ___!",
+          "es": "¡Haz como si comieras ___!"
+        },
+        {
+          "id": "p-u6-guess-fruit",
+          "en": "Guess my fruit!",
+          "es": "¡Adivina mi fruta!"
+        }
+      ],
+      "teacherNotes": "Modo \"show me\": la app muestra una fruta y ella hace como que se la come (con mímica grande). Al terminar pregúntale \"Do you like it?\" y que diga \"I like apples!\" o solo \"I like!\". Modo adivinar: tú haces la mímica y ella dice la fruta y toca el dibujo. Variante: hagan la patilla gigante entre los dos."
+    },
+    {
+      "id": "u6-l2-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Food",
+      "itemIds": [
+        "u6-bread",
+        "u6-rice",
+        "u6-egg",
+        "u6-chicken",
+        "u6-cheese",
+        "u6-i-dont-like"
+      ],
+      "teacherNotes": "Para cada comida, pregunta \"Do you like rice?\" y deja que responda con el pulgar arriba (\"I like rice!\") o abajo (\"I don't like rice!\"). Para \"I don't like…\" haz una cara de asco muy exagerada: le va a encantar. Las dos respuestas valen ✓; lo que cuenta es que lo diga."
+    },
+    {
+      "id": "u6-l2-freeze",
+      "type": "freeze-dance",
+      "title": "Freeze Dance: do you like it?",
+      "itemIds": [
+        "u6-bread",
+        "u6-rice",
+        "u6-egg",
+        "u6-chicken",
+        "u6-cheese"
+      ],
+      "prompts": [
+        {
+          "id": "p-u6-dance",
+          "en": "Dance!",
+          "es": "¡Baila!"
+        },
+        {
+          "id": "p-u6-freeze-like",
+          "en": "Freeze! Do you like ___?",
+          "es": "¡Congélate! ¿Te gusta ___?"
+        }
+      ],
+      "teacherNotes": "Suena música y ella baila. Cuando para, la app pregunta \"Do you like cheese?\" y ella se congela con el pulgar arriba o abajo y dice \"I like cheese!\" o \"I don't like cheese!\". Marca ✓ si dice la frase (aunque sea a medias). Variante: tú bailas y ella te pregunta \"Do you like…?\"; responde cosas locas (\"I don't like ice cream!\") para que se ría."
+    },
+    {
+      "id": "u6-l3-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Drinks & restaurant",
+      "itemIds": [
+        "u6-milk",
+        "u6-juice",
+        "u6-water",
+        "u6-ice-cream",
+        "u6-can-i-have",
+        "u6-here-you-are"
+      ],
+      "teacherNotes": "Para las bebidas, haz como que tomas de un vaso (leche con bigote blanco, jugo con pitillo). Practica \"Can I have the water, please?\" estirando la mano, y ella te \"entrega\" algo con las dos manos diciendo \"Here you are!\". Al final di \"Thank you!\" (de la unidad 1)."
+    },
+    {
+      "id": "u6-l3-restaurant",
+      "type": "find-it",
+      "title": "Pretend restaurant",
+      "itemIds": [
+        "u6-apple",
+        "u6-banana",
+        "u6-orange",
+        "u6-strawberry",
+        "u6-watermelon",
+        "u6-bread",
+        "u6-rice",
+        "u6-egg",
+        "u6-chicken",
+        "u6-cheese",
+        "u6-milk",
+        "u6-juice",
+        "u6-water",
+        "u6-ice-cream"
+      ],
+      "config": {
+        "seconds": 30
+      },
+      "prompts": [
+        {
+          "id": "p-u6-can-i-have",
+          "en": "Can I have the ___, please?",
+          "es": "¿Me das ___, por favor?"
+        }
+      ],
+      "teacherNotes": "El juego estrella. Arma un \"restaurante\": una mesa es la cocina, con comida de juguete, frutas reales, vasos y platos o dibujos que ella misma hizo. Tú eres el cliente sentado lejos. La app pide \"Can I have the juice, please?\"; ella es la mesera: corre a la cocina, trae lo pedido en una bandeja y dice \"Here you are!\". Tú dices \"Thank you! Yummy!\". Marca ✓ cuando traiga lo correcto. Variante: cambien de rol; ella es la clienta y te pide a ti (léele la tarjeta si no sabe la palabra)."
+    },
+    {
+      "id": "u6-l4-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Yummy or yuck?",
+      "itemIds": [
+        "u6-cookie",
+        "u6-yummy",
+        "u6-yuck",
+        "u6-do-you-like"
+      ],
+      "teacherNotes": "Juega a \"Yummy or yuck?\": tú dices una comida (\"Cookie!\") y ella responde \"Yummy!\" sobándose la barriga o \"Yuck!\" con cara de asco. Luego ella te pregunta a ti \"Do you like…?\" con la tarjeta."
+    },
+    {
+      "id": "u6-l4-match",
+      "type": "memory-match",
+      "title": "Memory Match: food",
+      "itemIds": [
+        "u6-apple",
+        "u6-banana",
+        "u6-orange",
+        "u6-strawberry",
+        "u6-watermelon",
+        "u6-bread",
+        "u6-rice",
+        "u6-egg",
+        "u6-chicken",
+        "u6-cheese",
+        "u6-milk",
+        "u6-juice",
+        "u6-water",
+        "u6-ice-cream",
+        "u6-cookie"
+      ],
+      "config": {
+        "pairs": 6
+      },
+      "teacherNotes": "Ella toca la pantalla para encontrar parejas (dibujo ↔ palabra). Cada vez que encuentre una, pregúntale \"Do you like it?\" y que responda \"Yummy!\" o \"Yuck!\"."
+    },
+    {
+      "id": "u6-l4-tap",
+      "type": "listen-and-tap",
+      "title": "Listen and Tap: food",
+      "itemIds": [
+        "u6-apple",
+        "u6-banana",
+        "u6-orange",
+        "u6-strawberry",
+        "u6-watermelon",
+        "u6-bread",
+        "u6-rice",
+        "u6-egg",
+        "u6-chicken",
+        "u6-cheese",
+        "u6-milk",
+        "u6-juice",
+        "u6-water",
+        "u6-ice-cream",
+        "u6-cookie"
+      ],
+      "config": {
+        "choices": 4
+      },
+      "teacherNotes": "Suena la palabra y ella toca el dibujo. Para que se mueva: pon el PC lejos y que llegue \"caminando como mesera\" con una bandeja. Si duda, repite el audio con ↺ antes de ayudarla."
+    }
+  ],
+  "songs": [
+    {
+      "id": "song-u6",
+      "title": "Yummy Song",
+      "purpose": "Unit 6 song",
+      "lines": [
+        "I like apples, yum, yum, yum!",
+        "I like strawberries, one, two, three!",
+        "I don't like eggs, no, no, no!",
+        "Yummy, yummy, in my tummy!"
+      ],
+      "tempo": 104,
+      "melody": [
+        "C4:1 E4:1 G4:1 E4:1 D4:1 D4:1 C4:2",
+        "C4:1 E4:1 G4:1 G4:1 A4:1 G4:1 E4:1 C4:1",
+        "A4:1 A4:1 G4:1 F4:1 E4:1 E4:1 D4:2",
+        "E4:1 E4:1 D4:1 D4:1 C4:1 D4:1 E4:1 C4:1"
+      ],
+      "chords": [
+        "C C G C",
+        "C C F C",
+        "F Dm Am G",
+        "C G Am C"
+      ]
+    }
+  ],
+  "stickers": [
+    {
+      "id": "u6-donut",
+      "emoji": "🍩"
+    },
+    {
+      "id": "u6-cupcake",
+      "emoji": "🧁"
+    },
+    {
+      "id": "u6-cherries",
+      "emoji": "🍒"
+    },
+    {
+      "id": "u6-cake",
+      "emoji": "🍰"
+    },
+    {
+      "id": "u6-kiwi",
+      "emoji": "🥝"
+    },
+    {
+      "id": "u6-popcorn",
+      "emoji": "🍿"
+    },
+    {
+      "id": "u6-lollipop",
+      "emoji": "🍭"
+    },
+    {
+      "id": "u6-pancakes",
+      "emoji": "🥞"
+    },
+    {
+      "id": "u6-peach",
+      "emoji": "🍑"
+    },
+    {
+      "id": "u6-complete",
+      "emoji": "🏆",
+      "reserved": true,
+      "label": "Unit 6 complete"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "u6-l1",
+      "number": 1,
+      "title": "Fruit",
+      "keyExchange": {
+        "en": "What do you like? → I like bananas!",
+        "es": "¿Qué te gusta? → ¡Me gustan los bananos!"
+      },
+      "newItems": [
+        "u6-apple",
+        "u6-banana",
+        "u6-orange",
+        "u6-strawberry",
+        "u6-watermelon",
+        "u6-i-like"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-05",
+        "unit-06"
+      ],
+      "songId": "song-u6",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u6-l1-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u6-l1-eat"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u6"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "En inglés se dice \"I like apples\" (en plural). No lo expliques: dilo tú bien y acepta \"I like apple\" como ✓."
+      ]
+    },
+    {
+      "id": "u6-l2",
+      "number": 2,
+      "title": "Food & I Don't Like",
+      "keyExchange": {
+        "en": "Do you like eggs? → No! I don't like eggs.",
+        "es": "¿Te gustan los huevos? → ¡No! No me gustan los huevos."
+      },
+      "newItems": [
+        "u6-bread",
+        "u6-rice",
+        "u6-egg",
+        "u6-chicken",
+        "u6-cheese",
+        "u6-i-dont-like"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-05",
+        "unit-06"
+      ],
+      "songId": "song-u6",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u6-l2-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u6-l2-freeze"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u6"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Nunca la obligues a decir que le gusta algo que no le gusta: la gracia es que diga la verdad en inglés."
+      ]
+    },
+    {
+      "id": "u6-l3",
+      "number": 3,
+      "title": "Drinks & Restaurant",
+      "keyExchange": {
+        "en": "Can I have the milk, please? → Here you are!",
+        "es": "¿Me das la leche, por favor? → ¡Aquí tienes!"
+      },
+      "newItems": [
+        "u6-milk",
+        "u6-juice",
+        "u6-water",
+        "u6-ice-cream",
+        "u6-can-i-have",
+        "u6-here-you-are"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-05",
+        "unit-06"
+      ],
+      "songId": "song-u6",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u6-l3-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u6-l3-restaurant"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u6"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Si se emociona y corre demasiado con la bandeja, di \"Walk, please!\" y caminen como meseros elegantes: es parte del juego."
+      ]
+    },
+    {
+      "id": "u6-l4",
+      "number": 4,
+      "title": "Review & Restaurant Show",
+      "keyExchange": {
+        "en": "Do you like cookies? → Yes! Yummy!",
+        "es": "¿Te gustan las galletas? → ¡Sí! ¡Qué rico!"
+      },
+      "newItems": [
+        "u6-cookie",
+        "u6-yummy",
+        "u6-yuck",
+        "u6-do-you-like"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-05",
+        "unit-06"
+      ],
+      "songId": "song-u6",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u6-l4-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u6-l4-match",
+            "u6-l4-tap"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u6"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Restaurant show (opcional, última sesión de la unidad): ella atiende a la mamá en el restaurante: \"Hello! Can I help you?… Here you are!\" y la mamá dice qué le gusta y qué no. Vale como proyecto de cierre de la unidad.",
+        "En la pantalla de stickers de esta lección hay un botón discreto para darle el trofeo 🏆 \"Unit 6 complete\" cuando tú decidas que terminó la unidad."
+      ]
+    }
+  ]
+}

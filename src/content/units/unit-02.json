@@ -1,0 +1,846 @@
+{
+  "id": "unit-02",
+  "number": 2,
+  "title": "Colors & Numbers",
+  "theme": "Colors & numbers 1–20",
+  "goal": "Name 10 colors (\"It's blue!\"), count objects from 1 to 10 (\"I have five!\") and count aloud to 20 with the teacher.",
+  "items": [
+    {
+      "id": "u2-red",
+      "text": "red",
+      "translation": "rojo",
+      "image": "🔴",
+      "audio": "audio/u2-red.mp3",
+      "audioEs": "audio/es/u2-red.mp3",
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "u2-blue",
+      "text": "blue",
+      "translation": "azul",
+      "image": "🔵",
+      "audio": "audio/u2-blue.mp3",
+      "audioEs": "audio/es/u2-blue.mp3",
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "u2-yellow",
+      "text": "yellow",
+      "translation": "amarillo",
+      "image": "🟡",
+      "audio": "audio/u2-yellow.mp3",
+      "audioEs": "audio/es/u2-yellow.mp3",
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "u2-green",
+      "text": "green",
+      "translation": "verde",
+      "image": "🟢",
+      "audio": "audio/u2-green.mp3",
+      "audioEs": "audio/es/u2-green.mp3",
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "u2-what-color",
+      "text": "What color is it?",
+      "translation": "¿De qué color es?",
+      "image": "🎨",
+      "audio": "audio/u2-what-color.mp3",
+      "audioEs": "audio/es/u2-what-color.mp3",
+      "tags": [
+        "question",
+        "color"
+      ]
+    },
+    {
+      "id": "u2-its",
+      "text": "It's…",
+      "translation": "Es…",
+      "image": "👉",
+      "audio": "audio/u2-its.mp3",
+      "audioEs": "audio/es/u2-its.mp3",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "u2-orange",
+      "text": "orange",
+      "translation": "naranja",
+      "image": "🟠",
+      "audio": "audio/u2-orange.mp3",
+      "audioEs": "audio/es/u2-orange.mp3",
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "u2-purple",
+      "text": "purple",
+      "translation": "morado",
+      "image": "🟣",
+      "audio": "audio/u2-purple.mp3",
+      "audioEs": "audio/es/u2-purple.mp3",
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "u2-pink",
+      "text": "pink",
+      "translation": "rosado",
+      "image": "🌸",
+      "audio": "audio/u2-pink.mp3",
+      "audioEs": "audio/es/u2-pink.mp3",
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "u2-black",
+      "text": "black",
+      "translation": "negro",
+      "image": "⚫",
+      "audio": "audio/u2-black.mp3",
+      "audioEs": "audio/es/u2-black.mp3",
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "u2-white",
+      "text": "white",
+      "translation": "blanco",
+      "image": "⚪",
+      "audio": "audio/u2-white.mp3",
+      "audioEs": "audio/es/u2-white.mp3",
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "u2-brown",
+      "text": "brown",
+      "translation": "café",
+      "image": "🟤",
+      "audio": "audio/u2-brown.mp3",
+      "audioEs": "audio/es/u2-brown.mp3",
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "u2-one",
+      "text": "one",
+      "translation": "uno",
+      "image": "1️⃣",
+      "audio": "audio/u2-one.mp3",
+      "audioEs": "audio/es/u2-one.mp3",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "u2-two",
+      "text": "two",
+      "translation": "dos",
+      "image": "2️⃣",
+      "audio": "audio/u2-two.mp3",
+      "audioEs": "audio/es/u2-two.mp3",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "u2-three",
+      "text": "three",
+      "translation": "tres",
+      "image": "3️⃣",
+      "audio": "audio/u2-three.mp3",
+      "audioEs": "audio/es/u2-three.mp3",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "u2-four",
+      "text": "four",
+      "translation": "cuatro",
+      "image": "4️⃣",
+      "audio": "audio/u2-four.mp3",
+      "audioEs": "audio/es/u2-four.mp3",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "u2-five",
+      "text": "five",
+      "translation": "cinco",
+      "image": "5️⃣",
+      "audio": "audio/u2-five.mp3",
+      "audioEs": "audio/es/u2-five.mp3",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "u2-how-many",
+      "text": "How many?",
+      "translation": "¿Cuántos?",
+      "image": "❓🔢",
+      "audio": "audio/u2-how-many.mp3",
+      "audioEs": "audio/es/u2-how-many.mp3",
+      "tags": [
+        "question",
+        "number"
+      ]
+    },
+    {
+      "id": "u2-six",
+      "text": "six",
+      "translation": "seis",
+      "image": "6️⃣",
+      "audio": "audio/u2-six.mp3",
+      "audioEs": "audio/es/u2-six.mp3",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "u2-seven",
+      "text": "seven",
+      "translation": "siete",
+      "image": "7️⃣",
+      "audio": "audio/u2-seven.mp3",
+      "audioEs": "audio/es/u2-seven.mp3",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "u2-eight",
+      "text": "eight",
+      "translation": "ocho",
+      "image": "8️⃣",
+      "audio": "audio/u2-eight.mp3",
+      "audioEs": "audio/es/u2-eight.mp3",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "u2-nine",
+      "text": "nine",
+      "translation": "nueve",
+      "image": "9️⃣",
+      "audio": "audio/u2-nine.mp3",
+      "audioEs": "audio/es/u2-nine.mp3",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "u2-ten",
+      "text": "ten",
+      "translation": "diez",
+      "image": "🔟",
+      "audio": "audio/u2-ten.mp3",
+      "audioEs": "audio/es/u2-ten.mp3",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "u2-i-have",
+      "text": "I have…",
+      "translation": "Tengo…",
+      "image": "🤲",
+      "audio": "audio/u2-i-have.mp3",
+      "audioEs": "audio/es/u2-i-have.mp3",
+      "tags": [
+        "phrase"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "auto-review",
+      "type": "simon-says",
+      "title": "Review: Simon Says + weak words",
+      "itemIds": [],
+      "autoReview": true,
+      "config": {
+        "intervalSec": 6
+      },
+      "teacherNotes": "La app escoge las palabras más débiles (Unidad 1 y 2) y las mezcla con los comandos. Combina movimiento y palabra: \"Jump! Happy!\" → salta con cara feliz. Con colores: \"Touch something red!\" y ella corre a tocar algo rojo. Si duda, haz tú el movimiento con ella."
+    },
+    {
+      "id": "u2-l1-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Colors 1",
+      "itemIds": [
+        "u2-red",
+        "u2-blue",
+        "u2-yellow",
+        "u2-green",
+        "u2-what-color",
+        "u2-its"
+      ],
+      "teacherNotes": "Ten a mano un objeto real de cada color (crayón, juguete, ropa). Muestra la tarjeta, suena el audio, y tú levantas el objeto: \"Red! It's red!\". Ella repite. Para \"What color is it?\" haz cara de pregunta con las manos abiertas; para \"It's…\" señala el objeto. Marca ✓ si se entiende."
+    },
+    {
+      "id": "u2-l1-find",
+      "type": "find-it",
+      "title": "Find it! Colors 1",
+      "itemIds": [
+        "u2-red",
+        "u2-blue",
+        "u2-yellow",
+        "u2-green"
+      ],
+      "config": {
+        "seconds": 20
+      },
+      "teacherNotes": "El juego estrella de la unidad. La app dice \"Find something red!\" y ella corre por la casa a tocar (o traer) algo de ese color antes de que se acabe el tiempo. Cuando vuelva, pregúntale \"What color is it?\" y que diga \"It's red!\". Si se demora, dale pistas señalando la zona. Variante: cambien de rol, ella da la orden y tú corres (¡lento, para que gane ella!)."
+    },
+    {
+      "id": "u2-l2-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Colors 2",
+      "itemIds": [
+        "u2-orange",
+        "u2-purple",
+        "u2-pink",
+        "u2-black",
+        "u2-white",
+        "u2-brown"
+      ],
+      "teacherNotes": "Igual que la lección 1: tarjeta + objeto real. \"Purple\" y \"orange\" son difíciles de pronunciar: dilos lento y exagerando (\"PUR-ple\"). Ojo: en inglés \"orange\" es color y también la fruta; si tienen una naranja, ¡úsala!"
+    },
+    {
+      "id": "u2-l2-find",
+      "type": "find-it",
+      "title": "Find it! All colors",
+      "itemIds": [
+        "u2-red",
+        "u2-blue",
+        "u2-yellow",
+        "u2-green",
+        "u2-orange",
+        "u2-purple",
+        "u2-pink",
+        "u2-black",
+        "u2-white",
+        "u2-brown"
+      ],
+      "config": {
+        "seconds": 20
+      },
+      "teacherNotes": "Ahora con los 10 colores. Antes de empezar, esconde en el cuarto algunos objetos de colores difíciles (morado, café, rosado). Cuando ella traiga el objeto, dilo juntos: \"It's pink!\". Variante si se aburre: ella tiene que ir saltando en un pie o caminando como robot."
+    },
+    {
+      "id": "u2-l2-freeze",
+      "type": "freeze-dance",
+      "title": "Freeze Dance: colors",
+      "itemIds": [
+        "u2-red",
+        "u2-blue",
+        "u2-yellow",
+        "u2-green",
+        "u2-orange",
+        "u2-purple",
+        "u2-pink",
+        "u2-black",
+        "u2-white",
+        "u2-brown"
+      ],
+      "prompts": [
+        {
+          "id": "p-u2-dance",
+          "en": "Dance!",
+          "es": "¡Baila!"
+        },
+        {
+          "id": "p-u2-freeze-touch",
+          "en": "Freeze! Touch something ___!",
+          "es": "¡Congélate! ¡Toca algo ___!"
+        }
+      ],
+      "teacherNotes": "Suena música, ella baila. Cuando para, la app dice un color y ella se congela tocando algo de ese color (ropa, pared, juguete). Tú marcas ✓/↻. Variante: tú también bailas y ella revisa si tocaste el color correcto (equivócate a propósito de vez en cuando, le encanta corregirte)."
+    },
+    {
+      "id": "u2-l3-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Numbers 1–5",
+      "itemIds": [
+        "u2-one",
+        "u2-two",
+        "u2-three",
+        "u2-four",
+        "u2-five",
+        "u2-how-many"
+      ],
+      "teacherNotes": "Muestra cada número con los dedos al mismo tiempo que suena el audio, y que ella también los muestre con los dedos. Para \"How many?\" abre las manos con cara de pregunta y cuenta objetos juntos: \"How many? One, two, three! Three!\". \"Three\" tiene un sonido difícil (th): no lo corrijas, solo repítelo bien tú."
+    },
+    {
+      "id": "u2-l3-jump",
+      "type": "faces",
+      "title": "Jump and count",
+      "itemIds": [
+        "u2-one",
+        "u2-two",
+        "u2-three",
+        "u2-four",
+        "u2-five"
+      ],
+      "prompts": [
+        {
+          "id": "p-u2-jump-count",
+          "en": "Jump and count to ___!",
+          "es": "¡Salta y cuenta hasta ___!"
+        },
+        {
+          "id": "p-u2-how-many-claps",
+          "en": "How many claps?",
+          "es": "¿Cuántos aplausos?"
+        }
+      ],
+      "teacherNotes": "Modo \"show me\": la app muestra un número y ella salta contando en voz alta (\"One, two, three!\"). Cuenten juntos al principio. Modo adivinar: tú aplaudes (o saltas) un número de veces y ella toca el número correcto en la pantalla. Variante: cambia el movimiento (aplausos, pasos de gigante, vueltas)."
+    },
+    {
+      "id": "u2-l4-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Numbers 6–10",
+      "itemIds": [
+        "u2-six",
+        "u2-seven",
+        "u2-eight",
+        "u2-nine",
+        "u2-ten",
+        "u2-i-have"
+      ],
+      "teacherNotes": "Muestra los números con los dedos de las dos manos. Para \"I have…\" toma objetos en la mano y di \"I have two!\" (tengo dos). Luego dale a ella crayones y pregunta \"How many?\" para que responda \"I have five!\". Al final cuenten juntos de 1 a 20 con pasos o saltos (ver nota de la lección)."
+    },
+    {
+      "id": "u2-l4-match",
+      "type": "memory-match",
+      "title": "Memory Match: numbers",
+      "itemIds": [
+        "u2-one",
+        "u2-two",
+        "u2-three",
+        "u2-four",
+        "u2-five",
+        "u2-six",
+        "u2-seven",
+        "u2-eight",
+        "u2-nine",
+        "u2-ten"
+      ],
+      "config": {
+        "pairs": 6
+      },
+      "teacherNotes": "Ella toca la pantalla para encontrar parejas número ↔ palabra. Cada vez que encuentra una pareja, cuéntenla con los dedos en voz alta."
+    },
+    {
+      "id": "u2-l4-tap",
+      "type": "listen-and-tap",
+      "title": "Listen and Tap: colors",
+      "itemIds": [
+        "u2-red",
+        "u2-blue",
+        "u2-yellow",
+        "u2-green",
+        "u2-orange",
+        "u2-purple",
+        "u2-pink",
+        "u2-black",
+        "u2-white",
+        "u2-brown"
+      ],
+      "config": {
+        "choices": 4
+      },
+      "teacherNotes": "Suena un color y ella toca el círculo correcto. Si duda, repite el audio con ↺ antes de ayudarla. Después de cada acierto, que diga \"It's ___!\"."
+    }
+  ],
+  "songs": [
+    {
+      "id": "song-u2",
+      "title": "Colors and Numbers Song",
+      "purpose": "Unit 2 song",
+      "lines": [
+        "Red and blue and yellow too,",
+        "Purple, orange, pink and brown!",
+        "One, two, three, four, five, I have five!",
+        "Count with me to twenty!"
+      ],
+      "tempo": 104,
+      "melody": [
+        "C4:1 E4:1 G4:1 E4:1 F4:1 D4:1 C4:2",
+        "E4:1 F4:1 G4:1 A4:1 G4:1 E4:1 D4:2",
+        "C4:1 D4:1 E4:1 F4:1 G4:1 G4:1 A4:1 G4:1",
+        "G4:1 E4:1 F4:1 D4:1 B3:1 C4:3"
+      ],
+      "chords": [
+        "C C Dm C",
+        "C F C G",
+        "C C C F",
+        "C Dm G C"
+      ]
+    }
+  ],
+  "stickers": [
+    {
+      "id": "u2-palette",
+      "emoji": "🎨"
+    },
+    {
+      "id": "u2-crayon",
+      "emoji": "🖍️"
+    },
+    {
+      "id": "u2-apple",
+      "emoji": "🍎"
+    },
+    {
+      "id": "u2-whale",
+      "emoji": "🐳"
+    },
+    {
+      "id": "u2-frog",
+      "emoji": "🐸"
+    },
+    {
+      "id": "u2-grapes",
+      "emoji": "🍇"
+    },
+    {
+      "id": "u2-tangerine",
+      "emoji": "🍊"
+    },
+    {
+      "id": "u2-flamingo",
+      "emoji": "🦩"
+    },
+    {
+      "id": "u2-dice",
+      "emoji": "🎲"
+    },
+    {
+      "id": "u2-complete",
+      "emoji": "🏆",
+      "reserved": true,
+      "label": "Unit 2 complete"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "u2-l1",
+      "number": 1,
+      "title": "Colors 1",
+      "keyExchange": {
+        "en": "What color is it? → It's blue!",
+        "es": "¿De qué color es? → ¡Es azul!"
+      },
+      "newItems": [
+        "u2-red",
+        "u2-blue",
+        "u2-yellow",
+        "u2-green",
+        "u2-what-color",
+        "u2-its"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-01",
+        "unit-02"
+      ],
+      "songId": "song-u2",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u2-l1-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u2-l1-find"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u2"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ]
+    },
+    {
+      "id": "u2-l2",
+      "number": 2,
+      "title": "Colors 2",
+      "keyExchange": {
+        "en": "What color is it? → It's pink!",
+        "es": "¿De qué color es? → ¡Es rosado!"
+      },
+      "newItems": [
+        "u2-orange",
+        "u2-purple",
+        "u2-pink",
+        "u2-black",
+        "u2-white",
+        "u2-brown"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-01",
+        "unit-02"
+      ],
+      "songId": "song-u2",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u2-l2-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u2-l2-find",
+            "u2-l2-freeze"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u2"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Si se acelera demasiado corriendo por la casa, cambia a \"Freeze Dance\" y termina con un color calmado: \"Freeze! Touch something white… shhh\"."
+      ]
+    },
+    {
+      "id": "u2-l3",
+      "number": 3,
+      "title": "Numbers 1–5",
+      "keyExchange": {
+        "en": "How many? → Three!",
+        "es": "¿Cuántos? → ¡Tres!"
+      },
+      "newItems": [
+        "u2-one",
+        "u2-two",
+        "u2-three",
+        "u2-four",
+        "u2-five",
+        "u2-how-many"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-01",
+        "unit-02"
+      ],
+      "songId": "song-u2",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u2-l3-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u2-l3-jump"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u2"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Números 11–20 (sin tarjetas): al terminar el juego, cuenten juntos hasta 10 saltando; si va bien, sigan tú adelante hasta 20 y ella repite cada número como eco (\"eleven!\" → \"eleven!\"). No se espera que los memorice todavía."
+      ]
+    },
+    {
+      "id": "u2-l4",
+      "number": 4,
+      "title": "Numbers 6–10 & Mini Show",
+      "keyExchange": {
+        "en": "How many fingers? → I have five!",
+        "es": "¿Cuántos dedos? → ¡Tengo cinco!"
+      },
+      "newItems": [
+        "u2-six",
+        "u2-seven",
+        "u2-eight",
+        "u2-nine",
+        "u2-ten",
+        "u2-i-have"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-01",
+        "unit-02"
+      ],
+      "songId": "song-u2",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u2-l4-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u2-l4-match",
+            "u2-l4-tap"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u2"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Conteo hasta 20: hagan una \"escalera\" de 20 pasos por el pasillo; en cada paso dicen el número juntos (tú guías de 11 a 20, ella hace eco). Celebra al llegar a \"twenty!\".",
+        "Mini show (opcional, última sesión de la unidad): ella le muestra a la mamá su caja de colores: saca crayones uno por uno (\"It's red! It's blue!\") y al final dice cuántos tiene (\"I have five!\"). Esto vale como proyecto de cierre.",
+        "En la pantalla de stickers de esta lección hay un botón discreto para darle el trofeo 🏆 \"Unit 2 complete\" cuando tú decidas que terminó la unidad."
+      ]
+    }
+  ]
+}

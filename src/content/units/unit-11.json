@@ -1,0 +1,830 @@
+{
+  "id": "unit-11",
+  "number": 11,
+  "title": "Places",
+  "theme": "Places",
+  "goal": "Name 11 places in town, say \"Let's go to the park!\", follow and give directions (go straight, turn left, turn right) on a floor map, and say how we go (by bus, by car, by bike, walking).",
+  "items": [
+    {
+      "id": "u11-park",
+      "text": "park",
+      "translation": "el parque",
+      "image": "🏞️",
+      "audio": "audio/u11-park.mp3",
+      "audioEs": "audio/es/u11-park.mp3",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "u11-school",
+      "text": "school",
+      "translation": "el colegio",
+      "image": "🏫",
+      "audio": "audio/u11-school.mp3",
+      "audioEs": "audio/es/u11-school.mp3",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "u11-store",
+      "text": "store",
+      "translation": "la tienda",
+      "image": "🏪",
+      "audio": "audio/u11-store.mp3",
+      "audioEs": "audio/es/u11-store.mp3",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "u11-hospital",
+      "text": "hospital",
+      "translation": "el hospital",
+      "image": "🏥",
+      "audio": "audio/u11-hospital.mp3",
+      "audioEs": "audio/es/u11-hospital.mp3",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "u11-zoo",
+      "text": "zoo",
+      "translation": "el zoológico",
+      "image": "🦒🦓",
+      "audio": "audio/u11-zoo.mp3",
+      "audioEs": "audio/es/u11-zoo.mp3",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "u11-lets-go",
+      "text": "Let's go to the…",
+      "translation": "Vamos a…",
+      "image": "👉",
+      "audio": "audio/u11-lets-go.mp3",
+      "audioEs": "audio/es/u11-lets-go.mp3",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "u11-beach",
+      "text": "beach",
+      "translation": "la playa",
+      "image": "🏖️",
+      "audio": "audio/u11-beach.mp3",
+      "audioEs": "audio/es/u11-beach.mp3",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "u11-pool",
+      "text": "pool",
+      "translation": "la piscina",
+      "image": "🏊‍♀️",
+      "audio": "audio/u11-pool.mp3",
+      "audioEs": "audio/es/u11-pool.mp3",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "u11-library",
+      "text": "library",
+      "translation": "la biblioteca",
+      "image": "📚",
+      "audio": "audio/u11-library.mp3",
+      "audioEs": "audio/es/u11-library.mp3",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "u11-restaurant",
+      "text": "restaurant",
+      "translation": "el restaurante",
+      "image": "🍽️",
+      "audio": "audio/u11-restaurant.mp3",
+      "audioEs": "audio/es/u11-restaurant.mp3",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "u11-bakery",
+      "text": "bakery",
+      "translation": "la panadería",
+      "image": "🥐",
+      "audio": "audio/u11-bakery.mp3",
+      "audioEs": "audio/es/u11-bakery.mp3",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "u11-movies",
+      "text": "movies",
+      "translation": "el cine",
+      "image": "🎬",
+      "audio": "audio/u11-movies.mp3",
+      "audioEs": "audio/es/u11-movies.mp3",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "u11-go-straight",
+      "text": "Go straight!",
+      "translation": "¡Sigue derecho!",
+      "image": "⬆️",
+      "audio": "audio/u11-go-straight.mp3",
+      "audioEs": "audio/es/u11-go-straight.mp3",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "id": "u11-turn-left",
+      "text": "Turn left!",
+      "translation": "¡Gira a la izquierda!",
+      "image": "⬅️",
+      "audio": "audio/u11-turn-left.mp3",
+      "audioEs": "audio/es/u11-turn-left.mp3",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "id": "u11-turn-right",
+      "text": "Turn right!",
+      "translation": "¡Gira a la derecha!",
+      "image": "➡️",
+      "audio": "audio/u11-turn-right.mp3",
+      "audioEs": "audio/es/u11-turn-right.mp3",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "id": "u11-where-is",
+      "text": "Where is the…?",
+      "translation": "¿Dónde está…?",
+      "image": "🔍",
+      "audio": "audio/u11-where-is.mp3",
+      "audioEs": "audio/es/u11-where-is.mp3",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "u11-its-here",
+      "text": "It's here!",
+      "translation": "¡Aquí está!",
+      "image": "📍",
+      "audio": "audio/u11-its-here.mp3",
+      "audioEs": "audio/es/u11-its-here.mp3",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "u11-map",
+      "text": "map",
+      "translation": "el mapa",
+      "image": "🗺️",
+      "audio": "audio/u11-map.mp3",
+      "audioEs": "audio/es/u11-map.mp3",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "u11-by-bus",
+      "text": "by bus",
+      "translation": "en bus",
+      "image": "🚌",
+      "audio": "audio/u11-by-bus.mp3",
+      "audioEs": "audio/es/u11-by-bus.mp3",
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "u11-by-car",
+      "text": "by car",
+      "translation": "en carro",
+      "image": "🚗",
+      "audio": "audio/u11-by-car.mp3",
+      "audioEs": "audio/es/u11-by-car.mp3",
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "u11-by-bike",
+      "text": "by bike",
+      "translation": "en bici",
+      "image": "🚲",
+      "audio": "audio/u11-by-bike.mp3",
+      "audioEs": "audio/es/u11-by-bike.mp3",
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "u11-walk",
+      "text": "Let's walk!",
+      "translation": "¡Caminemos!",
+      "image": "🚶‍♀️",
+      "audio": "audio/u11-walk.mp3",
+      "audioEs": "audio/es/u11-walk.mp3",
+      "tags": [
+        "transport",
+        "phrase"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "auto-review",
+      "type": "simon-says",
+      "title": "Review: Simon Says + weak words",
+      "itemIds": [],
+      "autoReview": true,
+      "config": {
+        "intervalSec": 6
+      },
+      "teacherNotes": "La app mezcla los comandos con las palabras más débiles (rutina diaria de la Unidad 10 y lugares). Para una palabra de rutina, que la actúe y la diga (\"I brush my teeth!\"). Para un lugar, que señale hacia dónde \"queda\" en la casa y lo diga. Desde la Lección 3 entran los giros: \"Turn left!\", \"Turn right!\", \"Go straight!\"."
+    },
+    {
+      "id": "u11-l1-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Places 1",
+      "itemIds": [
+        "u11-park",
+        "u11-school",
+        "u11-store",
+        "u11-hospital",
+        "u11-zoo",
+        "u11-lets-go"
+      ],
+      "teacherNotes": "Para cada lugar haz un gesto: parque = columpiarte; colegio = escribir en el aire; tienda = pagar con plata imaginaria; hospital = ponerte un termómetro; zoológico = cuello de jirafa. Ella repite la palabra y el gesto. Con la tarjeta \"Let's go to the…\" agárrala de la mano, señala la puerta y di \"Let's go to the park!\" caminando juntos."
+    },
+    {
+      "id": "u11-l1-map",
+      "type": "find-it",
+      "title": "Floor map: let's go!",
+      "itemIds": [
+        "u11-park",
+        "u11-school",
+        "u11-store",
+        "u11-hospital",
+        "u11-zoo"
+      ],
+      "config": {
+        "seconds": 20
+      },
+      "prompts": [
+        {
+          "id": "p-u11-lets-go",
+          "en": "Let's go to the ___!",
+          "es": "¡Vamos hasta ___!"
+        }
+      ],
+      "teacherNotes": "Mapa en el piso (juego estrella): antes de empezar, con cinta de enmascarar haz 2–3 \"calles\" en el piso y pon en cada punta una hoja con el dibujo de un lugar (parque, colegio, tienda, hospital, zoológico). La app dice \"Let's go to the park!\" y ella va caminando POR la cinta (como equilibrista) hasta el lugar y dice \"Park!\". Marca ✓ al llegar. Variante si se aburre: cambia la forma de moverse (saltando, en puntillas, como cangrejo) o que ella sea la que dice \"Let's go to the…!\" y tú caminas."
+    },
+    {
+      "id": "u11-l2-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Places 2",
+      "itemIds": [
+        "u11-beach",
+        "u11-pool",
+        "u11-library",
+        "u11-restaurant",
+        "u11-bakery",
+        "u11-movies"
+      ],
+      "teacherNotes": "Gestos: playa = nadar y ponerte gafas de sol; piscina = taparte la nariz y saltar; biblioteca = leer y \"shhh\"; restaurante = comer con cubiertos; panadería = morder un pan; cine = comer crispetas mirando una pantalla. \"Movies\" es el cine en inglés americano: dilo con \"the\": \"the movies\"."
+    },
+    {
+      "id": "u11-l2-faces",
+      "type": "faces",
+      "title": "Act out the place",
+      "itemIds": [
+        "u11-park",
+        "u11-school",
+        "u11-store",
+        "u11-hospital",
+        "u11-zoo",
+        "u11-beach",
+        "u11-pool",
+        "u11-library",
+        "u11-restaurant",
+        "u11-bakery",
+        "u11-movies"
+      ],
+      "prompts": [
+        {
+          "id": "p-u11-show-place",
+          "en": "Show me the ___!",
+          "es": "¡Muéstrame ___!"
+        },
+        {
+          "id": "p-u11-guess-place",
+          "en": "Guess the place!",
+          "es": "¡Adivina el lugar!"
+        }
+      ],
+      "teacherNotes": "La app muestra un lugar y ella actúa lo que se hace allí (nadar en la playa, leer en la biblioteca, ser un león en el zoológico) diciendo el nombre. Luego invierte el rol: tú actúas y ella adivina en inglés (y puede tocar el dibujo). Bonus: cuando adivine, dile \"Let's go to the beach!\" y caminen juntos un pasito a esa \"playa\" imaginaria."
+    },
+    {
+      "id": "u11-l3-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Directions",
+      "itemIds": [
+        "u11-go-straight",
+        "u11-turn-left",
+        "u11-turn-right",
+        "u11-where-is",
+        "u11-its-here",
+        "u11-map"
+      ],
+      "teacherNotes": "Haz los giros con todo el cuerpo: \"Go straight!\" = dos pasos al frente; \"Turn left!\" / \"Turn right!\" = giro con el brazo extendido. Truco: la mano izquierda con el pulgar y el índice hace una L de \"left\". Si confunde izquierda y derecha, no importa: es normal a su edad, marca ✓ si gira con decisión. \"It's here!\" = saltar y señalar el piso."
+    },
+    {
+      "id": "u11-l3-map",
+      "type": "find-it",
+      "title": "Floor map: where is it?",
+      "itemIds": [
+        "u11-park",
+        "u11-school",
+        "u11-store",
+        "u11-hospital",
+        "u11-zoo",
+        "u11-beach",
+        "u11-pool",
+        "u11-library",
+        "u11-restaurant",
+        "u11-bakery",
+        "u11-movies"
+      ],
+      "config": {
+        "seconds": 30
+      },
+      "prompts": [
+        {
+          "id": "p-u11-where",
+          "en": "Where is the ___?",
+          "es": "¿Dónde está ___?"
+        }
+      ],
+      "teacherNotes": "Mapa en el piso (juego estrella) con más calles y esquinas: agrega los lugares nuevos. Ella empieza en \"casa\" (una hoja con 🏠). La app pregunta \"Where is the library?\" y tú la guías solo con \"Go straight! Turn left! Turn right! Stop!\". Al llegar dice \"It's here!\". Marca ✓. Variante si se aburre: ella te guía a ti (le encanta mandar), o pon un peluche en un lugar y ella lo tiene que \"rescatar\"."
+    },
+    {
+      "id": "u11-l4-cards",
+      "type": "flashcards",
+      "title": "Flashcards: How do we go?",
+      "itemIds": [
+        "u11-by-bus",
+        "u11-by-car",
+        "u11-by-bike",
+        "u11-walk"
+      ],
+      "teacherNotes": "Bus = manejar un volante grande y hacer \"beep beep\"; car = volante pequeño; bike = pedalear sentada en el piso; walk = marchar. Pregunta \"How do we go to the zoo?\" y ella responde \"By bus!\" mientras \"maneja\"."
+    },
+    {
+      "id": "u11-l4-match",
+      "type": "memory-match",
+      "title": "Memory Match: places",
+      "itemIds": [
+        "u11-park",
+        "u11-school",
+        "u11-store",
+        "u11-hospital",
+        "u11-zoo",
+        "u11-beach",
+        "u11-pool",
+        "u11-library",
+        "u11-restaurant",
+        "u11-bakery",
+        "u11-movies"
+      ],
+      "config": {
+        "pairs": 6
+      },
+      "teacherNotes": "Ella toca la pantalla. Cada pareja es un lugar (dibujo) y su palabra. Cuando encuentre una pareja, que diga \"Let's go to the ___!\" con ese lugar."
+    },
+    {
+      "id": "u11-l4-tap",
+      "type": "listen-and-tap",
+      "title": "Listen and Tap: places",
+      "itemIds": [
+        "u11-park",
+        "u11-school",
+        "u11-store",
+        "u11-hospital",
+        "u11-zoo",
+        "u11-beach",
+        "u11-pool",
+        "u11-library",
+        "u11-restaurant",
+        "u11-bakery",
+        "u11-movies",
+        "u11-by-bus",
+        "u11-by-car",
+        "u11-by-bike",
+        "u11-walk"
+      ],
+      "config": {
+        "choices": 4
+      },
+      "teacherNotes": "Suena el lugar o el transporte, ella toca el dibujo. Si duda, repite el audio con ↺ antes de ayudarla. Para moverse más: después de tocar, que corra a ese lugar en el mapa del piso (si todavía está la cinta)."
+    }
+  ],
+  "songs": [
+    {
+      "id": "song-u11",
+      "title": "Let's Go Song",
+      "purpose": "Unit 11 song",
+      "lines": [
+        "Let's go, let's go, to the park!",
+        "Let's go, let's go, to the zoo!",
+        "Turn left, turn right, go straight!",
+        "Let's go there, me and you!"
+      ],
+      "tempo": 104,
+      "melody": [
+        "C4:1 E4:1 C4:1 E4:1 G4:1 G4:1 A4:2",
+        "C4:1 E4:1 C4:1 E4:1 G4:1 F4:1 E4:2",
+        "D4:1 F4:1 D4:1 F4:1 A4:1 G4:3",
+        "G4:1 A4:1 G4:1 E4:1 D4:1 C4:3"
+      ],
+      "chords": [
+        "C C C F",
+        "C C G C",
+        "Dm Dm Dm G",
+        "C C G C"
+      ]
+    }
+  ],
+  "stickers": [
+    {
+      "id": "u11-tree",
+      "emoji": "🌳"
+    },
+    {
+      "id": "u11-ferris-wheel",
+      "emoji": "🎡"
+    },
+    {
+      "id": "u11-carousel",
+      "emoji": "🎠"
+    },
+    {
+      "id": "u11-castle",
+      "emoji": "🏰"
+    },
+    {
+      "id": "u11-kite",
+      "emoji": "🪁"
+    },
+    {
+      "id": "u11-fountain",
+      "emoji": "⛲"
+    },
+    {
+      "id": "u11-tent",
+      "emoji": "⛺"
+    },
+    {
+      "id": "u11-train",
+      "emoji": "🚂"
+    },
+    {
+      "id": "u11-rocket",
+      "emoji": "🚀"
+    },
+    {
+      "id": "u11-complete",
+      "emoji": "🏆",
+      "reserved": true,
+      "label": "Unit 11 complete"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "u11-l1",
+      "number": 1,
+      "title": "Places in Town",
+      "keyExchange": {
+        "en": "Where do you want to go? → Let's go to the park!",
+        "es": "¿A dónde quieres ir? → ¡Vamos al parque!"
+      },
+      "newItems": [
+        "u11-park",
+        "u11-school",
+        "u11-store",
+        "u11-hospital",
+        "u11-zoo",
+        "u11-lets-go"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-10",
+        "unit-11"
+      ],
+      "songId": "song-u11",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u11-l1-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u11-l1-map"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u11"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Prepara el mapa del piso ANTES de la sesión (cinta de enmascarar + hojas con dibujos de los lugares). Déjalo puesto para las Lecciones 3 y 4 si se puede.",
+        "Si está muy acelerada, el caminar por la cinta \"como equilibrista\" la ayuda a calmarse: pídele que vaya despacito."
+      ]
+    },
+    {
+      "id": "u11-l2",
+      "number": 2,
+      "title": "Fun Places",
+      "keyExchange": {
+        "en": "Let's go to the beach! → Yes! Let's go!",
+        "es": "¡Vamos a la playa! → ¡Sí! ¡Vamos!"
+      },
+      "newItems": [
+        "u11-beach",
+        "u11-pool",
+        "u11-library",
+        "u11-restaurant",
+        "u11-bakery",
+        "u11-movies"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-10",
+        "unit-11"
+      ],
+      "songId": "song-u11",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u11-l2-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u11-l2-faces"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u11"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Pregúntale cuál es su lugar favorito de verdad (\"The beach? The pool?\") y celebra su respuesta en inglés aunque sea una sola palabra."
+      ]
+    },
+    {
+      "id": "u11-l3",
+      "number": 3,
+      "title": "On the Map",
+      "keyExchange": {
+        "en": "Where is the park? → Go straight, turn left… It's here!",
+        "es": "¿Dónde está el parque? → Sigue derecho, gira a la izquierda… ¡Aquí está!"
+      },
+      "newItems": [
+        "u11-go-straight",
+        "u11-turn-left",
+        "u11-turn-right",
+        "u11-where-is",
+        "u11-its-here",
+        "u11-map"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u11-go-straight",
+        "u11-turn-left",
+        "u11-turn-right"
+      ],
+      "newCommands": [
+        "u11-go-straight",
+        "u11-turn-left",
+        "u11-turn-right"
+      ],
+      "reviewFrom": [
+        "unit-10",
+        "unit-11"
+      ],
+      "songId": "song-u11",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u11-l3-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u11-l3-map"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u11"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Los giros entran también al Simon Says: úsalos para que se mueva por toda la sala.",
+        "Izquierda/derecha es difícil a los 8 años: nunca lo corrijas como error; si gira para el otro lado, gira tú con ella y repite la palabra."
+      ]
+    },
+    {
+      "id": "u11-l4",
+      "number": 4,
+      "title": "Review & Map Trip",
+      "keyExchange": {
+        "en": "How do we go to the zoo? → By bus!",
+        "es": "¿Cómo vamos al zoológico? → ¡En bus!"
+      },
+      "newItems": [
+        "u11-by-bus",
+        "u11-by-car",
+        "u11-by-bike",
+        "u11-walk"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u11-go-straight",
+        "u11-turn-left",
+        "u11-turn-right"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-10",
+        "unit-11"
+      ],
+      "songId": "song-u11",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u11-l4-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u11-l4-match",
+            "u11-l4-tap"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u11"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Mini show (opcional, última sesión de la unidad): \"paseo por el mapa\". Ella es la guía turística de la mamá (o de un peluche): \"Let's go to the zoo! By bus! Go straight! Turn left! It's here!\". Esto vale como proyecto de cierre de la unidad.",
+        "En la pantalla de stickers de esta lección hay un botón discreto para darle el trofeo 🏆 \"Unit 11 complete\" cuando tú decidas que terminó la unidad."
+      ]
+    }
+  ]
+}

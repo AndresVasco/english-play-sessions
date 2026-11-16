@@ -1,0 +1,852 @@
+{
+  "id": "unit-09",
+  "number": 9,
+  "title": "Clothes & Weather",
+  "theme": "Clothes & weather",
+  "goal": "Say what the weather is like (\"It's sunny.\"), name 15 clothes, and follow \"Put on your ___!\" by choosing the right clothes for the weather.",
+  "items": [
+    {
+      "id": "u9-sunny",
+      "text": "sunny",
+      "translation": "hace sol",
+      "image": "☀️",
+      "audio": "audio/u9-sunny.mp3",
+      "audioEs": "audio/es/u9-sunny.mp3",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "u9-rainy",
+      "text": "rainy",
+      "translation": "está lloviendo",
+      "image": "🌧️",
+      "audio": "audio/u9-rainy.mp3",
+      "audioEs": "audio/es/u9-rainy.mp3",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "u9-cloudy",
+      "text": "cloudy",
+      "translation": "está nublado",
+      "image": "☁️",
+      "audio": "audio/u9-cloudy.mp3",
+      "audioEs": "audio/es/u9-cloudy.mp3",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "u9-windy",
+      "text": "windy",
+      "translation": "hace viento",
+      "image": "🌬️",
+      "audio": "audio/u9-windy.mp3",
+      "audioEs": "audio/es/u9-windy.mp3",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "u9-hot",
+      "text": "hot",
+      "translation": "hace calor",
+      "image": "🥵",
+      "audio": "audio/u9-hot.mp3",
+      "audioEs": "audio/es/u9-hot.mp3",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "u9-cold",
+      "text": "cold",
+      "translation": "hace frío",
+      "image": "🥶",
+      "audio": "audio/u9-cold.mp3",
+      "audioEs": "audio/es/u9-cold.mp3",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "u9-hat",
+      "text": "hat",
+      "translation": "el sombrero",
+      "image": "👒",
+      "audio": "audio/u9-hat.mp3",
+      "audioEs": "audio/es/u9-hat.mp3",
+      "tags": [
+        "clothes"
+      ]
+    },
+    {
+      "id": "u9-coat",
+      "text": "coat",
+      "translation": "el abrigo",
+      "image": "🧥",
+      "audio": "audio/u9-coat.mp3",
+      "audioEs": "audio/es/u9-coat.mp3",
+      "tags": [
+        "clothes"
+      ]
+    },
+    {
+      "id": "u9-scarf",
+      "text": "scarf",
+      "translation": "la bufanda",
+      "image": "🧣",
+      "audio": "audio/u9-scarf.mp3",
+      "audioEs": "audio/es/u9-scarf.mp3",
+      "tags": [
+        "clothes"
+      ]
+    },
+    {
+      "id": "u9-boots",
+      "text": "boots",
+      "translation": "las botas",
+      "image": "👢",
+      "audio": "audio/u9-boots.mp3",
+      "audioEs": "audio/es/u9-boots.mp3",
+      "tags": [
+        "clothes"
+      ]
+    },
+    {
+      "id": "u9-umbrella",
+      "text": "umbrella",
+      "translation": "la sombrilla",
+      "image": "☂️",
+      "audio": "audio/u9-umbrella.mp3",
+      "audioEs": "audio/es/u9-umbrella.mp3",
+      "tags": [
+        "clothes"
+      ]
+    },
+    {
+      "id": "u9-put-on-hat",
+      "text": "Put on your hat!",
+      "translation": "¡Ponte el sombrero!",
+      "image": "🙋‍♀️👒",
+      "audio": "audio/u9-put-on-hat.mp3",
+      "audioEs": "audio/es/u9-put-on-hat.mp3",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "id": "u9-t-shirt",
+      "text": "T-shirt",
+      "translation": "la camiseta",
+      "image": "👕",
+      "audio": "audio/u9-t-shirt.mp3",
+      "audioEs": "audio/es/u9-t-shirt.mp3",
+      "tags": [
+        "clothes"
+      ]
+    },
+    {
+      "id": "u9-shorts",
+      "text": "shorts",
+      "translation": "la pantaloneta",
+      "image": "🩳",
+      "audio": "audio/u9-shorts.mp3",
+      "audioEs": "audio/es/u9-shorts.mp3",
+      "tags": [
+        "clothes"
+      ]
+    },
+    {
+      "id": "u9-dress",
+      "text": "dress",
+      "translation": "el vestido",
+      "image": "👗",
+      "audio": "audio/u9-dress.mp3",
+      "audioEs": "audio/es/u9-dress.mp3",
+      "tags": [
+        "clothes"
+      ]
+    },
+    {
+      "id": "u9-shoes",
+      "text": "shoes",
+      "translation": "los zapatos",
+      "image": "👟",
+      "audio": "audio/u9-shoes.mp3",
+      "audioEs": "audio/es/u9-shoes.mp3",
+      "tags": [
+        "clothes"
+      ]
+    },
+    {
+      "id": "u9-socks",
+      "text": "socks",
+      "translation": "las medias",
+      "image": "🧦",
+      "audio": "audio/u9-socks.mp3",
+      "audioEs": "audio/es/u9-socks.mp3",
+      "tags": [
+        "clothes"
+      ]
+    },
+    {
+      "id": "u9-sunglasses",
+      "text": "sunglasses",
+      "translation": "las gafas de sol",
+      "image": "🕶️",
+      "audio": "audio/u9-sunglasses.mp3",
+      "audioEs": "audio/es/u9-sunglasses.mp3",
+      "tags": [
+        "clothes"
+      ]
+    },
+    {
+      "id": "u9-whats-the-weather",
+      "text": "What's the weather like?",
+      "translation": "¿Cómo está el clima?",
+      "image": "🌦️",
+      "audio": "audio/u9-whats-the-weather.mp3",
+      "audioEs": "audio/es/u9-whats-the-weather.mp3",
+      "tags": [
+        "question",
+        "weather"
+      ]
+    },
+    {
+      "id": "u9-snowy",
+      "text": "snowy",
+      "translation": "está nevando",
+      "image": "❄️",
+      "audio": "audio/u9-snowy.mp3",
+      "audioEs": "audio/es/u9-snowy.mp3",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "u9-rainbow",
+      "text": "rainbow",
+      "translation": "arcoíris",
+      "image": "🌈",
+      "audio": "audio/u9-rainbow.mp3",
+      "audioEs": "audio/es/u9-rainbow.mp3",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "u9-clothes",
+      "text": "clothes",
+      "translation": "la ropa",
+      "image": "👚👖",
+      "audio": "audio/u9-clothes.mp3",
+      "audioEs": "audio/es/u9-clothes.mp3",
+      "tags": [
+        "clothes"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "auto-review",
+      "type": "simon-says",
+      "title": "Review: Simon Says + weak words",
+      "itemIds": [],
+      "autoReview": true,
+      "config": {
+        "intervalSec": 6
+      },
+      "teacherNotes": "La app escoge sus palabras más débiles y las mezcla con los comandos. Con un animal de la unidad 8, que lo actúe; con ropa, que se toque la parte del cuerpo donde va (hat → cabeza, socks → pies). Desde la lección 2 aparece \"Put on your hat!\": ella hace como que se pone el sombrero."
+    },
+    {
+      "id": "u9-l1-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Weather",
+      "itemIds": [
+        "u9-sunny",
+        "u9-rainy",
+        "u9-cloudy",
+        "u9-windy",
+        "u9-hot",
+        "u9-cold"
+      ],
+      "teacherNotes": "Siempre con frase completa: \"It's sunny!\". Gestos: sunny (brazos en círculo como sol), rainy (dedos como gotas que caen), cloudy (manos como nube esponjosa), windy (soplar fuerte y balancearse), hot (abanicarse, sudar), cold (temblar y abrazarse). Al final miren por la ventana: \"What's the weather like today?\"."
+    },
+    {
+      "id": "u9-l1-faces",
+      "type": "faces",
+      "title": "Show me the weather",
+      "itemIds": [
+        "u9-sunny",
+        "u9-rainy",
+        "u9-cloudy",
+        "u9-windy",
+        "u9-hot",
+        "u9-cold"
+      ],
+      "prompts": [
+        {
+          "id": "p-u9-l1-show",
+          "en": "It's ___! Show me!",
+          "es": "¡___! ¡Muéstrame!"
+        },
+        {
+          "id": "p-u9-l1-guess",
+          "en": "Guess the weather!",
+          "es": "¡Adivina el clima!"
+        }
+      ],
+      "teacherNotes": "Modo \"show me\": la app muestra un clima y ella lo actúa con todo el cuerpo (frío: tiritar; viento: la empuja el viento por el cuarto). Marca ✓ cuando además dice \"It's cold!\". Modo \"guess\": tú actúas y ella toca el clima. Variante: tú eres \"el clima\" y cambias cada 5 segundos; ella reacciona (se abanica, abre una sombrilla imaginaria…)."
+    },
+    {
+      "id": "u9-l2-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Clothes 1",
+      "itemIds": [
+        "u9-hat",
+        "u9-coat",
+        "u9-scarf",
+        "u9-boots",
+        "u9-umbrella",
+        "u9-put-on-hat"
+      ],
+      "teacherNotes": "Si tienes la ropa real (sombrero, abrigo, bufanda, botas, sombrilla), úsala en vez de solo la tarjeta: ella la toca y la nombra. Para \"Put on your hat!\": tú das la orden, ella se pone el sombrero (real o imaginario); después ella te da la orden a ti."
+    },
+    {
+      "id": "u9-l2-find",
+      "type": "find-it",
+      "title": "Put on your clothes!",
+      "itemIds": [
+        "u9-hat",
+        "u9-coat",
+        "u9-scarf",
+        "u9-boots"
+      ],
+      "prompts": [
+        {
+          "id": "p-u9-l2-put-on",
+          "en": "Put on your ___!",
+          "es": "¡Ponte ___!"
+        }
+      ],
+      "config": {
+        "seconds": 20
+      },
+      "teacherNotes": "Antes de empezar, deja en un rincón una pila de ropa (de ella o tuya, entre más grande y chistosa mejor). La app dice \"Put on your coat!\" y ella corre, encuentra la prenda y se la pone antes de que termine el tiempo. Marca ✓ si la encontró (no importa si se la puso al revés). Variante: ella te viste a ti."
+    },
+    {
+      "id": "u9-l2-tap",
+      "type": "listen-and-tap",
+      "title": "Listen and Tap: clothes 1",
+      "itemIds": [
+        "u9-hat",
+        "u9-coat",
+        "u9-scarf",
+        "u9-boots",
+        "u9-umbrella"
+      ],
+      "config": {
+        "choices": 4
+      },
+      "teacherNotes": "Suena la prenda, ella toca la imagen y señala dónde se pone en el cuerpo. Si duda, repite el audio antes de ayudarla."
+    },
+    {
+      "id": "u9-l3-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Clothes 2",
+      "itemIds": [
+        "u9-t-shirt",
+        "u9-shorts",
+        "u9-dress",
+        "u9-shoes",
+        "u9-socks",
+        "u9-sunglasses"
+      ],
+      "teacherNotes": "Que se toque la prenda que tiene puesta: \"T-shirt!\" (se jala la camiseta), \"socks!\" (se toca los pies). \"Sunglasses\" con gafas de mentiras hechas con los dedos y pose de estrella. Pregunta: \"Hot or cold? Shorts!\" → \"Hot!\"."
+    },
+    {
+      "id": "u9-l3-freeze",
+      "type": "freeze-dance",
+      "title": "Freeze Dance: put it on!",
+      "itemIds": [
+        "u9-hat",
+        "u9-coat",
+        "u9-scarf",
+        "u9-boots",
+        "u9-t-shirt",
+        "u9-shorts",
+        "u9-dress",
+        "u9-shoes",
+        "u9-socks",
+        "u9-sunglasses"
+      ],
+      "prompts": [
+        {
+          "id": "p-u9-l3-dance",
+          "en": "Dance!",
+          "es": "¡Baila!"
+        },
+        {
+          "id": "p-u9-l3-freeze",
+          "en": "Freeze! Put on your ___!",
+          "es": "¡Congélate! ¡Ponte ___!"
+        }
+      ],
+      "teacherNotes": "Suena música, ella baila. Cuando para, la app dice una prenda y ella se congela haciendo la mímica de ponérsela (meter los brazos en el abrigo, subirse las medias). Variante: ella controla la pausa y tú haces la mímica; ella dice la prenda en inglés."
+    },
+    {
+      "id": "u9-l3-match",
+      "type": "memory-match",
+      "title": "Memory Match: clothes",
+      "itemIds": [
+        "u9-t-shirt",
+        "u9-shorts",
+        "u9-dress",
+        "u9-shoes",
+        "u9-socks",
+        "u9-sunglasses"
+      ],
+      "config": {
+        "pairs": 6
+      },
+      "teacherNotes": "Ella toca la pantalla. Cada vez que encuentra una pareja, dice la prenda y toca dónde se pone en su cuerpo."
+    },
+    {
+      "id": "u9-l4-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Weather & clothes",
+      "itemIds": [
+        "u9-whats-the-weather",
+        "u9-snowy",
+        "u9-rainbow",
+        "u9-clothes"
+      ],
+      "teacherNotes": "Practica la pregunta en pareja: tú preguntas \"What's the weather like?\" mirando por la ventana y ella responde \"It's sunny!\". \"Snowy\": en Colombia casi no hay nieve, cuéntale que en otros países sí y tiriten juntos. \"Rainbow\": dibújalo en el aire con el brazo. \"Clothes\": señala toda la pila de ropa."
+    },
+    {
+      "id": "u9-l4-doll",
+      "type": "find-it",
+      "title": "Dress the doll for the weather",
+      "itemIds": [
+        "u9-sunny",
+        "u9-rainy",
+        "u9-cloudy",
+        "u9-windy",
+        "u9-hot",
+        "u9-cold",
+        "u9-snowy"
+      ],
+      "prompts": [
+        {
+          "id": "p-u9-l4-doll",
+          "en": "It's ___! Dress the doll!",
+          "es": "¡___! ¡Viste a la muñeca!"
+        }
+      ],
+      "config": {
+        "seconds": 30
+      },
+      "teacherNotes": "Juego estrella. Necesitas una muñeca o un peluche y una pila de ropa (de muñeca, o ropa real: ella puede vestirte a ti, le encanta). La app dice un clima (\"It's cold!\"). Ella escoge la ropa adecuada y la pone diciendo \"Put on your coat! Put on your scarf!\". Cualquier elección razonable vale ✓. Variante si se aburre: ella escoge el clima y tú vistes la muñeca; equivócate a propósito (shorts con nieve) para que ella te corrija en inglés."
+    },
+    {
+      "id": "u9-l4-tap",
+      "type": "listen-and-tap",
+      "title": "Listen and Tap: all clothes",
+      "itemIds": [
+        "u9-hat",
+        "u9-coat",
+        "u9-scarf",
+        "u9-boots",
+        "u9-umbrella",
+        "u9-t-shirt",
+        "u9-shorts",
+        "u9-dress",
+        "u9-shoes",
+        "u9-socks",
+        "u9-sunglasses"
+      ],
+      "config": {
+        "choices": 4
+      },
+      "teacherNotes": "Mezcla toda la ropa de la unidad. Suena la palabra, ella toca la imagen. Bonus: pregúntale \"Hot or cold?\" para esa prenda."
+    }
+  ],
+  "songs": [
+    {
+      "id": "song-u9",
+      "title": "Weather Song",
+      "purpose": "Unit 9 song",
+      "lines": [
+        "It's sunny, put on your hat!",
+        "It's rainy, take your umbrella!",
+        "It's cold, put on your coat and scarf!",
+        "Sun or rain, I'm ready to play!"
+      ],
+      "tempo": 100,
+      "melody": [
+        "C4:1 E4:1 G4:1 G4:1 A4:1 G4:1 E4:2",
+        "D4:1 F4:1 A4:1 A4:1 G4:1 F4:1 E4:1 D4:1",
+        "E4:1 E4:1 F4:1 G4:1 A4:1 G4:1 F4:1 E4:1",
+        "G4:1 A4:1 G4:1 E4:1 D4:1 E4:1 D4:1 C4:1"
+      ],
+      "chords": [
+        "C C F C",
+        "Dm Dm G G",
+        "Am F F C",
+        "C C G C"
+      ]
+    }
+  ],
+  "stickers": [
+    {
+      "id": "u9-sun-cloud",
+      "emoji": "⛅"
+    },
+    {
+      "id": "u9-snowman",
+      "emoji": "⛄"
+    },
+    {
+      "id": "u9-umbrella-rain",
+      "emoji": "☔"
+    },
+    {
+      "id": "u9-kite",
+      "emoji": "🪁"
+    },
+    {
+      "id": "u9-gloves",
+      "emoji": "🧤"
+    },
+    {
+      "id": "u9-crown",
+      "emoji": "👑"
+    },
+    {
+      "id": "u9-ribbon",
+      "emoji": "🎀"
+    },
+    {
+      "id": "u9-cool",
+      "emoji": "😎"
+    },
+    {
+      "id": "u9-handbag",
+      "emoji": "👜"
+    },
+    {
+      "id": "u9-complete",
+      "emoji": "🏆",
+      "reserved": true,
+      "label": "Unit 9 complete"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "u9-l1",
+      "number": 1,
+      "title": "Weather",
+      "keyExchange": {
+        "en": "What's the weather like? → It's sunny!",
+        "es": "¿Cómo está el clima? → ¡Hace sol!"
+      },
+      "newItems": [
+        "u9-sunny",
+        "u9-rainy",
+        "u9-cloudy",
+        "u9-windy",
+        "u9-hot",
+        "u9-cold"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-wave",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-08",
+        "unit-09"
+      ],
+      "songId": "song-u9",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u9-l1-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u9-l1-faces"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u9"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Empieza cada sesión de esta unidad mirando por la ventana: \"What's the weather like today?\". Es un ritual corto que ella puede liderar."
+      ]
+    },
+    {
+      "id": "u9-l2",
+      "number": 2,
+      "title": "Clothes 1",
+      "keyExchange": {
+        "en": "It's cold! → Put on your coat!",
+        "es": "¡Hace frío! → ¡Ponte el abrigo!"
+      },
+      "newItems": [
+        "u9-hat",
+        "u9-coat",
+        "u9-scarf",
+        "u9-boots",
+        "u9-umbrella",
+        "u9-put-on-hat"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-wave",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u9-put-on-hat"
+      ],
+      "newCommands": [
+        "u9-put-on-hat"
+      ],
+      "reviewFrom": [
+        "unit-08",
+        "unit-09"
+      ],
+      "songId": "song-u9",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u9-l2-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u9-l2-find",
+            "u9-l2-tap"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u9"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Ten lista la pila de ropa antes de empezar la sesión, para no perder tiempo buscándola."
+      ]
+    },
+    {
+      "id": "u9-l3",
+      "number": 3,
+      "title": "Clothes 2",
+      "keyExchange": {
+        "en": "It's hot! → Put on your shorts!",
+        "es": "¡Hace calor! → ¡Ponte la pantaloneta!"
+      },
+      "newItems": [
+        "u9-t-shirt",
+        "u9-shorts",
+        "u9-dress",
+        "u9-shoes",
+        "u9-socks",
+        "u9-sunglasses"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-wave",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u9-put-on-hat"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-08",
+        "unit-09"
+      ],
+      "songId": "song-u9",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u9-l3-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u9-l3-freeze",
+            "u9-l3-match"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u9"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Si se acelera mucho con el freeze dance, termina con memory-match sentada: \"Sit down… let's play!\"."
+      ]
+    },
+    {
+      "id": "u9-l4",
+      "number": 4,
+      "title": "Dress for the weather",
+      "keyExchange": {
+        "en": "What's the weather like? It's rainy! → Put on your boots!",
+        "es": "¿Cómo está el clima? ¡Está lloviendo! → ¡Ponte las botas!"
+      },
+      "newItems": [
+        "u9-whats-the-weather",
+        "u9-snowy",
+        "u9-rainbow",
+        "u9-clothes"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-wave",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u9-put-on-hat"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-08",
+        "unit-09"
+      ],
+      "songId": "song-u9",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u9-l4-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u9-l4-doll",
+            "u9-l4-tap"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u9"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Mini show (opcional, última sesión de la unidad): ella es \"la presentadora del clima\" frente a la mamá: \"Hello! Today it's sunny! Put on your hat and your sunglasses!\" con la ropa puesta. Esto vale como proyecto de cierre.",
+        "En la pantalla de stickers de esta lección hay un botón discreto para darle el trofeo 🏆 \"Unit 9 complete\" cuando tú decidas que terminó la unidad."
+      ]
+    }
+  ]
+}

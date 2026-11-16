@@ -1,6 +1,6 @@
-# English Play Sessions
+# English Adventure
 
-A teacher-led English session app. The teacher runs 20–25 minute play sessions with a young learner; the app supplies the cards, audio, music, timers and games.
+A teacher-led English session app (repository: `english-play-sessions`), with Pip, a friendly mascot. The teacher runs 20–25 minute play sessions with a young learner; the app supplies the cards, audio, music, timers and games.
 
 This README is written for someone with no technical background. It grows with each build phase.
 
@@ -14,23 +14,23 @@ The app lives at this free web address:
 
 1. Open **Chrome** or **Edge** on the PC (or Chrome on the phone).
 2. Type or paste the address above into the bar at the top and press **Enter**.
-3. **What you should see:** a smiling face and the title "English Play Sessions".
+3. **What you should see:** a sky with hills, the title **"English Adventure"** and the map of lessons.
 4. **If you see "404 – There isn't a GitHub Pages site here":** the publishing step may still be running. Wait 2–3 minutes and reload the page. If it continues, check section 3.
 
 ### Install it (once per device)
 
-Installing puts an **English Play** icon on the PC or phone and lets the app work **without internet**.
+Installing puts an **Adventure** icon on the PC or phone and lets the app work **without internet**.
 
 **On the Windows PC (Chrome or Edge):**
 1. Open the address above.
 2. In the address bar, at the right, click the small **install icon** (a screen with a down arrow, or "App available"). In Edge it may be in the **⋯** menu → **Apps** → **Install this site as an app**.
 3. Click **Install**.
-4. **What you should see:** the app opens in its own window, and an **English Play** icon appears in the Start menu (you can pin it to the taskbar).
+4. **What you should see:** the app opens in its own window, and an **Adventure** icon appears in the Start menu (you can pin it to the taskbar).
 
 **On an Android phone (Chrome):**
 1. Open the address above in Chrome.
 2. Tap the **⋮** menu (top right) → **Add to Home screen** (or **Install app**) → **Install**.
-3. **What you should see:** an **English Play** icon on the home screen.
+3. **What you should see:** an **Adventure** icon on the home screen.
 
 **On an iPhone (Safari):** open the address in Safari → tap the **Share** button (square with an arrow) → **Add to Home Screen** → **Add**.
 
@@ -62,7 +62,7 @@ When a new version is published, the Home screen shows **"A new version of the a
 
 ## 4. Running a session
 
-1. On the home screen, tap a lesson (or the big **Continue** button).
+1. On the home screen choose the unit at the top (1–12), then tap a lesson on the map. Green stops = lessons already played; the orange stop with Pip = today's lesson.
 2. Check the lesson plan and tap **Start session**. The screen goes full screen on the PC.
 3. The top bar shows the block (1/6 … 6/6) and the time left. When the time runs out the timer turns orange and the **Next block** button glows: move on when you are ready, or tap **+2 min**.
 4. Teacher controls (bottom bar):
@@ -100,7 +100,7 @@ Progress is not synced automatically (on purpose: no accounts, nothing about her
 4. The app asks you to confirm and shows what the file contains. Tap **OK**.
 5. **What you should see:** "✓ Progress imported". Before replacing anything, the app **saves and downloads a backup** of the phone's previous progress (`english-progress-backup-….json`).
 6. **If you change your mind:** Settings → **↩️ Undo last import/reset**.
-7. **If you see "This is not an English Play Sessions progress file"** or "different version": nothing was changed; check that you chose the right file.
+7. **If you see "This is not an English Adventure progress file"** or "different version": nothing was changed; check that you chose the right file.
 
 Tip: always continue on the device that has the newest progress, and export again when you switch.
 
@@ -110,7 +110,9 @@ Tip: always continue on the device that has the newest progress, and export agai
 
 All course content lives in files; no code changes are needed.
 
-1. Write the unit in plain words in `docs/content/UNIT-XX-CONTENT.md` (same structure as Unit 1).
+All 12 units are already drafted (`docs/content/UNIT-01-CONTENT.md` … `UNIT-12-CONTENT.md`). To change one, or add a 13th:
+
+1. Edit or write the unit in plain words in `docs/content/UNIT-XX-CONTENT.md` (same structure as Unit 1).
 2. Ask Claude Code: *"Convert docs/content/UNIT-02-CONTENT.md into src/content/units/unit-02.json and generate its audio."*
 3. The file is checked automatically before publishing (`npm run check-content`): if something is missing (for example a word without translation) publishing stops and the problem is listed in the **Actions** tab.
 

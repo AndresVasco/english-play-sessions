@@ -1,0 +1,851 @@
+{
+  "id": "unit-05",
+  "number": 5,
+  "title": "House & Objects",
+  "theme": "House & objects",
+  "goal": "Name rooms and things at home, say where something is with in / on / under, and answer \"Where is the ball?\" (\"Under the bed!\").",
+  "items": [
+    {
+      "id": "u5-house",
+      "text": "house",
+      "translation": "la casa",
+      "image": "🏠",
+      "audio": "audio/u5-house.mp3",
+      "audioEs": "audio/es/u5-house.mp3",
+      "tags": [
+        "house",
+        "place"
+      ]
+    },
+    {
+      "id": "u5-bedroom",
+      "text": "bedroom",
+      "translation": "el cuarto",
+      "image": "🛌",
+      "audio": "audio/u5-bedroom.mp3",
+      "audioEs": "audio/es/u5-bedroom.mp3",
+      "tags": [
+        "house",
+        "place"
+      ]
+    },
+    {
+      "id": "u5-kitchen",
+      "text": "kitchen",
+      "translation": "la cocina",
+      "image": "🍳",
+      "audio": "audio/u5-kitchen.mp3",
+      "audioEs": "audio/es/u5-kitchen.mp3",
+      "tags": [
+        "house",
+        "place"
+      ]
+    },
+    {
+      "id": "u5-bathroom",
+      "text": "bathroom",
+      "translation": "el baño",
+      "image": "🛁",
+      "audio": "audio/u5-bathroom.mp3",
+      "audioEs": "audio/es/u5-bathroom.mp3",
+      "tags": [
+        "house",
+        "place"
+      ]
+    },
+    {
+      "id": "u5-living-room",
+      "text": "living room",
+      "translation": "la sala",
+      "image": "🛋️",
+      "audio": "audio/u5-living-room.mp3",
+      "audioEs": "audio/es/u5-living-room.mp3",
+      "tags": [
+        "house",
+        "place"
+      ]
+    },
+    {
+      "id": "u5-garden",
+      "text": "garden",
+      "translation": "el jardín",
+      "image": "🌷",
+      "audio": "audio/u5-garden.mp3",
+      "audioEs": "audio/es/u5-garden.mp3",
+      "tags": [
+        "house",
+        "place"
+      ]
+    },
+    {
+      "id": "u5-ball",
+      "text": "ball",
+      "translation": "la pelota",
+      "image": "⚽",
+      "audio": "audio/u5-ball.mp3",
+      "audioEs": "audio/es/u5-ball.mp3",
+      "tags": [
+        "house",
+        "object"
+      ]
+    },
+    {
+      "id": "u5-bed",
+      "text": "bed",
+      "translation": "la cama",
+      "image": "🛏️",
+      "audio": "audio/u5-bed.mp3",
+      "audioEs": "audio/es/u5-bed.mp3",
+      "tags": [
+        "house",
+        "object"
+      ]
+    },
+    {
+      "id": "u5-chair",
+      "text": "chair",
+      "translation": "la silla",
+      "image": "🪑",
+      "audio": "audio/u5-chair.mp3",
+      "audioEs": "audio/es/u5-chair.mp3",
+      "tags": [
+        "house",
+        "object"
+      ]
+    },
+    {
+      "id": "u5-book",
+      "text": "book",
+      "translation": "el libro",
+      "image": "📖",
+      "audio": "audio/u5-book.mp3",
+      "audioEs": "audio/es/u5-book.mp3",
+      "tags": [
+        "house",
+        "object"
+      ]
+    },
+    {
+      "id": "u5-teddy-bear",
+      "text": "teddy bear",
+      "translation": "el osito de peluche",
+      "image": "🧸",
+      "audio": "audio/u5-teddy-bear.mp3",
+      "audioEs": "audio/es/u5-teddy-bear.mp3",
+      "tags": [
+        "house",
+        "object"
+      ]
+    },
+    {
+      "id": "u5-box",
+      "text": "box",
+      "translation": "la caja",
+      "image": "📦",
+      "audio": "audio/u5-box.mp3",
+      "audioEs": "audio/es/u5-box.mp3",
+      "tags": [
+        "house",
+        "object"
+      ]
+    },
+    {
+      "id": "u5-in",
+      "text": "in",
+      "translation": "dentro de",
+      "image": "📥",
+      "audio": "audio/u5-in.mp3",
+      "audioEs": "audio/es/u5-in.mp3",
+      "tags": [
+        "house",
+        "preposition"
+      ]
+    },
+    {
+      "id": "u5-on",
+      "text": "on",
+      "translation": "encima de",
+      "image": "🔛",
+      "audio": "audio/u5-on.mp3",
+      "audioEs": "audio/es/u5-on.mp3",
+      "tags": [
+        "house",
+        "preposition"
+      ]
+    },
+    {
+      "id": "u5-under",
+      "text": "under",
+      "translation": "debajo de",
+      "image": "⬇️",
+      "audio": "audio/u5-under.mp3",
+      "audioEs": "audio/es/u5-under.mp3",
+      "tags": [
+        "house",
+        "preposition"
+      ]
+    },
+    {
+      "id": "u5-where-is",
+      "text": "Where is the ball?",
+      "translation": "¿Dónde está la pelota?",
+      "image": "🔍",
+      "audio": "audio/u5-where-is.mp3",
+      "audioEs": "audio/es/u5-where-is.mp3",
+      "tags": [
+        "house",
+        "question"
+      ]
+    },
+    {
+      "id": "u5-under-the-bed",
+      "text": "Under the bed!",
+      "translation": "¡Debajo de la cama!",
+      "image": "🛏️⬇️",
+      "audio": "audio/u5-under-the-bed.mp3",
+      "audioEs": "audio/es/u5-under-the-bed.mp3",
+      "tags": [
+        "house",
+        "phrase"
+      ]
+    },
+    {
+      "id": "u5-close-your-eyes",
+      "text": "Close your eyes!",
+      "translation": "¡Cierra los ojos!",
+      "image": "🙈",
+      "audio": "audio/u5-close-your-eyes.mp3",
+      "audioEs": "audio/es/u5-close-your-eyes.mp3",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "id": "u5-open-your-eyes",
+      "text": "Open your eyes!",
+      "translation": "¡Abre los ojos!",
+      "image": "👀",
+      "audio": "audio/u5-open-your-eyes.mp3",
+      "audioEs": "audio/es/u5-open-your-eyes.mp3",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "id": "u5-here-it-is",
+      "text": "Here it is!",
+      "translation": "¡Aquí está!",
+      "image": "🙌",
+      "audio": "audio/u5-here-it-is.mp3",
+      "audioEs": "audio/es/u5-here-it-is.mp3",
+      "tags": [
+        "house",
+        "phrase"
+      ]
+    },
+    {
+      "id": "u5-i-dont-know",
+      "text": "I don't know!",
+      "translation": "¡No sé!",
+      "image": "🤷‍♀️",
+      "audio": "audio/u5-i-dont-know.mp3",
+      "audioEs": "audio/es/u5-i-dont-know.mp3",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "u5-this-is-my-house",
+      "text": "This is my house!",
+      "translation": "¡Esta es mi casa!",
+      "image": "🏡",
+      "audio": "audio/u5-this-is-my-house.mp3",
+      "audioEs": "audio/es/u5-this-is-my-house.mp3",
+      "tags": [
+        "house",
+        "phrase"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "auto-review",
+      "type": "simon-says",
+      "title": "Review: Simon Says + weak words",
+      "itemIds": [],
+      "autoReview": true,
+      "config": {
+        "intervalSec": 6
+      },
+      "teacherNotes": "La app mezcla los comandos con las palabras más débiles. Si sale una habitación, ella corre hacia allá; si sale un objeto, lo toca. Para \"Close your eyes!\" tápate tú también los ojos y cuenta \"one, two, three\" antes de \"Open your eyes!\"."
+    },
+    {
+      "id": "u5-l1-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Rooms",
+      "itemIds": [
+        "u5-house",
+        "u5-bedroom",
+        "u5-kitchen",
+        "u5-bathroom",
+        "u5-living-room",
+        "u5-garden"
+      ],
+      "teacherNotes": "Muestra la tarjeta, suena el audio y tú lo repites señalando hacia esa parte de la casa. Ella repite. Para \"house\" dibuja con las manos un techo sobre tu cabeza. \"Living room\" son dos palabras: dilo despacio y luego rápido. Marca ✓ si se entiende, no tiene que ser perfecto."
+    },
+    {
+      "id": "u5-l1-run",
+      "type": "find-it",
+      "title": "Run to the room!",
+      "itemIds": [
+        "u5-bedroom",
+        "u5-kitchen",
+        "u5-bathroom",
+        "u5-living-room",
+        "u5-garden"
+      ],
+      "config": {
+        "seconds": 20
+      },
+      "prompts": [
+        {
+          "id": "p-u5-run-to",
+          "en": "Run to the ___!",
+          "es": "¡Corre hasta ___!"
+        }
+      ],
+      "teacherNotes": "La app dice una habitación (\"Run to the kitchen!\") y ella corre hasta allá antes de que se acabe el tiempo. Tú vas detrás. Cuando llegue, pregúntale \"Where are you?\" y que responda \"I'm in the kitchen!\" (o solo \"Kitchen!\"): eso es ✓. Si no tienen jardín, el \"garden\" es la ventana o una matera. Variante si se aburre: ella lleva el PC/teléfono y te manda a ti a correr."
+    },
+    {
+      "id": "u5-l2-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Things at home",
+      "itemIds": [
+        "u5-ball",
+        "u5-bed",
+        "u5-chair",
+        "u5-book",
+        "u5-teddy-bear",
+        "u5-box"
+      ],
+      "teacherNotes": "Ten a mano los objetos reales (una pelota, un libro, un peluche, una caja). Muestra la tarjeta y levanta el objeto real al mismo tiempo. Pregunta \"What's this?\" y ella responde \"It's a ball!\" o solo \"Ball!\": las dos valen ✓."
+    },
+    {
+      "id": "u5-l2-freeze",
+      "type": "freeze-dance",
+      "title": "Freeze Dance: touch it!",
+      "itemIds": [
+        "u5-ball",
+        "u5-bed",
+        "u5-chair",
+        "u5-book",
+        "u5-teddy-bear",
+        "u5-box"
+      ],
+      "prompts": [
+        {
+          "id": "p-u5-dance",
+          "en": "Dance!",
+          "es": "¡Baila!"
+        },
+        {
+          "id": "p-u5-touch",
+          "en": "Freeze! Touch the ___!",
+          "es": "¡Congélate! ¡Toca ___!"
+        }
+      ],
+      "teacherNotes": "Jueguen en el cuarto, con la pelota, el libro, el peluche, la caja y una silla a la vista. Suena música y ella baila. Cuando para, la app dice \"Freeze! Touch the chair!\" y ella corre a tocar ese objeto. Marca ✓ cuando lo toque (si además dice la palabra, celebra doble). Variante: ella controla la pausa y tú corres a tocar las cosas; equivócate a propósito para que ella te corrija."
+    },
+    {
+      "id": "u5-l3-cards",
+      "type": "flashcards",
+      "title": "Flashcards: In, on, under",
+      "itemIds": [
+        "u5-in",
+        "u5-on",
+        "u5-under",
+        "u5-where-is",
+        "u5-under-the-bed",
+        "u5-close-your-eyes"
+      ],
+      "teacherNotes": "Usa el osito y la caja para cada palabra: \"in\" (mételo en la caja), \"on\" (ponlo encima), \"under\" (ponlo debajo). Ella lo repite moviendo el osito. Con \"Close your eyes!\" tápate los ojos con las manos. Para \"Where is the ball?\" pon cara de buscar con la mano en la frente."
+    },
+    {
+      "id": "u5-l3-teddy",
+      "type": "faces",
+      "title": "Where is the teddy?",
+      "itemIds": [
+        "u5-in",
+        "u5-on",
+        "u5-under"
+      ],
+      "prompts": [
+        {
+          "id": "p-u5-put-teddy",
+          "en": "Put the teddy ___ the box!",
+          "es": "¡Pon el osito ___ la caja!"
+        },
+        {
+          "id": "p-u5-where-teddy",
+          "en": "Where is the teddy?",
+          "es": "¿Dónde está el osito?"
+        }
+      ],
+      "teacherNotes": "Modo \"show me\": la app dice \"Put the teddy under the box!\" y ella pone el osito en ese lugar. Modo adivinar: tú pones el osito (dentro, encima o debajo de la caja) y ella dice \"In!\", \"On!\" o \"Under!\" y toca el dibujo. Variante: ella misma se mete en / se sube a / se esconde debajo de una cobija."
+    },
+    {
+      "id": "u5-l3-hide",
+      "type": "find-it",
+      "title": "Hide and seek with objects",
+      "itemIds": [
+        "u5-ball",
+        "u5-book",
+        "u5-teddy-bear",
+        "u5-box"
+      ],
+      "config": {
+        "seconds": 40
+      },
+      "prompts": [
+        {
+          "id": "p-u5-where-is",
+          "en": "Where is the ___?",
+          "es": "¿Dónde está ___?"
+        }
+      ],
+      "teacherNotes": "El juego estrella. Ella hace \"Close your eyes!\" y cuenta hasta 10 (en inglés si puede). Tú escondes el objeto que dice la app debajo de la cama, encima de una silla o dentro de una caja. \"Open your eyes! Where is the ball?\" Ella busca; si se demora, di \"hot/cold\" con gestos o señala la habitación (\"In the bedroom!\"). Cuando lo encuentre, pregúntale \"Where is it?\" y celebra cualquier respuesta: \"Under the bed!\" o solo \"Under!\" es ✓. Variante: ella esconde y tú buscas; ella te da pistas con in/on/under."
+    },
+    {
+      "id": "u5-l4-cards",
+      "type": "flashcards",
+      "title": "Flashcards: Phrases for hide and seek",
+      "itemIds": [
+        "u5-open-your-eyes",
+        "u5-here-it-is",
+        "u5-i-dont-know",
+        "u5-this-is-my-house"
+      ],
+      "teacherNotes": "Practiquen las frases con mini escondite de 10 segundos: \"Close your eyes!… Open your eyes!\", \"Where is the book?\" → \"I don't know!\" (hombros arriba) → busca → \"Here it is!\" (levanta el objeto). Exagera los gestos, le van a dar risa."
+    },
+    {
+      "id": "u5-l4-match",
+      "type": "memory-match",
+      "title": "Memory Match: house",
+      "itemIds": [
+        "u5-bedroom",
+        "u5-kitchen",
+        "u5-bathroom",
+        "u5-living-room",
+        "u5-garden",
+        "u5-ball",
+        "u5-bed",
+        "u5-chair",
+        "u5-book",
+        "u5-teddy-bear",
+        "u5-box"
+      ],
+      "config": {
+        "pairs": 6
+      },
+      "teacherNotes": "Ella toca la pantalla para encontrar parejas (dibujo ↔ palabra). Cada vez que encuentre una, dila juntos en voz alta. Si es un objeto, que lo vaya a tocar en la casa y vuelva (movimiento extra)."
+    },
+    {
+      "id": "u5-l4-tap",
+      "type": "listen-and-tap",
+      "title": "Listen and Tap: house",
+      "itemIds": [
+        "u5-bedroom",
+        "u5-kitchen",
+        "u5-bathroom",
+        "u5-living-room",
+        "u5-garden",
+        "u5-ball",
+        "u5-bed",
+        "u5-chair",
+        "u5-book",
+        "u5-teddy-bear",
+        "u5-box"
+      ],
+      "config": {
+        "choices": 4
+      },
+      "teacherNotes": "Suena la palabra y ella toca el dibujo. Pon el PC al otro lado del cuarto: ella empieza junto a la puerta y corre a tocar. Si duda, repite el audio con ↺ antes de ayudarla."
+    }
+  ],
+  "songs": [
+    {
+      "id": "song-u5",
+      "title": "Where Is the Ball?",
+      "purpose": "Unit 5 song",
+      "lines": [
+        "Where is the ball? Where is it?",
+        "In the box? On the bed?",
+        "Look, look, look! Under the bed!",
+        "Here it is! Here it is!"
+      ],
+      "tempo": 100,
+      "melody": [
+        "E4:1 F4:1 G4:1 E4:1 C4:1 D4:1 E4:2",
+        "C4:1 D4:1 E4:2 F4:1 E4:1 D4:2",
+        "G4:1 G4:1 G4:1 A4:1 G4:1 F4:1 E4:2",
+        "D4:1 E4:1 F4:2 D4:1 B3:1 C4:2"
+      ],
+      "chords": [
+        "C C G C",
+        "C C F G",
+        "C F G C",
+        "Dm F G C"
+      ]
+    }
+  ],
+  "stickers": [
+    {
+      "id": "u5-home",
+      "emoji": "🏡"
+    },
+    {
+      "id": "u5-teddy",
+      "emoji": "🧸"
+    },
+    {
+      "id": "u5-key",
+      "emoji": "🔑"
+    },
+    {
+      "id": "u5-gift",
+      "emoji": "🎁"
+    },
+    {
+      "id": "u5-lamp",
+      "emoji": "💡"
+    },
+    {
+      "id": "u5-clock",
+      "emoji": "⏰"
+    },
+    {
+      "id": "u5-sofa",
+      "emoji": "🛋️"
+    },
+    {
+      "id": "u5-kite",
+      "emoji": "🪁"
+    },
+    {
+      "id": "u5-dice",
+      "emoji": "🎲"
+    },
+    {
+      "id": "u5-complete",
+      "emoji": "🏆",
+      "reserved": true,
+      "label": "Unit 5 complete"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "u5-l1",
+      "number": 1,
+      "title": "Rooms",
+      "keyExchange": {
+        "en": "Where are you? → I'm in the kitchen!",
+        "es": "¿Dónde estás? → ¡Estoy en la cocina!"
+      },
+      "newItems": [
+        "u5-house",
+        "u5-bedroom",
+        "u5-kitchen",
+        "u5-bathroom",
+        "u5-living-room",
+        "u5-garden"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-04",
+        "unit-05"
+      ],
+      "songId": "song-u5",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u5-l1-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u5-l1-run"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u5"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Antes de empezar, recorran la casa juntos diciendo cada habitación en voz alta: es el mapa del juego."
+      ]
+    },
+    {
+      "id": "u5-l2",
+      "number": 2,
+      "title": "Things at Home",
+      "keyExchange": {
+        "en": "What's this? → It's a ball!",
+        "es": "¿Qué es esto? → ¡Es una pelota!"
+      },
+      "newItems": [
+        "u5-ball",
+        "u5-bed",
+        "u5-chair",
+        "u5-book",
+        "u5-teddy-bear",
+        "u5-box"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen"
+      ],
+      "newCommands": [],
+      "reviewFrom": [
+        "unit-04",
+        "unit-05"
+      ],
+      "songId": "song-u5",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u5-l2-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u5-l2-freeze"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u5"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Si se acelera mucho, cambia a \"Sit down! Touch the book!\" en cámara lenta: el mismo juego, más calmado."
+      ]
+    },
+    {
+      "id": "u5-l3",
+      "number": 3,
+      "title": "In, On, Under",
+      "keyExchange": {
+        "en": "Where is the ball? → Under the bed!",
+        "es": "¿Dónde está la pelota? → ¡Debajo de la cama!"
+      },
+      "newItems": [
+        "u5-in",
+        "u5-on",
+        "u5-under",
+        "u5-where-is",
+        "u5-under-the-bed",
+        "u5-close-your-eyes"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u5-close-your-eyes"
+      ],
+      "newCommands": [
+        "u5-close-your-eyes"
+      ],
+      "reviewFrom": [
+        "unit-04",
+        "unit-05"
+      ],
+      "songId": "song-u5",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u5-l3-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u5-l3-teddy",
+            "u5-l3-hide"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u5"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "Si le cuesta \"on\" vs. \"in\", no lo corrijas con palabras: muévelo con el osito y que lo repita. Se aprende con las manos."
+      ]
+    },
+    {
+      "id": "u5-l4",
+      "number": 4,
+      "title": "Review & House Tour",
+      "keyExchange": {
+        "en": "Where is the teddy bear? → I don't know! … Here it is!",
+        "es": "¿Dónde está el osito? → ¡No sé! … ¡Aquí está!"
+      },
+      "newItems": [
+        "u5-open-your-eyes",
+        "u5-here-it-is",
+        "u5-i-dont-know",
+        "u5-this-is-my-house"
+      ],
+      "commands": [
+        "cmd-stand-up",
+        "cmd-sit-down",
+        "cmd-wave",
+        "cmd-jump",
+        "cmd-clap",
+        "cmd-stop",
+        "cmd-spin",
+        "cmd-listen",
+        "u5-close-your-eyes",
+        "u5-open-your-eyes"
+      ],
+      "newCommands": [
+        "u5-open-your-eyes"
+      ],
+      "reviewFrom": [
+        "unit-04",
+        "unit-05"
+      ],
+      "songId": "song-u5",
+      "blocks": [
+        {
+          "type": "hello-song",
+          "minutes": 2,
+          "songId": "song-hello"
+        },
+        {
+          "type": "review",
+          "minutes": 5,
+          "activityIds": [
+            "auto-review"
+          ]
+        },
+        {
+          "type": "new-words",
+          "minutes": 5,
+          "activityIds": [
+            "u5-l4-cards"
+          ]
+        },
+        {
+          "type": "movement-game",
+          "minutes": 8,
+          "activityIds": [
+            "u5-l4-match",
+            "u5-l4-tap"
+          ]
+        },
+        {
+          "type": "song",
+          "minutes": 3,
+          "songId": "song-u5"
+        },
+        {
+          "type": "stickers",
+          "minutes": 2,
+          "songId": "song-goodbye"
+        }
+      ],
+      "teacherNotes": [
+        "House tour (opcional, última sesión de la unidad): ella es la guía y le muestra la casa a la mamá: \"This is my house! This is the kitchen. The teddy is on the bed!\". Vale como proyecto de cierre de la unidad.",
+        "En la pantalla de stickers de esta lección hay un botón discreto para darle el trofeo 🏆 \"Unit 5 complete\" cuando tú decidas que terminó la unidad."
+      ]
+    }
+  ]
+}

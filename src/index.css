@@ -485,3 +485,8 @@ h1, h2, h3, .runner-label, .goodbye-text, .flashcard-word { font-weight: 700; }
   .flashcard { min-height: min(38vh, 320px); width: min(88vw, 640px); }
   .flashcard-image { font-size: clamp(5rem, 16vh, 8rem); }
 }
+@media (max-height: 800px) and (min-width: 561px) {
+  .flashcard { min-height: min(42vh, 360px); }
+  .flashcard-image { font-size: clamp(5rem, 17vh, 9rem); }
+  .pip-says .pip { width: 64px; height: 64px; }
+}
