@@ -43,7 +43,7 @@ Commands: all 8 global commands (no new ones)
 
 - `auto-review`: La app escoge sus palabras más débiles y las mezcla con los comandos. Con un animal de la unidad 8, que lo actúe; con ropa, que se toque la parte del cuerpo donde va (hat → cabeza, socks → pies). Desde la lección 2 aparece "Put on your hat!": ella hace como que se pone el sombrero.
 - `u9-l1-cards` (Flashcards: Weather): Siempre con frase completa: "It's sunny!". Gestos: sunny (brazos en círculo como sol), rainy (dedos como gotas que caen), cloudy (manos como nube esponjosa), windy (soplar fuerte y balancearse), hot (abanicarse, sudar), cold (temblar y abrazarse). Al final miren por la ventana: "What's the weather like today?".
-- `u9-l1-faces` (Show me the weather): Modo "show me": la app muestra un clima y ella lo actúa con todo el cuerpo (frío: tiritar; viento: la empuja el viento por el cuarto). Marca ✓ cuando además dice "It's cold!". Modo "guess": tú actúas y ella toca el clima. Variante: tú eres "el clima" y cambias cada 5 segundos; ella reacciona (se abanica, abre una sombrilla imaginaria…).
+- `u9-l1-faces` (Show me the weather): Modo "show me": la app muestra un clima y ella lo actúa con todo el cuerpo (frío: tiritar; viento: la empuja el viento por el cuarto). Marca ✓ cuando además dice "It's cold!". Modo "guess": tú actúas y ella toca el clima. Variante: tú eres "el clima" y cambias cada 5 segundos; ella reacciona (se abanica, abre un paraguas imaginario…).
 - Empieza cada sesión de esta unidad mirando por la ventana: "What's the weather like today?". Es un ritual corto que ella puede liderar.
 
 ---
@@ -58,7 +58,7 @@ Commands: all 8 global commands (no new ones)
 | u9-coat | coat | 🧥 | el abrigo |
 | u9-scarf | scarf | 🧣 | la bufanda |
 | u9-boots | boots | 👢 | las botas |
-| u9-umbrella | umbrella | ☂️ | la sombrilla |
+| u9-umbrella | umbrella | ☂️ | el paraguas |
 | u9-put-on-hat | Put on your hat! *(command)* | 🙋‍♀️👒 | ¡Ponte el sombrero! |
 
 Key exchange: "It's cold! → Put on your coat!" (¡Hace frío! → ¡Ponte el abrigo!)
@@ -77,7 +77,7 @@ Commands: all 8 global commands + new: u9-put-on-hat
 
 **Teacher notes**
 
-- `u9-l2-cards` (Flashcards: Clothes 1): Si tienes la ropa real (sombrero, abrigo, bufanda, botas, sombrilla), úsala en vez de solo la tarjeta: ella la toca y la nombra. Para "Put on your hat!": tú das la orden, ella se pone el sombrero (real o imaginario); después ella te da la orden a ti.
+- `u9-l2-cards` (Flashcards: Clothes 1): Si tienes la ropa real (sombrero, abrigo, bufanda, botas, paraguas), úsala en vez de solo la tarjeta: ella la toca y la nombra. Para "Put on your hat!": tú das la orden, ella se pone el sombrero (real o imaginario); después ella te da la orden a ti.
 - `u9-l2-find` (Put on your clothes!): Antes de empezar, deja en un rincón una pila de ropa (de ella o tuya, entre más grande y chistosa mejor). La app dice "Put on your coat!" y ella corre, encuentra la prenda y se la pone antes de que termine el tiempo. Marca ✓ si la encontró (no importa si se la puso al revés). Variante: ella te viste a ti.
 - `u9-l2-tap` (Listen and Tap: clothes 1): Suena la prenda, ella toca la imagen y señala dónde se pone en el cuerpo. Si duda, repite el audio antes de ayudarla.
 - Ten lista la pila de ropa antes de empezar la sesión, para no perder tiempo buscándola.
@@ -91,13 +91,13 @@ Commands: all 8 global commands + new: u9-put-on-hat
 | id | text | emoji | translation (peek) |
 |---|---|---|---|
 | u9-t-shirt | T-shirt | 👕 | la camiseta |
-| u9-shorts | shorts | 🩳 | la pantaloneta |
+| u9-shorts | shorts | 🩳 | los pantalones cortos |
 | u9-dress | dress | 👗 | el vestido |
 | u9-shoes | shoes | 👟 | los zapatos |
-| u9-socks | socks | 🧦 | las medias |
+| u9-socks | socks | 🧦 | los calcetines |
 | u9-sunglasses | sunglasses | 🕶️ | las gafas de sol |
 
-Key exchange: "It's hot! → Put on your shorts!" (¡Hace calor! → ¡Ponte la pantaloneta!)
+Key exchange: "It's hot! → Put on your shorts!" (¡Hace calor! → ¡Ponte los pantalones cortos!)
 Commands: all 8 global commands + u9-put-on-hat (no new ones)
 
 **Blocks**
@@ -126,7 +126,7 @@ Commands: all 8 global commands + u9-put-on-hat (no new ones)
 
 | id | text | emoji | translation (peek) |
 |---|---|---|---|
-| u9-whats-the-weather | What's the weather like? | 🌦️ | ¿Cómo está el clima? |
+| u9-whats-the-weather | What's the weather like? | 🌦️ | ¿Qué tiempo hace? |
 | u9-snowy | snowy | ❄️ | está nevando |
 | u9-rainbow | rainbow | 🌈 | arcoíris |
 | u9-clothes | clothes | 👚👖 | la ropa |

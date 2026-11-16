@@ -130,7 +130,7 @@
     {
       "id": "u3-stamp-your-feet",
       "text": "Stamp your feet!",
-      "translation": "¡Zapatea!",
+      "translation": "¡Pisa fuerte!",
       "image": "👣",
       "audio": "audio/u3-stamp-your-feet.mp3",
       "audioEs": "audio/es/u3-stamp-your-feet.mp3",
@@ -665,7 +665,7 @@
       "title": "Arms & Legs",
       "keyExchange": {
         "en": "Stamp your feet! → (stamp, stamp) Feet!",
-        "es": "¡Zapatea! → (pum, pum) ¡Pies!"
+        "es": "¡Pisa fuerte! → (pum, pum) ¡Pies!"
       },
       "newItems": [
         "u3-arms",

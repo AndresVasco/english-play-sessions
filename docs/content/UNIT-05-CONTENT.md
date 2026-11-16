@@ -19,7 +19,7 @@ Content source for `src/content/units/unit-05.json`. Item and activity ids are s
 | id | text | emoji | translation (peek) |
 |---|---|---|---|
 | u5-house | house | 🏠 | la casa |
-| u5-bedroom | bedroom | 🛌 | el cuarto |
+| u5-bedroom | bedroom | 🛌 | la habitación |
 | u5-kitchen | kitchen | 🍳 | la cocina |
 | u5-bathroom | bathroom | 🛁 | el baño |
 | u5-living-room | living room | 🛋️ | la sala |

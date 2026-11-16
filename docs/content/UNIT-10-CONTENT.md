@@ -23,7 +23,7 @@ Star game: **Order the picture cards** (`find-it`: "Find the card: ___!"). She d
 | u10-wash-face | I wash my face | 🧼 | Me lavo la cara |
 | u10-brush-teeth | I brush my teeth | 🪥 | Me cepillo los dientes |
 | u10-eat-breakfast | I eat breakfast | 🥣 | Desayuno |
-| u10-go-to-school | I go to school | 🏫 | Voy al colegio |
+| u10-go-to-school | I go to school | 🏫 | Voy a la escuela |
 
 Key exchange: "What do you do? → I wake up! I brush my teeth!" (¿Qué haces? → ¡Me despierto! ¡Me cepillo los dientes!)
 Commands: all 8 global commands (no new ones)
@@ -61,7 +61,7 @@ Commands: all 8 global commands (no new ones)
 | u10-take-a-bath | I take a bath | 🛁 | Me baño |
 | u10-hurry-up | Hurry up! *(command)* | 🏃‍♀️ | ¡Apúrate! |
 
-Key exchange: "What do you do after school? → I eat lunch. I play!" (¿Qué haces después del colegio? → Almuerzo. ¡Juego!)
+Key exchange: "What do you do after school? → I eat lunch. I play!" (¿Qué haces después de la escuela? → Almuerzo. ¡Juego!)
 Commands: all 8 global commands + new: u10-hurry-up
 
 **Blocks**
@@ -147,7 +147,7 @@ Commands: all 8 global commands + u10-hurry-up (no new ones)
 **Teacher notes**
 
 - `u10-l4-cards` (Flashcards: First, then…): Usa los dedos: "First" (un dedo) "I wake up", "then" (señalar adelante) "I brush my teeth". Practica la pregunta en pareja: "What do you do in the morning?" → "I wake up, I eat breakfast…". "Every day": dibuja un círculo grande con el brazo, como el sol que vuelve.
-- `u10-l4-order` (Order the picture cards): Juego estrella. Antes de la sesión (o en la sesión anterior) ella dibuja en hojas 6–8 tarjetas de su día (despertarse, desayunar, colegio, bañarse, dormir…); tú escribes la frase en inglés debajo. Pega una línea de cinta en el piso: un extremo es 🌅 "morning", el otro 🌃 "night". Esconde las tarjetas. La app dice una rutina, ella busca la tarjeta y la pone en su lugar en la línea. Al final camina por la línea diciendo: "First I wake up, then I eat breakfast…". Cualquier orden con sentido vale ✓. Variante: tú pones una tarjeta en un lugar equivocado y ella la mueve.
+- `u10-l4-order` (Order the picture cards): Juego estrella. Antes de la sesión (o en la sesión anterior) ella dibuja en hojas 6–8 tarjetas de su día (despertarse, desayunar, escuela, bañarse, dormir…); tú escribes la frase en inglés debajo. Pega una línea de cinta en el piso: un extremo es 🌅 "morning", el otro 🌃 "night". Esconde las tarjetas. La app dice una rutina, ella busca la tarjeta y la pone en su lugar en la línea. Al final camina por la línea diciendo: "First I wake up, then I eat breakfast…". Cualquier orden con sentido vale ✓. Variante: tú pones una tarjeta en un lugar equivocado y ella la mueve.
 - `u10-l4-freeze` (Freeze Dance: my whole day): Igual que en la lección 1 pero con todas las rutinas. Úsalo si el juego de tarjetas terminó rápido o si necesita moverse más. Variante: después de congelarse, ella dice qué hace "then": "Then I eat breakfast!".
 - Mini show (opcional, última sesión de la unidad): ella le cuenta a la mamá su día caminando por la línea de tarjetas: "First I wake up, then I brush my teeth… at night I sleep. Good night!". Esto vale como proyecto de cierre.
 - En la pantalla de stickers de esta lección hay un botón discreto para darle el trofeo 🏆 "Unit 10 complete" cuando tú decidas que terminó la unidad.

@@ -118,7 +118,7 @@
     {
       "id": "u9-umbrella",
       "text": "umbrella",
-      "translation": "la sombrilla",
+      "translation": "el paraguas",
       "image": "☂️",
       "audio": "audio/u9-umbrella.mp3",
       "audioEs": "audio/es/u9-umbrella.mp3",
@@ -151,7 +151,7 @@
     {
       "id": "u9-shorts",
       "text": "shorts",
-      "translation": "la pantaloneta",
+      "translation": "los pantalones cortos",
       "image": "🩳",
       "audio": "audio/u9-shorts.mp3",
       "audioEs": "audio/es/u9-shorts.mp3",
@@ -184,7 +184,7 @@
     {
       "id": "u9-socks",
       "text": "socks",
-      "translation": "las medias",
+      "translation": "los calcetines",
       "image": "🧦",
       "audio": "audio/u9-socks.mp3",
       "audioEs": "audio/es/u9-socks.mp3",
@@ -206,7 +206,7 @@
     {
       "id": "u9-whats-the-weather",
       "text": "What's the weather like?",
-      "translation": "¿Cómo está el clima?",
+      "translation": "¿Qué tiempo hace?",
       "image": "🌦️",
       "audio": "audio/u9-whats-the-weather.mp3",
       "audioEs": "audio/es/u9-whats-the-weather.mp3",
@@ -299,7 +299,7 @@
           "es": "¡Adivina el clima!"
         }
       ],
-      "teacherNotes": "Modo \"show me\": la app muestra un clima y ella lo actúa con todo el cuerpo (frío: tiritar; viento: la empuja el viento por el cuarto). Marca ✓ cuando además dice \"It's cold!\". Modo \"guess\": tú actúas y ella toca el clima. Variante: tú eres \"el clima\" y cambias cada 5 segundos; ella reacciona (se abanica, abre una sombrilla imaginaria…)."
+      "teacherNotes": "Modo \"show me\": la app muestra un clima y ella lo actúa con todo el cuerpo (frío: tiritar; viento: la empuja el viento por el cuarto). Marca ✓ cuando además dice \"It's cold!\". Modo \"guess\": tú actúas y ella toca el clima. Variante: tú eres \"el clima\" y cambias cada 5 segundos; ella reacciona (se abanica, abre un paraguas imaginario…)."
     },
     {
       "id": "u9-l2-cards",
@@ -313,7 +313,7 @@
         "u9-umbrella",
         "u9-put-on-hat"
       ],
-      "teacherNotes": "Si tienes la ropa real (sombrero, abrigo, bufanda, botas, sombrilla), úsala en vez de solo la tarjeta: ella la toca y la nombra. Para \"Put on your hat!\": tú das la orden, ella se pone el sombrero (real o imaginario); después ella te da la orden a ti."
+      "teacherNotes": "Si tienes la ropa real (sombrero, abrigo, bufanda, botas, paraguas), úsala en vez de solo la tarjeta: ella la toca y la nombra. Para \"Put on your hat!\": tú das la orden, ella se pone el sombrero (real o imaginario); después ella te da la orden a ti."
     },
     {
       "id": "u9-l2-find",
@@ -703,7 +703,7 @@
       "title": "Clothes 2",
       "keyExchange": {
         "en": "It's hot! → Put on your shorts!",
-        "es": "¡Hace calor! → ¡Ponte la pantaloneta!"
+        "es": "¡Hace calor! → ¡Ponte los pantalones cortos!"
       },
       "newItems": [
         "u9-t-shirt",

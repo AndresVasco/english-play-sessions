@@ -19,10 +19,10 @@ Content source for `src/content/units/unit-06.json`. Item and activity ids are s
 | id | text | emoji | translation (peek) |
 |---|---|---|---|
 | u6-apple | apple | 🍎 | la manzana |
-| u6-banana | banana | 🍌 | el banano |
+| u6-banana | banana | 🍌 | la banana |
 | u6-orange | orange | 🍊 | la naranja |
 | u6-strawberry | strawberry | 🍓 | la fresa |
-| u6-watermelon | watermelon | 🍉 | la patilla |
+| u6-watermelon | watermelon | 🍉 | la sandía |
 | u6-i-like | I like… | 👍 | Me gusta… |
 
 Key exchange: "What do you like? → I like bananas!"
@@ -41,8 +41,8 @@ Commands introduced: none (all 8 global commands available)
 
 **Teacher notes**
 
-- `u6-l1-cards`: Para cada fruta, haz como que la comes: muerde la manzana, pela el banano, exprime la naranja, escupe las pepas de la patilla. Con "I like…" levanta el pulgar y sóbate la barriga. Si tienen una fruta real en casa, úsala.
-- `u6-l1-eat` (Pretend to eat!): Modo "show me": la app muestra una fruta y ella hace como que se la come (con mímica grande). Al terminar pregúntale "Do you like it?" y que diga "I like apples!" o solo "I like!". Modo adivinar: tú haces la mímica y ella dice la fruta y toca el dibujo. Variante: hagan la patilla gigante entre los dos.
+- `u6-l1-cards`: Para cada fruta, haz como que la comes: muerde la manzana, pela la banana, exprime la naranja, escupe las semillas de la sandía. Con "I like…" levanta el pulgar y sóbate la barriga. Si tienen una fruta real en casa, úsala.
+- `u6-l1-eat` (Pretend to eat!): Modo "show me": la app muestra una fruta y ella hace como que se la come (con mímica grande). Al terminar pregúntale "Do you like it?" y que diga "I like apples!" o solo "I like!". Modo adivinar: tú haces la mímica y ella dice la fruta y toca el dibujo. Variante: hagan la sandía gigante entre los dos.
 - En inglés se dice "I like apples" (en plural). No lo expliques: dilo tú bien y acepta "I like apple" como ✓.
 
 ---
@@ -125,7 +125,7 @@ Commands introduced: none (all 8 global commands available)
 |---|---|---|---|
 | u6-cookie | cookie | 🍪 | la galleta |
 | u6-yummy | Yummy! | 😋 | ¡Qué rico! |
-| u6-yuck | Yuck! | 🤢 | ¡Guácala! |
+| u6-yuck | Yuck! | 🤢 | ¡Qué asco! |
 | u6-do-you-like | Do you like…? | 👍❓ | ¿Te gusta…? |
 
 Key exchange: "Do you like cookies? → Yes! Yummy!"

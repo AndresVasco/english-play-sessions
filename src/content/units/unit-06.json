@@ -20,7 +20,7 @@
     {
       "id": "u6-banana",
       "text": "banana",
-      "translation": "el banano",
+      "translation": "la banana",
       "image": "🍌",
       "audio": "audio/u6-banana.mp3",
       "audioEs": "audio/es/u6-banana.mp3",
@@ -56,7 +56,7 @@
     {
       "id": "u6-watermelon",
       "text": "watermelon",
-      "translation": "la patilla",
+      "translation": "la sandía",
       "image": "🍉",
       "audio": "audio/u6-watermelon.mp3",
       "audioEs": "audio/es/u6-watermelon.mp3",
@@ -241,7 +241,7 @@
     {
       "id": "u6-yuck",
       "text": "Yuck!",
-      "translation": "¡Guácala!",
+      "translation": "¡Qué asco!",
       "image": "🤢",
       "audio": "audio/u6-yuck.mp3",
       "audioEs": "audio/es/u6-yuck.mp3",
@@ -287,7 +287,7 @@
         "u6-watermelon",
         "u6-i-like"
       ],
-      "teacherNotes": "Para cada fruta, haz como que la comes: muerde la manzana, pela el banano, exprime la naranja, escupe las pepas de la patilla. Con \"I like…\" levanta el pulgar y sóbate la barriga. Si tienen una fruta real en casa, úsala."
+      "teacherNotes": "Para cada fruta, haz como que la comes: muerde la manzana, pela la banana, exprime la naranja, escupe las semillas de la sandía. Con \"I like…\" levanta el pulgar y sóbate la barriga. Si tienen una fruta real en casa, úsala."
     },
     {
       "id": "u6-l1-eat",
@@ -312,7 +312,7 @@
           "es": "¡Adivina mi fruta!"
         }
       ],
-      "teacherNotes": "Modo \"show me\": la app muestra una fruta y ella hace como que se la come (con mímica grande). Al terminar pregúntale \"Do you like it?\" y que diga \"I like apples!\" o solo \"I like!\". Modo adivinar: tú haces la mímica y ella dice la fruta y toca el dibujo. Variante: hagan la patilla gigante entre los dos."
+      "teacherNotes": "Modo \"show me\": la app muestra una fruta y ella hace como que se la come (con mímica grande). Al terminar pregúntale \"Do you like it?\" y que diga \"I like apples!\" o solo \"I like!\". Modo adivinar: tú haces la mímica y ella dice la fruta y toca el dibujo. Variante: hagan la sandía gigante entre los dos."
     },
     {
       "id": "u6-l2-cards",
@@ -541,7 +541,7 @@
       "title": "Fruit",
       "keyExchange": {
         "en": "What do you like? → I like bananas!",
-        "es": "¿Qué te gusta? → ¡Me gustan los bananos!"
+        "es": "¿Qué te gusta? → ¡Me gustan las bananas!"
       },
       "newItems": [
         "u6-apple",

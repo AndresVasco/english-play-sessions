@@ -97,7 +97,7 @@
     {
       "id": "u2-pink",
       "text": "pink",
-      "translation": "rosado",
+      "translation": "rosa",
       "image": "🌸",
       "audio": "audio/u2-pink.mp3",
       "audioEs": "audio/es/u2-pink.mp3",
@@ -130,7 +130,7 @@
     {
       "id": "u2-brown",
       "text": "brown",
-      "translation": "café",
+      "translation": "marrón",
       "image": "🟤",
       "audio": "audio/u2-brown.mp3",
       "audioEs": "audio/es/u2-brown.mp3",

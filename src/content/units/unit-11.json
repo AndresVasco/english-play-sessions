@@ -19,7 +19,7 @@
     {
       "id": "u11-school",
       "text": "school",
-      "translation": "el colegio",
+      "translation": "la escuela",
       "image": "🏫",
       "audio": "audio/u11-school.mp3",
       "audioEs": "audio/es/u11-school.mp3",
@@ -206,7 +206,7 @@
     {
       "id": "u11-by-bus",
       "text": "by bus",
-      "translation": "en bus",
+      "translation": "en autobús",
       "image": "🚌",
       "audio": "audio/u11-by-bus.mp3",
       "audioEs": "audio/es/u11-by-bus.mp3",
@@ -217,7 +217,7 @@
     {
       "id": "u11-by-car",
       "text": "by car",
-      "translation": "en carro",
+      "translation": "en auto",
       "image": "🚗",
       "audio": "audio/u11-by-car.mp3",
       "audioEs": "audio/es/u11-by-car.mp3",
@@ -273,7 +273,7 @@
         "u11-zoo",
         "u11-lets-go"
       ],
-      "teacherNotes": "Para cada lugar haz un gesto: parque = columpiarte; colegio = escribir en el aire; tienda = pagar con plata imaginaria; hospital = ponerte un termómetro; zoológico = cuello de jirafa. Ella repite la palabra y el gesto. Con la tarjeta \"Let's go to the…\" agárrala de la mano, señala la puerta y di \"Let's go to the park!\" caminando juntos."
+      "teacherNotes": "Para cada lugar haz un gesto: parque = columpiarte; escuela = escribir en el aire; tienda = pagar con plata imaginaria; hospital = ponerte un termómetro; zoológico = cuello de jirafa. Ella repite la palabra y el gesto. Con la tarjeta \"Let's go to the…\" agárrala de la mano, señala la puerta y di \"Let's go to the park!\" caminando juntos."
     },
     {
       "id": "u11-l1-map",
@@ -296,7 +296,7 @@
           "es": "¡Vamos hasta ___!"
         }
       ],
-      "teacherNotes": "Mapa en el piso (juego estrella): antes de empezar, con cinta de enmascarar haz 2–3 \"calles\" en el piso y pon en cada punta una hoja con el dibujo de un lugar (parque, colegio, tienda, hospital, zoológico). La app dice \"Let's go to the park!\" y ella va caminando POR la cinta (como equilibrista) hasta el lugar y dice \"Park!\". Marca ✓ al llegar. Variante si se aburre: cambia la forma de moverse (saltando, en puntillas, como cangrejo) o que ella sea la que dice \"Let's go to the…!\" y tú caminas."
+      "teacherNotes": "Mapa en el piso (juego estrella): antes de empezar, con cinta de enmascarar haz 2–3 \"calles\" en el piso y pon en cada punta una hoja con el dibujo de un lugar (parque, escuela, tienda, hospital, zoológico). La app dice \"Let's go to the park!\" y ella va caminando POR la cinta (como equilibrista) hasta el lugar y dice \"Park!\". Marca ✓ al llegar. Variante si se aburre: cambia la forma de moverse (saltando, en puntillas, como cangrejo) o que ella sea la que dice \"Let's go to the…!\" y tú caminas."
     },
     {
       "id": "u11-l2-cards",

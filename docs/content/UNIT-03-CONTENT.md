@@ -19,7 +19,7 @@ Translations of body parts include the article (la nariz, los ojos) so the promp
 | id | text | emoji | translation (peek) | introduced |
 |---|---|---|---|---|
 | u3-touch-your-nose | Touch your nose! | 👉👃 | ¡Tócate la nariz! | L1 |
-| u3-stamp-your-feet | Stamp your feet! | 👣 | ¡Zapatea! | L2 |
+| u3-stamp-your-feet | Stamp your feet! | 👣 | ¡Pisa fuerte! | L2 |
 | u3-shake-your-body | Shake your body! | 💃 | ¡Mueve el cuerpo! | L3 |
 | u3-close-your-eyes | Close your eyes! | 😌 | ¡Cierra los ojos! | L4 |
 | u3-open-your-mouth | Open your mouth! | 😮 | ¡Abre la boca! | L4 |
@@ -72,9 +72,9 @@ Commands introduced: u3-touch-your-nose
 | u3-fingers | fingers | 🖐️ | los dedos |
 | u3-legs | legs | 🦵 | las piernas |
 | u3-feet | feet | 🦶 | los pies |
-| u3-stamp-your-feet | Stamp your feet! | 👣 | ¡Zapatea! |
+| u3-stamp-your-feet | Stamp your feet! | 👣 | ¡Pisa fuerte! |
 
-Key exchange: "Stamp your feet! → (stamp, stamp) Feet!" (¡Zapatea! → (pum, pum) ¡Pies!)
+Key exchange: "Stamp your feet! → (stamp, stamp) Feet!" (¡Pisa fuerte! → (pum, pum) ¡Pies!)
 Commands introduced: u3-stamp-your-feet
 
 **Blocks**

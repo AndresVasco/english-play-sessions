@@ -10,6 +10,13 @@ import { useSettings } from '../lib/settings.tsx'
 import { BigCard, PromptLine, itemClip, pickNext, promptClip, useFeedback } from './shared.tsx'
 import type { ActivityProps, MarkResult } from './types.ts'
 
+/** Show a bare word as a command on the card: "run" → "Run!" (Spanish: "correr" → "Correr"). */
+const asCommand = (item: Item): Item => {
+  if (!/^[a-z]/.test(item.text)) return item
+  const cap = (t: string) => t.charAt(0).toUpperCase() + t.slice(1)
+  return { ...item, text: /[.!?…]$/.test(item.text) ? cap(item.text) : `${cap(item.text)}!`, translation: cap(item.translation) }
+}
+
 export function SimonSays({ activity, items, handleRef, onFocus, onMark, celebrate }: ActivityProps) {
   const { settings, update } = useSettings()
   const speed = (delta: number) => update({ simonSeconds: Math.max(2, Math.min(12, settings.simonSeconds + delta)) })
@@ -73,7 +80,7 @@ export function SimonSays({ activity, items, handleRef, onFocus, onMark, celebra
   return (
     <div className="flashcards">
       <PromptLine prompt={prompt} />
-      {current ? <BigCard item={current} onClick={repeat} /> : <div className="flashcard placeholder">👂</div>}
+      {current ? <BigCard item={asCommand(current)} onClick={repeat} /> : <div className="flashcard placeholder">👂</div>}
       <div className="game-row">
         <button type="button" className="game-toggle" onClick={() => speed(1)} aria-label="Slower" title="Slower">
           🐢 −

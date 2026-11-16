@@ -17,7 +17,7 @@ Content source for `src/content/units/unit-11.json`. Item and activity ids are s
 | id | text | emoji | translation (peek) |
 |---|---|---|---|
 | u11-park | park | 🏞️ | el parque |
-| u11-school | school | 🏫 | el colegio |
+| u11-school | school | 🏫 | la escuela |
 | u11-store | store | 🏪 | la tienda |
 | u11-hospital | hospital | 🏥 | el hospital |
 | u11-zoo | zoo | 🦒🦓 | el zoológico |
@@ -40,8 +40,8 @@ Commands: the 8 global commands (no new ones)
 **Teacher notes**
 
 - `auto-review`: La app mezcla los comandos con las palabras más débiles (rutina diaria de la Unidad 10 y lugares). Para una palabra de rutina, que la actúe y la diga ("I brush my teeth!"). Para un lugar, que señale hacia dónde "queda" en la casa y lo diga. Desde la Lección 3 entran los giros: "Turn left!", "Turn right!", "Go straight!".
-- `u11-l1-cards`: Para cada lugar haz un gesto: parque = columpiarte; colegio = escribir en el aire; tienda = pagar con plata imaginaria; hospital = ponerte un termómetro; zoológico = cuello de jirafa. Ella repite la palabra y el gesto. Con la tarjeta "Let's go to the…" agárrala de la mano, señala la puerta y di "Let's go to the park!" caminando juntos.
-- `u11-l1-map` (mapa en el piso, juego estrella): antes de empezar, con cinta de enmascarar haz 2–3 "calles" en el piso y pon en cada punta una hoja con el dibujo de un lugar (parque, colegio, tienda, hospital, zoológico). La app dice "Let's go to the park!" y ella va caminando POR la cinta (como equilibrista) hasta el lugar y dice "Park!". Marca ✓ al llegar. Variante si se aburre: cambia la forma de moverse (saltando, en puntillas, como cangrejo) o que ella sea la que dice "Let's go to the…!" y tú caminas.
+- `u11-l1-cards`: Para cada lugar haz un gesto: parque = columpiarte; escuela = escribir en el aire; tienda = pagar con plata imaginaria; hospital = ponerte un termómetro; zoológico = cuello de jirafa. Ella repite la palabra y el gesto. Con la tarjeta "Let's go to the…" agárrala de la mano, señala la puerta y di "Let's go to the park!" caminando juntos.
+- `u11-l1-map` (mapa en el piso, juego estrella): antes de empezar, con cinta de enmascarar haz 2–3 "calles" en el piso y pon en cada punta una hoja con el dibujo de un lugar (parque, escuela, tienda, hospital, zoológico). La app dice "Let's go to the park!" y ella va caminando POR la cinta (como equilibrista) hasta el lugar y dice "Park!". Marca ✓ al llegar. Variante si se aburre: cambia la forma de moverse (saltando, en puntillas, como cangrejo) o que ella sea la que dice "Let's go to the…!" y tú caminas.
 - Prepara el mapa del piso ANTES de la sesión. Déjalo puesto para las Lecciones 3 y 4 si se puede.
 - Si está muy acelerada, el caminar por la cinta "como equilibrista" la ayuda a calmarse: pídele que vaya despacito.
 
@@ -124,8 +124,8 @@ Commands introduced (unit items, tag `command`): u11-go-straight, u11-turn-left,
 
 | id | text | emoji | translation (peek) |
 |---|---|---|---|
-| u11-by-bus | by bus | 🚌 | en bus |
-| u11-by-car | by car | 🚗 | en carro |
+| u11-by-bus | by bus | 🚌 | en autobús |
+| u11-by-car | by car | 🚗 | en auto |
 | u11-by-bike | by bike | 🚲 | en bici |
 | u11-walk | Let's walk! | 🚶‍♀️ | ¡Caminemos! |
 

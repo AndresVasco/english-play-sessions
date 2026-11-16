@@ -68,7 +68,7 @@
     {
       "id": "u10-go-to-school",
       "text": "I go to school",
-      "translation": "Voy al colegio",
+      "translation": "Voy a la escuela",
       "image": "🏫",
       "audio": "audio/u10-go-to-school.mp3",
       "audioEs": "audio/es/u10-go-to-school.mp3",
@@ -475,7 +475,7 @@
       "config": {
         "seconds": 25
       },
-      "teacherNotes": "Juego estrella. Antes de la sesión (o en la sesión anterior) ella dibuja en hojas 6–8 tarjetas de su día (despertarse, desayunar, colegio, bañarse, dormir…); tú escribes la frase en inglés debajo. Pega una línea de cinta en el piso: un extremo es 🌅 \"morning\", el otro 🌃 \"night\". Esconde las tarjetas. La app dice una rutina, ella busca la tarjeta y la pone en su lugar en la línea. Al final camina por la línea diciendo: \"First I wake up, then I eat breakfast…\". Cualquier orden con sentido vale ✓. Variante: tú pones una tarjeta en un lugar equivocado y ella la mueve."
+      "teacherNotes": "Juego estrella. Antes de la sesión (o en la sesión anterior) ella dibuja en hojas 6–8 tarjetas de su día (despertarse, desayunar, escuela, bañarse, dormir…); tú escribes la frase en inglés debajo. Pega una línea de cinta en el piso: un extremo es 🌅 \"morning\", el otro 🌃 \"night\". Esconde las tarjetas. La app dice una rutina, ella busca la tarjeta y la pone en su lugar en la línea. Al final camina por la línea diciendo: \"First I wake up, then I eat breakfast…\". Cualquier orden con sentido vale ✓. Variante: tú pones una tarjeta en un lugar equivocado y ella la mueve."
     },
     {
       "id": "u10-l4-freeze",
@@ -664,7 +664,7 @@
       "title": "My afternoon",
       "keyExchange": {
         "en": "What do you do after school? → I eat lunch. I play!",
-        "es": "¿Qué haces después del colegio? → Almuerzo. ¡Juego!"
+        "es": "¿Qué haces después de la escuela? → Almuerzo. ¡Juego!"
       },
       "newItems": [
         "u10-eat-lunch",

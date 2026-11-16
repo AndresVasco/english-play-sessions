@@ -59,10 +59,10 @@ Commands: cmd-stand-up, cmd-sit-down, cmd-wave, cmd-jump, cmd-clap, cmd-stop, cm
 |---|---|---|---|
 | u2-orange | orange | 🟠 | naranja |
 | u2-purple | purple | 🟣 | morado |
-| u2-pink | pink | 🌸 | rosado |
+| u2-pink | pink | 🌸 | rosa |
 | u2-black | black | ⚫ | negro |
 | u2-white | white | ⚪ | blanco |
-| u2-brown | brown | 🟤 | café |
+| u2-brown | brown | 🟤 | marrón |
 
 Key exchange: "What color is it? → It's pink!" (¿De qué color es? → ¡Es rosado!)
 Commands: cmd-stand-up, cmd-sit-down, cmd-wave, cmd-jump, cmd-clap, cmd-stop, cmd-spin, cmd-listen (no new ones)
