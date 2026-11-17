@@ -37,8 +37,11 @@ export interface Item {
   id: string
   text: string
   translation: string
-  /** An emoji, or a path to an image inside public/ */
+  /** An emoji (always present: used in small places and as a fallback) */
   image: string
+  /** Optional pictogram inside public/ (e.g. "pictures/u1-hello.png"), shown
+   *  instead of the emoji on cards and games. Set by scripts/fetch-pictures.py */
+  picture?: string
   /** English audio, path inside public/ (e.g. "audio/u1-hello.mp3") */
   audio: string
   /** Spanish audio for the long-press peek (e.g. "audio/es/u1-hello.mp3") */

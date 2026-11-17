@@ -237,7 +237,8 @@
       "audioEs": "audio/es/u3-big.mp3",
       "tags": [
         "adjective"
-      ]
+      ],
+      "picture": "pictures/u3-big.png"
     },
     {
       "id": "u3-small",
@@ -248,7 +249,8 @@
       "audioEs": "audio/es/u3-small.mp3",
       "tags": [
         "adjective"
-      ]
+      ],
+      "picture": "pictures/u3-small.png"
     },
     {
       "id": "u3-close-your-eyes",
@@ -260,7 +262,8 @@
       "tags": [
         "command",
         "body"
-      ]
+      ],
+      "picture": "pictures/u3-close-your-eyes.png"
     },
     {
       "id": "u3-open-your-mouth",
@@ -272,7 +275,8 @@
       "tags": [
         "command",
         "body"
-      ]
+      ],
+      "picture": "pictures/u3-open-your-mouth.png"
     }
   ],
   "activities": [

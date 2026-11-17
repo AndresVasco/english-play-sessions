@@ -10,7 +10,8 @@
       "audioEs": "audio/es/cmd-stand-up.mp3",
       "tags": [
         "command"
-      ]
+      ],
+      "picture": "pictures/cmd-stand-up.png"
     },
     {
       "id": "cmd-sit-down",
@@ -21,7 +22,8 @@
       "audioEs": "audio/es/cmd-sit-down.mp3",
       "tags": [
         "command"
-      ]
+      ],
+      "picture": "pictures/cmd-sit-down.png"
     },
     {
       "id": "cmd-jump",
@@ -32,7 +34,8 @@
       "audioEs": "audio/es/cmd-jump.mp3",
       "tags": [
         "command"
-      ]
+      ],
+      "picture": "pictures/cmd-jump.png"
     },
     {
       "id": "cmd-clap",
@@ -43,7 +46,8 @@
       "audioEs": "audio/es/cmd-clap.mp3",
       "tags": [
         "command"
-      ]
+      ],
+      "picture": "pictures/cmd-clap.png"
     },
     {
       "id": "cmd-wave",
@@ -54,7 +58,8 @@
       "audioEs": "audio/es/cmd-wave.mp3",
       "tags": [
         "command"
-      ]
+      ],
+      "picture": "pictures/cmd-wave.png"
     },
     {
       "id": "cmd-stop",
@@ -65,7 +70,8 @@
       "audioEs": "audio/es/cmd-stop.mp3",
       "tags": [
         "command"
-      ]
+      ],
+      "picture": "pictures/cmd-stop.png"
     },
     {
       "id": "cmd-spin",
@@ -76,7 +82,8 @@
       "audioEs": "audio/es/cmd-spin.mp3",
       "tags": [
         "command"
-      ]
+      ],
+      "picture": "pictures/cmd-spin.png"
     },
     {
       "id": "cmd-listen",
@@ -87,7 +94,8 @@
       "audioEs": "audio/es/cmd-listen.mp3",
       "tags": [
         "command"
-      ]
+      ],
+      "picture": "pictures/cmd-listen.png"
     }
   ],
   "praise": [

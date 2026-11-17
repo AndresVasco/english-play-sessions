@@ -312,7 +312,11 @@ export function Settings({ back }: { back: () => void }) {
             Spanish voice: Piper <code>es_MX-claude-high</code>, license Apache 2.0.
           </li>
           <li>Text-to-speech engine: Piper (open source).</li>
-          <li>Pictures: system emoji. Music: generated in the app.</li>
+          <li>
+            Pictograms: Sergio Palao. Origin: ARASAAC (arasaac.org). License: CC BY-NC-SA 4.0. Owner: Government of
+            Aragón (Spain). Other pictures: system emoji.
+          </li>
+          <li>Music: generated in the app.</li>
         </ul>
       </section>
     </div>

@@ -10,6 +10,7 @@ import { play } from '../lib/audio.ts'
 import { PromptLine, itemClip, promptClip, shuffle, useFeedback } from './shared.tsx'
 import { pipCheer } from '../components/Pip.tsx'
 import type { ActivityProps } from './types.ts'
+import { ItemPicture } from '../components/ItemPicture.tsx'
 
 interface Card {
   key: string
@@ -101,7 +102,7 @@ export function MemoryMatch({ activity, items, handleRef, onFocus, celebrate }: 
             >
               {up ? (
                 card.kind === 'picture' ? (
-                  <span className="memory-picture">{card.item.image}</span>
+                  <ItemPicture item={card.item} className="memory-picture" />
                 ) : (
                   <Bi className="memory-word" en={card.item.text} es={card.item.translation} />
                 )

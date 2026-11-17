@@ -9,6 +9,7 @@ import type { Item } from '../content/types.ts'
 import { play } from '../lib/audio.ts'
 import { BigCard, PromptLine, itemClip, pickNext, promptClip, useFeedback } from './shared.tsx'
 import type { ActivityProps, MarkResult } from './types.ts'
+import { ItemPicture } from '../components/ItemPicture.tsx'
 
 export function Faces({ activity, items, handleRef, onFocus, onMark, celebrate }: ActivityProps) {
   const prompts = promptsFor(activity)
@@ -84,9 +85,7 @@ export function Faces({ activity, items, handleRef, onFocus, onMark, celebrate }
                 onClick={() => tap(item)}
                 aria-label={item.text}
               >
-                <span className="choice-image" aria-hidden="true">
-                  {item.image}
-                </span>
+                <ItemPicture item={item} className="choice-image" />
               </button>
             ))}
           </div>

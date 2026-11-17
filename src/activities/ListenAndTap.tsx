@@ -9,6 +9,7 @@ import type { Item } from '../content/types.ts'
 import { play } from '../lib/audio.ts'
 import { PromptLine, itemClip, pickNext, promptClip, shuffle, useFeedback } from './shared.tsx'
 import type { ActivityProps } from './types.ts'
+import { ItemPicture } from '../components/ItemPicture.tsx'
 
 function newRound(items: Item[], choices: number, previous?: Item) {
   const target = pickNext(items, previous)
@@ -76,9 +77,7 @@ export function ListenAndTap({ activity, items, handleRef, onFocus, onMark, cele
             onClick={() => tap(item)}
             aria-label={item.text}
           >
-            <span className="choice-image" aria-hidden="true">
-              {item.image}
-            </span>
+            <ItemPicture item={item} className="choice-image" />
           </button>
         ))}
       </div>

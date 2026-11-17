@@ -14,7 +14,8 @@
       "audioEs": "audio/es/u1-hello.mp3",
       "tags": [
         "greeting"
-      ]
+      ],
+      "picture": "pictures/u1-hello.png"
     },
     {
       "id": "u1-hi",
@@ -25,7 +26,8 @@
       "audioEs": "audio/es/u1-hi.mp3",
       "tags": [
         "greeting"
-      ]
+      ],
+      "picture": "pictures/u1-hi.png"
     },
     {
       "id": "u1-goodbye",
@@ -36,7 +38,8 @@
       "audioEs": "audio/es/u1-goodbye.mp3",
       "tags": [
         "greeting"
-      ]
+      ],
+      "picture": "pictures/u1-goodbye.png"
     },
     {
       "id": "u1-good-morning",
@@ -47,7 +50,8 @@
       "audioEs": "audio/es/u1-good-morning.mp3",
       "tags": [
         "greeting"
-      ]
+      ],
+      "picture": "pictures/u1-good-morning.png"
     },
     {
       "id": "u1-good-night",
@@ -58,7 +62,8 @@
       "audioEs": "audio/es/u1-good-night.mp3",
       "tags": [
         "greeting"
-      ]
+      ],
+      "picture": "pictures/u1-good-night.png"
     },
     {
       "id": "u1-my-name-is",
@@ -69,7 +74,8 @@
       "audioEs": "audio/es/u1-my-name-is.mp3",
       "tags": [
         "greeting"
-      ]
+      ],
+      "picture": "pictures/u1-my-name-is.png"
     },
     {
       "id": "u1-happy",
@@ -80,7 +86,8 @@
       "audioEs": "audio/es/u1-happy.mp3",
       "tags": [
         "feeling"
-      ]
+      ],
+      "picture": "pictures/u1-happy.png"
     },
     {
       "id": "u1-sad",
@@ -91,7 +98,8 @@
       "audioEs": "audio/es/u1-sad.mp3",
       "tags": [
         "feeling"
-      ]
+      ],
+      "picture": "pictures/u1-sad.png"
     },
     {
       "id": "u1-angry",
@@ -102,7 +110,8 @@
       "audioEs": "audio/es/u1-angry.mp3",
       "tags": [
         "feeling"
-      ]
+      ],
+      "picture": "pictures/u1-angry.png"
     },
     {
       "id": "u1-tired",
@@ -113,7 +122,8 @@
       "audioEs": "audio/es/u1-tired.mp3",
       "tags": [
         "feeling"
-      ]
+      ],
+      "picture": "pictures/u1-tired.png"
     },
     {
       "id": "u1-how-are-you",
@@ -124,7 +134,8 @@
       "audioEs": "audio/es/u1-how-are-you.mp3",
       "tags": [
         "question"
-      ]
+      ],
+      "picture": "pictures/u1-how-are-you.png"
     },
     {
       "id": "u1-im",
@@ -135,7 +146,8 @@
       "audioEs": "audio/es/u1-im.mp3",
       "tags": [
         "phrase"
-      ]
+      ],
+      "picture": "pictures/u1-im.png"
     },
     {
       "id": "u1-scared",
@@ -146,7 +158,8 @@
       "audioEs": "audio/es/u1-scared.mp3",
       "tags": [
         "feeling"
-      ]
+      ],
+      "picture": "pictures/u1-scared.png"
     },
     {
       "id": "u1-surprised",
@@ -157,7 +170,8 @@
       "audioEs": "audio/es/u1-surprised.mp3",
       "tags": [
         "feeling"
-      ]
+      ],
+      "picture": "pictures/u1-surprised.png"
     },
     {
       "id": "u1-excited",
@@ -168,7 +182,8 @@
       "audioEs": "audio/es/u1-excited.mp3",
       "tags": [
         "feeling"
-      ]
+      ],
+      "picture": "pictures/u1-excited.png"
     },
     {
       "id": "u1-bored",
@@ -179,7 +194,8 @@
       "audioEs": "audio/es/u1-bored.mp3",
       "tags": [
         "feeling"
-      ]
+      ],
+      "picture": "pictures/u1-bored.png"
     },
     {
       "id": "u1-hungry",
@@ -190,7 +206,8 @@
       "audioEs": "audio/es/u1-hungry.mp3",
       "tags": [
         "feeling"
-      ]
+      ],
+      "picture": "pictures/u1-hungry.png"
     },
     {
       "id": "u1-fine",
@@ -201,7 +218,8 @@
       "audioEs": "audio/es/u1-fine.mp3",
       "tags": [
         "feeling"
-      ]
+      ],
+      "picture": "pictures/u1-fine.png"
     },
     {
       "id": "u1-are-you",
@@ -212,7 +230,8 @@
       "audioEs": "audio/es/u1-are-you.mp3",
       "tags": [
         "question"
-      ]
+      ],
+      "picture": "pictures/u1-are-you.png"
     },
     {
       "id": "u1-yes-i-am",
@@ -223,7 +242,8 @@
       "audioEs": "audio/es/u1-yes-i-am.mp3",
       "tags": [
         "phrase"
-      ]
+      ],
+      "picture": "pictures/u1-yes-i-am.png"
     },
     {
       "id": "u1-no-im-not",
@@ -234,7 +254,8 @@
       "audioEs": "audio/es/u1-no-im-not.mp3",
       "tags": [
         "phrase"
-      ]
+      ],
+      "picture": "pictures/u1-no-im-not.png"
     },
     {
       "id": "u1-thank-you",
@@ -245,7 +266,8 @@
       "audioEs": "audio/es/u1-thank-you.mp3",
       "tags": [
         "phrase"
-      ]
+      ],
+      "picture": "pictures/u1-thank-you.png"
     }
   ],
   "activities": [

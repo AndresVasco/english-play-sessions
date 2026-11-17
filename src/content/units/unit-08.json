@@ -213,7 +213,8 @@
       "tags": [
         "phrase",
         "size"
-      ]
+      ],
+      "picture": "pictures/u8-big.png"
     },
     {
       "id": "u8-small",
@@ -225,7 +226,8 @@
       "tags": [
         "phrase",
         "size"
-      ]
+      ],
+      "picture": "pictures/u8-small.png"
     },
     {
       "id": "u8-four-legs",

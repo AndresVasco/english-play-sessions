@@ -203,7 +203,8 @@
       "tags": [
         "question",
         "number"
-      ]
+      ],
+      "picture": "pictures/u2-how-many.png"
     },
     {
       "id": "u2-six",
@@ -269,7 +270,8 @@
       "audioEs": "audio/es/u2-i-have.mp3",
       "tags": [
         "phrase"
-      ]
+      ],
+      "picture": "pictures/u2-i-have.png"
     }
   ],
   "activities": [

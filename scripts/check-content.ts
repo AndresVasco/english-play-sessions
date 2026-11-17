@@ -19,6 +19,12 @@ const units = unitFiles.map((f) => readJson(join(contentDir, 'units', f)) as Uni
 const { errors, warnings } = validateContent(common, units)
 
 const items = [...common.commands, ...units.flatMap((u) => u.items)]
+// Pictograms are part of the content: a missing file is an error
+for (const i of items) {
+  if (i.picture && !existsSync(join(root, 'public', i.picture))) {
+    errors.push(`item "${i.id}": picture file missing (${i.picture}) — run python3 scripts/fetch-pictures.py`)
+  }
+}
 const missingAudio = items
   .flatMap((i) => [i.audio, i.audioEs])
   .filter((p) => !existsSync(join(root, 'public', p)))

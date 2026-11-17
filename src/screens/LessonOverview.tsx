@@ -2,6 +2,7 @@ import { BLOCK_LABELS, getActivity, getItems, getSong, units, type LessonRef } f
 import { play } from '../lib/audio.ts'
 import { isWeeklyDue } from '../challenge/plan.ts'
 import { useProgress } from '../progress/store.ts'
+import { ItemPicture } from '../components/ItemPicture.tsx'
 
 interface Props {
   lessonRef: LessonRef
@@ -51,9 +52,7 @@ export function LessonOverview({ lessonRef, back, start }: Props) {
             className="item-tile"
             onClick={() => play({ src: item.audio, text: item.text, lang: 'en' })}
           >
-            <span className="item-tile-image" aria-hidden="true">
-              {item.image}
-            </span>
+            <ItemPicture item={item} className="item-tile-image" />
             <span>{item.text}</span>
           </button>
         ))}

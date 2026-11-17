@@ -15,7 +15,8 @@
       "tags": [
         "verb",
         "command"
-      ]
+      ],
+      "picture": "pictures/u7-run.png"
     },
     {
       "id": "u7-walk",
@@ -27,7 +28,8 @@
       "tags": [
         "verb",
         "command"
-      ]
+      ],
+      "picture": "pictures/u7-walk.png"
     },
     {
       "id": "u7-dance",
@@ -39,7 +41,8 @@
       "tags": [
         "verb",
         "command"
-      ]
+      ],
+      "picture": "pictures/u7-dance.png"
     },
     {
       "id": "u7-sing",
@@ -51,7 +54,8 @@
       "tags": [
         "verb",
         "command"
-      ]
+      ],
+      "picture": "pictures/u7-sing.png"
     },
     {
       "id": "u7-fly",
@@ -63,7 +67,8 @@
       "tags": [
         "verb",
         "command"
-      ]
+      ],
+      "picture": "pictures/u7-fly.png"
     },
     {
       "id": "u7-i-can",
@@ -87,7 +92,8 @@
       "tags": [
         "verb",
         "command"
-      ]
+      ],
+      "picture": "pictures/u7-swim.png"
     },
     {
       "id": "u7-climb",
@@ -99,7 +105,8 @@
       "tags": [
         "verb",
         "command"
-      ]
+      ],
+      "picture": "pictures/u7-climb.png"
     },
     {
       "id": "u7-kick",
@@ -111,7 +118,8 @@
       "tags": [
         "verb",
         "command"
-      ]
+      ],
+      "picture": "pictures/u7-kick.png"
     },
     {
       "id": "u7-throw",
@@ -123,7 +131,8 @@
       "tags": [
         "verb",
         "command"
-      ]
+      ],
+      "picture": "pictures/u7-throw.png"
     },
     {
       "id": "u7-can-you",
@@ -159,7 +168,8 @@
       "tags": [
         "verb",
         "command"
-      ]
+      ],
+      "picture": "pictures/u7-hop.png"
     },
     {
       "id": "u7-crawl",
@@ -171,7 +181,8 @@
       "tags": [
         "verb",
         "command"
-      ]
+      ],
+      "picture": "pictures/u7-crawl.png"
     },
     {
       "id": "u7-stomp",
@@ -207,7 +218,8 @@
       "tags": [
         "verb",
         "command"
-      ]
+      ],
+      "picture": "pictures/u7-sleep.png"
     },
     {
       "id": "u7-i-cant",
@@ -242,7 +254,8 @@
       "audioEs": "audio/es/u7-fast.mp3",
       "tags": [
         "verb"
-      ]
+      ],
+      "picture": "pictures/u7-fast.png"
     },
     {
       "id": "u7-slow",
@@ -253,7 +266,8 @@
       "audioEs": "audio/es/u7-slow.mp3",
       "tags": [
         "verb"
-      ]
+      ],
+      "picture": "pictures/u7-slow.png"
     }
   ],
   "activities": [

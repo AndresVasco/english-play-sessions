@@ -15,6 +15,7 @@ import { BigCard, PromptLine, itemClip } from '../activities/shared.tsx'
 import type { PlannedItem } from '../progress/evaluation.ts'
 import type { EvalResult, Evaluation, EvaluationItem } from '../progress/types.ts'
 import { addSticker, newSessionId, saveEvaluation } from '../progress/store.ts'
+import { ItemPicture } from '../components/ItemPicture.tsx'
 
 const prompt = (id: string): Prompt =>
   common.prompts.challenge.find((p) => p.id === id) ?? common.prompts.challenge[0]
@@ -171,9 +172,7 @@ export function Challenge({ kind, plan, unitId, lessonId, onSkip, onFocus, celeb
                   onClick={() => record(id === step.itemId ? 'got' : 'again')}
                   aria-label={opt.text}
                 >
-                  <span className="choice-image" aria-hidden="true">
-                    {opt.image}
-                  </span>
+                  <ItemPicture item={opt} className="choice-image" />
                 </button>
               )
             })}

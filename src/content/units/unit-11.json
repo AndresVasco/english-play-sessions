@@ -14,7 +14,8 @@
       "audioEs": "audio/es/u11-park.mp3",
       "tags": [
         "place"
-      ]
+      ],
+      "picture": "pictures/u11-park.png"
     },
     {
       "id": "u11-school",
@@ -25,7 +26,8 @@
       "audioEs": "audio/es/u11-school.mp3",
       "tags": [
         "place"
-      ]
+      ],
+      "picture": "pictures/u11-school.png"
     },
     {
       "id": "u11-store",
@@ -36,7 +38,8 @@
       "audioEs": "audio/es/u11-store.mp3",
       "tags": [
         "place"
-      ]
+      ],
+      "picture": "pictures/u11-store.png"
     },
     {
       "id": "u11-hospital",
@@ -47,7 +50,8 @@
       "audioEs": "audio/es/u11-hospital.mp3",
       "tags": [
         "place"
-      ]
+      ],
+      "picture": "pictures/u11-hospital.png"
     },
     {
       "id": "u11-zoo",
@@ -58,7 +62,8 @@
       "audioEs": "audio/es/u11-zoo.mp3",
       "tags": [
         "place"
-      ]
+      ],
+      "picture": "pictures/u11-zoo.png"
     },
     {
       "id": "u11-lets-go",
@@ -80,7 +85,8 @@
       "audioEs": "audio/es/u11-beach.mp3",
       "tags": [
         "place"
-      ]
+      ],
+      "picture": "pictures/u11-beach.png"
     },
     {
       "id": "u11-pool",
@@ -91,7 +97,8 @@
       "audioEs": "audio/es/u11-pool.mp3",
       "tags": [
         "place"
-      ]
+      ],
+      "picture": "pictures/u11-pool.png"
     },
     {
       "id": "u11-library",
@@ -102,7 +109,8 @@
       "audioEs": "audio/es/u11-library.mp3",
       "tags": [
         "place"
-      ]
+      ],
+      "picture": "pictures/u11-library.png"
     },
     {
       "id": "u11-restaurant",
@@ -113,7 +121,8 @@
       "audioEs": "audio/es/u11-restaurant.mp3",
       "tags": [
         "place"
-      ]
+      ],
+      "picture": "pictures/u11-restaurant.png"
     },
     {
       "id": "u11-bakery",
@@ -124,7 +133,8 @@
       "audioEs": "audio/es/u11-bakery.mp3",
       "tags": [
         "place"
-      ]
+      ],
+      "picture": "pictures/u11-bakery.png"
     },
     {
       "id": "u11-movies",
@@ -135,7 +145,8 @@
       "audioEs": "audio/es/u11-movies.mp3",
       "tags": [
         "place"
-      ]
+      ],
+      "picture": "pictures/u11-movies.png"
     },
     {
       "id": "u11-go-straight",
@@ -201,7 +212,8 @@
       "audioEs": "audio/es/u11-map.mp3",
       "tags": [
         "place"
-      ]
+      ],
+      "picture": "pictures/u11-map.png"
     },
     {
       "id": "u11-by-bus",
@@ -246,7 +258,8 @@
       "tags": [
         "transport",
         "phrase"
-      ]
+      ],
+      "picture": "pictures/u11-walk.png"
     }
   ],
   "activities": [

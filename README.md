@@ -162,4 +162,5 @@ If an audio file is missing, the app uses the browser's own voice instead.
 - English voice: Piper voice `en_US-hfc_female-medium`, trained on the Hi-Fi-CAPTAIN dataset (NICT), license **CC BY-NC-SA 4.0**. The generated English audio files are shared under the same license, for non-commercial use.
 - Spanish voice: Piper voice `es_MX-claude-high`, license **Apache 2.0**.
 - Text-to-speech engine: [Piper](https://github.com/OHF-Voice/piper1-gpl).
+- Pictograms: Sergio Palao. Origin: ARASAAC (https://arasaac.org). License **CC BY-NC-SA 4.0**. Owner: Government of Aragón (Spain). Chosen by hand in `scripts/arasaac-pictures.json`; `python3 scripts/fetch-pictures.py` downloads them to `public/pictures/`. Words without a pictogram show an emoji.
 - Music: generated in the app with the Web Audio API.

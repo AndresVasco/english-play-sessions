@@ -91,7 +91,8 @@
       "audioEs": "audio/es/u12-funny.mp3",
       "tags": [
         "describe"
-      ]
+      ],
+      "picture": "pictures/u12-funny.png"
     },
     {
       "id": "u12-strong",
@@ -102,7 +103,8 @@
       "audioEs": "audio/es/u12-strong.mp3",
       "tags": [
         "describe"
-      ]
+      ],
+      "picture": "pictures/u12-strong.png"
     },
     {
       "id": "u12-cute",
@@ -124,7 +126,8 @@
       "audioEs": "audio/es/u12-fast.mp3",
       "tags": [
         "describe"
-      ]
+      ],
+      "picture": "pictures/u12-fast.png"
     },
     {
       "id": "u12-smart",
@@ -168,7 +171,8 @@
       "audioEs": "audio/es/u12-fly.mp3",
       "tags": [
         "verb"
-      ]
+      ],
+      "picture": "pictures/u12-fly.png"
     },
     {
       "id": "u12-swim",
@@ -179,7 +183,8 @@
       "audioEs": "audio/es/u12-swim.mp3",
       "tags": [
         "verb"
-      ]
+      ],
+      "picture": "pictures/u12-swim.png"
     },
     {
       "id": "u12-climb",
@@ -190,7 +195,8 @@
       "audioEs": "audio/es/u12-climb.mp3",
       "tags": [
         "verb"
-      ]
+      ],
+      "picture": "pictures/u12-climb.png"
     },
     {
       "id": "u12-i-like-it",
@@ -212,7 +218,8 @@
       "audioEs": "audio/es/u12-hello-everyone.mp3",
       "tags": [
         "phrase"
-      ]
+      ],
+      "picture": "pictures/u12-hello-everyone.png"
     },
     {
       "id": "u12-look",
@@ -223,7 +230,8 @@
       "audioEs": "audio/es/u12-look.mp3",
       "tags": [
         "phrase"
-      ]
+      ],
+      "picture": "pictures/u12-look.png"
     },
     {
       "id": "u12-the-end",
@@ -245,7 +253,8 @@
       "audioEs": "audio/es/u12-take-a-bow.mp3",
       "tags": [
         "command"
-      ]
+      ],
+      "picture": "pictures/u12-take-a-bow.png"
     }
   ],
   "activities": [

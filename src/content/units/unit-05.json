@@ -15,7 +15,8 @@
       "tags": [
         "house",
         "place"
-      ]
+      ],
+      "picture": "pictures/u5-house.png"
     },
     {
       "id": "u5-bedroom",
@@ -27,7 +28,8 @@
       "tags": [
         "house",
         "place"
-      ]
+      ],
+      "picture": "pictures/u5-bedroom.png"
     },
     {
       "id": "u5-kitchen",
@@ -39,7 +41,8 @@
       "tags": [
         "house",
         "place"
-      ]
+      ],
+      "picture": "pictures/u5-kitchen.png"
     },
     {
       "id": "u5-bathroom",
@@ -51,7 +54,8 @@
       "tags": [
         "house",
         "place"
-      ]
+      ],
+      "picture": "pictures/u5-bathroom.png"
     },
     {
       "id": "u5-living-room",
@@ -63,7 +67,8 @@
       "tags": [
         "house",
         "place"
-      ]
+      ],
+      "picture": "pictures/u5-living-room.png"
     },
     {
       "id": "u5-garden",
@@ -75,7 +80,8 @@
       "tags": [
         "house",
         "place"
-      ]
+      ],
+      "picture": "pictures/u5-garden.png"
     },
     {
       "id": "u5-ball",
@@ -159,7 +165,8 @@
       "tags": [
         "house",
         "preposition"
-      ]
+      ],
+      "picture": "pictures/u5-in.png"
     },
     {
       "id": "u5-on",
@@ -171,7 +178,8 @@
       "tags": [
         "house",
         "preposition"
-      ]
+      ],
+      "picture": "pictures/u5-on.png"
     },
     {
       "id": "u5-under",
@@ -183,7 +191,8 @@
       "tags": [
         "house",
         "preposition"
-      ]
+      ],
+      "picture": "pictures/u5-under.png"
     },
     {
       "id": "u5-where-is",
@@ -218,7 +227,8 @@
       "audioEs": "audio/es/u5-close-your-eyes.mp3",
       "tags": [
         "command"
-      ]
+      ],
+      "picture": "pictures/u5-close-your-eyes.png"
     },
     {
       "id": "u5-open-your-eyes",
@@ -229,7 +239,8 @@
       "audioEs": "audio/es/u5-open-your-eyes.mp3",
       "tags": [
         "command"
-      ]
+      ],
+      "picture": "pictures/u5-open-your-eyes.png"
     },
     {
       "id": "u5-here-it-is",
@@ -252,7 +263,8 @@
       "audioEs": "audio/es/u5-i-dont-know.mp3",
       "tags": [
         "phrase"
-      ]
+      ],
+      "picture": "pictures/u5-i-dont-know.png"
     },
     {
       "id": "u5-this-is-my-house",
@@ -264,7 +276,8 @@
       "tags": [
         "house",
         "phrase"
-      ]
+      ],
+      "picture": "pictures/u5-this-is-my-house.png"
     }
   ],
   "activities": [

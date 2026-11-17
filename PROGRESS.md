@@ -72,5 +72,10 @@ Temporary in Phase 1 (replaced later):
 - [x] Update check when the app comes back on screen + "Check for updates" in Settings
 - [ ] Owner tries a weekly and a unit challenge with her
 
+## Pictures + fixes (2026-11-17)
+- [x] Reset/import fixed for iPhone (in-app confirmation, backup file offered afterwards)
+- [x] 113 ARASAAC pictograms chosen by hand; emoji kept for concrete things
+- [ ] Owner approves the pictures (review sheets per unit)
+
 ## Phase 4 – Pilot
 Not started: 2 weeks of real sessions with Unit 1, noting what she loved / ignored / found too long.

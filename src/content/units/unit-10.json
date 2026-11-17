@@ -15,7 +15,8 @@
       "tags": [
         "routine",
         "verb"
-      ]
+      ],
+      "picture": "pictures/u10-wake-up.png"
     },
     {
       "id": "u10-get-dressed",
@@ -27,7 +28,8 @@
       "tags": [
         "routine",
         "verb"
-      ]
+      ],
+      "picture": "pictures/u10-get-dressed.png"
     },
     {
       "id": "u10-wash-face",
@@ -39,7 +41,8 @@
       "tags": [
         "routine",
         "verb"
-      ]
+      ],
+      "picture": "pictures/u10-wash-face.png"
     },
     {
       "id": "u10-brush-teeth",
@@ -51,7 +54,8 @@
       "tags": [
         "routine",
         "verb"
-      ]
+      ],
+      "picture": "pictures/u10-brush-teeth.png"
     },
     {
       "id": "u10-eat-breakfast",
@@ -63,7 +67,8 @@
       "tags": [
         "routine",
         "verb"
-      ]
+      ],
+      "picture": "pictures/u10-eat-breakfast.png"
     },
     {
       "id": "u10-go-to-school",
@@ -75,7 +80,8 @@
       "tags": [
         "routine",
         "verb"
-      ]
+      ],
+      "picture": "pictures/u10-go-to-school.png"
     },
     {
       "id": "u10-eat-lunch",
@@ -87,7 +93,8 @@
       "tags": [
         "routine",
         "verb"
-      ]
+      ],
+      "picture": "pictures/u10-eat-lunch.png"
     },
     {
       "id": "u10-do-homework",
@@ -99,7 +106,8 @@
       "tags": [
         "routine",
         "verb"
-      ]
+      ],
+      "picture": "pictures/u10-do-homework.png"
     },
     {
       "id": "u10-play",
@@ -111,7 +119,8 @@
       "tags": [
         "routine",
         "verb"
-      ]
+      ],
+      "picture": "pictures/u10-play.png"
     },
     {
       "id": "u10-watch-tv",
@@ -123,7 +132,8 @@
       "tags": [
         "routine",
         "verb"
-      ]
+      ],
+      "picture": "pictures/u10-watch-tv.png"
     },
     {
       "id": "u10-take-a-bath",
@@ -135,7 +145,8 @@
       "tags": [
         "routine",
         "verb"
-      ]
+      ],
+      "picture": "pictures/u10-take-a-bath.png"
     },
     {
       "id": "u10-hurry-up",
@@ -158,7 +169,8 @@
       "tags": [
         "routine",
         "verb"
-      ]
+      ],
+      "picture": "pictures/u10-eat-dinner.png"
     },
     {
       "id": "u10-read-a-book",
@@ -170,7 +182,8 @@
       "tags": [
         "routine",
         "verb"
-      ]
+      ],
+      "picture": "pictures/u10-read-a-book.png"
     },
     {
       "id": "u10-go-to-bed",
@@ -182,7 +195,8 @@
       "tags": [
         "routine",
         "verb"
-      ]
+      ],
+      "picture": "pictures/u10-go-to-bed.png"
     },
     {
       "id": "u10-sleep",
@@ -194,7 +208,8 @@
       "tags": [
         "routine",
         "verb"
-      ]
+      ],
+      "picture": "pictures/u10-sleep.png"
     },
     {
       "id": "u10-in-the-morning",
@@ -206,7 +221,8 @@
       "tags": [
         "routine",
         "time"
-      ]
+      ],
+      "picture": "pictures/u10-in-the-morning.png"
     },
     {
       "id": "u10-at-night",
@@ -218,7 +234,8 @@
       "tags": [
         "routine",
         "time"
-      ]
+      ],
+      "picture": "pictures/u10-at-night.png"
     },
     {
       "id": "u10-what-do-you-do",
@@ -242,7 +259,8 @@
       "tags": [
         "routine",
         "phrase"
-      ]
+      ],
+      "picture": "pictures/u10-first.png"
     },
     {
       "id": "u10-then",
@@ -266,7 +284,8 @@
       "tags": [
         "routine",
         "time"
-      ]
+      ],
+      "picture": "pictures/u10-every-day.png"
     }
   ],
   "activities": [

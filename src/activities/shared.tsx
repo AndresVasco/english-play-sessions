@@ -6,6 +6,7 @@ import type { Item, Prompt } from '../content/types.ts'
 import { Bi } from '../components/Peek.tsx'
 import { Pip, pipCheer } from '../components/Pip.tsx'
 import { play, type Clip } from '../lib/audio.ts'
+import { ItemPicture } from '../components/ItemPicture.tsx'
 
 export const pick = <T,>(list: T[]): T => list[Math.floor(Math.random() * list.length)]
 
@@ -92,9 +93,7 @@ export function PromptLine({ prompt, item }: { prompt: Prompt; item?: Item }) {
 export function BigCard({ item, showWord = true, onClick }: { item: Item; showWord?: boolean; onClick?: () => void }) {
   return (
     <button type="button" className="flashcard" onClick={onClick} aria-label={`Play "${item.text}"`}>
-      <span className="flashcard-image" aria-hidden="true">
-        {item.image}
-      </span>
+      <ItemPicture item={item} className="flashcard-image" />
       {showWord && <Bi className="flashcard-word" en={item.text} es={item.translation} />}
     </button>
   )

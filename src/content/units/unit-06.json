@@ -201,7 +201,8 @@
       "tags": [
         "food",
         "question"
-      ]
+      ],
+      "picture": "pictures/u6-can-i-have.png"
     },
     {
       "id": "u6-here-you-are",
@@ -236,7 +237,8 @@
       "tags": [
         "food",
         "phrase"
-      ]
+      ],
+      "picture": "pictures/u6-yummy.png"
     },
     {
       "id": "u6-yuck",
@@ -248,7 +250,8 @@
       "tags": [
         "food",
         "phrase"
-      ]
+      ],
+      "picture": "pictures/u6-yuck.png"
     },
     {
       "id": "u6-do-you-like",

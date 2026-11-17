@@ -137,7 +137,8 @@
       "audioEs": "audio/es/u4-i-love-you.mp3",
       "tags": [
         "phrase"
-      ]
+      ],
+      "picture": "pictures/u4-i-love-you.png"
     },
     {
       "id": "u4-aunt",
@@ -227,7 +228,8 @@
       "tags": [
         "phrase",
         "family"
-      ]
+      ],
+      "picture": "pictures/u4-i-love-my-family.png"
     },
     {
       "id": "u4-friend",
@@ -250,7 +252,8 @@
       "tags": [
         "command",
         "family"
-      ]
+      ],
+      "picture": "pictures/u4-hug.png"
     },
     {
       "id": "u4-high-five",
@@ -261,7 +264,8 @@
       "audioEs": "audio/es/u4-high-five.mp3",
       "tags": [
         "command"
-      ]
+      ],
+      "picture": "pictures/u4-high-five.png"
     },
     {
       "id": "u4-stepdad",
