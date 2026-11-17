@@ -5,6 +5,7 @@ import { play } from '../lib/audio.ts'
 import { useSettings } from '../lib/settings.tsx'
 import {
   checkImportFile,
+  downloadBackup,
   exportProgress,
   getBackup,
   importProgress,
@@ -33,6 +34,17 @@ export function Settings({ back }: { back: () => void }) {
   const [message, setMessage] = useState<string | null>(null)
   const [backup, setBackup] = useState<{ reason: string; takenAt: string } | null>(null)
   const [updateStatus, setUpdateStatus] = useState<string | null>(null)
+  const [offerBackup, setOfferBackup] = useState(false)
+  // In-app confirmation (the browser's own confirm boxes are unreliable in
+  // iPhone home-screen apps).
+  const [pending, setPending] = useState<{
+    title: string
+    body: string
+    confirmLabel: string
+    danger?: boolean
+    run: () => Promise<void>
+  } | null>(null)
+  const [working, setWorking] = useState(false)
 
   const onCheckUpdates = async () => {
     setUpdateStatus('Checking…')
@@ -64,28 +76,59 @@ export function Settings({ back }: { back: () => void }) {
       return
     }
     const f = data as ProgressFile
-    const ok = window.confirm(
-      `Replace the progress on this device with the file from ${f.exportedAt.slice(0, 10)}?\n\n` +
-        `File: ${f.sessions.length} sessions, ${f.items.length} words, ${f.stickers.length} stickers.\n` +
-        `A backup of the current progress is saved first (and downloaded).`,
-    )
-    if (!ok) return
-    await importProgress(f)
-    setMessage('✓ Progress imported. A backup of the previous progress was downloaded.')
+    setPending({
+      title: 'Import this progress?',
+      body:
+        `The file from ${f.exportedAt.slice(0, 10)} has ${f.sessions.length} sessions, ${f.items.length} words and ` +
+        `${f.stickers.length} stickers. It replaces the progress on this device. A backup of the current progress is kept first.`,
+      confirmLabel: '⬆️ Yes, import it',
+      run: async () => {
+        await importProgress(f)
+        setMessage('✓ Progress imported. The previous progress was kept as a backup.')
+        setOfferBackup(true)
+      },
+    })
   }
 
-  const onReset = async () => {
-    if (!window.confirm('Delete ALL progress on this device (words, sessions, stickers)?\nA backup is saved and downloaded first.')) return
-    if (!window.confirm('Are you sure? This starts from zero.')) return
-    await resetProgress()
-    setMessage('✓ Progress reset. A backup was downloaded.')
-  }
+  const onReset = () =>
+    setPending({
+      title: 'Delete ALL progress on this device?',
+      body: 'Words, sessions, stickers and Pip\'s Challenge results start from zero. A backup is kept first, so you can undo it.',
+      confirmLabel: '🗑️ Yes, delete everything',
+      danger: true,
+      run: async () => {
+        await resetProgress()
+        setMessage('✓ Progress reset. The previous progress was kept as a backup.')
+        setOfferBackup(true)
+      },
+    })
 
-  const onRestore = async () => {
+  const onRestore = () => {
     if (!backup) return
-    if (!window.confirm(`Go back to the progress saved ${backup.reason} (${backup.takenAt.slice(0, 16).replace('T', ' ')})?`)) return
-    await restoreBackup()
-    setMessage('✓ Previous progress restored.')
+    setPending({
+      title: 'Undo the last import or reset?',
+      body: `Goes back to the progress saved ${backup.reason} (${backup.takenAt.slice(0, 16).replace('T', ' ')}).`,
+      confirmLabel: '↩️ Yes, go back',
+      run: async () => {
+        await restoreBackup()
+        setMessage('✓ Previous progress restored.')
+        setOfferBackup(false)
+      },
+    })
+  }
+
+  const confirmPending = async () => {
+    if (!pending) return
+    setWorking(true)
+    try {
+      await pending.run()
+    } catch (e) {
+      console.error(e)
+      setMessage('❗ Something went wrong. Nothing was changed.')
+    } finally {
+      setWorking(false)
+      setPending(null)
+    }
   }
 
   return (
@@ -220,7 +263,34 @@ export function Settings({ back }: { back: () => void }) {
       {message && (
         <p className="setting-message" role="status">
           {message}
+          {offerBackup && (
+            <button type="button" className="small-btn" onClick={() => downloadBackup()}>
+              ⬇️ Download the backup file
+            </button>
+          )}
         </p>
+      )}
+
+      {pending && (
+        <div className="confirm-backdrop" role="dialog" aria-modal="true" aria-labelledby="confirm-title">
+          <div className="confirm-box">
+            <h2 id="confirm-title">{pending.title}</h2>
+            <p>{pending.body}</p>
+            <div className="confirm-actions">
+              <button type="button" className="small-btn" onClick={() => setPending(null)} disabled={working}>
+                Cancel
+              </button>
+              <button
+                type="button"
+                className={pending.danger ? 'small-btn danger strong' : 'small-btn strong'}
+                onClick={confirmPending}
+                disabled={working}
+              >
+                {working ? 'Working…' : pending.confirmLabel}
+              </button>
+            </div>
+          </div>
+        </div>
       )}
 
       <h2>App version</h2>

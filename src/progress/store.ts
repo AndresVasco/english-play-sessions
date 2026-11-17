@@ -157,11 +157,18 @@ export function upgradeFile(f: ProgressFile): ProgressFile {
   return { ...f, evaluations: f.evaluations ?? [], canDo: f.canDo ?? [], schemaVersion: SCHEMA_VERSION }
 }
 
-/** Keep a copy of the current progress (in the device and as a downloaded file). */
+/** Keep a copy of the current progress inside the device (for "Undo").
+ *  The backup FILE is offered afterwards with downloadBackup(): on iPhone a
+ *  download can take over the screen, so it must never run before the change. */
 async function backupCurrent(reason: string) {
   const current = await buildExport()
   await put('backups', { reason, takenAt: nowIso(), data: current }, 'last')
-  downloadJson(current, `english-progress-backup-${today()}.json`)
+}
+
+/** Download the last automatic backup as a file. */
+export async function downloadBackup() {
+  const b = await getBackup()
+  if (b) downloadJson(b.data, `english-progress-backup-${b.takenAt.slice(0, 10)}.json`)
 }
 
 async function replaceWith(f: ProgressData) {
