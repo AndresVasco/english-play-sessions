@@ -538,3 +538,10 @@ img.item-tile-image { width: 72px; height: 72px; }
 .item-grid.small img.item-tile-image { width: 60px; height: 60px; }
 @media (max-width: 560px) { img.flashcard-image { width: clamp(7rem, 24vh, 11rem); height: clamp(7rem, 24vh, 11rem); } }
 @media (max-height: 800px) and (min-width: 561px) { img.flashcard-image { width: clamp(7rem, 24vh, 12rem); height: clamp(7rem, 24vh, 12rem); } }
+
+/* Emoji pictures: never wrap; combos of 2–3 emoji shrink to fit */
+.emoji-pic { white-space: nowrap; display: inline-block; line-height: 1.1; }
+.emoji-pic.multi-2 { font-size: 0.62em; }
+.emoji-pic.multi-3 { font-size: 0.45em; }
+.flashcard-image.emoji-pic.multi-2 { font-size: clamp(4rem, 13vh, 7rem); }
+.flashcard-image.emoji-pic.multi-3 { font-size: clamp(3rem, 10vh, 5rem); }
