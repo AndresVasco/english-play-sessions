@@ -222,3 +222,14 @@ Emoji-based: 💪 👀 👣 🤖 👾 💃 👟 🦷 🙌 🏆 (🏆 reserved fo
 | u3-tooth | 🦷 |
 | u3-hooray | 🙌 |
 | u3-complete | 🏆 (reserved) |
+
+---
+
+## Can do (evaluation checklist)
+
+The teacher ticks these in Stats or after the unit's Pip's Challenge 🏅 when she shows them in real life.
+
+- [ ] Names the parts of her face
+- [ ] Names arms, hands, legs and feet
+- [ ] Follows "Touch your…!" commands
+- [ ] Describes a monster with "It has…"

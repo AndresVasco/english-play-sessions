@@ -212,3 +212,14 @@ Emoji-based: 🎨 🖍️ 🍎 🐳 🐸 🍇 🍊 🦩 🎲 🏆 (🏆 reserved
 | u2-flamingo | 🦩 |
 | u2-dice | 🎲 |
 | u2-complete | 🏆 (reserved) |
+
+---
+
+## Can do (evaluation checklist)
+
+The teacher ticks these in Stats or after the unit's Pip's Challenge 🏅 when she shows them in real life.
+
+- [ ] Names at least 8 colors
+- [ ] Counts from 1 to 10 (and up to 20 with help)
+- [ ] Answers "What color is it?"
+- [ ] Says how many with "I have…"

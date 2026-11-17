@@ -3,8 +3,8 @@
 // record), backups (the copy taken automatically before an import/reset).
 
 const DB_NAME = 'english-play-sessions'
-const DB_VERSION = 1
-export const STORES = ['items', 'sessions', 'stickers', 'meta', 'backups'] as const
+const DB_VERSION = 2 // v2: evaluations + canDo stores
+export const STORES = ['items', 'sessions', 'stickers', 'meta', 'backups', 'evaluations', 'canDo'] as const
 export type StoreName = (typeof STORES)[number]
 
 let dbPromise: Promise<IDBDatabase> | null = null
@@ -20,6 +20,8 @@ function openDb(): Promise<IDBDatabase> {
         if (!db.objectStoreNames.contains('stickers')) db.createObjectStore('stickers', { keyPath: 'id' })
         if (!db.objectStoreNames.contains('meta')) db.createObjectStore('meta')
         if (!db.objectStoreNames.contains('backups')) db.createObjectStore('backups')
+        if (!db.objectStoreNames.contains('evaluations')) db.createObjectStore('evaluations', { keyPath: 'id' })
+        if (!db.objectStoreNames.contains('canDo')) db.createObjectStore('canDo', { keyPath: 'id' })
       }
       req.onsuccess = () => resolve(req.result)
       req.onerror = () => reject(req.error)
@@ -51,6 +53,13 @@ export async function get<T>(store: StoreName, key: IDBValidKey): Promise<T | un
     req.onsuccess = () => resolve(req.result as T | undefined)
     req.onerror = () => reject(req.error)
   })
+}
+
+export async function remove(store: StoreName, key: IDBValidKey) {
+  const db = await openDb()
+  const tx = db.transaction(store, 'readwrite')
+  tx.objectStore(store).delete(key)
+  await done(tx)
 }
 
 export async function put(store: StoreName, value: unknown, key?: IDBValidKey) {

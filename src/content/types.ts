@@ -123,6 +123,8 @@ export interface Unit {
   songs: Song[]
   stickers: Sticker[]
   lessons: Lesson[]
+  /** "She can…" statements the teacher ticks when she shows them (evaluation) */
+  canDo?: string[]
 }
 
 /** Shared across all units */
@@ -131,7 +133,7 @@ export interface Common {
   commands: Item[]
   praise: Prompt[]
   retry: Prompt[]
-  /** Default prompts per activity type, plus "stickers" */
-  prompts: Record<ActivityType | 'stickers', Prompt[]>
+  /** Default prompts per activity type, plus "stickers" and "challenge" (Pip's Challenge) */
+  prompts: Record<ActivityType | 'stickers' | 'challenge', Prompt[]>
   songs: Song[]
 }

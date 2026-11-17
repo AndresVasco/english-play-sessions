@@ -182,3 +182,14 @@ Lyrics and melody are original and may be changed freely. Each line is 8 beats; 
 ## Stickers (Unit 6 set)
 
 Emoji-based: 🍩 🧁 🍒 🍰 🥝 🍿 🍭 🥞 🍑 🏆 (🏆 reserved for "Unit 6 complete").
+
+---
+
+## Can do (evaluation checklist)
+
+The teacher ticks these in Stats or after the unit's Pip's Challenge 🏅 when she shows them in real life.
+
+- [ ] Names at least 8 foods and drinks
+- [ ] Says "I like…" and "I don't like…"
+- [ ] Asks "Can I have…, please?"
+- [ ] Says "Thank you!" and "Here you are!"

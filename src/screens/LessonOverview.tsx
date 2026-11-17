@@ -1,5 +1,7 @@
-import { BLOCK_LABELS, getActivity, getItems, getSong, type LessonRef } from '../content/index.ts'
+import { BLOCK_LABELS, getActivity, getItems, getSong, units, type LessonRef } from '../content/index.ts'
 import { play } from '../lib/audio.ts'
+import { isWeeklyDue } from '../challenge/plan.ts'
+import { useProgress } from '../progress/store.ts'
 
 interface Props {
   lessonRef: LessonRef
@@ -12,6 +14,8 @@ export function LessonOverview({ lessonRef, back, start }: Props) {
   const newItems = getItems(lesson.newItems)
   const commands = getItems(lesson.commands)
   const totalMin = lesson.blocks.reduce((sum, b) => sum + b.minutes, 0)
+  const progress = useProgress()
+  const weeklyToday = progress ? isWeeklyDue(units, progress) : false
 
   return (
     <div className="screen overview">
@@ -26,6 +30,13 @@ export function LessonOverview({ lessonRef, back, start }: Props) {
           <h1>{lesson.title}</h1>
         </div>
       </header>
+
+      {weeklyToday && (
+        <p className="challenge-notice">
+          🏅 <strong>This session includes Pip's Challenge</strong> (weekly check, about 3 min) instead of the review in
+          block 2. You can skip it at the start of the block; it will come back next session.
+        </p>
+      )}
 
       <p className="key-exchange">
         <strong>Key exchange:</strong> {lesson.keyExchange.en}

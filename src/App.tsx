@@ -13,13 +13,21 @@ import { LessonOverview } from './screens/LessonOverview.tsx'
 import { Settings } from './screens/Settings.tsx'
 import { SessionRunner } from './session/SessionRunner.tsx'
 import { Sky } from './components/Sky.tsx'
+import { ChallengeScreen } from './challenge/ChallengeScreen.tsx'
 
-type Route = { name: 'home' } | { name: 'settings' } | { name: 'stats' } | { name: 'lesson'; id: string } | { name: 'session'; id: string }
+type Route =
+  | { name: 'home' }
+  | { name: 'settings' }
+  | { name: 'stats' }
+  | { name: 'lesson'; id: string }
+  | { name: 'session'; id: string }
+  | { name: 'challenge'; id: string }
 
 function parse(hash: string): Route {
   const [, name, id] = hash.replace(/^#/, '').split('/')
   if (name === 'settings') return { name: 'settings' }
   if (name === 'stats') return { name: 'stats' }
+  if (name === 'challenge' && id && units.some((u) => u.id === id)) return { name: 'challenge', id }
   if ((name === 'lesson' || name === 'session') && id && findLesson(id)) return { name, id }
   return { name: 'home' }
 }
@@ -48,7 +56,7 @@ export default function App() {
 
   // Full screen during a session (PC); leave it afterwards.
   useEffect(() => {
-    if (route.name === 'session') {
+    if (route.name === 'session' || route.name === 'challenge') {
       document.documentElement.requestFullscreen?.().catch(() => {})
     } else if (document.fullscreenElement) {
       document.exitFullscreen?.().catch(() => {})
@@ -84,12 +92,18 @@ export default function App() {
       )
       break
     }
+    case 'challenge': {
+      const unit = units.find((u) => u.id === route.id)!
+      screen = <ChallengeScreen key={route.id} unit={unit} onExit={() => go({ name: 'home' })} />
+      break
+    }
     default:
       screen = (
         <Home
           openLesson={(id) => go({ name: 'lesson', id })}
           openSettings={() => go({ name: 'settings' })}
           openStats={() => go({ name: 'stats' })}
+          openChallenge={(unitId) => go({ name: 'challenge', id: unitId })}
         />
       )
   }

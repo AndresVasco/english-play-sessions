@@ -17,6 +17,9 @@ import { GoodbyeView } from './GoodbyeView.tsx'
 import { NotesPanel } from './NotesPanel.tsx'
 import { SongView } from './SongView.tsx'
 import { formatTime, useBlockTimer } from './useBlockTimer.ts'
+import { Challenge } from '../challenge/Challenge.tsx'
+import { weeklyPlan } from '../challenge/plan.ts'
+import type { PlannedItem } from '../progress/evaluation.ts'
 
 /** Items an activity uses. Review blocks (autoReview): the lesson's commands
  *  plus up to 6 of her weakest words (see progress/review.ts). */
@@ -25,13 +28,14 @@ function activityItems(lesson: Lesson, activity: Activity, reviewIds: string[]):
   return getItems(activity.itemIds)
 }
 
-/** Words she has already met in the units this lesson reviews. */
-async function loadReviewIds(lesson: Lesson, units: Unit[]): Promise<string[]> {
+/** Words she has already met in the units this lesson reviews, and the
+ *  weekly Pip's Challenge if it is due (it replaces the review block once a week). */
+async function loadReview(lesson: Lesson, units: Unit[]): Promise<{ reviewIds: string[]; weekly: PlannedItem[] | null }> {
   const data = await loadProgress()
   const candidates = new Set(units.filter((u) => lesson.reviewFrom.includes(u.id)).flatMap((u) => u.items.map((i) => i.id)))
   const met = data.items.filter((p) => candidates.has(p.itemId) && (p.timesSeen > 0 || p.peekCount > 0))
   const lastSession = data.sessions[data.sessions.length - 1]
-  return pickReview(met, lastSession?.date ?? null)
+  return { reviewIds: pickReview(met, lastSession?.date ?? null), weekly: weeklyPlan(units, data) }
 }
 
 export interface SessionRecord {
@@ -67,8 +71,15 @@ function Runner({ unit, units, lesson, onExit }: Props) {
   const record = useRef<SessionRecord>({ marks: [], peeks: [], stickers: [] })
   const session = useRef({ id: newSessionId(), start: new Date().toISOString(), startMs: Date.now() })
   const [reviewIds, setReviewIds] = useState<string[]>([])
+  const [weekly, setWeekly] = useState<PlannedItem[] | null>(null)
+  const [weeklySkipped, setWeeklySkipped] = useState(false)
   useEffect(() => {
-    loadReviewIds(lesson, units).then(setReviewIds).catch((e) => console.error('Review load failed', e))
+    loadReview(lesson, units)
+      .then((r) => {
+        setReviewIds(r.reviewIds)
+        setWeekly(r.weekly)
+      })
+      .catch((e) => console.error('Review load failed', e))
   }, [lesson, units])
 
   /** Save the session log (called on every block change and at the end). */
@@ -99,7 +110,8 @@ function Runner({ unit, units, lesson, onExit }: Props) {
   const minutes = settings.blockMinutes[block.type] ?? block.minutes
   const timer = useBlockTimer(minutes, blockIndex)
   const isLast = blockIndex === lesson.blocks.length - 1
-  const label = BLOCK_LABELS[block.type]
+  const challengeNow = block.type === 'review' && weekly !== null && !weeklySkipped
+  const label = challengeNow ? { en: "Pip's Challenge", es: 'El reto de Pip' } : BLOCK_LABELS[block.type]
 
   // Lesson 4 style blocks with 2 games: switch to the second at half time.
   const halfSwitched = useRef(false)
@@ -142,7 +154,7 @@ function Runner({ unit, units, lesson, onExit }: Props) {
     }
   }, [blockActivities.length])
 
-  const canMark = Boolean(activity && MARKABLE.has(activity.type))
+  const canMark = Boolean(activity && MARKABLE.has(activity.type)) && !challengeNow
   const mark = useCallback((r: MarkResult) => handleRef.current?.mark?.(r), [])
   const onMark = useCallback((itemId: string, result: MarkResult) => {
     record.current.marks.push({ itemId, result, at: Date.now() })
@@ -203,7 +215,19 @@ function Runner({ unit, units, lesson, onExit }: Props) {
 
   // ---- Center content ----
   let center: ReactNode = null
-  if (block.type === 'stickers') {
+  if (challengeNow && weekly) {
+    center = (
+      <Challenge
+        key={`challenge-${blockIndex}`}
+        kind="weekly"
+        plan={weekly}
+        lessonId={lesson.id}
+        onSkip={() => setWeeklySkipped(true)}
+        onFocus={setFocus}
+        celebrate={celebrate}
+      />
+    )
+  } else if (block.type === 'stickers') {
     center = (
       <GoodbyeView
         unit={unit}

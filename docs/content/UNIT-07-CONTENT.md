@@ -183,3 +183,14 @@ Lyrics and melody are original and may be changed freely. Each line is 8 beats; 
 ## Stickers (Unit 7 set)
 
 Emoji-based: 🛹 🚲 🏀 🚀 🥇 🎸 🏄‍♀️ 🦘 🐒 🏆 (🏆 reserved for "Unit 7 complete").
+
+---
+
+## Can do (evaluation checklist)
+
+The teacher ticks these in Stats or after the unit's Pip's Challenge 🏅 when she shows them in real life.
+
+- [ ] Names at least 8 actions
+- [ ] Says "I can…"
+- [ ] Asks and answers "Can you…?"
+- [ ] Acts out an action when she hears it

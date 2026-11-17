@@ -194,3 +194,14 @@ Original lyrics and melody; change freely. She can hold up her poster on "This i
 ## Stickers (Unit 12 set)
 
 🎤 🎭 🌟 🎉 👑 🎨 💐 🎁 🦄 + 🎓 (reserved for "Unit 12 complete").
+
+---
+
+## Can do (evaluation checklist)
+
+The teacher ticks these in Stats or after the unit's Pip's Challenge 🏅 when she shows them in real life.
+
+- [ ] Presents a character with "This is my…" and "Its name is…"
+- [ ] Describes it with "It is…"
+- [ ] Says what it can and can't do
+- [ ] Gives a short show from beginning to end

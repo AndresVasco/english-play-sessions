@@ -199,3 +199,14 @@ Teacher: sing it with the gestures (big arms, small fingers, counting legs, gett
 | u10-glowing-star | 🌟 |
 | u10-yo-yo | 🪀 |
 | u10-complete | 🏆 |
+
+---
+
+## Can do (evaluation checklist)
+
+The teacher ticks these in Stats or after the unit's Pip's Challenge 🏅 when she shows them in real life.
+
+- [ ] Tells 3 things she does in the morning
+- [ ] Tells 3 things she does at night
+- [ ] Puts her day in order with first and then
+- [ ] Answers "What do you do in the morning?"

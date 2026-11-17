@@ -205,6 +205,28 @@
         "en": "Goodbye! See you soon!",
         "es": "¡Adiós! ¡Nos vemos pronto!"
       }
+    ],
+    "challenge": [
+      {
+        "id": "p-challenge-start",
+        "en": "Pip's Challenge! Let's play!",
+        "es": "¡El reto de Pip! ¡A jugar!"
+      },
+      {
+        "id": "p-challenge-listen",
+        "en": "Listen and touch!",
+        "es": "¡Escucha y toca!"
+      },
+      {
+        "id": "p-challenge-say",
+        "en": "What's this? Say it!",
+        "es": "¿Qué es esto? ¡Dilo!"
+      },
+      {
+        "id": "p-challenge-done",
+        "en": "You did it! Here is your medal!",
+        "es": "¡Lo lograste! ¡Aquí está tu medalla!"
+      }
     ]
   },
   "songs": [

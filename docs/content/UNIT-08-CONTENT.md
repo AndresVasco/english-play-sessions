@@ -201,3 +201,14 @@ Teacher: sing it with the gestures (big arms, small fingers, counting legs, gett
 | u8-giraffe | 🦒 |
 | u8-paw | 🐾 |
 | u8-complete | 🏆 |
+
+---
+
+## Can do (evaluation checklist)
+
+The teacher ticks these in Stats or after the unit's Pip's Challenge 🏅 when she shows them in real life.
+
+- [ ] Names at least 10 animals
+- [ ] Says if an animal is big or small
+- [ ] Says how many legs an animal has
+- [ ] Moves like an animal when asked

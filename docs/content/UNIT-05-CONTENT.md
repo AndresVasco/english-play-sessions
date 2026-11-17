@@ -184,3 +184,14 @@ Lyrics and melody are original and may be changed freely. Each line is 8 beats; 
 ## Stickers (Unit 5 set)
 
 Emoji-based: 🏡 🧸 🔑 🎁 💡 ⏰ 🛋️ 🪁 🎲 🏆 (🏆 reserved for "Unit 5 complete").
+
+---
+
+## Can do (evaluation checklist)
+
+The teacher ticks these in Stats or after the unit's Pip's Challenge 🏅 when she shows them in real life.
+
+- [ ] Names the rooms of a house
+- [ ] Names at least 5 things at home
+- [ ] Uses in, on and under
+- [ ] Asks and answers "Where is the…?"

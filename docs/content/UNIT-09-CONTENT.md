@@ -199,3 +199,14 @@ Teacher: sing it with the gestures (big arms, small fingers, counting legs, gett
 | u9-cool | 😎 |
 | u9-handbag | 👜 |
 | u9-complete | 🏆 |
+
+---
+
+## Can do (evaluation checklist)
+
+The teacher ticks these in Stats or after the unit's Pip's Challenge 🏅 when she shows them in real life.
+
+- [ ] Says what the weather is like
+- [ ] Names at least 8 clothes
+- [ ] Chooses clothes for the weather
+- [ ] Follows "Put on your…!"

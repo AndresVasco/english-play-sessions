@@ -204,3 +204,14 @@ Lyrics above are original and may be changed freely. Melody: simple generated tu
 ## Stickers (Unit 1 set)
 
 Emoji-based for v1: ⭐ 🌈 🦄 🐶 🐱 🦋 🌻 🍦 🎈 🏆 (🏆 reserved for "Unit 1 complete").
+
+---
+
+## Can do (evaluation checklist)
+
+The teacher ticks these in Stats or after the unit's Pip's Challenge 🏅 when she shows them in real life.
+
+- [ ] Says hello, hi and goodbye at the right moment
+- [ ] Answers "How are you?" with a feeling
+- [ ] Names at least 6 feelings
+- [ ] Follows 8 classroom commands with her body

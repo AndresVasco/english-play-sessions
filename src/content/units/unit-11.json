@@ -826,5 +826,11 @@
         "En la pantalla de stickers de esta lección hay un botón discreto para darle el trofeo 🏆 \"Unit 11 complete\" cuando tú decidas que terminó la unidad."
       ]
     }
+  ],
+  "canDo": [
+    "Names at least 8 places",
+    "Says \"Let's go to the…!\"",
+    "Follows go straight, turn left, turn right",
+    "Asks \"Where is the…?\" on a map"
   ]
 }

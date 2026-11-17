@@ -40,7 +40,7 @@ Installing puts an **Adventure** icon on the PC or phone and lets the app work *
 
 After opening the app once with internet, everything (lessons, audio, music) is saved on the device. It then works with no internet.
 
-When a new version is published, the Home screen shows **"A new version of the app is ready — Update now"**. Tap it when you are not in a session (the app never updates by itself in the middle of a session).
+When a new version is published, the Home screen shows **"A new version of the app is ready — Update now"**. Tap it when you are not in a session (the app never updates by itself in the middle of a session). If it doesn't appear, go to ⚙️ Settings → **⟳ Check for updates** (Settings also shows the version you have).
 
 ---
 
@@ -82,7 +82,21 @@ When a new version is published, the Home screen shows **"A new version of the a
 
 ---
 
-## 5. Progress, review and stats
+## 5. Pip's Challenge (evaluation) 🏅
+
+A short game that tells you how she is doing. **She never sees a score**: each answer fills a star and she always gets a 🏅 medal. Results are only for you.
+
+- **Weekly check (about 3 minutes, 8 words):** once a week the "Review with the body" block becomes **Pip's Challenge**. The lesson plan screen tells you before you start. If it's not a good day, tap **Skip today** at the start of block 2; it comes back next session.
+- **End-of-unit check (about 5 minutes, 12 words):** the **🏅 Pip's Challenge** stop at the end of each unit's map. Afterwards you see the results and the unit's **"She can…"** list: tick what you have seen her do in real life.
+- **How it works:**
+  - 👂 *Understands:* she hears a word and touches a picture (the app notes it silently; nothing shows if she picks another one).
+  - 🗣️ *Says it:* she sees a picture and says the word. You tap **✓ On her own**, **🤝 With help** or **↻ Not yet**; then the app says the word for her.
+  - 🧠 *Remembers:* words she hasn't practised for 7+ days are included on purpose.
+- **Where to see results:** 📊 Stats → **Pip's Challenge**: percentages, a trend chart, words to reinforce and the "She can…" lists. The results also feed the smart review, so words that are "not yet" come back more often.
+
+---
+
+## 6. Progress, review and stats
 
 - Every ✓ / ↻ and every 🇨🇴 peek is **saved immediately** on the device.
 - Each word has a level from 0 to 3: ✓ raises it, ↻ lowers it. A peek never lowers it, but moves the word up in the review.
@@ -91,6 +105,8 @@ When a new version is published, the Home screen shows **"A new version of the a
 - **📊 Stats** (Home, top right): sessions per week, total minutes, words by level, the words she finds hard, and recent sessions.
 
 ### Moving progress from the PC to the phone (or back)
+
+The file includes everything: words, sessions, stickers, Pip's Challenge results and the "She can…" ticks.
 
 Progress is not synced automatically (on purpose: no accounts, nothing about her goes to the internet). You move it with a file:
 
@@ -106,7 +122,7 @@ Tip: always continue on the device that has the newest progress, and export agai
 
 ---
 
-## 6. Adding a new unit
+## 7. Adding a new unit
 
 All course content lives in files; no code changes are needed.
 
@@ -118,7 +134,7 @@ All 12 units are already drafted (`docs/content/UNIT-01-CONTENT.md` … `UNIT-12
 
 ---
 
-## 7. Regenerating the audio
+## 8. Regenerating the audio
 
 The audio files are made once with Piper (free text-to-speech) and saved in `public/audio/`.
 

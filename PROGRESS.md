@@ -64,5 +64,13 @@ Temporary in Phase 1 (replaced later):
 - [x] Every lesson of every unit clicked through in a browser, no errors
 - [ ] Owner reviews Units 2–12 content (translations, teacher notes, games)
 
+## Evaluation: Pip's Challenge (2026-11-17, owner's request)
+- [x] Weekly challenge in block 2 (skippable) + end-of-unit 🏅 stop on every map
+- [x] Comprehension (silent), production (teacher marks), retention (7+ days) and "can do" checklists for the 12 units
+- [x] Stats → Pip's Challenge: trend chart, history, words to reinforce, can-do lists
+- [x] Export v2 (old v1 files still import); rules checked automatically before every build
+- [x] Update check when the app comes back on screen + "Check for updates" in Settings
+- [ ] Owner tries a weekly and a unit challenge with her
+
 ## Phase 4 – Pilot
 Not started: 2 weeks of real sessions with Unit 1, noting what she loved / ignored / found too long.

@@ -14,6 +14,7 @@ interface Props {
   openLesson: (lessonId: string) => void
   openSettings: () => void
   openStats: () => void
+  openChallenge: (unitId: string) => void
 }
 
 function useNarrow() {
@@ -48,11 +49,22 @@ function pathD(points: { x: number; y: number }[], narrow: boolean) {
     .join(' ')
 }
 
-function UnitMap({ unit, done, today, openLesson }: { unit: Unit; done: Set<string>; today: string | undefined; openLesson: (id: string) => void }) {
+interface MapProps {
+  unit: Unit
+  done: Set<string>
+  today: string | undefined
+  challengeDone: boolean
+  openLesson: (id: string) => void
+  openChallenge: (unitId: string) => void
+}
+
+function UnitMap({ unit, done, today, challengeDone, openLesson, openChallenge }: MapProps) {
   const narrow = useNarrow()
-  const pts = stopPositions(unit.lessons.length, narrow)
+  // One stop per lesson + the 🏅 Pip's Challenge stop at the end of the unit
+  const pts = stopPositions(unit.lessons.length + 1, narrow)
+  const last = pts[pts.length - 1]
   return (
-    <div className={narrow ? 'map narrow' : 'map'} style={narrow ? { height: unit.lessons.length * 150 + 40 } : undefined}>
+    <div className={narrow ? 'map narrow' : 'map'} style={narrow ? { height: (unit.lessons.length + 1) * 150 + 40 } : undefined}>
       <svg className="map-path" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
         <path d={pathD(pts, narrow)} />
       </svg>
@@ -79,11 +91,23 @@ function UnitMap({ unit, done, today, openLesson }: { unit: Unit; done: Set<stri
           </button>
         )
       })}
+      <button
+        type="button"
+        className={`stop challenge-stop ${challengeDone ? 'done' : ''}`}
+        style={{ left: `${last.x}%`, top: `${last.y}%` }}
+        onClick={() => openChallenge(unit.id)}
+      >
+        <span className="stop-circle" aria-hidden="true">
+          🏅
+        </span>
+        <span className="stop-title">Pip's Challenge</span>
+        <span className="stop-sub">End of unit{challengeDone ? ' ✓' : ''}</span>
+      </button>
     </div>
   )
 }
 
-export function Home({ openLesson, openSettings, openStats }: Props) {
+export function Home({ openLesson, openSettings, openStats, openChallenge }: Props) {
   const progress = useProgress()
   const lastId = progress?.meta.lastLessonId ?? getLegacyLastLessonId()
   const last = findLesson(lastId)
@@ -157,7 +181,16 @@ export function Home({ openLesson, openSettings, openStats }: Props) {
         </nav>
       )}
 
-      {unit && <UnitMap unit={unit} done={done} today={today} openLesson={openLesson} />}
+      {unit && (
+        <UnitMap
+          unit={unit}
+          done={done}
+          today={today}
+          challengeDone={Boolean(progress?.evaluations.some((e) => e.kind === 'unit' && e.unitId === unit.id))}
+          openLesson={openLesson}
+          openChallenge={openChallenge}
+        />
+      )}
     </div>
   )
 }

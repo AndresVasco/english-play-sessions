@@ -217,3 +217,14 @@ Emoji-based: 🏡 ❤️ 🌳 🎂 🧸 💐 🤗 🍼 📸 🏆 (🏆 reserved 
 | u4-bottle | 🍼 |
 | u4-camera | 📸 |
 | u4-complete | 🏆 (reserved) |
+
+---
+
+## Can do (evaluation checklist)
+
+The teacher ticks these in Stats or after the unit's Pip's Challenge 🏅 when she shows them in real life.
+
+- [ ] Names the people in her family
+- [ ] Presents someone with "This is my…"
+- [ ] Uses "He is…" and "She is…"
+- [ ] Says "I love my family!"

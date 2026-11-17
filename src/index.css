@@ -490,3 +490,30 @@ h1, h2, h3, .runner-label, .goodbye-text, .flashcard-word { font-weight: 700; }
   .flashcard-image { font-size: clamp(5rem, 17vh, 9rem); }
   .pip-says .pip { width: 64px; height: 64px; }
 }
+
+/* ---------- Pip's Challenge ---------- */
+.challenge { display: flex; flex-direction: column; align-items: center; gap: 14px; width: 100%; min-height: 100%; justify-content: safe center; }
+.challenge-hero { font-size: clamp(5rem, 16vh, 8rem); }
+.challenge-medal { font-size: clamp(7rem, 24vh, 12rem); animation: pip-hop 0.8s ease-out 2; }
+.challenge-stars { display: flex; gap: 4px; font-size: 1.6rem; color: #c9c2ff; }
+.challenge-stars .on { animation: pop 0.3s ease-out; }
+.teacher-marks { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px;
+  background: rgba(255, 255, 255, 0.6); border-radius: 18px; padding: 8px 12px; }
+.teacher-marks-label { color: var(--muted); font-size: 0.85rem; width: 100%; text-align: center; }
+.teacher-marks .tb-btn[disabled] { opacity: 0.4; }
+.challenge-notice { background: var(--accent-soft); border: 3px solid var(--accent); border-radius: 14px; padding: 10px 14px; margin: 0 0 10px; }
+.challenge-stop .stop-circle { background: #fff3cf; border-color: #f0a83c; box-shadow: 0 8px 0 #c86a12; }
+.challenge-stop.done .stop-circle { background: var(--accent); }
+.evaluations h3 { margin: 18px 0 8px; color: var(--calm); font-size: 1.05rem; }
+.evaluations h3 small { color: var(--muted); font-weight: 500; }
+.trend { background: rgba(255, 255, 255, 0.92); border-radius: var(--radius); padding: 10px 12px; margin-bottom: 10px; }
+.trend svg { width: 100%; height: 180px; display: block; }
+.trend-grid { stroke: var(--line); stroke-width: 1; }
+.trend-axis { font-size: 11px; fill: var(--muted); }
+.trend-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 0.9rem; color: var(--muted); }
+.trend-legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 4px; vertical-align: -1px; }
+.reinforce span { background: #fff; border-radius: 999px; padding: 4px 10px; }
+.can-do { list-style: none; padding: 0; margin: 6px 0; display: grid; gap: 6px; }
+.can-do label { display: flex; align-items: center; gap: 10px; background: rgba(255, 255, 255, 0.92); border-radius: 10px; padding: 8px 12px; min-height: 48px; }
+.can-do input { width: 26px; height: 26px; flex: none; }
+.stat-tile small { color: var(--muted); font-size: 0.8rem; }

@@ -1,7 +1,10 @@
 // Stats for the teacher: sessions per week, total minutes, words by level,
 // words she struggles with, recent sessions. Everything comes from this device.
 
-import { findLesson, getItem } from '../content/index.ts'
+import { findLesson, getItem, units } from '../content/index.ts'
+import { CanDoList } from '../challenge/TeacherSummary.tsx'
+import { scores } from '../progress/evaluation.ts'
+import type { Evaluation } from '../progress/types.ts'
 import { MAX_LEVEL } from '../progress/review.ts'
 import { useProgress } from '../progress/store.ts'
 import type { ItemProgress } from '../progress/types.ts'
@@ -78,6 +81,8 @@ export function Stats({ back }: { back: () => void }) {
           <span>stickers</span>
         </div>
       </div>
+
+      <EvaluationsSection evaluations={data.evaluations} canDoCount={data.canDo.length} />
 
       <h2>Sessions per week</h2>
       <div className="week-bars" role="img" aria-label="Sessions per week, last 8 weeks">
@@ -156,5 +161,135 @@ export function Stats({ back }: { back: () => void }) {
         </ul>
       )}
     </div>
+  )
+}
+
+const SERIES = [
+  { key: 'comprehension', label: 'Understands', color: '#5b4bd6' },
+  { key: 'production', label: 'Says it', color: '#f08a24' },
+  { key: 'retention', label: 'Remembers (7+ days)', color: '#2f9e74' },
+] as const
+
+/** Pip's Challenge results: trend, history, words to reinforce, can-do lists. */
+function EvaluationsSection({ evaluations, canDoCount }: { evaluations: Evaluation[]; canDoCount: number }) {
+  const recent = evaluations.slice(-10)
+  const points = recent.map((e) => scores(e))
+  const W = 600
+  const H = 180
+  const x = (i: number) => (recent.length < 2 ? W / 2 : 30 + (i * (W - 60)) / (recent.length - 1))
+  const y = (v: number) => H - 20 - (v / 100) * (H - 40)
+
+  // Latest result per word in the last 30 days; keep the ones not yet solid.
+  const since = Date.now() - 30 * 24 * 60 * 60 * 1000
+  const latest = new Map<string, { result: string; skill: string }>()
+  for (const e of evaluations) {
+    if (Date.parse(e.date) < since) continue
+    for (const it of e.items) latest.set(it.itemId, { result: it.result, skill: it.skill })
+  }
+  const reinforce = [...latest].filter(([, v]) => v.result !== 'got')
+  const unitsWithCanDo = units.filter((u) => u.canDo?.length)
+  const canDoTotal = unitsWithCanDo.reduce((s, u) => s + (u.canDo?.length ?? 0), 0)
+
+  return (
+    <section className="evaluations">
+      <h2>Pip's Challenge 🏅</h2>
+      {evaluations.length === 0 ? (
+        <p className="setting-help">
+          No challenges yet. The weekly one appears in block 2 once she has met 8 words; the unit one is the 🏅 stop at
+          the end of each unit's map.
+        </p>
+      ) : (
+        <>
+          <div className="trend" role="img" aria-label="Results of the last challenges">
+            <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none">
+              {[0, 50, 100].map((v) => (
+                <g key={v}>
+                  <line x1="30" x2={W - 30} y1={y(v)} y2={y(v)} className="trend-grid" />
+                  <text x="2" y={y(v) + 4} className="trend-axis">
+                    {v}%
+                  </text>
+                </g>
+              ))}
+              {SERIES.map((ser) => {
+                const pts = points
+                  .map((p, i) => (p[ser.key] === null ? null : `${x(i)},${y(p[ser.key] as number)}`))
+                  .filter(Boolean)
+                return (
+                  <g key={ser.key}>
+                    <polyline points={pts.join(' ')} fill="none" stroke={ser.color} strokeWidth="3" strokeLinejoin="round" />
+                    {points.map((p, i) =>
+                      p[ser.key] === null ? null : <circle key={i} cx={x(i)} cy={y(p[ser.key] as number)} r="4" fill={ser.color} />,
+                    )}
+                  </g>
+                )
+              })}
+            </svg>
+            <div className="trend-legend">
+              {SERIES.map((s) => (
+                <span key={s.key}>
+                  <i style={{ background: s.color }} /> {s.label}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          <table className="struggles">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Check</th>
+                <th>Understands</th>
+                <th>Says it</th>
+                <th>Remembers</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[...evaluations].reverse().slice(0, 12).map((e) => {
+                const sc = scores(e)
+                const unit = units.find((u) => u.id === e.unitId)
+                const pct = (v: number | null) => (v === null ? '—' : `${v}%`)
+                return (
+                  <tr key={e.id}>
+                    <td>{new Date(e.date).toLocaleDateString()}</td>
+                    <td>{e.kind === 'weekly' ? 'Weekly' : `Unit ${unit?.number ?? ''}`}</td>
+                    <td>{pct(sc.comprehension)}</td>
+                    <td>{pct(sc.production)}</td>
+                    <td>{pct(sc.retention)}</td>
+                  </tr>
+                )
+              })}
+            </tbody>
+          </table>
+
+          <h3>Words to reinforce (last 30 days)</h3>
+          {reinforce.length === 0 ? (
+            <p className="setting-help">All the words checked recently are solid. 🎉</p>
+          ) : (
+            <div className="level-words reinforce">
+              {reinforce.map(([id, v]) => {
+                const it = getItem(id)
+                return (
+                  <span key={id}>
+                    {it?.image} {it?.text ?? id} <small>({v.result === 'helped' ? 'with help' : 'not yet'})</small>
+                  </span>
+                )
+              })}
+            </div>
+          )}
+        </>
+      )}
+
+      <h3>
+        She can… <small>· {canDoCount} of {canDoTotal} ticked</small>
+      </h3>
+      {unitsWithCanDo.map((u) => (
+        <details key={u.id} className="overview-notes">
+          <summary>
+            Unit {u.number}: {u.title}
+          </summary>
+          <CanDoList unit={u} />
+        </details>
+      ))}
+    </section>
   )
 }

@@ -185,3 +185,14 @@ Original lyrics and melody; change freely. Acting it out: march in place on "Let
 ## Stickers (Unit 11 set)
 
 🌳 🎡 🎠 🏰 🪁 ⛲ ⛺ 🚂 🚀 + 🏆 (reserved for "Unit 11 complete").
+
+---
+
+## Can do (evaluation checklist)
+
+The teacher ticks these in Stats or after the unit's Pip's Challenge 🏅 when she shows them in real life.
+
+- [ ] Names at least 8 places
+- [ ] Says "Let's go to the…!"
+- [ ] Follows go straight, turn left, turn right
+- [ ] Asks "Where is the…?" on a map

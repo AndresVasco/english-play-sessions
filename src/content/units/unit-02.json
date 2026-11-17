@@ -842,5 +842,11 @@
         "En la pantalla de stickers de esta lección hay un botón discreto para darle el trofeo 🏆 \"Unit 2 complete\" cuando tú decidas que terminó la unidad."
       ]
     }
+  ],
+  "canDo": [
+    "Names at least 8 colors",
+    "Counts from 1 to 10 (and up to 20 with help)",
+    "Answers \"What color is it?\"",
+    "Says how many with \"I have…\""
   ]
 }

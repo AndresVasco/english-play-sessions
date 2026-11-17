@@ -49,7 +49,7 @@ export function validateContent(common: Common, units: Unit[]): ValidationResult
   }
   common.praise.forEach((p) => checkPrompt('common.json praise', p))
   common.retry.forEach((p) => checkPrompt('common.json retry', p))
-  for (const type of [...ACTIVITY_TYPES, 'stickers'] as const) {
+  for (const type of [...ACTIVITY_TYPES, 'stickers', 'challenge'] as const) {
     const list = common.prompts[type]
     if (!list || list.length === 0) err('common.json prompts', `no default prompt for "${type}"`)
     else list.forEach((p) => checkPrompt(`common.json prompts.${type}`, p))
@@ -96,6 +96,8 @@ export function validateContent(common: Common, units: Unit[]): ValidationResult
     }
 
     if (u.stickers.length === 0) err(u.id, 'needs at least one sticker')
+    if (u.canDo !== undefined && (!Array.isArray(u.canDo) || u.canDo.some((c) => !isNonEmptyString(c))))
+      err(u.id, '"canDo" must be a list of sentences')
 
     for (const l of u.lessons) {
       const at = `${u.id} lesson "${l.id}"`

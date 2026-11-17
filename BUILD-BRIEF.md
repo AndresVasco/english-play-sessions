@@ -127,6 +127,17 @@ Main flow: Home → pick lesson → Lesson overview → Start → 6 blocks (each
 - **SessionLog:** id, date, lessonId, durationSec, blocksCompleted, marks[] (itemId, result)
 - **Stickers:** list of earned stickers with date
 - **Meta:** schemaVersion, lastLessonId
+- **Evaluation** (Pip's Challenge, added 2026-11-17): id, date, kind (weekly | unit), unitId, lessonId, durationSec, items[] (itemId, skill comprehension | production, result got | helped | again, retention = last practised 7+ days before)
+- **CanDoCheck:** unitId, index of the unit's `canDo` statement, date ticked
+- Export `schemaVersion` is now 2; version 1 files still import (they get empty evaluations / can-do).
+
+**Evaluation — Pip's Challenge (added 2026-11-17):**
+- *Weekly* (8 words: 4 comprehension + 4 production): once every 7 days it replaces the review block (block 2) of the next session; the teacher can skip it that day. Words she has met, words not practised for 7+ days first (retention), then the weakest.
+- *End of unit* (12 words: 6 + 6): the 🏅 stop at the end of each unit's map; then the teacher ticks the unit's "can do" list (content field `canDo`).
+- Comprehension: she hears a word and taps one of 4 pictures (scored silently). Production: she sees a picture and says it; the teacher marks on her own / with help / not yet; the word is then always modelled for her.
+- She never sees a score or a "wrong": each answer fills a star and she always gets a 🏅 medal sticker. Results are teacher-only (Stats → Pip's Challenge: understands %, says it %, remembers %, trend, words to reinforce, can-do).
+- Scores: on her own = 1, with help = ½, not yet = 0. Results also update the word levels (on her own +1, with help = no change, not yet −1).
+- Phrases, questions, prepositions and classroom commands are not checked (no single clear picture); action verbs are.
 
 **Review rule (simple, deterministic):** ✓ raises level by 1 (max 3), ↻ lowers by 1 (min 0). Review block picks items ordered by lowest level, then items peeked in the last session, then oldest lastSeen; max 6 items. A peek does not lower the level (it is not a mistake); it only moves the item up in the review order.
 
@@ -269,3 +280,6 @@ I want to build this app. I've already thought it through in the attached BUILD-
 | 2026-11-16 | App renamed "English Adventure"; short name "Adventure" (fits under the icon); repo name and progress-file format unchanged | Owner's choice; keeping the file format means old exports still import |
 | 2026-11-16 | Units 2–12 drafted now (content docs + JSON + audio) instead of after the pilot | Owner's request; each unit still needs the owner's review |
 | 2026-11-16 | Star games of the course map are played with the 7 existing activity types (e.g. restaurant = find-it "Can I have the ___, please?"); the physical game is explained in the teacher notes | No new code per unit |
+| 2026-11-17 | Evaluation "Pip's Challenge": weekly (replaces block 2 once a week, skippable) + end-of-unit 🏅 stop with "can do" checklist; results update word levels; teacher-only scores | Owner wants to track progress and retention; keeps the brief's rule of no grades or failure feedback for her |
+| 2026-11-17 | Progress export format v2 (adds evaluations and can-do); v1 files still import | Evaluations must move between devices too |
+| 2026-11-17 | The app checks for updates whenever it comes back on screen, plus a "Check for updates" button and version in Settings | iPhone home-screen apps resumed without ever seeing the new version |
