@@ -107,12 +107,34 @@ function UnitMap({ unit, done, today, challengeDone, openLesson, openChallenge }
   )
 }
 
+// The unit shown on Home is remembered on this device, so coming back from a
+// lesson, a session or a challenge returns to the same unit.
+const UNIT_KEY = 'eps-home-unit'
+const readUnit = () => {
+  try {
+    return localStorage.getItem(UNIT_KEY)
+  } catch {
+    return null
+  }
+}
+const rememberUnit = (id: string) => {
+  try {
+    localStorage.setItem(UNIT_KEY, id)
+  } catch {
+    /* storage unavailable: the app still works */
+  }
+}
+
 export function Home({ openLesson, openSettings, openStats, openChallenge }: Props) {
   const progress = useProgress()
   const lastId = progress?.meta.lastLessonId ?? getLegacyLastLessonId()
   const last = findLesson(lastId)
   const done = useMemo(() => new Set(progress?.sessions.map((s) => s.lessonId) ?? []), [progress])
-  const [unitId, setUnitId] = useState<string | null>(null)
+  const [unitId, setUnitIdState] = useState<string | null>(readUnit)
+  const setUnitId = (id: string) => {
+    rememberUnit(id)
+    setUnitIdState(id)
+  }
   const unit = units.find((u) => u.id === unitId) ?? last?.unit ?? units[0]
   // Today's stop: the last lesson used; otherwise the first lesson not played yet.
   const today = last?.lesson.id ?? units.flatMap((u) => u.lessons).find((l) => !done.has(l.id))?.id
@@ -183,12 +205,19 @@ export function Home({ openLesson, openSettings, openStats, openChallenge }: Pro
 
       {unit && (
         <UnitMap
+          key={unit.id}
           unit={unit}
           done={done}
           today={today}
           challengeDone={Boolean(progress?.evaluations.some((e) => e.kind === 'unit' && e.unitId === unit.id))}
-          openLesson={openLesson}
-          openChallenge={openChallenge}
+          openLesson={(id) => {
+            rememberUnit(unit.id)
+            openLesson(id)
+          }}
+          openChallenge={(id) => {
+            rememberUnit(id)
+            openChallenge(id)
+          }}
         />
       )}
     </div>

@@ -79,6 +79,11 @@ export default function App() {
           back={() => go({ name: 'home' })}
           start={() => {
             setLastLesson(route.id).catch(() => {})
+            try {
+              localStorage.setItem('eps-home-unit', ref.unit.id)
+            } catch {
+              /* ignore */
+            }
             go({ name: 'session', id: route.id })
           }}
         />
