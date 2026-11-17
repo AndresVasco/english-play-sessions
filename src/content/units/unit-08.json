@@ -69,7 +69,8 @@
       "audioEs": "audio/es/u8-what-is-it.mp3",
       "tags": [
         "question"
-      ]
+      ],
+      "picture": "pictures/u8-what-is-it.png"
     },
     {
       "id": "u8-cow",
@@ -239,7 +240,8 @@
       "tags": [
         "phrase",
         "animal"
-      ]
+      ],
+      "picture": "pictures/u8-four-legs.png"
     },
     {
       "id": "u8-two-legs",
@@ -251,7 +253,8 @@
       "tags": [
         "phrase",
         "animal"
-      ]
+      ],
+      "picture": "pictures/u8-two-legs.png"
     },
     {
       "id": "u8-no-legs",
@@ -263,7 +266,8 @@
       "tags": [
         "phrase",
         "animal"
-      ]
+      ],
+      "picture": "pictures/u8-no-legs.png"
     }
   ],
   "activities": [

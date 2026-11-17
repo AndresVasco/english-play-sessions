@@ -70,7 +70,8 @@
       "tags": [
         "command",
         "body"
-      ]
+      ],
+      "picture": "pictures/u3-touch-your-nose.png"
     },
     {
       "id": "u3-arms",
@@ -226,7 +227,8 @@
       "audioEs": "audio/es/u3-it-has.mp3",
       "tags": [
         "phrase"
-      ]
+      ],
+      "picture": "pictures/u3-it-has.png"
     },
     {
       "id": "u3-big",

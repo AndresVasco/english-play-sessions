@@ -194,7 +194,8 @@
       "audioEs": "audio/es/u4-he-is.mp3",
       "tags": [
         "phrase"
-      ]
+      ],
+      "picture": "pictures/u4-he-is.png"
     },
     {
       "id": "u4-she-is",
@@ -205,7 +206,8 @@
       "audioEs": "audio/es/u4-she-is.mp3",
       "tags": [
         "phrase"
-      ]
+      ],
+      "picture": "pictures/u4-she-is.png"
     },
     {
       "id": "u4-family-tree",

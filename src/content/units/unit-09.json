@@ -135,7 +135,8 @@
       "audioEs": "audio/es/u9-put-on-hat.mp3",
       "tags": [
         "command"
-      ]
+      ],
+      "picture": "pictures/u9-put-on-hat.png"
     },
     {
       "id": "u9-t-shirt",
@@ -246,7 +247,8 @@
       "audioEs": "audio/es/u9-clothes.mp3",
       "tags": [
         "clothes"
-      ]
+      ],
+      "picture": "pictures/u9-clothes.png"
     }
   ],
   "activities": [
